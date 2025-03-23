@@ -28,3 +28,7 @@ A JSON import template is available in the repository files to help the communit
 ## License
 
 This application uses material from the Dungeons & Dragons 2024 free rules, provided under the Open Game License/Creative Commons Attribution 4.0. All game rules content is © Wizards of the Coast LLC. This app is an unofficial tool created solely for the purpose of helping users access and reference open game content. Wizards of the Coast is not affiliated with, endorsed by, or responsible for this application.
+
+## Getting Started
+
+To use the JSON file, you must keep in english the official terms in English for Attributes, Skills, Conditions and Damage Types. All Descriptions can be translates for your language without any issues. The .arb files will take care to translate the Attributes, Skills, Conditions and Damage Types to your language (if supported on the app).
