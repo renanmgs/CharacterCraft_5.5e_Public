@@ -16,13 +16,6 @@ Avaliable for Android and Windows initially. Expected for Apple Devices, sometim
 - Dice rolling functionality
 - Offline access to your characters
 
-## Reporting Issues
-
-This repository is the official place to report bugs and suggest new features. Please use the Issues tab to submit:
-- Bug reports (with steps to reproduce)
-- Feature requests
-- UI/UX improvement suggestions
-
 ## Homebrew Content
 
 A JSON import template is available in the repository files to help the community create and share homebrew content. Feel free to customize and extend your gaming experience!
