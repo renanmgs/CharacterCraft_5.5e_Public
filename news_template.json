@@ -14,6 +14,9 @@
       "title": "Importaciones Instantáneas y Sincronización de Personajes en Línea",
       "text": "¡Hola a todos! Acabamos de lanzar una nueva actualización con tres grandes mejoras:\n\n- 🚀 Importaciones Turbo: los archivos JSON y XML ahora se importan en solo unos segundos—¡nada de esperas!\n- 🔄 Sincronización de Personajes en Línea: los usuarios Premium (Personajes Ilimitados + Rastreador de Iniciativa en Línea) ahora pueden sincronizar sus personajes en todos los dispositivos. (El Premium debe comprarse por separado en cada plataforma.) Simplemente marca un personaje para sincronizar—cada cambio se guarda en el servidor y, al iniciar sesión en otro dispositivo con la misma cuenta, tu personaje estará completamente actualizado.\n- 💰 Manejo de Moneda Simplificado: olvídate de los cálculos manuales—solo ingresa la cantidad final y la aplicación se encarga del resto.\n\nPrueba estas nuevas funciones y comparte tus comentarios en Discord. ¡Gracias por tu continuo apoyo!"
     },
+    "lastVersion": {
+      "version": "1.2.3"
+    },
     "date": "2025-04-23T12:00:00Z"
   }
   
