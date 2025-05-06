@@ -1,27 +1,26 @@
 {
-    "en": {
-      "image": "https://i.imgur.com/CnUmogR.png",
-      "title": "Instant Imports & Online Character Sync",
-      "text": "Hello everyone! We’ve just released a new update with three major improvements:\n\n- 🚀 Turbo-Charged Imports: JSON and XML files now import in just a few seconds—no more waiting!\n- 🔄 Online Character Sync: Premium users (Unlimited Characters + Online Initiative Tracker) can now synchronize their characters across all devices. (Premium must be purchased separately on each platform.) Just mark a character for sync—every change is saved to the server, and when you log in on another device with the same account, your character will be fully up to date.\n- 💰 Simplified Currency Handling: Forget manual calculations—just enter the final amount and the app does the rest.\n\nGive these new features a try and let us know your feedback on Discord. Thanks for your ongoing support!"
-    },
-    "pt": {
-      "image": "https://i.imgur.com/CnUmogR.png",
-      "title": "Importações Instantâneas e Sincronização Online de Personagens",
-      "text": "Olá pessoal! Acabamos de lançar uma nova atualização com três grandes melhorias:\n\n- 🚀 Importações Turbinadas: arquivos JSON e XML agora são importados em apenas alguns segundos—nada de espera!\n- 🔄 Sincronização Online de Personagens: usuários Premium (Personagens Ilimitados + Rastreador de Iniciativa Online) agora podem sincronizar seus personagens em todos os dispositivos. (O Premium deve ser adquirido separadamente em cada plataforma.) Basta marcar um personagem para sincronização—toda alteração é salva no servidor e, ao fazer login em outro dispositivo com a mesma conta, seu personagem estará totalmente atualizado.\n- 💰 Ajuste de Moeda Simplificado: esqueça cálculos manuais—basta inserir o valor final e o aplicativo faz o resto.\n\nExperimente esses novos recursos e envie seu feedback no Discord. Obrigado pelo apoio contínuo!"
-    },
-    "es": {
-      "image": "https://i.imgur.com/CnUmogR.png",
-      "title": "Importaciones Instantáneas y Sincronización de Personajes en Línea",
-      "text": "¡Hola a todos! Acabamos de lanzar una nueva actualización con tres grandes mejoras:\n\n- 🚀 Importaciones Turbo: los archivos JSON y XML ahora se importan en solo unos segundos—¡nada de esperas!\n- 🔄 Sincronización de Personajes en Línea: los usuarios Premium (Personajes Ilimitados + Rastreador de Iniciativa en Línea) ahora pueden sincronizar sus personajes en todos los dispositivos. (El Premium debe comprarse por separado en cada plataforma.) Simplemente marca un personaje para sincronizar—cada cambio se guarda en el servidor y, al iniciar sesión en otro dispositivo con la misma cuenta, tu personaje estará completamente actualizado.\n- 💰 Manejo de Moneda Simplificado: olvídate de los cálculos manuales—solo ingresa la cantidad final y la aplicación se encarga del resto.\n\nPrueba estas nuevas funciones y comparte tus comentarios en Discord. ¡Gracias por tu continuo apoyo!"
-    },
-    "lastVersion": {
-      "version": "Version 1.3.0",
-      "message": {
-        "en":"There is a new version available! Please update to the latest version for the best experience.",
-        "pt":"Há uma nova versão disponível! Atualize para a versão mais recente para a melhor experiência.", 
-        "es":"¡Hay una nueva versión disponible! Actualiza a la última versión para la mejor experiencia."
-      }
-    },
-    "date": "2025-04-23T12:00:00Z"
-  }
-  
+  "en": {
+    "image": "https://i.imgur.com/TZSiZXn.png",
+    "title": "New DM Tools – Campaigns, Bestiary & More!",
+    "text": "A massive update just dropped!\n\n🧙‍♂️ New DM Section:\n- 📖 Bestiary moved here\n- 🗺 Campaigns with notes & prebuilt encounters\n- ⚔️ Initiative Tracker (relocated)\n- 🔥 New Avg. Damage Calculator (also in Dice Calc)\n\n✨ Plus: Performance boosts, freezing fixes & general polish.\n\nLet us know what you think on Discord. Thanks for supporting the journey!"
+  },
+  "pt": {
+    "image": "https://i.imgur.com/TZSiZXn.png",
+    "title": "Novas Ferramentas para DMs – Campanhas, Bestiário e Mais!",
+    "text": "Uma grande atualização chegou!\n\n🧙‍♂️ Nova seção para DMs:\n- 📖 Bestiário foi movido para lá\n- 🗺 Campanhas com anotações e encontros prontos\n- ⚔️ Rastreador de Iniciativa (reposicionado)\n- 🔥 Novo Calculador de Dano Médio (também na Calculadora de Dados)\n\n✨ Além disso: melhorias de desempenho, correções de travamentos e ajustes gerais.\n\nDê seu feedback no Discord. Obrigado por apoiar essa jornada!"
+  },
+  "es": {
+    "image": "https://i.imgur.com/TZSiZXn.png",
+    "title": "¡Nuevas Herramientas para DMs – Campañas, Bestiario y Más!",
+    "text": "¡Una gran actualización ha llegado!\n\n🧙‍♂️ Nueva sección para DMs:\n- 📖 Bestiario ahora se encuentra aquí\n- 🗺 Campañas con notas y combates preparados\n- ⚔️ Rastreador de Iniciativa (movido)\n- 🔥 Nueva Calculadora de Daño Promedio (también en la Calculadora de Dados)\n\n✨ Además: mejoras de rendimiento, correcciones de congelamientos y más pulido general.\n\n¡Comparte tu opinión en Discord y gracias por acompañarnos!"
+  },
+  "lastVersion": {
+    "version": "Version 1.3.0",
+    "message": {
+      "en": "There is a new version available! Please update to the latest version for the best experience.",
+      "pt": "Há uma nova versão disponível! Atualize para a versão mais recente para a melhor experiência.",
+      "es": "¡Hay una nueva versión disponible! Actualiza a la última versión para la mejor experiencia."
+    }
+  },
+  "date": "2025-05-05T23:56:51.522698Z"
+}
