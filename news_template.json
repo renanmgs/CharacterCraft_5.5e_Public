@@ -1,26 +1,26 @@
 {
   "en": {
-    "image": "https://i.imgur.com/TZSiZXn.png",
-    "title": "New DM Tools – Campaigns, Bestiary & More!",
-    "text": "A massive update just dropped!\n\n🧙‍♂️ New DM Section:\n- 📖 Bestiary moved here\n- 🗺 Campaigns with notes & prebuilt encounters\n- ⚔️ Initiative Tracker (relocated)\n- 🔥 New Avg. Damage Calculator (also in Dice Calc)\n\n✨ Plus: Performance boosts, freezing fixes & general polish.\n\nLet us know what you think on Discord. Thanks for supporting the journey!"
+    "image": "https://i.imgur.com/i8lKgNo.jpeg",
+    "title": "Companions, Themes & More – Update 1.3.4",
+    "text": "A big update is here!\n\n🐾 Companions: Add pets and sidekicks to your sheet, auto-imported into Initiative Tracker.\n\n🎨 Themes: Choose Light, Dark, OLED or create/share Custom themes.\n\n⚔️ Conditional Weapon Damage: Select which damage types to roll for multi-damage weapons.\n\n👀 Initiative Tracker: DMs can hide combatant stats, revealing only what matters.\n\n🐛 Fixes: Weapon damage overwrite bug and items listed as weapons in Initiative Tracker actions."
   },
   "pt": {
-    "image": "https://i.imgur.com/TZSiZXn.png",
-    "title": "Novas Ferramentas para DMs – Campanhas, Bestiário e Mais!",
-    "text": "Uma grande atualização chegou!\n\n🧙‍♂️ Nova seção para DMs:\n- 📖 Bestiário foi movido para lá\n- 🗺 Campanhas com anotações e encontros prontos\n- ⚔️ Rastreador de Iniciativa (reposicionado)\n- 🔥 Novo Calculador de Dano Médio (também na Calculadora de Dados)\n\n✨ Além disso: melhorias de desempenho, correções de travamentos e ajustes gerais.\n\nDê seu feedback no Discord. Obrigado por apoiar essa jornada!"
+    "image": "https://i.imgur.com/i8lKgNo.jpeg",
+    "title": "Companheiros, Temas e Mais – Atualização 1.3.4",
+    "text": "Uma grande atualização chegou!\n\n🐾 Companheiros: Adicione pets e aliados na ficha, importados automaticamente no Rastreador de Iniciativa.\n\n🎨 Temas: Escolha Claro, Escuro, OLED ou crie/compartilhe temas Custom.\n\n⚔️ Dano Condicional: Defina quais tipos de dano rolar em armas com múltiplos danos.\n\n👀 Rastreador: DMs podem ocultar status dos combatentes, revelando apenas o essencial.\n\n🐛 Correções: Bug de sobrescrever dano de armas e itens listados como armas nas ações do Rastreador."
   },
   "es": {
-    "image": "https://i.imgur.com/TZSiZXn.png",
-    "title": "¡Nuevas Herramientas para DMs – Campañas, Bestiario y Más!",
-    "text": "¡Una gran actualización ha llegado!\n\n🧙‍♂️ Nueva sección para DMs:\n- 📖 Bestiario ahora se encuentra aquí\n- 🗺 Campañas con notas y combates preparados\n- ⚔️ Rastreador de Iniciativa (movido)\n- 🔥 Nueva Calculadora de Daño Promedio (también en la Calculadora de Dados)\n\n✨ Además: mejoras de rendimiento, correcciones de congelamientos y más pulido general.\n\n¡Comparte tu opinión en Discord y gracias por acompañarnos!"
+    "image": "https://i.imgur.com/i8lKgNo.jpeg",
+    "title": "Compañeros, Temas y Más – Actualización 1.3.4",
+    "text": "¡Una gran actualización llegó!\n\n🐾 Compañeros: Agrega mascotas y aliados a tu hoja; se importan automáticamente al Rastreador de Iniciativa.\n\n🎨 Temas: Elige Claro, Oscuro, OLED o crea/comparte temas Custom.\n\n⚔️ Daño Condicional: Selecciona qué tipos de daño lanzar en armas con múltiples daños.\n\n👀 Rastreador: Los DMs pueden ocultar estadísticas, mostrando solo lo necesario.\n\n🐛 Correcciones: Bug de sobrescritura de daño de armas y objetos listados como armas en acciones del Rastreador."
   },
   "lastVersion": {
-    "version": "Version 1.3.3",
+    "version": "Version 1.3.4",
     "message": {
-      "en": "There is another official release! Please update to the latest version for the best experience.",
-      "pt": "Há uma outra versão oficial disponível! Atualize para a versão mais recente para a melhor experiência.",
-      "es": "¡Hay otra versión oficial disponible! Actualiza a la última versión para la mejor experiencia."
+      "en": "A new official release is available! Update now for the best experience.",
+      "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
+      "es": "¡Hay una nueva versión oficial disponible! Actualiza ahora para la mejor experiencia."
     }
   },
-  "date": "2025-05-05T23:56:51.522698Z"
+  "date": "2025-05-15T00:00:00Z"
 }
