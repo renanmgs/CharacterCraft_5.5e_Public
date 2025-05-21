@@ -15,7 +15,7 @@
     "text": "¡Una gran actualización llegó!\n\n🐾 Compañeros: Agrega mascotas y aliados a tu hoja; se importan automáticamente al Rastreador de Iniciativa.\n\n🎨 Temas: Elige Claro, Oscuro, OLED o crea/comparte temas Custom.\n\n⚔️ Daño Condicional: Selecciona qué tipos de daño lanzar en armas con múltiples daños.\n\n👀 Rastreador: Los DMs pueden ocultar estadísticas, mostrando solo lo necesario.\n\n🐛 Correcciones: Bug de sobrescritura de daño de armas y objetos listados como armas en acciones del Rastreador."
   },
   "lastVersion": {
-    "version": "Version 1.3.5 (65)",
+    "version": "Version 1.3.5 (66)",
     "message": {
       "en": "A new official release is available! Update now for the best experience.",
       "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
