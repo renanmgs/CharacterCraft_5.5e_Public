@@ -1,26 +1,26 @@
 {
   "en": {
-    "image": "https://i.imgur.com/i8lKgNo.jpeg",
-    "title": "Companions, Themes & More – Update Version 1.3.5 (65)",
-    "text": "A big update is here!\n\n🐾 Companions: Add pets and sidekicks to your sheet, auto-imported into Initiative Tracker.\n\n🎨 Themes: Choose Light, Dark, OLED or create/share Custom themes.\n\n⚔️ Conditional Weapon Damage: Select which damage types to roll for multi-damage weapons.\n\n👀 Initiative Tracker: DMs can hide combatant stats, revealing only what matters.\n\n🐛 Fixes: Weapon damage overwrite bug and items listed as weapons in Initiative Tracker actions."
+    "image": "https://i.imgur.com/NmYXQCa.jpeg",
+    "title": "NPC Images, Redesigned Cards & More – Update 1.3.6",
+    "text": "Here’s what’s new in 1.3.6:\n\n🖼️ NPC Images: Add images to NPCs/companions in Initiative Tracker—banners show full art.\n\n🔗 Character Images: Link via URL or local path, now included in share/sync.\n\n🎴 Card Redesign: Modern, beautiful character cards on the main page.\n\n🌍 Campaign Export: Export and share entire campaigns.\n\n🐛 Creation Fixes: Streamlined, flexible character creation flow.\n\nEnjoy and tell us your thoughts on Discord!"
   },
   "pt": {
-    "image": "https://i.imgur.com/i8lKgNo.jpeg",
-    "title": "Companheiros, Temas e Mais – Atualização Version 1.3.5 (65)",
-    "text": "Uma grande atualização chegou!\n\n🐾 Companheiros: Adicione pets e aliados na ficha, importados automaticamente no Rastreador de Iniciativa.\n\n🎨 Temas: Escolha Claro, Escuro, OLED ou crie/compartilhe temas Custom.\n\n⚔️ Dano Condicional: Defina quais tipos de dano rolar em armas com múltiplos danos.\n\n👀 Rastreador: DMs podem ocultar status dos combatentes, revelando apenas o essencial.\n\n🐛 Correções: Bug de sobrescrever dano de armas e itens listados como armas nas ações do Rastreador."
+    "image": "https://i.imgur.com/NmYXQCa.jpeg",
+    "title": "Imagens de NPCs, Cards Redesenhados e Mais – Atualização 1.3.6",
+    "text": "Novidades na 1.3.6:\n\n🖼️ Imagens de NPCs: Adicione imagens a NPCs/companheiros no Rastreador de Iniciativa—banners exibem arte completa.\n\n🔗 Imagens de Personagens: URLs ou caminhos locais, agora parte de share/sync.\n\n🎴 Cards Redesenhados: Fichas modernas e elegantes na página principal.\n\n🌍 Exportar Campanhas: Exporte e compartilhe campanhas completas.\n\n🐛 Correções na Criação: Fluxo de criação de personagens mais ágil e flexível.\n\nTeste e compartilhe feedback no Discord!"
   },
   "es": {
-    "image": "https://i.imgur.com/i8lKgNo.jpeg",
-    "title": "Compañeros, Temas y Más – Actualización Version 1.3.5 (65)",
-    "text": "¡Una gran actualización llegó!\n\n🐾 Compañeros: Agrega mascotas y aliados a tu hoja; se importan automáticamente al Rastreador de Iniciativa.\n\n🎨 Temas: Elige Claro, Oscuro, OLED o crea/comparte temas Custom.\n\n⚔️ Daño Condicional: Selecciona qué tipos de daño lanzar en armas con múltiples daños.\n\n👀 Rastreador: Los DMs pueden ocultar estadísticas, mostrando solo lo necesario.\n\n🐛 Correcciones: Bug de sobrescritura de daño de armas y objetos listados como armas en acciones del Rastreador."
+    "image": "https://i.imgur.com/NmYXQCa.jpeg",
+    "title": "Imágenes de NPCs, Tarjetas Rediseñadas y Más – Actualización 1.3.6",
+    "text": "Novedades en la 1.3.6:\n\n🖼️ Imágenes de NPCs: Añade imágenes a NPCs/compañeros en el Rastreador de Iniciativa—banners muestran arte completa.\n\n🔗 Imágenes de Personajes: Usa enlace URL o ruta local, ¡incluido en compartir/sincronizar!\n\n🎴 Tarjetas Rediseñadas: Fichas modernas y atractivas en la página principal.\n\n🌍 Exportar Campañas: Exporta y comparte campañas completas.\n\n🐛 Correcciones en Creación: Flujo de creación de personajes más fluido y flexible.\n\n¡Prueba y dinos en Discord!"
   },
   "lastVersion": {
-    "version": "Version 1.3.5 (66)",
+    "version": "Version 1.3.6 (68)",
     "message": {
       "en": "A new official release is available! Update now for the best experience.",
       "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
       "es": "¡Hay una nueva versión oficial disponible! Actualiza ahora para la mejor experiencia."
     }
   },
-  "date": "2025-05-15T00:00:00Z"
+  "date": "2025-05-23T12:00:00Z"
 }
