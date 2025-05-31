@@ -15,7 +15,7 @@
     "text": "¡Muchos cambios de Calidad de Vida!\n\n🔄 Después de una retroalimentación masiva de Vianna (a través de Discord), se implementaron numerosos cambios en la app, demasiados para enumerarlos aquí.\n\n📱 Importación XML: Mayor compatibilidad para contenido importado.\n\n⚠️ ATENCIÓN: Si utilizas contenido importado, recomendamos que limpies la base de datos de tu app y vuelvas a importar utilizando los archivos más recientes para mejor automatización."
   },
   "lastVersion": {
-    "version": "Version 1.3.7 (75)",
+    "version": "Version 1.3.7 (76)",
     "message": {
       "en": "A new official release is available! Update now for the best experience.",
       "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
