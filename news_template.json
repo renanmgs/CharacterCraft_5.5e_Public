@@ -15,7 +15,7 @@
     "text": "¡Nuevas funciones y correcciones importantes!\n\n🎭 Aventuras: Añadidas Aventuras y Tesoros a las campañas, permitiendo un mejor refinamiento y preparación de campañas para los juegos.\n\n🎨 Temas: Actualización del sistema de temas con la capacidad de introducir valores de color personalizados.\n\n🛠️ Atributos Personalizados: Para los fans del homebrew, la app ahora soporta atributos personalizados.\n\n🎒 Contenedores: ¡Ahora los objetos pueden almacenar otros objetos! (Perfecto para carcajes o bolsas)\n\n🐛 Correcciones:\n- Solucionado problema al editar el HP donde el valor no se actualizaba en algunos casos\n- Corregidos algunos puntajes de habilidad que no se mostraban correctamente\n- Mejorada la compatibilidad para importación de contenido XML de personajes"
   },
   "lastVersion": {
-    "version": "Version 1.3.8 (81)",
+    "version": "Version 1.3.8 (82)",
     "message": {
       "en": "A new official release is available! Update now for the best experience.",
       "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
