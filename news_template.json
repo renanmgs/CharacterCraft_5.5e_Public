@@ -1,17 +1,17 @@
 {
   "en": {
     "image": "https://i.imgur.com/NmYXQCa.jpeg",
-    "title": "⚠️New Features & Improvements - Update 1.3.8 (81)",
+    "title": "⚠️New Features & Improvements - Update 1.3.8 (83)",
     "text": "New features and important fixes!\n\n🎭 Adventures: Added Adventures and Treasures to campaigns, enabling better campaign refinement and preparation for games.\n\n🎨 Themes: Updated theming system with ability to input custom color values.\n\n🛠️ Custom Attributes: For homebrew fans, the app now supports custom attributes.\n\n🎒 Containers: Items can now store other items! (Perfect for quivers or bags)\n\n🐛 Bug Fixes:\n- Fixed HP editing not updating in some cases\n- Fixed some ability scores not displaying correctly\n- Improved compatibility for XML character content imports"
   },
   "pt": {
     "image": "https://i.imgur.com/NmYXQCa.jpeg",
-    "title": "⚠️Novos Recursos & Melhorias - Atualização 1.3.8 (81)",
+    "title": "⚠️Novos Recursos & Melhorias - Atualização 1.3.8 (83)",
     "text": "Novos recursos e correções importantes!\n\n🎭 Aventuras: Adicionado Aventuras e Tesouros às campanhas, possibilitando um refinamento e preparo das campanhas para os jogos.\n\n🎨 Temas: Atualização para os temas, adicionando a habilidade para digitar os valores das cores desejadas.\n\n🛠️ Atributos Personalizados: Para os fãs de homebrew, agora o app suporta atributos customizados.\n\n🎒 Contêineres: Agora os itens podem guardar outros itens! (Ideal para uma aljava ou bolsa por exemplo)\n\n🐛 Correções:\n- Correção ao editar o HP em que o valor não era atualizado em alguns casos\n- Correção de alguns ability scores não tendo os valores mostrados corretamente\n- Melhorada a compatibilidade para importação de conteúdos XML de personagens"
   },
   "es": {
     "image": "https://i.imgur.com/NmYXQCa.jpeg",
-    "title": "⚠️Nuevas Funciones & Mejoras - Actualización 1.3.8 (81)",
+    "title": "⚠️Nuevas Funciones & Mejoras - Actualización 1.3.8 (83)",
     "text": "¡Nuevas funciones y correcciones importantes!\n\n🎭 Aventuras: Añadidas Aventuras y Tesoros a las campañas, permitiendo un mejor refinamiento y preparación de campañas para los juegos.\n\n🎨 Temas: Actualización del sistema de temas con la capacidad de introducir valores de color personalizados.\n\n🛠️ Atributos Personalizados: Para los fans del homebrew, la app ahora soporta atributos personalizados.\n\n🎒 Contenedores: ¡Ahora los objetos pueden almacenar otros objetos! (Perfecto para carcajes o bolsas)\n\n🐛 Correcciones:\n- Solucionado problema al editar el HP donde el valor no se actualizaba en algunos casos\n- Corregidos algunos puntajes de habilidad que no se mostraban correctamente\n- Mejorada la compatibilidad para importación de contenido XML de personajes"
   },
   "lastVersion": {
