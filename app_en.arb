@@ -1,0 +1,5520 @@
+{
+  "@@locale": "en",
+  "appTitle": "Character Craft 5.5e",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "characterCreation": "Character Creation",
+  "@characterCreation": {
+    "description": "Title for the character creation page"
+  },
+  "createNewCharacter": "Create New Character",
+  "@createNewCharacter": {
+    "description": "Header for character creation page"
+  },
+  "confirmDeletion": "Confirm Deletion",
+  "@confirmDeletion": {
+    "description": "Title for deletion confirmation dialog"
+  },
+  "deleteConfirmationMessage": "Are you sure you want to delete?",
+  "@deleteConfirmationMessage": {
+    "description": "Message asking for confirmation before deleting something"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button text"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings menu title"
+  },
+  "dataManagement": "Data Management",
+  "@dataManagement": {
+    "description": "Data management menu item"
+  },
+  "data": "Data",
+  "@data": {
+    "description": "Data menu item"
+  },
+  "diceRoller": "Dice Roller",
+  "@diceRoller": {
+    "description": "Dice roller menu item"
+  },
+  "noClass": "No class",
+  "@noClass": {
+    "description": "Text shown when character has no class"
+  },
+  "multiclass": "Multiclass",
+  "@multiclass": {
+    "description": "Text for multiclass characters"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language menu item"
+  },
+  "classes": "Classes",
+  "@classes": {
+    "description": "Label for classes section"
+  },
+  "xp": "XP",
+  "@xp": {
+    "description": "Label for experience points"
+  },
+  "ac": "AC",
+  "@ac": {
+    "description": "Label for Armor Class"
+  },
+  "speed": "Speed",
+  "@speed": {
+    "description": "Label for speed"
+  },
+  "size": "Size",
+  "@size": {
+    "description": "Label for size"
+  },
+  "proficiencyBonus": "Proficiency Bonus",
+  "@proficiencyBonus": {
+    "description": "Label for proficiency bonus"
+  },
+  "proficiencyBonusCalculated": "Proficiency bonus is calculated from character level",
+  "@proficiencyBonusCalculated": {
+    "description": "Message indicating proficiency bonus is calculated"
+  },
+  "initiative": "Initiative",
+  "@initiative": {
+    "description": "Label for initiative"
+  },
+  "initiativeDex": "Initiative (Dex)",
+  "@initiativeDex": {
+    "description": "Label for initiative based on Dexterity"
+  },
+  "hitDice": "Hit Dice",
+  "@hitDice": {
+    "description": "Label for hit dice"
+  },
+  "passivePerception": "Passive Perception",
+  "@passivePerception": {
+    "description": "Label for passive perception"
+  },
+  "attributes": "Attributes",
+  "@attributes": {
+    "description": "Label for attributes section"
+  },
+  "skills": "Skills",
+  "@skills": {
+    "description": "Label for skills section"
+  },
+  "step1ChooseClass": "Step 1: Choose a Class",
+  "@step1ChooseClass": {
+    "description": "Title for step 1 of character creation"
+  },
+  "chooseClass": "Choose Class",
+  "@chooseClass": {
+    "description": "Button text to choose a class"
+  },
+  "step2ChooseBackground": "Step 2: Choose a Background",
+  "@step2ChooseBackground": {
+    "description": "Title for step 2 of character creation"
+  },
+  "selectedBackground": "Selected Background: {name}",
+  "@selectedBackground": {
+    "description": "Shows which background is selected",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Acolyte"
+      }
+    }
+  },
+  "chooseBackground": "Choose Background",
+  "@chooseBackground": {
+    "description": "Button text to choose a background"
+  },
+  "step3ChooseEquipment": "Step 3: Choose Starting Equipment",
+  "@step3ChooseEquipment": {
+    "description": "Title for step 3 of character creation"
+  },
+  "chooseStartingEquipment": "Choose Starting Equipment",
+  "@chooseStartingEquipment": {
+    "description": "Button text to choose starting equipment"
+  },
+  "step4ChooseSpecies": "Step 4: Choose a Species",
+  "@step4ChooseSpecies": {
+    "description": "Title for step 4 of character creation"
+  },
+  "selectedSpecies": "Selected Species: {name}",
+  "@selectedSpecies": {
+    "description": "Shows which species is selected",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Human"
+      }
+    }
+  },
+  "chooseSpecies": "Choose Species",
+  "@chooseSpecies": {
+    "description": "Button text to choose a species"
+  },
+  "step5ChooseLanguages": "Step 5: Choose Languages",
+  "@step5ChooseLanguages": {
+    "description": "Title for step 5 of character creation"
+  },
+  "chooseLanguages": "Choose Languages",
+  "@chooseLanguages": {
+    "description": "Button text to choose languages"
+  },
+  "selectLanguages": "Normally up to 3 languages:",
+  "@selectLanguages": {
+    "description": "Instruction for language selection"
+  },
+  "step6AbilityScores": "Step 6: Determine Ability Scores",
+  "@step6AbilityScores": {
+    "description": "Title for step 6 of character creation"
+  },
+  "chooseAbilityScores": "Choose Ability Scores",
+  "@chooseAbilityScores": {
+    "description": "Button text to choose ability scores"
+  },
+  "step7ChooseSkills": "Step 7: Choose Skills",
+  "@step7ChooseSkills": {
+    "description": "Title for step 7 of character creation"
+  },
+  "chooseSkills": "Choose {number} Skills",
+  "@chooseSkills": {
+    "description": "Instruction for skill selection with number of skills",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "backgroundSkills": "Background Skills:",
+  "@backgroundSkills": {
+    "description": "Label for skills granted by background"
+  },
+  "selected": "Selected: {current}/{max}",
+  "@selected": {
+    "description": "Shows selection progress",
+    "placeholders": {
+      "current": {
+        "type": "int",
+        "example": "2"
+      },
+      "max": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "step8Appearance": "Step 8: Describe Appearance and Personality",
+  "@step8Appearance": {
+    "description": "Title for step 8 of character creation"
+  },
+  "enterAppearance": "Enter your character's appearance, personality traits, ideals, bonds, and flaws:",
+  "@enterAppearance": {
+    "description": "Instruction for character description"
+  },
+  "describeCharacter": "Describe your character...",
+  "@describeCharacter": {
+    "description": "Placeholder for character description"
+  },
+  "step9Alignment": "Step 9: Choose an Alignment",
+  "@step9Alignment": {
+    "description": "Title for step 9 of character creation"
+  },
+  "selectedAlignment": "Selected Alignment: {alignment}",
+  "@selectedAlignment": {
+    "description": "Shows which alignment is selected",
+    "placeholders": {
+      "alignment": {
+        "type": "String",
+        "example": "Lawful Good"
+      }
+    }
+  },
+  "selectAlignment": "Select your character's moral and ethical compass:",
+  "@selectAlignment": {
+    "description": "Instruction for alignment selection"
+  },
+  "step10Name": "Step 10: Name Your Character",
+  "@step10Name": {
+    "description": "Title for step 10 of character creation"
+  },
+  "enterName": "Enter your character's name:",
+  "@enterName": {
+    "description": "Instruction for character name entry"
+  },
+  "characterName": "Character Name",
+  "@characterName": {
+    "description": "Placeholder for character name field"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+  "saved": "Saved",
+  "@saved": {
+    "description": "Saved button text"
+  },
+  "standardArray": "Standard Array",
+  "@standardArray": {
+    "description": "Ability score method - standard array"
+  },
+  "randomGeneration": "Random Generation",
+  "@randomGeneration": {
+    "description": "Ability score method - random generation"
+  },
+  "assignRandomArray": "Assign the random values to abilities:",
+  "@assignRandomArray": {
+    "description": "Instruction for random array assignment"
+  },
+  "assignPointBuy": "Assign the point buy values to abilities:",
+  "@assignPointBuy": {
+    "description": "Instruction for random array assignment"
+  },
+  "insuficientPoints": "Insufficient Points",
+  "@insuficientPoints": {
+    "description": "Insufficient Points"
+  },
+  "pointCost": "Point Cost",
+  "@pointCost": {
+    "description": "Ability score method - point cost"
+  },
+  "assignStandardArray": "Assign the standard array values to abilities:",
+  "@assignStandardArray": {
+    "description": "Instruction for standard array assignment"
+  },
+  "mod": "Mod: {modifier}",
+  "@mod": {
+    "description": "Shows ability modifier",
+    "placeholders": {
+      "modifier": {
+        "type": "String",
+        "example": "+2"
+      }
+    }
+  },
+  "pointsRemaining": "Points remaining: {points}",
+  "@pointsRemaining": {
+    "description": "Shows remaining points for point buy",
+    "placeholders": {
+      "points": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "notEnoughPoints": "Not enough points for that value!",
+  "@notEnoughPoints": {
+    "description": "Error message when not enough points available"
+  },
+  "classEquipmentOptions": "Class Equipment Options:",
+  "@classEquipmentOptions": {
+    "description": "Header for class equipment options"
+  },
+  "backgroundEquipmentOptions": "Background Equipment Options:",
+  "@backgroundEquipmentOptions": {
+    "description": "Header for background equipment options"
+  },
+  "attributesToIncreaseBackground": "Attributes to increase from the Background:",
+  "@attributesToIncreaseBackground": {
+    "description": "Header for background ability increases"
+  },
+  "attributesToIncreaseRace": "Attributes to increase from the Species/Race:",
+  "@attributesToIncreaseRace": {
+    "description": "Header for background ability increases"
+  },
+  "chooseUpToThreeAttributes": "Choose up to 3 attributes to increase",
+  "@chooseUpToThreeAttributes": {
+    "description": "Choose up to 3 attributes to increase"
+  },
+  "chooseAnyAbilityFromSpecies": "Choose any attribute from {value}",
+  "@chooseAnyAbilityFromSpecies": {
+    "description": "Choose any ability from species",
+    "placeholders": {
+      "value": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "lawfulGood": "Lawful Good",
+  "@lawfulGood": {
+    "description": "Lawful Good alignment"
+  },
+  "lawfulGoodDesc": "Believes in order and doing good",
+  "@lawfulGoodDesc": {
+    "description": "Description of Lawful Good alignment"
+  },
+  "neutralGood": "Neutral Good",
+  "@neutralGood": {
+    "description": "Neutral Good alignment"
+  },
+  "neutralGoodDesc": "Does the best good possible",
+  "@neutralGoodDesc": {
+    "description": "Description of Neutral Good alignment"
+  },
+  "chaoticGood": "Chaotic Good",
+  "@chaoticGood": {
+    "description": "Chaotic Good alignment"
+  },
+  "chaoticGoodDesc": "Acts as their conscience directs",
+  "@chaoticGoodDesc": {
+    "description": "Description of Chaotic Good alignment"
+  },
+  "lawfulNeutral": "Lawful Neutral",
+  "@lawfulNeutral": {
+    "description": "Lawful Neutral alignment"
+  },
+  "lawfulNeutralDesc": "Acts according to law and tradition",
+  "@lawfulNeutralDesc": {
+    "description": "Description of Lawful Neutral alignment"
+  },
+  "trueNeutral": "True Neutral",
+  "@trueNeutral": {
+    "description": "True Neutral alignment"
+  },
+  "trueNeutralDesc": "Preserves balance above all",
+  "@trueNeutralDesc": {
+    "description": "Description of True Neutral alignment"
+  },
+  "chaoticNeutral": "Chaotic Neutral",
+  "@chaoticNeutral": {
+    "description": "Chaotic Neutral alignment"
+  },
+  "chaoticNeutralDesc": "Follows whims, values freedom",
+  "@chaoticNeutralDesc": {
+    "description": "Description of Chaotic Neutral alignment"
+  },
+  "lawfulEvil": "Lawful Evil",
+  "@lawfulEvil": {
+    "description": "Lawful Evil alignment"
+  },
+  "lawfulEvilDesc": "Methodically takes what they want",
+  "@lawfulEvilDesc": {
+    "description": "Description of Lawful Evil alignment"
+  },
+  "neutralEvil": "Neutral Evil",
+  "@neutralEvil": {
+    "description": "Neutral Evil alignment"
+  },
+  "neutralEvilDesc": "Does whatever they can get away with",
+  "@neutralEvilDesc": {
+    "description": "Description of Neutral Evil alignment"
+  },
+  "chaoticEvil": "Chaotic Evil",
+  "@chaoticEvil": {
+    "description": "Chaotic Evil alignment"
+  },
+  "chaoticEvilDesc": "Acts with arbitrary violence",
+  "@chaoticEvilDesc": {
+    "description": "Description of Chaotic Evil alignment"
+  },
+  "pleaseChooseClassFirst": "Please choose a class first.",
+  "@pleaseChooseClassFirst": {
+    "description": "Message shown when class is required before proceeding"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Label for profile tab"
+  },
+  "features": "Features",
+  "@features": {
+    "description": "Label for features tab"
+  },
+  "feats": "Feats",
+  "@feats": {
+    "description": "Label for features tab"
+  },
+  "addFeat": "Add Feat",
+  "@addFeat": {
+    "description": "Label for features tab"
+  },
+  "noFeatsAdded": "No Feats Added",
+  "@noFeatsAdded": {
+    "description": "Label for features tab"
+  },
+  "noFeaturesAdded": "No Features Added",
+  "@noFeaturesAdded": {
+    "description": "Label for features tab"
+  },
+  "inventory": "Inventory",
+  "@inventory": {
+    "description": "Label for inventory tab"
+  },
+  "combat": "Combat",
+  "@combat": {
+    "description": "Label for combat tab"
+  },
+  "spells": "Spells",
+  "@spells": {
+    "description": "Label for spells tab"
+  },
+  "class_": "Class",
+  "@class_": {
+    "description": "Title for creating a new class"
+  },
+  "newClass": "New Class",
+  "@newClass": {
+    "description": "Title for creating a new class"
+  },
+  "deleteClassQuestion": "Delete this class?",
+  "@deleteClassQuestion": {
+    "description": "Title for class deletion dialog"
+  },
+  "deleteClassConfirmation": "Are you sure you want to delete this class?",
+  "@deleteClassConfirmation": {
+    "description": "Confirmation message for deleting a class"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Label for name field"
+  },
+  "enterClassName": "Enter class name",
+  "@enterClassName": {
+    "description": "Placeholder for class name field"
+  },
+  "primaryAbility": "Primary Ability",
+  "@primaryAbility": {
+    "description": "Label for primary ability section"
+  },
+  "strength": "Strength",
+  "@strength": {
+    "description": "Strength ability name"
+  },
+  "dexterity": "Dexterity",
+  "@dexterity": {
+    "description": "Dexterity ability name"
+  },
+  "constitution": "Constitution",
+  "@constitution": {
+    "description": "Constitution ability name"
+  },
+  "intelligence": "Intelligence",
+  "@intelligence": {
+    "description": "Intelligence ability name"
+  },
+  "wisdom": "Wisdom",
+  "@wisdom": {
+    "description": "Wisdom ability name"
+  },
+  "charisma": "Charisma",
+  "@charisma": {
+    "description": "Charisma ability name"
+  },
+  "and": "and",
+  "@and": {
+    "description": "and"
+  },
+  "or": "or",
+  "@or": {
+    "description": "or"
+  },
+  "hitPointDie": "Hit Point Die",
+  "@hitPointDie": {
+    "description": "Label for hit point die field"
+  },
+  "enterHitPointDie": "Enter hit point die",
+  "@enterHitPointDie": {
+    "description": "Placeholder for hit point die field"
+  },
+  "hitPointsAtLevel1": "Hit Points at Level 1",
+  "@hitPointsAtLevel1": {
+    "description": "Label for hit points at level 1 field"
+  },
+  "enterHitPointsAtLevel1": "Enter hit points at level 1",
+  "@enterHitPointsAtLevel1": {
+    "description": "Placeholder for hit points at level 1 field"
+  },
+  "hitPointsPerLevel": "Hit Points per Level",
+  "@hitPointsPerLevel": {
+    "description": "Label for hit points per level field"
+  },
+  "enterHitPointsPerLevel": "Enter hit points per level",
+  "@enterHitPointsPerLevel": {
+    "description": "Placeholder for hit points per level field"
+  },
+  "savingThrowProficiencies": "Saving Throw Proficiencies",
+  "@savingThrowProficiencies": {
+    "description": "Label for saving throw proficiencies section"
+  },
+  "skillProficiencies": "Skill Proficiencies",
+  "@skillProficiencies": {
+    "description": "Label for skill proficiencies section"
+  },
+  "weaponProficiencies": "Weapon Proficiencies",
+  "@weaponProficiencies": {
+    "description": "Label for weapon proficiencies section"
+  },
+  "armorTraining": "Armor Training",
+  "@armorTraining": {
+    "description": "Label for armor training section"
+  },
+  "startingEquipmentOptions": "Starting Equipment Options",
+  "@startingEquipmentOptions": {
+    "description": "Label for starting equipment options section"
+  },
+  "enterEquipmentOption": "Enter equipment option {number}",
+  "@enterEquipmentOption": {
+    "description": "Placeholder for equipment option field",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "addEquipmentOption": "Add Equipment Option",
+  "@addEquipmentOption": {
+    "description": "Button text to add equipment option"
+  },
+  "numberOfSkills": "Number of Skills",
+  "@numberOfSkills": {
+    "description": "Label for number of skills field"
+  },
+  "enterNumberOfSkills": "Enter number of skills",
+  "@enterNumberOfSkills": {
+    "description": "Placeholder for number of skills field"
+  },
+  "multiclassNumberOfSkills": "Multiclass Number of Skills",
+  "@multiclassNumberOfSkills": {
+    "description": "Label for multiclass number of skills field"
+  },
+  "enterMulticlassNumberOfSkills": "Enter multiclass number of skills",
+  "@enterMulticlassNumberOfSkills": {
+    "description": "Placeholder for multiclass number of skills field"
+  },
+  "multiclassWeaponProficiencies": "Multiclass Weapon Proficiencies",
+  "@multiclassWeaponProficiencies": {
+    "description": "Label for multiclass weapon proficiencies section"
+  },
+  "multiclassArmorTraining": "Multiclass Armor Training",
+  "@multiclassArmorTraining": {
+    "description": "Label for multiclass armor training section"
+  },
+  "classFeatures": "Class Features",
+  "@classFeatures": {
+    "description": "Label for class features section"
+  },
+  "noCustomFieldsDefined": "No custom fields defined",
+  "@noCustomFieldsDefined": {
+    "description": "Message when no custom fields are defined"
+  },
+  "editClassFeatures": "Edit Class Features",
+  "@editClassFeatures": {
+    "description": "Button text to edit class features"
+  },
+  "subclasses": "Subclasses",
+  "@subclasses": {
+    "description": "Label for subclasses section"
+  },
+  "subclassesWillBeDisplayedHere": "Subclasses will be displayed here",
+  "@subclassesWillBeDisplayedHere": {
+    "description": "Message when no subclasses are displayed"
+  },
+  "editSubclasses": "Edit Subclasses",
+  "@editSubclasses": {
+    "description": "Button text to edit subclasses"
+  },
+  "saveClass": "Save Class",
+  "@saveClass": {
+    "description": "Button text to save class"
+  },
+  "noFeaturesForLevel": "No features for level {level}",
+  "@noFeaturesForLevel": {
+    "description": "Message when no features exist for a level",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "addFeature": "Add Feature",
+  "@addFeature": {
+    "description": "Button text to add feature"
+  },
+  "level": "Level",
+  "@level": {
+    "description": "Label for level"
+  },
+  "levelWithValue": "Level: {level}",
+  "@levelWithValue": {
+    "description": "Label for level with value",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "addSubclass": "Add Subclass",
+  "@addSubclass": {
+    "description": "Button text to add subclass"
+  },
+  "subclass": "Subclass",
+  "@subclass": {
+    "description": "Label for subclass"
+  },
+  "subclassName": "Subclass Name",
+  "@subclassName": {
+    "description": "Label for subclass name field"
+  },
+  "enterSubclassName": "Enter subclass name",
+  "@enterSubclassName": {
+    "description": "Placeholder for subclass name field"
+  },
+  "subclassDescription": "Subclass Description",
+  "@subclassDescription": {
+    "description": "Label for subclass description field"
+  },
+  "enterSubclassDescription": "Enter subclass description",
+  "@enterSubclassDescription": {
+    "description": "Placeholder for subclass description field"
+  },
+  "featureLevel": "Feature Level",
+  "@featureLevel": {
+    "description": "Label for feature level"
+  },
+  "featuresAtLevel": "Features at Level {level}:",
+  "@featuresAtLevel": {
+    "description": "Label for features at a specific level",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "noFeaturesAtThisLevel": "No features at this level",
+  "@noFeaturesAtThisLevel": {
+    "description": "Message when no features exist at a level"
+  },
+  "addSubclassToManageFeatures": "Add a subclass to manage features",
+  "@addSubclassToManageFeatures": {
+    "description": "Message prompting to add a subclass"
+  },
+  "simpleWeapons": "Simple Weapons",
+  "@simpleWeapons": {
+    "description": "Label for simple weapons proficiency"
+  },
+  "martialWeapons": "Martial Weapons",
+  "@martialWeapons": {
+    "description": "Label for martial weapons proficiency"
+  },
+  "lightArmor": "Light Armor",
+  "@lightArmor": {
+    "description": "Label for light armor training"
+  },
+  "mediumArmor": "Medium Armor",
+  "@mediumArmor": {
+    "description": "Label for medium armor training"
+  },
+  "heavyArmor": "Heavy Armor",
+  "@heavyArmor": {
+    "description": "Label for heavy armor training"
+  },
+  "shields": "Shields",
+  "@shields": {
+    "description": "Label for shields training"
+  },
+  "initiativeTracker": "Initiative Tracker",
+  "@initiativeTracker": {
+    "description": "Initiative Tracker title"
+  },
+  "acrobatics": "Acrobatics",
+  "@acrobatics": {
+    "description": "Acrobatics skill name"
+  },
+  "animalHandling": "Animal Handling",
+  "@animalHandling": {
+    "description": "Animal Handling skill name"
+  },
+  "arcana": "Arcana",
+  "@arcana": {
+    "description": "Arcana skill name"
+  },
+  "athletics": "Athletics",
+  "@athletics": {
+    "description": "Athletics skill name"
+  },
+  "deception": "Deception",
+  "@deception": {
+    "description": "Deception skill name"
+  },
+  "history": "History",
+  "@history": {
+    "description": "History skill name"
+  },
+  "insight": "Insight",
+  "@insight": {
+    "description": "Insight skill name"
+  },
+  "intimidation": "Intimidation",
+  "@intimidation": {
+    "description": "Intimidation skill name"
+  },
+  "investigation": "Investigation",
+  "@investigation": {
+    "description": "Investigation skill name"
+  },
+  "medicine": "Medicine",
+  "@medicine": {
+    "description": "Medicine skill name"
+  },
+  "nature": "Nature",
+  "@nature": {
+    "description": "Nature skill name"
+  },
+  "perception": "Perception",
+  "@perception": {
+    "description": "Perception skill name"
+  },
+  "performance": "Performance",
+  "@performance": {
+    "description": "Performance skill name"
+  },
+  "persuasion": "Persuasion",
+  "@persuasion": {
+    "description": "Persuasion skill name"
+  },
+  "religion": "Religion",
+  "@religion": {
+    "description": "Religion skill name"
+  },
+  "sleightOfHand": "Sleight of Hand",
+  "@sleightOfHand": {
+    "description": "Sleight of Hand skill name"
+  },
+  "stealth": "Stealth",
+  "@stealth": {
+    "description": "Stealth skill name"
+  },
+  "survival": "Survival",
+  "@survival": {
+    "description": "Survival skill name"
+  },
+  "passivePerceptionCalculation": "Passive Perception Calculation",
+  "@passivePerceptionCalculation": {
+    "description": "Title for passive perception calculation dialog"
+  },
+  "perceptionModifier": "Perception Modifier",
+  "@perceptionModifier": {
+    "description": "Label for perception modifier"
+  },
+  "expertiseBonus": "Expertise Bonus",
+  "@expertiseBonus": {
+    "description": "Label for expertise bonus"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Label for close button"
+  },
+  "addWeaponProficiency": "Add Weapon Proficiency",
+  "@addWeaponProficiency": {
+    "description": "Add Weapon Proficiency"
+  },
+  "addArmorProficiency": "Add Armor Proficiency",
+  "@addArmorProficiency": {
+    "description": "Add Armor Proficiency"
+  },
+  "bio": "Bio",
+  "@bio": {
+    "description": "Bio"
+  },
+  "featureAlreadyExists": "Feature Already Exists",
+  "@featureAlreadyExists": {
+    "description": "Error message when trying to add a duplicate feature"
+  },
+  "featureAlreadyExistsMessage": "The feature is already on this character.",
+  "@featureAlreadyExistsMessage": {
+    "description": "Description for feature already exists error"
+  },
+  "enterFeatureName": "Enter feature name",
+  "@enterFeatureName": {
+    "description": "Placeholder for feature name field"
+  },
+  "type": "Type",
+  "@type": {
+    "description": "Label for type field"
+  },
+  "enterFeatureType": "Enter feature type",
+  "@enterFeatureType": {
+    "description": "Placeholder for feature type field"
+  },
+  "prerequisites": "Prerequisites",
+  "@prerequisites": {
+    "description": "Label for prerequisites field"
+  },
+  "enterPrerequisites": "Enter prerequisites (if any)",
+  "@enterPrerequisites": {
+    "description": "Placeholder for prerequisites field"
+  },
+  "description": "Description",
+  "@description": {
+    "description": "Label for description field"
+  },
+  "enterFullDescription": "Enter full description",
+  "@enterFullDescription": {
+    "description": "Placeholder for description field"
+  },
+  "includesSpellcasting": "Includes Spellcasting?",
+  "@includesSpellcasting": {
+    "description": "Label for spellcasting toggle"
+  },
+  "spellSlotsPerLevel": "Spell Slots Per Level",
+  "@spellSlotsPerLevel": {
+    "description": "Label for spell slots per level section"
+  },
+  "noSpellSlotsDefined": "No spell slots defined",
+  "@noSpellSlotsDefined": {
+    "description": "Message when no spell slots are defined"
+  },
+  "editSpellSlotsPerLevel": "Edit Spell Slots Per Level",
+  "@editSpellSlotsPerLevel": {
+    "description": "Button text to edit spell slots per level"
+  },
+  "cantripsAtLevel": "Cantrips at level ",
+  "@cantripsAtLevel": {
+    "description": "Label for cantrips at level input"
+  },
+  "preparedSpellsAtLevel": "Prepared spells at level ",
+  "@preparedSpellsAtLevel": {
+    "description": "Label for prepared spells at level input"
+  },
+  "colon": ": ",
+  "@colon": {
+    "description": "Colon separator"
+  },
+  "spellSlots": "Spell Slots",
+  "@spellSlots": {
+    "description": "Label for spell slots"
+  },
+  "customResources": "Custom Resources",
+  "@customResources": {
+    "description": "Label for custom resources section"
+  },
+  "addResourcesDescription": "Add resources that can be spent and recovered (like Bardic Inspiration, Ki Points, etc.)",
+  "@addResourcesDescription": {
+    "description": "Description for custom resources section"
+  },
+  "shortRest": "Short Rest",
+  "@shortRest": {
+    "description": "Label for short rest recovery"
+  },
+  "longRest": "Long Rest",
+  "@longRest": {
+    "description": "Label for long rest recovery"
+  },
+  "recovery": "Recovery",
+  "@recovery": {
+    "description": "Label for recovery options"
+  },
+  "editResource": "Edit Resource",
+  "@editResource": {
+    "description": "Tooltip for edit resource button"
+  },
+  "deleteResource": "Delete Resource",
+  "@deleteResource": {
+    "description": "Tooltip for delete resource button"
+  },
+  "newResourceName": "New Resource Name",
+  "@newResourceName": {
+    "description": "Label for new resource name input"
+  },
+  "newResourceHint": "e.g., Ki Points, Rage, etc.",
+  "@newResourceHint": {
+    "description": "Hint for new resource name input"
+  },
+  "addResource": "Add Resource",
+  "@addResource": {
+    "description": "Tooltip for add resource button"
+  },
+  "saveFeature": "Save Feature",
+  "@saveFeature": {
+    "description": "Button text to save feature"
+  },
+  "fieldNameEmpty": "Field name cannot be empty",
+  "@fieldNameEmpty": {
+    "description": "Error message when field name is empty"
+  },
+  "fieldAlreadyExists": "Field already exists",
+  "@fieldAlreadyExists": {
+    "description": "Error message when field already exists"
+  },
+  "use": "Use",
+  "@use": {
+    "description": "Button text to use a resource"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Button text to reset a resource"
+  },
+  "resources": "Resources",
+  "@resources": {
+    "description": "Label for resources section"
+  },
+  "empty": "Empty",
+  "@empty": {
+    "description": "Label for empty state"
+  },
+  "equippedWeapons": "Equipped Weapons",
+  "@equippedWeapons": {
+    "description": "Label for equipped weapons section"
+  },
+  "unequippedWeapons": "Unequipped Weapons",
+  "@unequippedWeapons": {
+    "description": "Label for unequipped weapons section"
+  },
+  "equippedArmor": "Equipped Armor",
+  "@equippedArmor": {
+    "description": "Label for equipped armor section"
+  },
+  "unequippedArmor": "Unequipped Armor",
+  "@unequippedArmor": {
+    "description": "Label for unequipped armor section"
+  },
+  "rollResult": "Roll Result",
+  "@rollResult": {
+    "description": "Title for roll result dialog"
+  },
+  "armorClassBaseMessage": "Base Armor Class is calculated from Equipped Armor or Natural Armor (10+Dex)",
+  "@armorClassBaseMessage": {
+    "description": "Message explaining how base armor class is calculated"
+  },
+  "speedBaseMessage": "Base speed cannot be changed here. Edit directly in the character Species details.",
+  "@speedBaseMessage": {
+    "description": "Message explaining how to change base speed"
+  },
+  "editAC": "Edit AC",
+  "@editAC": {
+    "description": "Title for edit AC dialog"
+  },
+  "editSpeed": "Edit Speed",
+  "@editSpeed": {
+    "description": "Title for edit speed dialog"
+  },
+  "editProficiencyBonus": "Edit Proficiency Bonus",
+  "@editProficiencyBonus": {
+    "description": "Title for edit proficiency bonus dialog"
+  },
+  "baseValue": "{title} Base Value",
+  "@baseValue": {
+    "description": "Label for base value field",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "AC"
+      }
+    }
+  },
+  "modifier": "{title} Modifier",
+  "@modifier": {
+    "description": "Label for modifier field",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "AC"
+      }
+    }
+  },
+  "rollTitle": "Roll {title}",
+  "@rollTitle": {
+    "description": "Button text for rolling",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Initiative"
+      }
+    }
+  },
+  "gold": "Gold",
+  "@gold": {
+    "description": "Label for gold currency"
+  },
+  "silver": "Silver",
+  "@silver": {
+    "description": "Label for silver currency"
+  },
+  "copper": "Copper",
+  "@copper": {
+    "description": "Label for copper currency"
+  },
+  "platinum": "Platinum",
+  "@platinum": {
+    "description": "Label for platinum currency"
+  },
+  "electrum": "Electrum",
+  "@electrum": {
+    "description": "Label for electrum currency"
+  },
+  "carryCapacity": "Carry Capacity",
+  "@carryCapacity": {
+    "description": "Label for carry capacity"
+  },
+  "enterMaxWeight": "Enter max weight",
+  "@enterMaxWeight": {
+    "description": "Placeholder for max weight field"
+  },
+  "totalWeight": "Total Weight",
+  "@totalWeight": {
+    "description": "Label for total weight"
+  },
+  "addItem": "Add Item",
+  "@addItem": {
+    "description": "Button text to add item"
+  },
+  "attunedMagicItems": "Attuned Magic Items",
+  "@attunedMagicItems": {
+    "description": "Label for attuned magic items section"
+  },
+  "noAttunedItems": "No attuned items",
+  "@noAttunedItems": {
+    "description": "Message when no attuned items exist"
+  },
+  "attunedItemsCount": "{count}/3 magic items attuned",
+  "@attunedItemsCount": {
+    "description": "Label showing attuned items count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "equippedEquipment": "Equipped Equipment",
+  "@equippedEquipment": {
+    "description": "Label for equipped equipment section"
+  },
+  "attunementLimitError": "You cannot attune to more than 3 magic items at the same time.",
+  "@attunementLimitError": {
+    "description": "Error message when trying to attune more than 3 items"
+  },
+  "unequippedArmorMessage": "Unequipped {names} because only one armor can be equipped at a time.",
+  "@unequippedArmorMessage": {
+    "description": "Message shown when armor is unequipped automatically",
+    "placeholders": {
+      "names": {
+        "type": "String",
+        "example": "Chain Mail, Plate Armor"
+      }
+    }
+  },
+  "editCurrency": "Edit {currency}",
+  "@editCurrency": {
+    "description": "Title for edit currency dialog",
+    "placeholders": {
+      "currency": {
+        "type": "String",
+        "example": "Gold"
+      }
+    }
+  },
+  "currencyValue": "{currency} Value",
+  "@currencyValue": {
+    "description": "Label for currency value field",
+    "placeholders": {
+      "currency": {
+        "type": "String",
+        "example": "Gold"
+      }
+    }
+  },
+  "spellTitle": "Title",
+  "@spellTitle": {
+    "description": "Label for spell title"
+  },
+  "enterSpellTitle": "Enter spell title",
+  "@enterSpellTitle": {
+    "description": "Placeholder for spell title field"
+  },
+  "spellLevel": "Level",
+  "@spellLevel": {
+    "description": "Label for spell level"
+  },
+  "enterSpellLevel": "Enter spell level",
+  "@enterSpellLevel": {
+    "description": "Placeholder for spell level field"
+  },
+  "spellSchool": "School",
+  "@spellSchool": {
+    "description": "Label for spell school"
+  },
+  "enterSpellSchool": "Enter spell school",
+  "@enterSpellSchool": {
+    "description": "Placeholder for spell school field"
+  },
+  "castingTime": "Casting Time",
+  "@castingTime": {
+    "description": "Label for casting time"
+  },
+  "enterCastingTime": "Enter casting time",
+  "@enterCastingTime": {
+    "description": "Placeholder for casting time field"
+  },
+  "spellRange": "Range",
+  "@spellRange": {
+    "description": "Label for spell range"
+  },
+  "enterSpellRange": "Enter spell range",
+  "@enterSpellRange": {
+    "description": "Placeholder for spell range field"
+  },
+  "components": "Components",
+  "@components": {
+    "description": "Label for spell components"
+  },
+  "enterComponents": "Enter spell components",
+  "@enterComponents": {
+    "description": "Placeholder for components field"
+  },
+  "duration": "Duration",
+  "@duration": {
+    "description": "Label for spell duration"
+  },
+  "enterDuration": "Enter spell duration",
+  "@enterDuration": {
+    "description": "Placeholder for duration field"
+  },
+  "damageRolls": "Damage Rolls",
+  "@damageRolls": {
+    "description": "Label for damage rolls section"
+  },
+  "baseRollFormula": "Base Roll Formula",
+  "@baseRollFormula": {
+    "description": "Label for base roll formula field"
+  },
+  "rollFormulaHint": "e.g. 1d8",
+  "@rollFormulaHint": {
+    "description": "Hint for roll formula field"
+  },
+  "levelRoll": "Level {level} Roll: {formula}",
+  "@levelRoll": {
+    "description": "Label for level-specific roll formula",
+    "placeholders": {
+      "level": {
+        "type": "String",
+        "example": "3"
+      },
+      "formula": {
+        "type": "String",
+        "example": "3d8"
+      }
+    }
+  },
+  "addLevelSpecificRoll": "Add Level-Specific Roll",
+  "@addLevelSpecificRoll": {
+    "description": "Button text to add level-specific roll"
+  },
+  "addRollFormula": "Add Roll Formula",
+  "@addRollFormula": {
+    "description": "Title for add roll formula dialog"
+  },
+  "editRollFormula": "Edit Roll Formula",
+  "@editRollFormula": {
+    "description": "Title for edit roll formula dialog"
+  },
+  "spellSlotLevel": "Spell Slot Level (leave empty for base)",
+  "@spellSlotLevel": {
+    "description": "Label for spell slot level field"
+  },
+  "spellSlotLevelHint": "e.g. 3 for 3rd level",
+  "@spellSlotLevelHint": {
+    "description": "Hint for spell slot level field"
+  },
+  "damageRollFormula": "Damage Roll Formula",
+  "@damageRollFormula": {
+    "description": "Label for damage roll formula field"
+  },
+  "atHigherLevels": "At Higher Levels",
+  "@atHigherLevels": {
+    "description": "Label for at higher levels section"
+  },
+  "enterHigherLevelEffects": "Enter higher level effects",
+  "@enterHigherLevelEffects": {
+    "description": "Placeholder for higher level effects field"
+  },
+  "prepared": "Prepared",
+  "@prepared": {
+    "description": "Label for prepared checkbox"
+  },
+  "saveSpell": "Save Spell",
+  "@saveSpell": {
+    "description": "Button text to save spell"
+  },
+  "deleteThisSpell": "Delete this spell?",
+  "@deleteThisSpell": {
+    "description": "Title for spell deletion dialog"
+  },
+  "deleteSpellMessage": "To delete it from the database completely, do it in the Add Spells popup",
+  "@deleteSpellMessage": {
+    "description": "Message for spell deletion dialog"
+  },
+  "addSpell": "Add Spell",
+  "@addSpell": {
+    "description": "Button text to add spell"
+  },
+  "createNewSpell": "Create New Spell",
+  "@createNewSpell": {
+    "description": "Button text to create new spell"
+  },
+  "createNewClass": "Create New Class",
+  "@createNewClass": {
+    "description": "Button text to create new class"
+  },
+  "createNewSpecies": "Create New Race/Species",
+  "@createNewSpecies": {
+    "description": "Button text to create new class"
+  },
+  "spellAlreadyExists": "Spell Already Exists",
+  "@spellAlreadyExists": {
+    "description": "Title for spell already exists dialog"
+  },
+  "spellAlreadyExistsMessage": "The spell is already on this character.",
+  "@spellAlreadyExistsMessage": {
+    "description": "Message for spell already exists dialog"
+  },
+  "searchSpells": "Search Spells",
+  "@searchSpells": {
+    "description": "Label for search spells field"
+  },
+  "searchSpeciesRaces": "Search Species/Races",
+  "@searchSpeciesRaces": {
+    "description": "Label for search spells field"
+  },
+  "cantrips": "Cantrips",
+  "@cantrips": {
+    "description": "Label for cantrips section"
+  },
+  "spellsLevel": "Level {level}",
+  "@spellsLevel": {
+    "description": "Label for spells level section",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "characterLevel": "Character Level {level}",
+  "@characterLevel": {
+    "description": "Label for character level",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "showingSpellSlots": "Showing spell slots available at level {level}",
+  "@showingSpellSlots": {
+    "description": "Message showing spell slots for a level",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "preparedSpellsCounter": "Prepared Spells: {spells}/{max}",
+  "@preparedSpellsCounter": {
+    "description": "Label showing prepared spells count",
+    "placeholders": {
+      "spells": {
+        "type": "int",
+        "example": "3"
+      },
+      "max": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "preparedSpells": "Prepared Spells: {count}",
+  "@preparedSpells": {
+    "description": "Label showing prepared spells count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "castSpell": "Cast Spell",
+  "@castSpell": {
+    "description": "Button text to cast spell"
+  },
+  "castTitle": "{title} Cast Result",
+  "@castTitle": {
+    "description": "Title for spell cast result dialog",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Fireball"
+      }
+    }
+  },
+  "castSucessfull": "{title} Cast Suceessful",
+  "@castSucessfull": {
+    "description": "Title for spell cast sucessful dialog",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Fireball"
+      }
+    }
+  },
+  "noRollResult": "No rolls was made",
+  "@noRollResult": {
+    "description": "Message when no roll result is available"
+  },
+  "consumeSpellSlot": "Consume Spell Slot",
+  "@consumeSpellSlot": {
+    "description": "Label for consume spell slot checkbox"
+  },
+  "spellSlotLevelColon": "Spell Slot Level: ",
+  "@spellSlotLevelColon": {
+    "description": "Label for spell slot level dropdown"
+  },
+  "levelX": "Level {level}",
+  "@levelX": {
+    "description": "Label for level number",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "noSpellSlotsAvailable": "No spell slots available!",
+  "@noSpellSlotsAvailable": {
+    "description": "Message when no spell slots are available"
+  },
+  "damageRollColon": "Damage Roll: ",
+  "@damageRollColon": {
+    "description": "Label for damage roll"
+  },
+  "cast": "Cast",
+  "@cast": {
+    "description": "Button text to cast"
+  },
+  "traits": "Traits",
+  "@traits": {
+    "description": "Label for traits section"
+  },
+  "speedWithUnit": "{speed} ft.",
+  "@speedWithUnit": {
+    "description": "Speed value with unit",
+    "placeholders": {
+      "speed": {
+        "type": "String",
+        "example": "30"
+      }
+    }
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Button text for edit action"
+  },
+  "speciesDetails": "Species Details",
+  "@speciesDetails": {
+    "description": "Title for species details dialog"
+  },
+  "unnamed": "Unnamed",
+  "@unnamed": {
+    "description": "Default name for unnamed items"
+  },
+  "unnamedTrait": "Unnamed Trait",
+  "@unnamedTrait": {
+    "description": "Default name for unnamed traits"
+  },
+  "hitPoints": "Hit Points",
+  "@hitPoints": {
+    "description": "Label for hit points"
+  },
+  "hp": "HP",
+  "@hp": {
+    "description": "Label for Hp"
+  },
+  "decreaseHP": "Decrease HP",
+  "@decreaseHP": {
+    "description": "Button text for decreasing hit points"
+  },
+  "applyDamage": "Apply Damage",
+  "@applyDamage": {
+    "description": "Label for damage input field"
+  },
+  "applyQuarterDamage": "Apply Quarter Damage",
+  "@applyQuarterDamage": {
+    "description": "Tooltip for quarter damage button"
+  },
+  "applyHalfDamage": "Apply Half Damage",
+  "@applyHalfDamage": {
+    "description": "Tooltip for half damage button"
+  },
+  "applyNormalDamage": "Apply Normal Damage",
+  "@applyNormalDamage": {
+    "description": "Tooltip for normal damage button"
+  },
+  "applyDoubleDamage": "Apply Double Damage",
+  "@applyDoubleDamage": {
+    "description": "Tooltip for double damage button"
+  },
+  "increaseHP": "Increase HP",
+  "@increaseHP": {
+    "description": "Button text for increasing hit points"
+  },
+  "healAmount": "Apply Heal",
+  "@healAmount": {
+    "description": "Label for healing input field"
+  },
+  "temporaryHP": "Temporary HP",
+  "@temporaryHP": {
+    "description": "Label for temporary hit points"
+  },
+  "apply": "Apply",
+  "@apply": {
+    "description": "Button text to apply changes"
+  },
+  "rest": "Rest",
+  "@rest": {
+    "description": "Button text for rest"
+  },
+  "chooseRestType": "Choose your rest type:",
+  "@chooseRestType": {
+    "description": "Instruction for rest type selection"
+  },
+  "noHitDiceAvailable": "No hit dice available. Set your hit dice first.",
+  "@noHitDiceAvailable": {
+    "description": "Message when no hit dice are available"
+  },
+  "noHitDiceToSpend": "No hit dice available to spend",
+  "@noHitDiceToSpend": {
+    "description": "Message when no hit dice are available to spend"
+  },
+  "selectHitDieType": "Select Hit Die Type:",
+  "@selectHitDieType": {
+    "description": "Instruction for hit die type selection"
+  },
+  "hitDiceToSpend": "Hit Dice to Spend",
+  "@hitDiceToSpend": {
+    "description": "Label for hit dice to spend input"
+  },
+  "resourcesWillRecover": "The following resources will also recover:",
+  "@resourcesWillRecover": {
+    "description": "Header for resources that will recover on rest"
+  },
+  "enterValidDiceNumber": "Please enter a valid number of dice to spend",
+  "@enterValidDiceNumber": {
+    "description": "Error message for invalid dice number"
+  },
+  "onlyHaveHitDiceAvailable": "You only have {maxAvailable} hit dice available",
+  "@onlyHaveHitDiceAvailable": {
+    "description": "Error message when not enough hit dice available",
+    "placeholders": {
+      "maxAvailable": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "hitDiceResult": "Hit Dice Result",
+  "@hitDiceResult": {
+    "description": "Title for hit dice roll result dialog"
+  },
+  "roll": "Roll: {rollResult}",
+  "@roll": {
+    "description": "Label for dice roll result",
+    "placeholders": {
+      "rollResult": {
+        "type": "String",
+        "example": "2d6+3 = 9"
+      }
+    }
+  },
+  "recoveredHitPoints": "You recovered {healing} hit points",
+  "@recoveredHitPoints": {
+    "description": "Message showing recovered hit points",
+    "placeholders": {
+      "healing": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "currentHPOfMaxHP": "Current HP: {currentHP}/{maxHP}",
+  "@currentHPOfMaxHP": {
+    "description": "Display of current and maximum hit points",
+    "placeholders": {
+      "currentHP": {
+        "type": "int",
+        "example": "10"
+      },
+      "maxHP": {
+        "type": "int",
+        "example": "15"
+      }
+    }
+  },
+  "remainingHitDice": "Remaining Hit Dice: {remainingHitDice}",
+  "@remainingHitDice": {
+    "description": "Display of remaining hit dice",
+    "placeholders": {
+      "remainingHitDice": {
+        "type": "String",
+        "example": "2d8, 1d6"
+      }
+    }
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK button text"
+  },
+  "longRestCompleted": "Long Rest completed. All HP, spell slots, and hit dice fully recovered.",
+  "@longRestCompleted": {
+    "description": "Message after completing a long rest"
+  },
+  "currentHP": "Current HP",
+  "@currentHP": {
+    "description": "Label for current hit points"
+  },
+  "maxHP": "Max HP",
+  "@maxHP": {
+    "description": "Label for maximum hit points"
+  },
+  "notEnoughAmmunition": "Not enough ammunition",
+  "@notEnoughAmmunition": {
+    "description": "Title for not enough ammunition dialog"
+  },
+  "notEnoughAmmoForWeapon": "You do not have enough {ammunitionName} to use this weapon.",
+  "@notEnoughAmmoForWeapon": {
+    "description": "Message when not enough ammunition for weapon",
+    "placeholders": {
+      "ammunitionName": {
+        "type": "String",
+        "example": "arrows"
+      }
+    }
+  },
+  "attackType": "Attack Type",
+  "@attackType": {
+    "description": "Title for attack type selection dialog"
+  },
+  "advantage": "Advantage",
+  "@advantage": {
+    "description": "Label for advantage attack"
+  },
+  "disadvantage": "Disadvantage",
+  "@disadvantage": {
+    "description": "Label for disadvantage attack"
+  },
+  "criticalHit": "CRITICAL HIT!",
+  "@criticalHit": {
+    "description": "Message for critical hit"
+  },
+  "hitRoll": "Hit: {hitResult}",
+  "@hitRoll": {
+    "description": "Display of hit roll result",
+    "placeholders": {
+      "hitResult": {
+        "type": "int",
+        "example": "18"
+      }
+    }
+  },
+  "damageRoll": "Damage: {damageResult}",
+  "@damageRoll": {
+    "description": "Display of damage roll result",
+    "placeholders": {
+      "damageResult": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "attack": "Attack!",
+  "@attack": {
+    "description": "Button text for attack action"
+  },
+  "searchTimedout": "Search timed out",
+  "@searchTimedout": {
+    "description": "Message when search times out"
+  },
+  "proficient": "Proficient",
+  "@proficient": {
+    "description": "Label for proficiency toggle"
+  },
+  "additionalModifier": "Additional Modifier",
+  "@additionalModifier": {
+    "description": "Label for additional modifier input"
+  },
+  "adv": "Adv",
+  "@adv": {
+    "description": "Short text for advantage"
+  },
+  "disadv": "Disadv",
+  "@disadv": {
+    "description": "Short text for disadvantage"
+  },
+  "preview": "Preview: {previewValue}",
+  "@preview": {
+    "description": "Preview of final value",
+    "placeholders": {
+      "previewValue": {
+        "type": "String",
+        "example": "+5"
+      }
+    }
+  },
+  "ammo": "Ammo: {ammunitionName}",
+  "@ammo": {
+    "description": "Label for ammunition type",
+    "placeholders": {
+      "ammunitionName": {
+        "type": "String",
+        "example": "arrows"
+      }
+    }
+  },
+  "remaining": "Remaining: {quantity}",
+  "@remaining": {
+    "description": "Label for remaining quantity",
+    "placeholders": {
+      "quantity": {
+        "type": "int",
+        "example": "20"
+      }
+    }
+  },
+  "attackRoll": "Attack Roll",
+  "@attackRoll": {
+    "description": "Title for attack roll dialog"
+  },
+  "searchItems": "Search Items",
+  "@searchItems": {
+    "description": "Label for search items field"
+  },
+  "searchClass": "Search Class",
+  "@searchClass": {
+    "description": "Label for search class field"
+  },
+  "createNewItem": "Create New Item",
+  "@createNewItem": {
+    "description": "Button text to create new item"
+  },
+  "normal": "Normal",
+  "@normal": {
+    "description": "Label for normal roll (no advantage/disadvantage)"
+  },
+  "expertise": "Expertise",
+  "@expertise": {
+    "description": "Label for expertise toggle"
+  },
+  "resourcesColon": "Resources:",
+  "@resourcesColon": {
+    "description": "Label for resources section with colon"
+  },
+  "availableCount": "Available: {available}/{total}",
+  "@availableCount": {
+    "description": "Shows available resources count",
+    "placeholders": {
+      "available": {
+        "type": "int",
+        "example": "2"
+      },
+      "total": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "useResource": "Use {resourceName}",
+  "@useResource": {
+    "description": "Tooltip for using a resource",
+    "placeholders": {
+      "resourceName": {
+        "type": "String",
+        "example": "Rage"
+      }
+    }
+  },
+  "resetResource": "Reset {resourceName}",
+  "@resetResource": {
+    "description": "Tooltip for resetting a resource",
+    "placeholders": {
+      "resourceName": {
+        "type": "String",
+        "example": "Rage"
+      }
+    }
+  },
+  "recoveryInfo": "Recovery: {text}",
+  "@recoveryInfo": {
+    "description": "Shows recovery information for a resource",
+    "placeholders": {
+      "text": {
+        "type": "String",
+        "example": "All uses on long rest"
+      }
+    }
+  },
+  "typeColon": "Type:",
+  "@typeColon": {
+    "description": "Label for type field with colon"
+  },
+  "prerequisitesColon": "Prerequisites:",
+  "@prerequisitesColon": {
+    "description": "Label for prerequisites field with colon"
+  },
+  "descriptionColon": "Description:",
+  "@descriptionColon": {
+    "description": "Label for description field with colon"
+  },
+  "spellSlotsColon": "Spell Slots:",
+  "@spellSlotsColon": {
+    "description": "Label for spell slots section with colon"
+  },
+  "levelValue": "Level {level}: {value}",
+  "@levelValue": {
+    "description": "Shows level-specific value",
+    "placeholders": {
+      "level": {
+        "type": "String",
+        "example": "1"
+      },
+      "value": {
+        "type": "String",
+        "example": "4, 2"
+      }
+    }
+  },
+  "preparedSpellsColon": "Prepared Spells:",
+  "@preparedSpellsColon": {
+    "description": "Label for prepared spells section with colon"
+  },
+  "cantripsColon": "Cantrips:",
+  "@cantripsColon": {
+    "description": "Label for cantrips section with colon"
+  },
+  "abilityScoreIncreases": "Ability Score Increases:",
+  "@abilityScoreIncreases": {
+    "description": "Label for ability score increases section"
+  },
+  "markAsAbilityScoreIncreases": "Mark this feature as an Ability Score Improvement",
+  "@markAsAbilityScoreIncreases": {
+    "description": "Label for ability score increases section"
+  },
+  "enterAmountToIncreaseAbilityScore": "Enter the amount to increase each ability score:",
+  "@enterAmountToIncreaseAbilityScore": {
+    "description": "Label for ability score increases section"
+  },
+  "keyValueFormat": "{key}: {value}",
+  "@keyValueFormat": {
+    "description": "Format for key-value pairs",
+    "placeholders": {
+      "key": {
+        "type": "String",
+        "example": "Strength"
+      },
+      "value": {
+        "type": "String",
+        "example": "+2"
+      }
+    }
+  },
+  "customFieldsColon": "Custom Fields:",
+  "@customFieldsColon": {
+    "description": "Label for custom fields section with colon"
+  },
+  "searchFeatures": "Search Features",
+  "@searchFeatures": {
+    "description": "Title for feature search dialog"
+  },
+  "addSpellcastingFeature": "Add Spellcasting Feature",
+  "@addSpellcastingFeature": {
+    "description": "Title for spellcasting feature confirmation dialog"
+  },
+  "spellcastingFeatureWarning": "This feature contains spellcasting information that will replace the default spell slots of the class. Do you want to continue?",
+  "@spellcastingFeatureWarning": {
+    "description": "Warning about adding a spellcasting feature"
+  },
+  "addFeatureButton": "Add Feature",
+  "@addFeatureButton": {
+    "description": "Button text to add a feature to character"
+  },
+  "createNewFeature": "Create New Feature",
+  "@createNewFeature": {
+    "description": "Button text to create a new feature"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "Button text for search"
+  },
+  "conditions": "Conditions",
+  "@conditions": {
+    "description": "Label for conditions section"
+  },
+  "addCondition": "Add Condition",
+  "@addCondition": {
+    "description": "Button text to add a condition"
+  },
+  "noConditionsApplied": "No conditions applied",
+  "@noConditionsApplied": {
+    "description": "Message when no conditions are applied"
+  },
+  "clickForDetails": "Click for details",
+  "@clickForDetails": {
+    "description": "Tooltip for clicking to see more details"
+  },
+  "removeCondition": "Remove Condition",
+  "@removeCondition": {
+    "description": "Button text to remove a condition"
+  },
+  "customCondition": "Custom Condition",
+  "@customCondition": {
+    "description": "Label for custom condition option"
+  },
+  "createCustomCondition": "Create Custom Condition",
+  "@createCustomCondition": {
+    "description": "Title for create custom condition dialog"
+  },
+  "conditionName": "Condition Name",
+  "@conditionName": {
+    "description": "Label for condition name field"
+  },
+  "descriptionOptional": "Description (Optional)",
+  "@descriptionOptional": {
+    "description": "Label for optional description field"
+  },
+  "color": "Color: ",
+  "@color": {
+    "description": "Label for color selection"
+  },
+  "pickAColor": "Pick a color",
+  "@pickAColor": {
+    "description": "Title for color picker dialog"
+  },
+  "condition": "Condition",
+  "@condition": {
+    "description": "Label for condition"
+  },
+  "noDescriptionAvailable": "No description available.",
+  "@noDescriptionAvailable": {
+    "description": "Message when no description is available"
+  },
+  "rollDice": "Roll Dice",
+  "@rollDice": {
+    "description": "Title for dice roller dialog"
+  },
+  "diceFormula": "Dice Formula",
+  "@diceFormula": {
+    "description": "Label for dice formula input"
+  },
+  "dice": "Dice",
+  "@dice": {
+    "description": "Label for dice section"
+  },
+  "calculator": "Calculator",
+  "@calculator": {
+    "description": "Label for calculator section"
+  },
+  "rollButton": "ROLL!",
+  "@rollButton": {
+    "description": "Button text to roll dice"
+  },
+  "clickToAddRemoveSpellSlots": "Click on circles to add/remove spell slots",
+  "@clickToAddRemoveSpellSlots": {
+    "description": "Instruction for spell slots editing"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "Button text to add"
+  },
+  "clear": "Clear",
+  "@clear": {
+    "description": "Button text to clear"
+  },
+  "baseValueLabel": "Base {label}",
+  "@baseValueLabel": {
+    "description": "Label for base value of an attribute",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "Strength"
+      }
+    }
+  },
+  "bonusBaseValueLabel": "Bonus Base {label}",
+  "@bonusBaseValueLabel": {
+    "description": "Label for bonus base value of an attribute",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "Strength"
+      }
+    }
+  },
+  "chooseBackgroundTitle": "Choose Background",
+  "@chooseBackgroundTitle": {
+    "description": "Title for background selection dialog"
+  },
+  "searchBackgrounds": "Search Backgrounds",
+  "@searchBackgrounds": {
+    "description": "Label for searching backgrounds"
+  },
+  "createNewBackground": "Create New Background",
+  "@createNewBackground": {
+    "description": "Button to create a new background"
+  },
+  "abilityScoresColon": "Ability Scores",
+  "@abilityScoresColon": {
+    "description": "Label for ability scores with colon"
+  },
+  "featColon": "Feat:",
+  "@featColon": {
+    "description": "Label for feat with colon"
+  },
+  "skillProficienciesColon": "Skill Proficiencies",
+  "@skillProficienciesColon": {
+    "description": "Label for skill proficiencies with colon"
+  },
+  "toolProficiencyColon": "Tool Proficiency:",
+  "@toolProficiencyColon": {
+    "description": "Label for tool proficiency with colon"
+  },
+  "equipmentColon": "Equipment",
+  "@equipmentColon": {
+    "description": "Label for equipment with colon"
+  },
+  "equipmentOptionFormat": "(A) {options}",
+  "@equipmentOptionFormat": {
+    "description": "Format for equipment options",
+    "placeholders": {
+      "options": {
+        "type": "String",
+        "example": "Longsword or Shortsword"
+      }
+    }
+  },
+  "orEquipmentOption": "or \n(B)",
+  "@orEquipmentOption": {
+    "description": "Text between equipment options"
+  },
+  "searchCreatures": "Search Creatures",
+  "@searchCreatures": {
+    "description": "Title for searching creatures/NPCs"
+  },
+  "searchCharacters": "Search Characters",
+  "@searchCharacters": {
+    "description": "Title for searching player characters"
+  },
+  "searchByName": "Search by name",
+  "@searchByName": {
+    "description": "Placeholder for name search field"
+  },
+  "noCharactersFound": "No characters found",
+  "@noCharactersFound": {
+    "description": "Message when no characters are found in search"
+  },
+  "npcTypeFormat": "NPC • {type}",
+  "@npcTypeFormat": {
+    "description": "Format for displaying NPC type",
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "example": "Humanoid"
+      }
+    }
+  },
+  "crFormat": "CR {cr}",
+  "@crFormat": {
+    "description": "Format for displaying Challenge Rating",
+    "placeholders": {
+      "cr": {
+        "type": "String",
+        "example": "5"
+      }
+    }
+  },
+  "multiclassLevelFormat": "Multiclass (Level {level})",
+  "@multiclassLevelFormat": {
+    "description": "Format for displaying multiclass character level",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "classLevelFormat": "{className} (Level {level})",
+  "@classLevelFormat": {
+    "description": "Format for displaying character class and level",
+    "placeholders": {
+      "className": {
+        "type": "String",
+        "example": "Fighter"
+      },
+      "level": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "conditionBlinded": "Blinded",
+  "@conditionBlinded": {
+    "description": "Name of the Blinded condition"
+  },
+  "conditionBlindedDesc": "While you have the Blinded condition, you experience the following effects.\n\nCan't See. You can't see and automatically fail any ability check that requires sight.\n\nAttacks Affected. Attack rolls against you have advantage, and your attack rolls have disadvantage.",
+  "@conditionBlindedDesc": {
+    "description": "Description of the Blinded condition"
+  },
+  "conditionCharmed": "Charmed",
+  "@conditionCharmed": {
+    "description": "Name of the Charmed condition"
+  },
+  "conditionCharmedDesc": "While you have the Charmed condition, you experience the following effects.\n\nCan't Harm the Charmer. You can't attack the charmer or target the charmer with damaging abilities or magical effects.\n\nSocial Advantage. The charmer has Advantage on any ability check to interact with you socially.",
+  "@conditionCharmedDesc": {
+    "description": "Description of the Charmed condition"
+  },
+  "conditionDeafened": "Deafened",
+  "@conditionDeafened": {
+    "description": "Name of the Deafened condition"
+  },
+  "conditionDeafenedDesc": "While you have the Deafened condition, you experience the following effect.\n\nCan't Hear. You can't hear and automatically fail any ability check that requires hearing.",
+  "@conditionDeafenedDesc": {
+    "description": "Description of the Deafened condition"
+  },
+  "conditionFrightened": "Frightened",
+  "@conditionFrightened": {
+    "description": "Name of the Frightened condition"
+  },
+  "conditionFrightenedDesc": "While you have the Frightened condition, you experience the following effects.\n\nAbility Checks and Attacks Affected. You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight.\n\nCan't Approach. You can't willingly move closer to the source of fear.",
+  "@conditionFrightenedDesc": {
+    "description": "Description of the Frightened condition"
+  },
+  "conditionGrappled": "Grappled",
+  "@conditionGrappled": {
+    "description": "Name of the Grappled condition"
+  },
+  "conditionGrappledDesc": "While you have the Grappled condition, you experience the following effects.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. You have Disadvantage on attack rolls against any target other than the grappler.\n\nMovable. The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.",
+  "@conditionGrappledDesc": {
+    "description": "Description of the Grappled condition"
+  },
+  "conditionIncapacitated": "Incapacitated",
+  "@conditionIncapacitated": {
+    "description": "Name of the Incapacitated condition"
+  },
+  "conditionIncapacitatedDesc": "While you have the Incapacitated condition, you experience the following effects.\n\nInactive. You can't take any action, Bonus Action, or Reaction.\n\nNo Concentration. Your Concentration is broken.\n\nSpeechless. You can't speak.\n\nSurprised. If you're Incapacitated when you roll Initiative, you have Disadvantage on the roll.",
+  "@conditionIncapacitatedDesc": {
+    "description": "Description of the Incapacitated condition"
+  },
+  "conditionInvisible": "Invisible",
+  "@conditionInvisible": {
+    "description": "Name of the Invisible condition"
+  },
+  "conditionInvisibleDesc": "While you have the Invisible condition, you experience the following effects.\n\nSurprise. If you're Invisible when you roll Initiative, you have Advantage on the roll.\n\nConcealed. You aren't affected by any effect that requires its target to be seen unless the effect's creator can somehow see you. Any equipment you are wearing or carrying is also concealed.\n\nAttacks Affected. Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don't gain this benefit against that creature.",
+  "@conditionInvisibleDesc": {
+    "description": "Description of the Invisible condition"
+  },
+  "conditionParalyzed": "Paralyzed",
+  "@conditionParalyzed": {
+    "description": "Name of the Paralyzed condition"
+  },
+  "conditionParalyzedDesc": "While you have the Paralyzed condition, you experience the following effects.\n\nIncapacitated. You have the Incapacitated condition.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nAttacks Affected. Attack rolls against you have Advantage.\n\nAutomatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+  "@conditionParalyzedDesc": {
+    "description": "Description of the Paralyzed condition"
+  },
+  "conditionPetrified": "Petrified",
+  "@conditionPetrified": {
+    "description": "Name of the Petrified condition"
+  },
+  "conditionPetrifiedDesc": "While you have the Petrified condition, you experience the following effects.\n\nTurned to Inanimate Substance. You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.\n\nIncapacitated. You have the Incapacitated condition.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. Attack rolls against you have Advantage.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nResist Damage. You have Resistance to all damage.\n\nPoison Immunity. You have Immunity to the Poisoned condition.",
+  "@conditionPetrifiedDesc": {
+    "description": "Description of the Petrified condition"
+  },
+  "conditionPoisoned": "Poisoned",
+  "@conditionPoisoned": {
+    "description": "Name of the Poisoned condition"
+  },
+  "conditionPoisonedDesc": "While you have the Poisoned condition, you experience the following effect.\n\nAbility Checks and Attacks Affected. You have Disadvantage on attack rolls and ability checks.",
+  "@conditionPoisonedDesc": {
+    "description": "Description of the Poisoned condition"
+  },
+  "conditionProne": "Prone",
+  "@conditionProne": {
+    "description": "Name of the Prone condition"
+  },
+  "conditionProneDesc": "While you have the Prone condition, you experience the following effects.\n\nRestricted Movement. Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can't right yourself.\n\nAttacks Affected. You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.",
+  "@conditionProneDesc": {
+    "description": "Description of the Prone condition"
+  },
+  "conditionRestrained": "Restrained",
+  "@conditionRestrained": {
+    "description": "Name of the Restrained condition"
+  },
+  "conditionRestrainedDesc": "While you have the Restrained condition, you experience the following effects.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage.\n\nSaving Throws Affected. You have Disadvantage on Dexterity saving throws.",
+  "@conditionRestrainedDesc": {
+    "description": "Description of the Restrained condition"
+  },
+  "conditionStunned": "Stunned",
+  "@conditionStunned": {
+    "description": "Name of the Stunned condition"
+  },
+  "conditionStunnedDesc": "While you have the Stunned condition, you experience the following effects.\n\nIncapacitated. You have the Incapacitated condition.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nAttacks Affected. Attack rolls against you have Advantage.",
+  "@conditionStunnedDesc": {
+    "description": "Description of the Stunned condition"
+  },
+  "conditionUnconscious": "Unconscious",
+  "@conditionUnconscious": {
+    "description": "Name of the Unconscious condition"
+  },
+  "conditionUnconsciousDesc": "While you have the Unconscious condition, you experience the following effects.\n\nInert. You have the Incapacitated and Prone conditions, and you drop whatever you're holding. When this condition ends, you remain Prone.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. Attack rolls against you have Advantage.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nAutomatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.\n\nUnaware. You're unaware of your surroundings.",
+  "@conditionUnconsciousDesc": {
+    "description": "Description of the Unconscious condition"
+  },
+  "conditionExhaustion1": "Exhaustion 1",
+  "@conditionExhaustion1": {
+    "description": "Name of the Exhaustion 1 condition"
+  },
+  "conditionExhaustion2": "Exhaustion 2",
+  "@conditionExhaustion2": {
+    "description": "Name of the Exhaustion 2 condition"
+  },
+  "conditionExhaustion3": "Exhaustion 3",
+  "@conditionExhaustion3": {
+    "description": "Name of the Exhaustion 3 condition"
+  },
+  "conditionExhaustion4": "Exhaustion 4",
+  "@conditionExhaustion4": {
+    "description": "Name of the Exhaustion 4 condition"
+  },
+  "conditionExhaustion5": "Exhaustion 5",
+  "@conditionExhaustion5": {
+    "description": "Name of the Exhaustion 5 condition"
+  },
+  "conditionExhaustion6": "Exhaustion 6",
+  "@conditionExhaustion6": {
+    "description": "Name of the Exhaustion 6 condition"
+  },
+  "conditionExhaustionDesc": "While you have the Exhaustion condition, you experience the following effects.\n\nExhaustion Levels. This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.\n\nD20 Tests Affected. When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level.\n\nSpeed Reduced. Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level.\n\nRemoving Exhaustion Levels. Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends.",
+  "@conditionExhaustionDesc": {
+    "description": "Description of the Exhaustion conditions 1-5"
+  },
+  "conditionExhaustion6Desc": "Death.",
+  "@conditionExhaustion6Desc": {
+    "description": "Description of the Exhaustion 6 condition"
+  },
+  "conditionConcentrating": "Concentrating",
+  "@conditionConcentrating": {
+    "description": "Description of the Concentrating condition"
+  },
+  "conditionConcentratingDesc": "Some spells and other effects require Concentration to remain active, as specified in their descriptions.\nIf the effect's creator loses Concentration, the effect ends.\nIf the effect has a maximum duration, the effect's description specifies how long the creator can concentrate on it: up to 1 minute, 1 hour, or some other duration.\nThe creator can end Concentration at any time (no action required).\nThe following factors break Concentration.\n\nAnother Concentration Effect.\nYou lose Concentration on an effect the moment you start casting a spell that requires Concentration or activate another effect that requires Concentration.\n\nDamage.\nIf you take damage, you must succeed on a Constitution saving throw to maintain Concentration.\nThe DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30.\n\nIncapacitated or Dead.\nYour Concentration ends if you have the Incapacitated condition or you die.",
+  "@conditionConcentratingDesc": {
+    "description": "Description of the Concentrating condition"
+  },
+  "weightColon": "Weight:",
+  "@weightColon": {
+    "description": "Label for weight field with colon"
+  },
+  "weightFormat": "{weight} lb",
+  "@weightFormat": {
+    "description": "Format for weight with unit",
+    "placeholders": {
+      "weight": {
+        "type": "String",
+        "example": "5"
+      }
+    }
+  },
+  "priceColon": "Price:",
+  "@priceColon": {
+    "description": "Label for price field with colon"
+  },
+  "armorClassColon": "Armor Class:",
+  "@armorClassColon": {
+    "description": "Label for armor class field with colon"
+  },
+  "damageColon": "Damage:",
+  "@damageColon": {
+    "description": "Label for damage field with colon"
+  },
+  "hitBonusColon": "Hit Bonus:",
+  "@hitBonusColon": {
+    "description": "Label for hit bonus field with colon"
+  },
+  "hitBonusFormat": "+{bonus}",
+  "@hitBonusFormat": {
+    "description": "Format for hit bonus value",
+    "placeholders": {
+      "bonus": {
+        "type": "String",
+        "example": "2"
+      }
+    }
+  },
+  "versatileColon": "Versatile:",
+  "@versatileColon": {
+    "description": "Label for versatile weapon property with colon"
+  },
+  "rarityColon": "Rarity:",
+  "@rarityColon": {
+    "description": "Label for rarity field with colon"
+  },
+  "masteryColon": "Mastery:",
+  "@masteryColon": {
+    "description": "Label for mastery field with colon"
+  },
+  "requirementsColon": "Requirements:",
+  "@requirementsColon": {
+    "description": "Label for requirements field with colon"
+  },
+  "itemProperties": "Properties:",
+  "@itemProperties": {
+    "description": "Label for item properties section"
+  },
+  "equipped": "Equipped",
+  "@equipped": {
+    "description": "Label for equipped status"
+  },
+  "attuned": "Attuned",
+  "@attuned": {
+    "description": "Label for attuned status"
+  },
+  "usesDexterityForAttack": "Uses Dexterity for Attack",
+  "@usesDexterityForAttack": {
+    "description": "Label for dexterity attack property"
+  },
+  "usesAmmunition": "Uses Ammunition",
+  "@usesAmmunition": {
+    "description": "Label for ammunition usage property"
+  },
+  "martialWeapon": "Martial Weapon",
+  "@martialWeapon": {
+    "description": "Label for martial weapon type"
+  },
+  "stealthDisadvantage": "Stealth Disadvantage",
+  "@stealthDisadvantage": {
+    "description": "Label for stealth disadvantage property"
+  },
+  "twoHanded": "Two-Handed",
+  "@twoHanded": {
+    "description": "Label for two-handed weapon property"
+  },
+  "acFormat": "{ac} AC",
+  "@acFormat": {
+    "description": "Format for displaying armor class",
+    "placeholders": {
+      "ac": {
+        "type": "String",
+        "example": "15"
+      }
+    }
+  },
+  "noDexBonus": "No Bonus",
+  "@noDexBonus": {
+    "description": "Text for armor with no dexterity bonus"
+  },
+  "dexMaxTwo": "+Bonus (Max. 2)",
+  "@dexMaxTwo": {
+    "description": "Text for armor with limited dexterity bonus"
+  },
+  "plusDex": "+Bonus",
+  "@plusDex": {
+    "description": "Text for armor with full dexterity bonus"
+  },
+  "deleteItem": "Delete this item?",
+  "@deleteItem": {
+    "description": "Title for item deletion dialog"
+  },
+  "deleteItemMessage": "To Delete it from the database completely, do it in the Add Items popup",
+  "@deleteItemMessage": {
+    "description": "Message shown when deleting an item from inventory"
+  },
+  "title": "Title",
+  "@title": {
+    "description": "Label for item title field"
+  },
+  "enterItemTitle": "Enter item title",
+  "@enterItemTitle": {
+    "description": "Placeholder for item title field"
+  },
+  "properties": "Properties",
+  "@properties": {
+    "description": "Label for item properties field"
+  },
+  "enterItemProperties": "Enter item properties",
+  "@enterItemProperties": {
+    "description": "Placeholder for item properties field"
+  },
+  "enterItemDescription": "Enter item description",
+  "@enterItemDescription": {
+    "description": "Placeholder for item description field"
+  },
+  "quantity": "Quantity",
+  "@quantity": {
+    "description": "Label for item quantity field"
+  },
+  "armorClass": "Armor Class (AC)",
+  "@armorClass": {
+    "description": "Label for armor class field"
+  },
+  "enterACValue": "Enter AC value",
+  "@enterACValue": {
+    "description": "Placeholder for AC value field"
+  },
+  "weaponDetails": "Weapon Details",
+  "@weaponDetails": {
+    "description": "Title for weapon details section"
+  },
+  "hitBonus": "Hit Bonus",
+  "@hitBonus": {
+    "description": "Label for hit bonus field"
+  },
+  "damageFormula": "Damage Formula",
+  "@damageFormula": {
+    "description": "Label for damage formula field"
+  },
+  "damageType": "Damage Type",
+  "@damageType": {
+    "description": "Label for damage type field"
+  },
+  "usesDexterity": "Uses Dexterity",
+  "@usesDexterity": {
+    "description": "Label for dexterity-based weapon property"
+  },
+  "finesseWeaponDescription": "For finesse/ranged weapons",
+  "@finesseWeaponDescription": {
+    "description": "Description for finesse weapons"
+  },
+  "rangedWeaponDescription": "For ranged weapons",
+  "@rangedWeaponDescription": {
+    "description": "Description for ranged weapons"
+  },
+  "ammunitionName": "Ammunition Name",
+  "@ammunitionName": {
+    "description": "Label for ammunition name field"
+  },
+  "ammunitionNameHint": "e.g., Arrow, Bolt, Bullet",
+  "@ammunitionNameHint": {
+    "description": "Hint for ammunition name field"
+  },
+  "useTwoHanded": "Use Two-Handed",
+  "@useTwoHanded": {
+    "description": "Label for two-handed weapon property"
+  },
+  "versatileWeaponDescription": "For Two Handed/Versatile weapons",
+  "@versatileWeaponDescription": {
+    "description": "Description for versatile weapons"
+  },
+  "versatileDamage": "Versatile Damage",
+  "@versatileDamage": {
+    "description": "Label for versatile damage field"
+  },
+  "versatileDamageHint": "Damage when used two-handed (e.g., 1d10)",
+  "@versatileDamageHint": {
+    "description": "Hint for versatile damage field"
+  },
+  "requirements": "Requirements",
+  "@requirements": {
+    "description": "Label for requirements section"
+  },
+  "noRequirements": "No ability requirements set",
+  "@noRequirements": {
+    "description": "Message when no requirements are set"
+  },
+  "minimumAbilityScores": "Minimum ability scores required:",
+  "@minimumAbilityScores": {
+    "description": "Label for minimum ability scores section"
+  },
+  "noAbilityRequirementsSet": "No Ability Requiriments Set",
+  "@noAbilityRequirementsSet": {
+    "description": "Label for minimum ability scores section"
+  },
+  "addRequirement": "Add Requirement",
+  "@addRequirement": {
+    "description": "Button text to add a requirement"
+  },
+  "price": "Price",
+  "@price": {
+    "description": "Label for price field"
+  },
+  "enterPrice": "Enter price",
+  "@enterPrice": {
+    "description": "Placeholder for price field"
+  },
+  "mastery": "Mastery",
+  "@mastery": {
+    "description": "Label for mastery field"
+  },
+  "enterMastery": "Enter mastery ability (e.g., Topple, Sap)",
+  "@enterMastery": {
+    "description": "Placeholder for mastery field"
+  },
+  "rarity": "Rarity",
+  "@rarity": {
+    "description": "Label for rarity field"
+  },
+  "common": "Common",
+  "@common": {
+    "description": "Common rarity level"
+  },
+  "uncommon": "Uncommon",
+  "@uncommon": {
+    "description": "Uncommon rarity level"
+  },
+  "rare": "Rare",
+  "@rare": {
+    "description": "Rare rarity level"
+  },
+  "veryRare": "Very Rare",
+  "@veryRare": {
+    "description": "Very Rare rarity level"
+  },
+  "legendary": "Legendary",
+  "@legendary": {
+    "description": "Legendary rarity level"
+  },
+  "artifact": "Artifact",
+  "@artifact": {
+    "description": "artifact rarity level"
+  },
+  "undefined": "Undefined",
+  "@undefined": {
+    "description": "undefined rarity level"
+  },
+  "selectRarity": "Select item rarity",
+  "@selectRarity": {
+    "description": "Placeholder for rarity selection"
+  },
+  "saveItem": "Save Item",
+  "@saveItem": {
+    "description": "Button text to save item"
+  },
+  "addToInventory": "Add to Inventory",
+  "@addToInventory": {
+    "description": "Button text to add item to inventory"
+  },
+  "ability": "Ability",
+  "@ability": {
+    "description": "Label for ability selection"
+  },
+  "minimumValue": "Minimum Value",
+  "@minimumValue": {
+    "description": "Label for minimum value field"
+  },
+  "enterValueExample": "Enter value (e.g. 13)",
+  "@enterValueExample": {
+    "description": "Example for minimum value field"
+  },
+  "shield": "Shield",
+  "@shield": {
+    "description": "Shield type"
+  },
+  "weapon": "Weapon",
+  "@weapon": {
+    "description": "Weapon type"
+  },
+  "ammunition": "Ammunition",
+  "@ammunition": {
+    "description": "Ammunition type"
+  },
+  "magicItem": "Magic Item",
+  "@magicItem": {
+    "description": "Magic item type"
+  },
+  "toolGear": "Tool/Gear",
+  "@toolGear": {
+    "description": "Tool or gear type"
+  },
+  "others": "Others",
+  "@others": {
+    "description": "Other item types"
+  },
+  "equip": "Equip",
+  "@equip": {
+    "description": "Button text to equip an item"
+  },
+  "unequip": "Unequip",
+  "@unequip": {
+    "description": "Button text to unequip an item"
+  },
+  "addRequirementTitle": "Add Requirement",
+  "@addRequirementTitle": {
+    "description": "Title for add requirement dialog"
+  },
+  "acid": "Acid",
+  "@acid": {
+    "description": "Acid damage type"
+  },
+  "bludgeoning": "Bludgeoning",
+  "@bludgeoning": {
+    "description": "Bludgeoning damage type"
+  },
+  "cold": "Cold",
+  "@cold": {
+    "description": "Cold damage type"
+  },
+  "fire": "Fire",
+  "@fire": {
+    "description": "Fire damage type"
+  },
+  "force": "Force",
+  "@force": {
+    "description": "Force damage type"
+  },
+  "lightning": "Lightning",
+  "@lightning": {
+    "description": "Lightning damage type"
+  },
+  "necrotic": "Necrotic",
+  "@necrotic": {
+    "description": "Necrotic damage type"
+  },
+  "piercing": "Piercing",
+  "@piercing": {
+    "description": "Piercing damage type"
+  },
+  "poison": "Poison",
+  "@poison": {
+    "description": "Poison damage type"
+  },
+  "psychic": "Psychic",
+  "@psychic": {
+    "description": "Psychic damage type"
+  },
+  "radiant": "Radiant",
+  "@radiant": {
+    "description": "Radiant damage type"
+  },
+  "slashing": "Slashing",
+  "@slashing": {
+    "description": "Slashing damage type"
+  },
+  "thunder": "Thunder",
+  "@thunder": {
+    "description": "Thunder damage type"
+  },
+  "customType": "Custom Type",
+  "@customType": {
+    "description": "Custom damage type"
+  },
+  "weight": "Weight",
+  "@weight": {
+    "description": "Label for weight field"
+  },
+  "playerCharacters": "Player Characters",
+  "@playerCharacters": {
+    "description": "Tab label for player characters"
+  },
+  "npcs": "NPCs",
+  "@npcs": {
+    "description": "Tab label for NPCs"
+  },
+  "noNpcsFound": "No NPCs found",
+  "@noNpcsFound": {
+    "description": "Message shown when no NPCs are found"
+  },
+  "noPlayerCharactersFound": "No player characters found",
+  "@noPlayerCharactersFound": {
+    "description": "Message shown when no player characters are found"
+  },
+  "whatTypeOfCharacter": "What type of character do you want to create?",
+  "@whatTypeOfCharacter": {
+    "description": "Message asking user to choose character type"
+  },
+  "npc": "NPC",
+  "@npc": {
+    "description": "Label for NPC character type"
+  },
+  "pc": "PC",
+  "@pc": {
+    "description": "Label for NPC character type"
+  },
+  "playerCharacter": "Player Character",
+  "@playerCharacter": {
+    "description": "Label for player character type"
+  },
+  "languageCommon": "Common",
+  "@languageCommon": {
+    "description": "Common language"
+  },
+  "languageCommonSign": "Common Sign Language",
+  "@languageCommonSign": {
+    "description": "Common Sign Language"
+  },
+  "languageDraconic": "Draconic",
+  "@languageDraconic": {
+    "description": "Draconic language"
+  },
+  "languageDwarvish": "Dwarvish",
+  "@languageDwarvish": {
+    "description": "Dwarvish language"
+  },
+  "languageElvish": "Elvish",
+  "@languageElvish": {
+    "description": "Elvish language"
+  },
+  "languageGiant": "Giant",
+  "@languageGiant": {
+    "description": "Giant language"
+  },
+  "languageGnomish": "Gnomish",
+  "@languageGnomish": {
+    "description": "Gnomish language"
+  },
+  "languageGoblin": "Goblin",
+  "@languageGoblin": {
+    "description": "Goblin language"
+  },
+  "languageHalfling": "Halfling",
+  "@languageHalfling": {
+    "description": "Halfling language"
+  },
+  "languageOrc": "Orc",
+  "@languageOrc": {
+    "description": "Orc language"
+  },
+  "languageAbyssal": "Abyssal",
+  "@languageAbyssal": {
+    "description": "Abyssal language"
+  },
+  "languageCelestial": "Celestial",
+  "@languageCelestial": {
+    "description": "Celestial language"
+  },
+  "languageDeepSpeech": "Deep Speech",
+  "@languageDeepSpeech": {
+    "description": "Deep Speech language"
+  },
+  "languageDruidic": "Druidic",
+  "@languageDruidic": {
+    "description": "Druidic language"
+  },
+  "languageInfernal": "Infernal",
+  "@languageInfernal": {
+    "description": "Infernal language"
+  },
+  "languagePrimordial": "Primordial",
+  "@languagePrimordial": {
+    "description": "Primordial language"
+  },
+  "languageSylvan": "Sylvan",
+  "@languageSylvan": {
+    "description": "Sylvan language"
+  },
+  "languageThievesCant": "Thieves' Cant",
+  "@languageThievesCant": {
+    "description": "Thieves' Cant language"
+  },
+  "languageUndercommon": "Undercommon",
+  "@languageUndercommon": {
+    "description": "Undercommon language"
+  },
+  "handCrossbows": "Hand Crossbows",
+  "@handCrossbows": {
+    "description": "Hand crossbows weapon proficiency"
+  },
+  "longswords": "Longswords",
+  "@longswords": {
+    "description": "Longswords weapon proficiency"
+  },
+  "rapiers": "Rapiers",
+  "@rapiers": {
+    "description": "Rapiers weapon proficiency"
+  },
+  "shortswords": "Shortswords",
+  "@shortswords": {
+    "description": "Shortswords weapon proficiency"
+  },
+  "lightCrossbows": "Light Crossbows",
+  "@lightCrossbows": {
+    "description": "Light crossbows weapon proficiency"
+  },
+  "battleaxes": "Battleaxes",
+  "@battleaxes": {
+    "description": "Battleaxes weapon proficiency"
+  },
+  "handaxes": "Handaxes",
+  "@handaxes": {
+    "description": "Handaxes weapon proficiency"
+  },
+  "warhammers": "Warhammers",
+  "@warhammers": {
+    "description": "Warhammers weapon proficiency"
+  },
+  "longbows": "Longbows",
+  "@longbows": {
+    "description": "Longbows weapon proficiency"
+  },
+  "previous": "Previous",
+  "@previous": {
+    "description": "Button text for previous step"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Button text for next step"
+  },
+  "pleaseSelectClassContinuing": "Please select a class before continuing",
+  "@pleaseSelectClassContinuing": {
+    "description": "Error message when no class is selected"
+  },
+  "pleaseSelectBackgroundContinuing": "Please select a background before continuing",
+  "@pleaseSelectBackgroundContinuing": {
+    "description": "Error message when no background is selected"
+  },
+  "pleaseSelectEquipmentContinuing": "Please select equipment before continuing",
+  "@pleaseSelectEquipmentContinuing": {
+    "description": "Error message when no equipment is selected"
+  },
+  "pleaseSelectSpeciesContinuing": "Please select a species before continuing",
+  "@pleaseSelectSpeciesContinuing": {
+    "description": "Error message when no species is selected"
+  },
+  "pleaseSelectLanguageContinuing": "Please select at least one language before continuing",
+  "@pleaseSelectLanguageContinuing": {
+    "description": "Error message when no language is selected"
+  },
+  "pleaseAssignAbilityScoresContinuing": "Please assign ability scores before continuing",
+  "@pleaseAssignAbilityScoresContinuing": {
+    "description": "Error message when ability scores are not assigned"
+  },
+  "pleaseSelectSkillsContinuing": "Please select {requiredSkills} skills before continuing",
+  "@pleaseSelectSkillsContinuing": {
+    "description": "Error message when not enough skills are selected",
+    "placeholders": {
+      "requiredSkills": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "pleaseEnterAppearanceContinuing": "Please enter your character's appearance before continuing",
+  "@pleaseEnterAppearanceContinuing": {
+    "description": "Error message when appearance is not entered"
+  },
+  "alignment": "Alignment",
+  "@alignment": {
+    "description": "Alignment"
+  },
+  "pleaseSelectAlignmentContinuing": "Please select an alignment before continuing",
+  "@pleaseSelectAlignmentContinuing": {
+    "description": "Error message when alignment is not selected"
+  },
+  "pleaseEnterNameContinuing": "Please enter a name for your character before continuing",
+  "@pleaseEnterNameContinuing": {
+    "description": "Error message when name is not entered"
+  },
+  "speciesManualInfoWarning": "You need to manually add some information about the Species. Check its data in the third tab and make the necessary modifications.",
+  "@speciesManualInfoWarning": {
+    "description": "Warning message for manual species information entry"
+  },
+  "selectedBackgroundWithName": "Selected Background: {name}",
+  "@selectedBackgroundWithName": {
+    "description": "Shows selected background with name",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Acolyte"
+      }
+    }
+  },
+  "selectedSpeciesWithName": "Selected Species: {name}",
+  "@selectedSpeciesWithName": {
+    "description": "Shows selected species with name",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Human"
+      }
+    }
+  },
+  "classLevelOne": "{className} 1",
+  "@classLevelOne": {
+    "description": "Shows class name with level 1",
+    "placeholders": {
+      "className": {
+        "type": "String",
+        "example": "Fighter"
+      }
+    }
+  },
+  "enterYourCharactersAppearance": "Enter your character's appearance, personality traits, ideals, bonds, and flaws:",
+  "@enterYourCharactersAppearance": {
+    "description": "Instruction for character appearance entry"
+  },
+  "selectYourCharactersMoral": "Select your character's moral and ethical compass:",
+  "@selectYourCharactersMoral": {
+    "description": "Instruction for alignment selection"
+  },
+  "enterYourCharactersName": "Enter your character's name:",
+  "@enterYourCharactersName": {
+    "description": "Instruction for character name entry"
+  },
+  "attributeWithValueAndMod": "{attribute}: {value} (Mod: {modifier})",
+  "@attributeWithValueAndMod": {
+    "description": "Format for displaying attribute with value and modifier",
+    "placeholders": {
+      "attribute": {
+        "type": "String",
+        "example": "Strength"
+      },
+      "value": {
+        "type": "int",
+        "example": "15"
+      },
+      "modifier": {
+        "type": "String",
+        "example": "+2"
+      }
+    }
+  },
+  "primaryAbilityColon": "Primary Ability:",
+  "@primaryAbilityColon": {
+    "description": "Label for primary ability with colon"
+  },
+  "hitPointDieColon": "Hit Point Die:",
+  "@hitPointDieColon": {
+    "description": "Label for hit point die with colon"
+  },
+  "hitPointsAtLevel1Colon": "Hit Points at Level 1:",
+  "@hitPointsAtLevel1Colon": {
+    "description": "Label for hit points at level 1 with colon"
+  },
+  "hitPointsPerLevelColon": "Hit Points per Level:",
+  "@hitPointsPerLevelColon": {
+    "description": "Label for hit points per level with colon"
+  },
+  "savingThrowProficienciesColon": "Saving Throw Proficiencies:",
+  "@savingThrowProficienciesColon": {
+    "description": "Label for saving throw proficiencies with colon"
+  },
+  "noFeaturesAvailable": "No features available",
+  "@noFeaturesAvailable": {
+    "description": "Message when no features are available"
+  },
+  "noSubclassesAvailable": "No subclasses available",
+  "@noSubclassesAvailable": {
+    "description": "Message when no subclasses are available"
+  },
+  "spellcastingColon": "Spellcasting:",
+  "@spellcastingColon": {
+    "description": "Label for spellcasting section with colon"
+  },
+  "spellSlotsAtLevel": "Spell Slots at Level {level}:",
+  "@spellSlotsAtLevel": {
+    "description": "Label for spell slots at a specific level",
+    "placeholders": {
+      "level": {
+        "type": "String",
+        "example": "3"
+      }
+    }
+  },
+  "cantripsKnown": "Cantrips Known: {count}",
+  "@cantripsKnown": {
+    "description": "Label showing known cantrips count",
+    "placeholders": {
+      "count": {
+        "type": "String",
+        "example": "3"
+      }
+    }
+  },
+  "newSpecies": "New Species",
+  "@newSpecies": {
+    "description": "Title for creating a new species"
+  },
+  "deleteSpeciesQuestion": "Delete this species?",
+  "@deleteSpeciesQuestion": {
+    "description": "Title for species deletion dialog"
+  },
+  "deleteSpeciesConfirmation": "To delete it from the database completely, do it in the Add Species popup",
+  "@deleteSpeciesConfirmation": {
+    "description": "Confirmation message for deleting a species"
+  },
+  "enterSpeciesName": "Enter species name",
+  "@enterSpeciesName": {
+    "description": "Placeholder for species name field"
+  },
+  "enterSpeciesDescription": "Enter species description",
+  "@enterSpeciesDescription": {
+    "description": "Placeholder for species description field"
+  },
+  "enterSpeciesSize": "Enter species size",
+  "@enterSpeciesSize": {
+    "description": "Placeholder for species size field"
+  },
+  "enterSpeciesSpeed": "Enter species speed",
+  "@enterSpeciesSpeed": {
+    "description": "Placeholder for species speed field"
+  },
+  "traitName": "Trait Name",
+  "@traitName": {
+    "description": "Label for trait name field"
+  },
+  "enterTraitName": "Enter trait name",
+  "@enterTraitName": {
+    "description": "Placeholder for trait name field"
+  },
+  "traitDescription": "Trait Description",
+  "@traitDescription": {
+    "description": "Label for trait description field"
+  },
+  "enterTraitDescription": "Enter trait description",
+  "@enterTraitDescription": {
+    "description": "Placeholder for trait description field"
+  },
+  "addTrait": "Add Trait",
+  "@addTrait": {
+    "description": "Button text to add a trait"
+  },
+  "saveSpecies": "Save Species",
+  "@saveSpecies": {
+    "description": "Button text to save species"
+  },
+  "newBackground": "New Background",
+  "@newBackground": {
+    "description": "Title for creating a new background"
+  },
+  "deleteBackgroundQuestion": "Delete this background?",
+  "@deleteBackgroundQuestion": {
+    "description": "Title for background deletion dialog"
+  },
+  "deleteBackgroundConfirmation": "To delete it from the database completely, do it in the Add Backgrounds popup",
+  "@deleteBackgroundConfirmation": {
+    "description": "Confirmation message for deleting a background"
+  },
+  "enterBackgroundName": "Enter background name",
+  "@enterBackgroundName": {
+    "description": "Placeholder for background name field"
+  },
+  "enterAbilityScores": "Enter ability scores",
+  "@enterAbilityScores": {
+    "description": "Placeholder for ability scores field"
+  },
+  "enterSkillProficiencies": "Enter skill proficiencies",
+  "@enterSkillProficiencies": {
+    "description": "Placeholder for skill proficiencies field"
+  },
+  "enterToolProficiency": "Enter tool proficiency",
+  "@enterToolProficiency": {
+    "description": "Placeholder for tool proficiency field"
+  },
+  "equipmentOptions": "Equipment Options",
+  "@equipmentOptions": {
+    "description": "Label for equipment options section"
+  },
+  "damageResistancesVulnerabilitiesImmunities": "Resi, Vul, and Imm",
+  "@damageResistancesVulnerabilitiesImmunities": {
+    "description": "Header for the damage resistances, vulnerabilities, and immunities section"
+  },
+  "vulnerabilities": "Vulnerabilities",
+  "@vulnerabilities": {
+    "description": "Label for damage vulnerabilities"
+  },
+  "resistances": "Resistances",
+  "@resistances": {
+    "description": "Label for damage resistances"
+  },
+  "immunities": "Immunities",
+  "@immunities": {
+    "description": "Label for damage immunities"
+  },
+  "editVulnerabilities": "Edit Vulnerabilities",
+  "@editVulnerabilities": {
+    "description": "Label for editing vulnerabilities"
+  },
+  "editResistances": "Edit Resistances",
+  "@editResistances": {
+    "description": "Label for editing resistances"
+  },
+  "editImmunities": "Edit Immunities",
+  "@editImmunities": {
+    "description": "Label for editing immunities"
+  },
+  "customDamageType": "Add custom damage type",
+  "@customDamageType": {
+    "description": "Label for adding custom damage type"
+  },
+  "customDamageTypeHint": "e.g., Magic Weapons",
+  "@customDamageTypeHint": {
+    "description": "Hint for custom damage type input"
+  },
+  "addCustomCombatant": "Add Custom",
+  "@addCustomCombatant": {
+    "description": "Title for dialog to add a custom combatant to initiative tracker"
+  },
+  "rollD20": "Roll d20",
+  "@rollD20": {
+    "description": "Button text to roll a d20 die"
+  },
+  "npcWithNumber": "NPC {number}",
+  "@npcWithNumber": {
+    "description": "Default name for NPCs with sequential number",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "removeQuestion": "Remove {name}?",
+  "@removeQuestion": {
+    "description": "Title for removal confirmation dialog",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Goblin"
+      }
+    }
+  },
+  "removeCombatantConfirmation": "Are you sure you want to remove this combatant from the initiative tracker? This will update for all connected players.",
+  "@removeCombatantConfirmation": {
+    "description": "Confirmation message for removing a combatant"
+  },
+  "remove": "Remove",
+  "@remove": {
+    "description": "Button text to remove something"
+  },
+  "addCharacter": "Add Character",
+  "@addCharacter": {
+    "description": "Button text to add a character"
+  },
+  "beginCombat": "Begin Combat",
+  "@beginCombat": {
+    "description": "Button text to begin combat"
+  },
+  "nextTurn": "Next Turn",
+  "@nextTurn": {
+    "description": "Button text for advancing to the next turn"
+  },
+  "yourTurn": "Your Turn",
+  "@yourTurn": {
+    "description": "Button text for advancing to the next turn"
+  },
+  "healingAmount": "Healing Amount",
+  "@healingAmount": {
+    "description": "Label for healing amount input field"
+  },
+  "applyQuarterHealing": "Apply Quarter Healing",
+  "@applyQuarterHealing": {
+    "description": "Tooltip for quarter healing button"
+  },
+  "applyHalfHealing": "Apply Half Healing",
+  "@applyHalfHealing": {
+    "description": "Tooltip for half healing button"
+  },
+  "applyNormalHealing": "Apply Normal Healing",
+  "@applyNormalHealing": {
+    "description": "Tooltip for normal healing button"
+  },
+  "applyDoubleHealing": "Apply Double Healing",
+  "@applyDoubleHealing": {
+    "description": "Tooltip for double healing button"
+  },
+  "editHPValue": "Edit {name} HP Value",
+  "@editHPValue": {
+    "description": "Title for edit HP value dialog",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Goblin"
+      }
+    }
+  },
+  "update": "Update",
+  "@update": {
+    "description": "Button text to update something"
+  },
+  "addConditionTo": "Add Condition to {name}",
+  "@addConditionTo": {
+    "description": "Title for adding condition dialog",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Goblin"
+      }
+    }
+  },
+  "groupInitiativeResults": "Group Initiative Results",
+  "@groupInitiativeResults": {
+    "description": "Title for group initiative results dialog"
+  },
+  "done": "Done",
+  "@done": {
+    "description": "Button text for done action"
+  },
+  "editInitiative": "Edit {name}'s Initiative",
+  "@editInitiative": {
+    "description": "Title for edit initiative dialog",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Goblin"
+      }
+    }
+  },
+  "combatStats": "Combat Stats",
+  "@combatStats": {
+    "description": "Label for combat stats section"
+  },
+  "activeConditions": "Active Conditions",
+  "@activeConditions": {
+    "description": "Label for active conditions section"
+  },
+  "currentValue": "Current Value:",
+  "@currentValue": {
+    "description": "Label for current value field"
+  },
+  "noActiveCombatants": "No active combatants. Add characters or NPCs to start!",
+  "@noActiveCombatants": {
+    "description": "Message when no combatants are in the initiative tracker"
+  },
+  "round": "R: {number}",
+  "@round": {
+    "description": "Display for combat round number",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "rollInitiativeForAll": "Roll Initiative for All",
+  "@rollInitiativeForAll": {
+    "description": "Button text to roll initiative for all combatants"
+  },
+  "rolling": "Rolling...",
+  "@rolling": {
+    "description": "Text displayed while rolling is in progress"
+  },
+  "noCombatantsToRoll": "No combatants to roll initiative for",
+  "@noCombatantsToRoll": {
+    "description": "Message when trying to roll initiative with no combatants"
+  },
+  "rollGroup": "Roll: {roll} + Bonus: {bonus} = {total}",
+  "@rollGroup": {
+    "description": "Format for displaying roll result with bonus",
+    "placeholders": {
+      "roll": {
+        "type": "int",
+        "example": "15"
+      },
+      "bonus": {
+        "type": "int",
+        "example": "2"
+      },
+      "total": {
+        "type": "int",
+        "example": "17"
+      }
+    }
+  },
+  "groupOf": " (Group of {count})",
+  "@groupOf": {
+    "description": "Label for group of entities",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "customCombatantBasicStats": "This is a custom combatant with basic stats only.",
+  "@customCombatantBasicStats": {
+    "description": "Message for custom combatants with basic stats"
+  },
+  "hpFormat": "HP: {current}/{max} | AC: {ac}",
+  "@hpFormat": {
+    "description": "Format for displaying HP and AC",
+    "placeholders": {
+      "current": {
+        "type": "int",
+        "example": "10"
+      },
+      "max": {
+        "type": "int",
+        "example": "15"
+      },
+      "ac": {
+        "type": "String",
+        "example": "14"
+      }
+    }
+  },
+  "manageConditions": "Manage Conditions",
+  "@manageConditions": {
+    "description": "Tooltip for manage conditions button"
+  },
+  "characterSheet": "Character Sheet",
+  "@characterSheet": {
+    "description": "Tooltip for character sheet button"
+  },
+  "importExport": "Import/Export",
+  "@importExport": {
+    "description": "Section header for import/export options"
+  },
+  "importCharacter": "Import Character",
+  "@importCharacter": {
+    "description": "Button text to import a character"
+  },
+  "exportAllContent": "Export All Content",
+  "@exportAllContent": {
+    "description": "Button text to export all content"
+  },
+  "importAllContent": "Import All Content",
+  "@importAllContent": {
+    "description": "Button text to import all content"
+  },
+  "importfromjsonetools": "Import from e-tolls json format (classes not supported)",
+  "@importfromjsonetools": {
+    "description": "Button text to import spells and items in rpg-cards format"
+  },
+  "importXmlContent": "Import Content from XML",
+  "@importXmlContent": {
+    "description": "Button text to import content from XML format"
+  },
+  "browseContent": "Browse Content",
+  "@browseContent": {
+    "description": "Section header for content browsing options"
+  },
+  "browseX": "Browse {type}",
+  "@browseX": {
+    "description": "Button text for browsing content type",
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "example": "Classes"
+      }
+    }
+  },
+  "speciesRaces": "Species/Races",
+  "@speciesRaces": {
+    "description": "Label for species/races category"
+  },
+  "speciesRace": "Species/Race",
+  "@speciesRace": {
+    "description": "Label for species/races category"
+  },
+  "items": "Items",
+  "@items": {
+    "description": "Label for Items category"
+  },
+  "creatures": "Creatures",
+  "@creatures": {
+    "description": "Label for creatures category"
+  },
+  "backgrounds": "Backgrounds",
+  "@backgrounds": {
+    "description": "Label for backgrounds category"
+  },
+  "background": "Background",
+  "@background": {
+    "description": "Label for background category"
+  },
+  "deleteData": "Delete Data",
+  "@deleteData": {
+    "description": "Section header for data deletion options"
+  },
+  "deleteAllX": "Delete All {type}",
+  "@deleteAllX": {
+    "description": "Button text for deleting all of a content type",
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "example": "Items"
+      }
+    }
+  },
+  "testing": "Testing",
+  "@testing": {
+    "description": "Section header for testing options"
+  },
+  "runPerformanceTests": "Run Performance Tests",
+  "@runPerformanceTests": {
+    "description": "Button text to run performance tests"
+  },
+  "proceed": "Proceed",
+  "@proceed": {
+    "description": "Button text to proceed with an action"
+  },
+  "deleteConfirmationX": "This will erase all {type} in the database and in all characters. Proceed?",
+  "@deleteConfirmationX": {
+    "description": "Confirmation message for deleting all of a content type",
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "example": "items"
+      }
+    }
+  },
+  "deleteAllDataConfirmation": "This will delete all data from the database including items, classes, backgrounds, spells, characters, features, etc. Proceed?",
+  "@deleteAllDataConfirmation": {
+    "description": "Confirmation message for deleting all data"
+  },
+  "deleteAllCharactersConfirmation": "This will delete all characters from the database. Proceed?",
+  "@deleteAllCharactersConfirmation": {
+    "description": "Confirmation message for deleting all characters"
+  },
+  "deleteAllCreaturesConfirmation": "This will delete all creatures (NPCs) from the database. Proceed?",
+  "@deleteAllCreaturesConfirmation": {
+    "description": "Confirmation message for deleting all creatures"
+  },
+  "allXCleared": "All {type} cleared!",
+  "@allXCleared": {
+    "description": "Success message after clearing all of a content type",
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "example": "items"
+      }
+    }
+  },
+  "allDataCleared": "All data has been cleared successfully!",
+  "@allDataCleared": {
+    "description": "Success message after clearing all data"
+  },
+  "allItemsCleared": "All items has been cleared successfully!",
+  "@allItemsCleared": {
+    "description": "Success message after clearing all items"
+  },
+  "allCharactersDeleted": "All characters deleted!",
+  "@allCharactersDeleted": {
+    "description": "Success message after deleting all characters"
+  },
+  "allCreaturesDeleted": "All creatures deleted!",
+  "@allCreaturesDeleted": {
+    "description": "Success message after deleting all creatures"
+  },
+  "noFileSelected": "No file selected",
+  "@noFileSelected": {
+    "description": "Message shown when no file is selected for import"
+  },
+  "classesAndFeaturesImported": "Classes and features imported successfully!",
+  "@classesAndFeaturesImported": {
+    "description": "Success message after importing classes and features"
+  },
+  "allContentExported": "All content exported successfully!",
+  "@allContentExported": {
+    "description": "Success message after exporting all content"
+  },
+  "performanceTestsCompleted": "Performance tests completed successfully!",
+  "@performanceTestsCompleted": {
+    "description": "Success message after completing performance tests"
+  },
+  "selectDamageTypes": "Select Damage Types",
+  "@selectDamageTypes": {
+    "description": "Label for damage type field"
+  },
+  "addWeapon": "Add Weapon",
+  "@addWeapon": {
+    "description": "Add Weapon"
+  },
+  "actions": "Actions",
+  "@actions": {
+    "description": "Add Weapon"
+  },
+  "requiresAttunement": "Requires Attunement",
+  "@requiresAttunement": {
+    "description": "requiresAttunement"
+  },
+  "abilityScores": "Attribute Points",
+  "@abilityScores": {
+    "description": "abilityScores"
+  },
+  "chooseAnyAbilityScores": "Choose Any Ability Scores",
+  "@chooseAnyAbilityScores": {
+    "description": "chooseAnyAbilityScores"
+  },
+  "numberOfChoices": "Number of Choices",
+  "@numberOfChoices": {
+    "description": "numberOfChoices"
+  },
+  "restoreDefaultData": "Restore Default Data",
+  "@restoreDefaultData": {
+    "description": "Restore Default Data"
+  },
+  "inspiration": "Inspiration",
+  "@inspiration": {
+    "description": "Inspiration"
+  },
+  "deathSavingThrows": "Death Saving Throws",
+  "@deathSavingThrows": {
+    "description": "Death Saving Throws"
+  },
+  "characterDied": "Character Died!",
+  "@characterDied": {
+    "description": "Character Died!"
+  },
+  "characterStabilized": "Character Stabilized!",
+  "@characterStabilized": {
+    "description": "Character Stabilized!"
+  },
+  "characterIsUnconscious": "Character is now Unconscious",
+  "@characterIsUnconscious": {
+    "description": "Message shown when character becomes unconscious"
+  },
+  "criticalDeathSaveFailure": "Critical failure! Counts as 2 failed death saves",
+  "@criticalDeathSaveFailure": {
+    "description": "Message shown on critical failure (1) for death saving throw"
+  },
+  "criticalDeathSaveSuccess": "Critical success! You regain 1 hit point and become conscious",
+  "@criticalDeathSaveSuccess": {
+    "description": "Message shown on critical success (20) for death saving throw"
+  },
+  "rollDeathSavingThrow": "Roll Death Saving Throw",
+  "@rollDeathSavingThrow": {
+    "description": "Tooltip for death saving throw roll button"
+  },
+  "spellcastingAttribute": "Spellcasting Attribute",
+  "@spellcastingAttribute": {
+    "description": "Label for spellcasting attribute field"
+  },
+  "spellcastingModifier": "Spellcasting Modifier",
+  "@spellcastingModifier": {
+    "description": "Label for spellcasting modifier field"
+  },
+  "spellSaveDc": "Spell Save DC",
+  "@spellSaveDc": {
+    "description": "Label for spell save DC field"
+  },
+  "spellAttackBonus": "Spell Attack Bonus",
+  "@spellAttackBonus": {
+    "description": "Label for spell attack bonus field"
+  },
+  "multiclassSpellcastingRulesInEffect": "Multiclass spellcasting rules in effect",
+  "@multiclassSpellcastingRulesInEffect": {
+    "description": "Message shown when multiclass spellcasting rules are active"
+  },
+  "autoSave": "Auto Save",
+  "@autoSave": {
+    "description": "Label for auto save toggle"
+  },
+  "autoSaveDescription": "Save changes automatically",
+  "@autoSaveDescription": {
+    "description": "Description for auto save feature"
+  },
+  "donate": "Donate",
+  "@donate": {
+    "description": "Label for donation link"
+  },
+  "windowsVersion": "Windows Version",
+  "@windowsVersion": {
+    "description": "Label for Windows version link"
+  },
+  "mobileApps": "Mobile Apps",
+  "@mobileApps": {
+    "description": "Section header for mobile apps"
+  },
+  "iosApp": "iOS App",
+  "@iosApp": {
+    "description": "Label for iOS app link"
+  },
+  "androidApp": "Android",
+  "@androidApp": {
+    "description": "Label for Android app link"
+  },
+  "addCustomLanguage": "Add Custom Language",
+  "@addCustomLanguage": {
+    "description": "Label for Add Custom Language"
+  },
+  "customLanguages": "Custom Languages",
+  "@customLanguages": {
+    "description": "Label for Custom Languages"
+  },
+  "attunementRequired": "Attunement Required",
+  "@attunementRequired": {
+    "description": "Title for attunement required dialog"
+  },
+  "attunementRequiredMessage": "This item requires attunement. Would you like to attune to {title}?",
+  "@attunementRequiredMessage": {
+    "description": "Message shown when an item requires attunement",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Ring of Protection"
+      }
+    }
+  },
+  "yes": "Yes",
+  "@yes": {
+    "description": "Yes button text"
+  },
+  "no": "No",
+  "@no": {
+    "description": "No button text"
+  },
+  "filterSpells": "Filter Spells",
+  "@filterSpells": {
+    "description": "Filter Spells button text"
+  },
+  "clearFilters": "Clear Filters",
+  "@clearFilters": {
+    "description": "Clear Filters button text"
+  },
+  "spellNotPrepared": "Spell Not Prepared",
+  "@spellNotPrepared": {
+    "description": "Message shown when a spell is not prepared"
+  },
+  "tooManyPreparedSpells": "Too many prepared spells",
+  "@tooManyPreparedSpells": {
+    "description": "Message shown when Too many prepared spells"
+  },
+  "cantPrepareMoreSpells": "Can't prepare more spells",
+  "@cantPrepareMoreSpells": {
+    "description": "Message shown when Can't prepare more spells"
+  },
+  "selectPreparingClass": "Select Preparing Class",
+  "@selectPreparingClass": {
+    "description": "Title for class selection dialog when preparing a spell"
+  },
+  "whichClassForPreparing": "Which class are you using to prepare this spell?",
+  "@whichClassForPreparing": {
+    "description": "Question asking which class to use for preparing a spell"
+  },
+  "preparedSpellsCount": "Prepared: {current} / {max}",
+  "@preparedSpellsCount": {
+    "description": "Shows prepared spells count for a class",
+    "placeholders": {
+      "current": {
+        "type": "int",
+        "example": "3"
+      },
+      "max": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "noCompatibleClass": "No Compatible Class",
+  "@noCompatibleClass": {
+    "description": "Title for dialog when no compatible class is found for a spell"
+  },
+  "spellNotCompatibleWithClasses": "This spell cannot be prepared by any of your classes. Check the spell's class tags.",
+  "@spellNotCompatibleWithClasses": {
+    "description": "Message shown when a spell cannot be prepared by any of the character's classes"
+  },
+  "preparedBy": "Prepared by: ",
+  "@preparedBy": {
+    "description": "Label showing which class prepared the spell"
+  },
+  "tags": "Tags:",
+  "@tags": {
+    "description": "Label for spell tags section"
+  },
+  "multiclassSpellcasting": "Multiclass spellcasting",
+  "@multiclassSpellcasting": {
+    "description": "Label for multiclass spellcasting"
+  },
+  "cannotPrepareMoreSpellsWithClass": "You cannot prepare more spells with your {className} class.",
+  "@cannotPrepareMoreSpellsWithClass": {
+    "description": "Message shown when trying to prepare more spells than a specific class allows",
+    "placeholders": {
+      "className": {
+        "type": "String",
+        "example": "Wizard"
+      }
+    }
+  },
+  "castUnpreparedSpellWarning": "This spell is not prepared. Casting an unprepared spell may be less effective or have other consequences according to your DM's discretion. Do you want to continue?",
+  "@castUnpreparedSpellWarning": {
+    "description": "Warning message when attempting to cast an unprepared spell"
+  },
+  "continue_": "Continue",
+  "@continue_": {
+    "description": "Continue button text used in warning dialogs"
+  },
+  "spellAdded": "Spell Added",
+  "@spellAdded": {
+    "description": "Spell Added"
+  },
+  "srdContentLimitationMessage": "Can't find all the options? This app uses by default the D&D content provided by the SRD 5.2 (2024 content). Try finding import files in the community!",
+  "@srdContentLimitationMessage": {
+    "description": "Can't find all the options? This app uses by default the D&D content provided by the SRD 5.2 (2024 content). Try finding import files in the community!"
+  },
+  "filterCharacters": "Filter Characters",
+  "@filterCharacters": {
+    "description": "Filter Characters"
+  },
+  "characterType": "Character Type",
+  "@characterType": {
+    "description": "Character Type"
+  },
+  "all": "All",
+  "@all": {
+    "description": "All"
+  },
+  "skipRollAnimation": "Skip Roll Animation",
+  "@skipRollAnimation": {
+    "description": "Skip Roll Animation"
+  },
+  "exportCharacterToPDF": "Export Character to PDF",
+  "@exportCharacterToPDF": {
+    "description": "Export Character to PDF"
+  },
+  "verbal": "Verbal",
+  "@verbal": {
+    "description": "Verbal"
+  },
+  "somatic": "Somatic",
+  "@somatic": {
+    "description": "Somatic"
+  },
+  "material": "Material",
+  "@material": {
+    "description": "Material"
+  },
+  "materialDesc": "Material Components",
+  "@materialDesc": {
+    "description": "Material Components"
+  },
+  "ritual": "Ritual",
+  "@ritual": {
+    "description": "Ritual"
+  },
+  "preparedby": "Prepared by",
+  "@preparedby": {
+    "description": "Prepared by"
+  },
+  "createOnlineRoom": "Create Online Room",
+  "@createOnlineRoom": {
+    "description": "Button text to create an online room"
+  },
+  "roomName": "Room Name",
+  "@roomName": {
+    "description": "Label for room name field"
+  },
+  "onlineRoomExplanation": "Creating an online room will allow other players to join and view the initiative tracker. Only you can make changes to the tracker.",
+  "@onlineRoomExplanation": {
+    "description": "Explanation for online room creation"
+  },
+  "create": "Create",
+  "@create": {
+    "description": "Button text to create something"
+  },
+  "roomCreated": "Room Created!",
+  "@roomCreated": {
+    "description": "Message shown when an online room is created"
+  },
+  "shareRoomCode": "Share this code with your players:",
+  "@shareRoomCode": {
+    "description": "Instruction to share room code"
+  },
+  "copyCode": "Copy Code",
+  "@copyCode": {
+    "description": "Button text to copy room code"
+  },
+  "copiedToClipboard": "Copied to clipboard",
+  "@copiedToClipboard": {
+    "description": "Message shown when text is copied to clipboard"
+  },
+  "leaveOnlineRoom": "Leave Online Room",
+  "@leaveOnlineRoom": {
+    "description": "Button text to leave an online room"
+  },
+  "leaveOnlineRoomConfirmation": "Are you sure you want to leave this online room? You will no longer receive updates.",
+  "@leaveOnlineRoomConfirmation": {
+    "description": "Confirmation message for leaving an online room"
+  },
+  "leave": "Leave",
+  "@leave": {
+    "description": "Button text to leave something"
+  },
+  "deleteOnlineRoom": "Delete Online Room",
+  "@deleteOnlineRoom": {
+    "description": "Button text to delete an online room"
+  },
+  "deleteOnlineRoomConfirmation": "Are you sure you want to delete this online room? All players will be disconnected.",
+  "@deleteOnlineRoomConfirmation": {
+    "description": "Confirmation message for deleting an online room"
+  },
+  "roomDeleted": "Room deleted successfully",
+  "@roomDeleted": {
+    "description": "Message shown when an online room is deleted"
+  },
+  "failedToDeleteRoom": "Failed to delete room. You might not be the owner.",
+  "@failedToDeleteRoom": {
+    "description": "Message shown when failing to delete an online room"
+  },
+  "resetTracker": "Reset Initiative Tracker",
+  "@resetTracker": {
+    "description": "Button text to reset the initiative tracker"
+  },
+  "resetOnlineTrackerConfirmation": "Do you want to reset the initiative tracker or also delete the online room?",
+  "@resetOnlineTrackerConfirmation": {
+    "description": "Confirmation message for resetting the initiative tracker"
+  },
+  "resetOnly": "Reset Only",
+  "@resetOnly": {
+    "description": "Button text to reset only the initiative tracker"
+  },
+  "resetAndDeleteRoom": "Reset & Delete Room",
+  "@resetAndDeleteRoom": {
+    "description": "Button text to reset the initiative tracker and delete the online room"
+  },
+  "creatingRoom": "Creating room...",
+  "@creatingRoom": {
+    "description": "Message shown while creating an online room"
+  },
+  "copyRoomCode": "Copy Room Code",
+  "@copyRoomCode": {
+    "description": "Button text to copy the room code"
+  },
+  "leaveRoom": "Leave Room",
+  "@leaveRoom": {
+    "description": "Button text to leave the room"
+  },
+  "deleteRoom": "Delete Room",
+  "@deleteRoom": {
+    "description": "Button text to delete the room"
+  },
+  "initiativeRoom": "Initiative Room",
+  "@initiativeRoom": {
+    "description": "Label for initiative room"
+  },
+  "joinOnlineRoom": "Join Online Room",
+  "@joinOnlineRoom": {
+    "description": "Label for initiative room"
+  },
+  "joinOnlineRoomAsSpectator": "Join Online Room as Spectator",
+  "@joinOnlineRoomAsSpectator": {
+    "description": "Label for initiative room"
+  },
+  "roomCode": "Room Code",
+  "@roomCode": {
+    "description": "Label for initiative room"
+  },
+  "joinOnlineRoomExplanation": "Join Initiative Room",
+  "@joinOnlineRoomExplanation": {
+    "description": "Label for initiative room"
+  },
+  "join": "Join",
+  "@join": {
+    "description": "Label for initiative room"
+  },
+  "roomNotFound": "Room Not Found",
+  "@roomNotFound": {
+    "description": "Label for initiative room"
+  },
+  "connectedToRoom": "Connected to room",
+  "@connectedToRoom": {
+    "description": "Label for initiative room"
+  },
+  "failedToConnectToRoom": "Failed to connect to room",
+  "@failedToConnectToRoom": {
+    "description": "Label for initiative room"
+  },
+  "endYourTurn": "End Your Turn",
+  "@endYourTurn": {
+    "description": "Label for initiative room"
+  },
+  "joinInitiativeRoom": "Join Initiative Room",
+  "@joinInitiativeRoom": {
+    "description": "Label for initiative room"
+  },
+  "premiumFeatureRequired": "Premium Feature Required",
+  "@premiumFeatureRequired": {
+    "description": "Title for the premium feature required dialog"
+  },
+  "onlineInitiativeRequiresPremium": "Online initiative tracking is a premium feature.",
+  "@onlineInitiativeRequiresPremium": {
+    "description": "Message indicating that online initiative tracking requires premium"
+  },
+  "purchaseUnlimitedCharactersToUnlock": "Purchase the full app option to unlock this feature.",
+  "@purchaseUnlimitedCharactersToUnlock": {
+    "description": "Message instructing to purchase unlimited characters to unlock premium features"
+  },
+  "unlockPremium": "Unlock Premium",
+  "@unlockPremium": {
+    "description": "Button text to unlock premium features"
+  },
+  "account": "Account",
+  "@account": {
+    "description": "Account"
+  },
+  "loginRequiredForOnlineFeatures": "The login feature is only used for Online functionalities. No user data is saved or used for other purposes.",
+  "@loginRequiredForOnlineFeatures": {
+    "description": "Login is required to use online features"
+  },
+  "halfProficient": "Half Proficiency Bonus",
+  "@halfProficient": {
+    "description": "Label for proficiency bonus"
+  },
+  "userDefault": "User",
+  "@userDefault": {
+    "description": "Default text when user's display name is not available"
+  },
+  "noEmail": "No email",
+  "@noEmail": {
+    "description": "Text shown when user's email is not available"
+  },
+  "signingOut": "Signing out...",
+  "@signingOut": {
+    "description": "Text shown while user is signing out"
+  },
+  "signOut": "Sign out",
+  "@signOut": {
+    "description": "Button text for signing out"
+  },
+  "signIn": "Sign In",
+  "@signIn": {
+    "description": "Button text and header for sign in"
+  },
+  "createAccount": "Create Account",
+  "@createAccount": {
+    "description": "Header text for creating a new account"
+  },
+  "pleaseWait": "Please wait...",
+  "@pleaseWait": {
+    "description": "Text shown during loading states"
+  },
+  "register": "Register",
+  "@register": {
+    "description": "Button text for registration"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Label for email field"
+  },
+  "enterEmail": "Please enter your email",
+  "@enterEmail": {
+    "description": "Error message when email is empty"
+  },
+  "enterValidEmail": "Please enter a valid email",
+  "@enterValidEmail": {
+    "description": "Error message when email is invalid"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Label for password field"
+  },
+  "enterPassword": "Please enter your password",
+  "@enterPassword": {
+    "description": "Error message when password is empty"
+  },
+  "passwordRequirement": "Password must be at least 6 characters",
+  "@passwordRequirement": {
+    "description": "Error message when password is too short"
+  },
+  "forgotPassword": "Forgot Password?",
+  "@forgotPassword": {
+    "description": "Button text for password reset"
+  },
+  "dontHaveAccount": "Don't have an account? Sign Up",
+  "@dontHaveAccount": {
+    "description": "Text to switch from login to registration"
+  },
+  "alreadyHaveAccount": "Already have an account? Sign In",
+  "@alreadyHaveAccount": {
+    "description": "Text to switch from registration to login"
+  },
+  "signInWithGoogle": "Sign in with Google",
+  "@signInWithGoogle": {
+    "description": "Button text for Google authentication"
+  },
+  "signInWithApple": "Sign in with Apple",
+  "@signInWithApple": {
+    "description": "Button text for Apple authentication"
+  },
+  "passwordResetSent": "Password reset email sent to {email}",
+  "@passwordResetSent": {
+    "description": "Message shown when password reset email is sent",
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "user@example.com"
+      }
+    }
+  },
+  "enterEmailForReset": "Please enter your email address",
+  "@enterEmailForReset": {
+    "description": "Error message when trying to reset password without email"
+  },
+  "toolProficiencies": "Tool Proficiencies",
+  "@toolProficiencies": {
+    "description": "Label for tool proficiencies section"
+  },
+  "customToolProficiency": "Custom Tool Proficiency",
+  "@customToolProficiency": {
+    "description": "Label for custom tool proficiency"
+  },
+  "enterCustomTool": "Enter custom tool proficiency",
+  "@enterCustomTool": {
+    "description": "Placeholder for custom tool proficiency input"
+  },
+  "selectTools": "Select Tools",
+  "@selectTools": {
+    "description": "Label for tool selection"
+  },
+  "commonTools": "Common Tools",
+  "@commonTools": {
+    "description": "Label for common tools"
+  },
+  "selectedTools": "Selected Tools",
+  "@selectedTools": {
+    "description": "Label for selected tools"
+  },
+  "otheralwaysprepared": "(Other) Always Prepared",
+  "@otheralwaysprepared": {
+    "description": "Label for selected tools"
+  },
+  "alwaysprepareddesc": "Spells that are always prepared",
+  "@alwaysprepareddesc": {
+    "description": "Label for selected tools"
+  },
+  "alwaysprepared": "Always Prepared",
+  "@alwaysprepared": {
+    "description": "Label for selected tools"
+  },
+  "gotit": "Got it",
+  "@gotit": {
+    "description": ""
+  },
+  "initiativePreviousRestored": "Previous combat session restored",
+  "@initiativePreviousRestored": {
+    "description": " Message shown when previous combat session is restored"
+  },
+  "roomNoLongerExists": "The online room no longer exists",
+  "@roomNoLongerExists": {
+    "description": "Message shown when the online initiative room no longer exists"
+  },
+  "errorConnectingRoom": "Error connecting to online room: {error}",
+  "@errorConnectingRoom": {
+    "description": "Message shown when there's an error connecting to online room",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotEditPlayerItems": "You cannot edit items from Player Characters here",
+  "@cannotEditPlayerItems": {
+    "description": "Message shown when trying to edit player character items in initiative tracker"
+  },
+  "noWeaponActionsAvailable": "No weapon actions available",
+  "@noWeaponActionsAvailable": {
+    "description": "Message shown when no weapon actions are available for a character"
+  },
+  "addTemporaryHP": "Add Temporary HP",
+  "@addTemporaryHP": {
+    "description": "Title for adding temporary hit points"
+  },
+  "applyTemporaryHP": "Apply Temporary HP",
+  "@applyTemporaryHP": {
+    "description": "Button to apply temporary hit points"
+  },
+  "roundsRemaining": "{count, plural, =1{1 round remaining} other{{count} rounds remaining}}",
+  "@roundsRemaining": {
+    "description": "Text showing how many rounds of a condition remain",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "durationRounds": "Duration (rounds, 0 = until removed manually)",
+  "@durationRounds": {
+    "description": "Label for duration in rounds field"
+  },
+  "durationHelperText": "Number of rounds this condition will last",
+  "@durationHelperText": {
+    "description": "Helper text explaining the duration field"
+  },
+  "pickColor": "Pick a color",
+  "@pickColor": {
+    "description": "Title for color picker dialog"
+  },
+  "roomTimeout": "Room listener timed out - cleaning up room connection",
+  "@roomTimeout": {
+    "description": "Message when room connection times out"
+  },
+  "unableToConnectRoom": "Unable to connect to the online room - connection timed out",
+  "@unableToConnectRoom": {
+    "description": "Message when unable to connect to online room"
+  },
+  "failedToCreateRoom": "Failed to create online room: {error}",
+  "@failedToCreateRoom": {
+    "description": "Message when room creation fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "removeCombatant": "Remove {name}?",
+  "@removeCombatant": {
+    "description": "Confirmation message when removing a combatant",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "editArmorClass": "Edit {name}'s Armor Class",
+  "@editArmorClass": {
+    "description": "Title for armor class edit dialog",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "editHP": "Edit {name}'s HP",
+  "@editHP": {
+    "description": "Title for HP edit dialog",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "allUsesOnShortRest": "All uses on short rest",
+  "@allUsesOnShortRest": {
+    "description": "Text indicating a resource recovers all uses on short rest"
+  },
+  "usesOnShortRest": "{count} use(s) on short rest",
+  "@usesOnShortRest": {
+    "description": "Text indicating how many uses recover on short rest",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "allUsesOnLongRest": "All uses on long rest",
+  "@allUsesOnLongRest": {
+    "description": "Text indicating a resource recovers all uses on long rest"
+  },
+  "usesOnLongRest": "{count} use(s) on long rest",
+  "@usesOnLongRest": {
+    "description": "Text indicating how many uses recover on long rest",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "spectatorModeInfo": "Spectator Mode disables all combatant actions and allows you to view the initiative tracker without being a DM.",
+  "@spectatorModeInfo": {
+    "description": ""
+  },
+  "disableSpectatorMode": "Disable Spectator Mode",
+  "@disableSpectatorMode": {
+    "description": ""
+  },
+  "enableSpectatorMode": "Enable Spectator Mode",
+  "@enableSpectatorMode": {
+    "description": ""
+  },
+  "joinAsSpectator": "Join as Spectator",
+  "@joinAsSpectator": {
+    "description": ""
+  },
+  "connectedAsSpectator": "Connected as spectator",
+  "@connectedAsSpectator": {
+    "description": ""
+  },
+  "notes": "Notes",
+  "@notes": {
+    "description": ""
+  },
+  "manageYourNotes": "Manage Your Notes",
+  "@manageYourNotes": {
+    "description": ""
+  },
+  "youHaveNotes": "{count, plural, =1{You have 1 note} other{You have {count} notes}}",
+  "@youHaveNotes": {
+    "description": "Text showing how many notes the user has",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "addNote": "Add Note",
+  "@addNote": {
+    "description": ""
+  },
+  "newNote": "New Note",
+  "@newNote": {
+    "description": ""
+  },
+  "editNote": "Edit Note",
+  "@editNote": {
+    "description": ""
+  },
+  "deleteNote": "Delete Note",
+  "@deleteNote": {
+    "description": ""
+  },
+  "deleteNoteConfirmation": "Are you sure you want to delete this note?",
+  "@deleteNoteConfirmation": {
+    "description": ""
+  },
+  "content": "Content",
+  "@content": {
+    "description": ""
+  },
+  "markAsImportant": "Mark as Important",
+  "@markAsImportant": {
+    "description": ""
+  },
+  "untitledNote": "Untitled Note",
+  "@untitledNote": {
+    "description": ""
+  },
+  "noNotes": "No Notes",
+  "@noNotes": {
+    "description": ""
+  },
+  "searchNotes": "Search Notes",
+  "@searchNotes": {
+    "description": ""
+  },
+  "searchNotesHint": "Search by title, content, or tags",
+  "@searchNotesHint": {
+    "description": ""
+  },
+  "addTag": "Add Tag",
+  "@addTag": {
+    "description": ""
+  },
+  "loginRequiredForSync": "Login Required for Sync",
+  "@loginRequiredForSync": {
+    "description": ""
+  },
+  "characterUploaded": "Character Uploaded",
+  "@characterUploaded": {
+    "description": ""
+  },
+  "characterSynced": "Character Synced",
+  "@characterSynced": {
+    "description": ""
+  },
+  "syncError": "Sync Error",
+  "@syncError": {
+    "description": ""
+  },
+  "downloadedServerVersion": "Downloaded Server Version",
+  "@downloadedServerVersion": {
+    "description": ""
+  },
+  "uploadedLocalVersion": "Uploaded Local Version",
+  "@uploadedLocalVersion": {
+    "description": ""
+  },
+  "characterAlreadySynced": "Character Already Synced",
+  "@characterAlreadySynced": {
+    "description": ""
+  },
+  "syncConflict": "Sync Conflict",
+  "@syncConflict": {
+    "description": ""
+  },
+  "conflictDetectedDescription": "Conflict detected. Choose which version to keep.",
+  "@conflictDetectedDescription": {
+    "description": ""
+  },
+  "serverVersion": "Server Version",
+  "@serverVersion": {
+    "description": ""
+  },
+  "localVersion": "Local Version",
+  "@localVersion": {
+    "description": ""
+  },
+  "keepLocalVersion": "Keep Local Version",
+  "@keepLocalVersion": {
+    "description": ""
+  },
+  "useServerVersion": "Use Server Version",
+  "@useServerVersion": {
+    "description": ""
+  },
+  "syncEnabled": "Sync Enabled",
+  "@syncEnabled": {
+    "description": ""
+  },
+  "syncDisabled": "Sync Disabled",
+  "@syncDisabled": {
+    "description": ""
+  },
+  "charactersSynced": "Characters Synced",
+  "@charactersSynced": {
+    "description": ""
+  },
+  "filterFeatures": "Filter Features",
+  "@filterFeatures": {
+    "description": ""
+  },
+  "exactMatch": "Exact match",
+  "@exactMatch": {
+    "description": "Label for exact match checkbox in filters"
+  },
+  "excludeByName": "Exclude by name:",
+  "@excludeByName": {
+    "description": "Label for exclude by name filter"
+  },
+  "excludeFeaturesInName": "Exclude features containing this text in name",
+  "@excludeFeaturesInName": {
+    "description": "Hint text for exclude by name filter"
+  },
+  "exactMatchForExclusion": "Exact match for exclusion",
+  "@exactMatchForExclusion": {
+    "description": "Label for exact match exclusion checkbox"
+  },
+  "excludeByType": "Exclude by type:",
+  "@excludeByType": {
+    "description": "Label for exclude by type filter"
+  },
+  "excludeFeaturesInType": "Exclude features containing this text in type",
+  "@excludeFeaturesInType": {
+    "description": "Hint text for exclude by type filter"
+  },
+  "featureProperties": "Feature Properties",
+  "@featureProperties": {
+    "description": "Section title for feature properties filters"
+  },
+  "hasPrerequisites": "Has Prerequisites",
+  "@hasPrerequisites": {
+    "description": "Filter option for features with prerequisites"
+  },
+  "hasSpellcasting": "Has Spellcasting",
+  "@hasSpellcasting": {
+    "description": "Filter option for features with spellcasting"
+  },
+  "hasCustomFields": "Has Custom Fields",
+  "@hasCustomFields": {
+    "description": "Filter option for features with custom fields"
+  },
+  "noChargesLeft": "No charges left",
+  "@noChargesLeft": {
+    "description": "Message when an item has no charges left"
+  },
+  "useCharge": "Use Charge",
+  "@useCharge": {
+    "description": "Button or dialog title for using an item charge"
+  },
+  "currentCharges": "Current charges: {count}",
+  "@currentCharges": {
+    "description": "Shows current charges of an item",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "consumeCustomCharges": "Consume Charges",
+  "@consumeCustomCharges": {
+    "description": "Dialog title for custom charge consumption"
+  },
+  "chargesToUse": "Charges to use",
+  "@chargesToUse": {
+    "description": "Label for input field to specify number of charges to use"
+  },
+  "enterValidNumber": "Please enter a valid number",
+  "@enterValidNumber": {
+    "description": "Error message when invalid number is entered"
+  },
+  "charges": "Charges",
+  "@charges": {
+    "description": "Label for item charges"
+  },
+  "rechargeInfo": "Recharges at {when}",
+  "@rechargeInfo": {
+    "description": "Information about when an item recharges",
+    "placeholders": {
+      "when": {
+        "type": "String",
+        "example": "dawn"
+      }
+    }
+  },
+  "dawn": "dawn",
+  "@dawn": {
+    "description": "Time of day: dawn"
+  },
+  "dusk": "dusk",
+  "@dusk": {
+    "description": "Time of day: dusk"
+  },
+  "special": "special conditions",
+  "@special": {
+    "description": "Special recharge conditions"
+  },
+  "itemsRecharged": "Recharged: {items}",
+  "@itemsRecharged": {
+    "description": "Message showing which items recharged",
+    "placeholders": {
+      "items": {
+        "type": "String",
+        "example": "Wand of Magic Missiles, Staff of Fire"
+      }
+    }
+  },
+  "custom": "Custom",
+  "@custom": {
+    "description": "Label for custom option"
+  },
+  "options": "Options",
+  "@options": {
+    "description": "Label for options"
+  },
+  "shareOrDuplicateCharacter": "Would you like to share this character or create a duplicate?",
+  "@shareOrDuplicateCharacter": {
+    "description": "Message asking if the user wants to share or duplicate a character"
+  },
+  "shareOrDuplicateCampaign": "Would you like to share this Campaign or create a duplicate?",
+  "@shareOrDuplicateCampaign": {
+    "description": "Message asking if the user wants to share or duplicate a Campaign"
+  },
+  "share": "Share",
+  "@share": {
+    "description": "Share"
+  },
+  "duplicate": "Duplicate",
+  "@duplicate": {
+    "description": "Duplicate"
+  },
+  "consumeQuantityOnAttack": "Consume Quantity On Attack",
+  "@consumeQuantityOnAttack": {
+    "description": "When enabled, using this item for an attack will decrease its quantity by 1"
+  },
+  "notEnoughItemsToAttack": "Not enough items to attack",
+  "@notEnoughItemsToAttack": {
+    "description": "Message shown when there are not enough items to perform an attack"
+  },
+  "zeroForPermanent": "0 for Permanent",
+  "@zeroForPermanent": {
+    "description": "Message shown when setting quantity to zero for permanent conditions"
+  },
+  "encounterSavedToCampaign": "Encounter saved to campaign",
+  "@encounterSavedToCampaign": {
+    "description": "Message"
+  },
+  "errorSavingEncounter": "Error saving encounter",
+  "@errorSavingEncounter": {
+    "description": "Message"
+  },
+  "saveToCampaign": "Save to Campaign",
+  "@saveToCampaign": {
+    "description": "Message"
+  },
+  "dmtools": "DM Tools",
+  "@dmtools": {
+    "description": "Message"
+  },
+  "campaigns": "Campaigns",
+  "@campaigns": {
+    "description": "Message"
+  },
+  "bestiary": "Bestiary",
+  "@bestiary": {
+    "description": "Message"
+  },
+  "averageResultsCalculator": "Average Results Calculator",
+  "@averageResultsCalculator": {
+    "description": "Message"
+  },
+  "mobRulesCalculatorTitle": "Mob Calculator",
+  "@mobRulesCalculatorTitle": {
+    "description": "Title for the mob rules calculator page"
+  },
+  "mobRulesCalculatorHeading": "Mob Attack Calculator",
+  "@mobRulesCalculatorHeading": {
+    "description": "Main heading of the mob rules calculator"
+  },
+  "mobRulesCalculatorDescription": "Calculate how many creatures in a mob succeed on attacks or saving throws.",
+  "@mobRulesCalculatorDescription": {
+    "description": "Description text explaining the purpose of the calculator"
+  },
+  "mobRulesCalculatorParameters": "Parameters",
+  "@mobRulesCalculatorParameters": {
+    "description": "Section title for the parameters section"
+  },
+  "mobRulesCalculatorCreatureCount": "Number of Creatures:",
+  "@mobRulesCalculatorCreatureCount": {
+    "description": "Label for creature count input field"
+  },
+  "mobRulesCalculatorMonsterBonus": "Monster Bonus:",
+  "@mobRulesCalculatorMonsterBonus": {
+    "description": "Label for monster bonus input field"
+  },
+  "mobRulesCalculatorTarget": "Target (AC/DC):",
+  "@mobRulesCalculatorTarget": {
+    "description": "Label for target value input field"
+  },
+  "mobRulesCalculatorRollType": "Roll Type:",
+  "@mobRulesCalculatorRollType": {
+    "description": "Label for advantage type selection"
+  },
+  "mobRulesCalculatorCalculateButton": "CALCULATE",
+  "@mobRulesCalculatorCalculateButton": {
+    "description": "Text for the calculate button"
+  },
+  "mobRulesCalculatorResults": "Results",
+  "@mobRulesCalculatorResults": {
+    "description": "Section title for the results section"
+  },
+  "mobRulesCalculatorSuccesses": "Successes",
+  "@mobRulesCalculatorSuccesses": {
+    "description": "Label for number of successes"
+  },
+  "mobRulesCalculatorFailures": "Failures",
+  "@mobRulesCalculatorFailures": {
+    "description": "Label for number of failures"
+  },
+  "mobRulesCalculatorInterpretation": "Interpretation: {successes} creatures hit their target (or save), and {failures} creatures miss (or fail to save).",
+  "@mobRulesCalculatorInterpretation": {
+    "description": "Text explaining the meaning of the results",
+    "placeholders": {
+      "successes": {
+        "type": "int",
+        "example": "3"
+      },
+      "failures": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "campaignsPageTitle": "Campaigns",
+  "campaignsLoadError": "Failed to load campaigns: {error}",
+  "@campaignsLoadError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "campaignsEmpty": "No campaigns yet",
+  "campaignsEmptyDescription": "Create your first campaign to get started",
+  "createCampaignButton": "Create Campaign",
+  "playersCount": "{count} players",
+  "@playersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notesCount": "{count} notes",
+  "@notesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "encountersCount": "{count} encounters",
+  "@encountersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "createNewCampaign": "Create New Campaign",
+  "@createNewCampaign": {
+    "description": "Title for the create new campaign dialog"
+  },
+  "campaignNameLabel": "Campaign Name",
+  "@campaignNameLabel": {
+    "description": "Label for the campaign name input field"
+  },
+  "campaignNameHint": "Enter a name for your campaign",
+  "@campaignNameHint": {
+    "description": "Hint text for the campaign name input field"
+  },
+  "campaignDescriptionHint": "Describe your campaign",
+  "@campaignDescriptionHint": {
+    "description": "Hint text for the campaign description input field"
+  },
+  "campaignNameRequired": "Please enter a campaign name",
+  "@campaignNameRequired": {
+    "description": "Error message when campaign name is empty"
+  },
+  "createCampaignError": "Failed to create campaign: {error}",
+  "@createCampaignError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteCampaignTitle": "Delete Campaign",
+  "@deleteCampaignTitle": {
+    "description": "Title for the delete campaign dialog"
+  },
+  "deleteCampaignConfirmation": "Are you sure you want to delete this campaign? This action cannot be undone.",
+  "@deleteCampaignConfirmation": {
+    "description": "Confirmation message for deleting a campaign"
+  },
+  "campaignDeletedSuccess": "Campaign deleted",
+  "@campaignDeletedSuccess": {
+    "description": "Message shown when a campaign is successfully deleted"
+  },
+  "campaignDeleteError": "Error deleting campaign: {error}",
+  "@campaignDeleteError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "campaign": "Campaign",
+  "@campaign": {
+    "description": "Default title for campaign screen"
+  },
+  "disableEditing": "Disable Editing",
+  "@disableEditing": {
+    "description": "Tooltip for disabling edit mode"
+  },
+  "enableEditing": "Enable Editing",
+  "@enableEditing": {
+    "description": "Tooltip for enabling edit mode"
+  },
+  "addCampaignImage": "Add Campaign Image",
+  "@addCampaignImage": {
+    "description": "Text shown when no campaign image is available"
+  },
+  "changeImage": "Change Image",
+  "@changeImage": {
+    "description": "Tooltip for changing image button"
+  },
+  "campaignName": "Campaign Name",
+  "@campaignName": {
+    "description": "Label for campaign name field"
+  },
+  "encounters": "Encounters",
+  "@encounters": {
+    "description": "Tab label for encounters"
+  },
+  "characters": "Characters",
+  "@characters": {
+    "description": "Tab label for characters"
+  },
+  "searchByTitleContentOrTags": "Search by title, content, or tags",
+  "@searchByTitleContentOrTags": {
+    "description": "Hint text for notes search field"
+  },
+  "noNotesYet": "No notes yet",
+  "@noNotesYet": {
+    "description": "Text shown when no notes exist"
+  },
+  "noMatchingNotesFound": "No matching notes found",
+  "@noMatchingNotesFound": {
+    "description": "Text shown when search returns no results"
+  },
+  "campaignEncounters": "Campaign Encounters",
+  "@campaignEncounters": {
+    "description": "Title for encounters section"
+  },
+  "noEncountersYet": "No encounters yet",
+  "@noEncountersYet": {
+    "description": "Text shown when no encounters exist"
+  },
+  "createYourFirstEncounter": "Create your first encounter",
+  "@createYourFirstEncounter": {
+    "description": "Prompt to create first encounter"
+  },
+  "combatants": "{count} combatants",
+  "@combatants": {
+    "description": "Text showing number of combatants",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "launchInInitiativeTracker": "Launch in Initiative Tracker",
+  "@launchInInitiativeTracker": {
+    "description": "Tooltip for initiative tracker button"
+  },
+  "markAsActive": "Mark as active",
+  "@markAsActive": {
+    "description": "Tooltip for marking encounter as active"
+  },
+  "markAsCompleted": "Mark as completed",
+  "@markAsCompleted": {
+    "description": "Tooltip for marking encounter as completed"
+  },
+  "campaignCharacters": "Campaign Characters",
+  "@campaignCharacters": {
+    "description": "Title for characters section"
+  },
+  "noCharactersInCampaign": "No characters in this campaign",
+  "@noCharactersInCampaign": {
+    "description": "Text shown when no characters exist in campaign"
+  },
+  "addPlayerCharactersToCampaign": "Add player characters to your campaign",
+  "@addPlayerCharactersToCampaign": {
+    "description": "Prompt to add characters to campaign"
+  },
+  "levelMulticlass": "Level {level} Multiclass",
+  "@levelMulticlass": {
+    "description": "Text for multiclass character level",
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "levelClass": "Level {level} {className}",
+  "@levelClass": {
+    "description": "Text for character level and class",
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "className": {
+        "type": "String"
+      }
+    }
+  },
+  "removeFromCampaign": "Remove from campaign",
+  "@removeFromCampaign": {
+    "description": "Tooltip for removing character from campaign"
+  },
+  "createEncounter": "Create Encounter",
+  "@createEncounter": {
+    "description": "Title for create encounter dialog"
+  },
+  "editEncounter": "Edit Encounter",
+  "@editEncounter": {
+    "description": "Title for edit encounter dialog"
+  },
+  "encounterName": "Encounter Name",
+  "@encounterName": {
+    "description": "Label for encounter name field"
+  },
+  "enterEncounterName": "Enter a name for this encounter",
+  "@enterEncounterName": {
+    "description": "Hint for encounter name field"
+  },
+  "describeEncounter": "Describe this encounter",
+  "@describeEncounter": {
+    "description": "Hint for encounter description field"
+  },
+  "pleaseEnterEncounterName": "Please enter an encounter name",
+  "@pleaseEnterEncounterName": {
+    "description": "Validation message for empty encounter name"
+  },
+  "createEncounterTooltip": "Create Encounter",
+  "@createEncounterTooltip": {
+    "description": "Tooltip for create encounter button"
+  },
+  "removeCharacterConfirmation": "Are you sure you want to remove this character from the campaign?",
+  "@removeCharacterConfirmation": {
+    "description": "Confirmation message for removing character"
+  },
+  "deleteEncounterConfirmation": "Are you sure you want to delete this encounter?",
+  "@deleteEncounterConfirmation": {
+    "description": "Confirmation message for deleting encounter"
+  },
+  "editCoinWeight": "Edit Coin Weight",
+  "@editCoinWeight": {
+    "description": "Title for the dialog to edit coin weight"
+  },
+  "coinWeightDescription": "Set the weight of a single coin. This affects the calculation of your total carrying weight.",
+  "@coinWeightDescription": {
+    "description": "Description text for the coin weight dialog"
+  },
+  "weightPerCoin": "Weight per coin",
+  "@weightPerCoin": {
+    "description": "Label for the coin weight input field"
+  },
+  "coinWeightHint": "e.g., 0.02 for standard 5e",
+  "@coinWeightHint": {
+    "description": "Hint text for the coin weight input field"
+  },
+  "coinWeightSettings": "Coin weight settings",
+  "@coinWeightSettings": {
+    "description": "Tooltip for the coin weight settings button"
+  },
+  "ungroupCombatants": "Ungroup Combatants",
+  "@ungroupCombatants": {
+    "description": ""
+  },
+  "groupCombatants": "Group Combatants",
+  "@groupCombatants": {
+    "description": ""
+  },
+  "identicalCombatants": "Identical Combatants ({number})",
+  "@identicalCombatants": {
+    "description": "",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "searchEncounters": "Search Encounters",
+  "@searchEncounters": {
+    "description": ""
+  },
+  "noMatchingEncountersFound": "No matching encounters found",
+  "@noMatchingEncountersFound": {
+    "description": ""
+  },
+  "tryDifferentSearch": "Try different search",
+  "@tryDifferentSearch": {
+    "description": ""
+  },
+  "searchByNameOrDescription": "Search by name or description",
+  "@searchByNameOrDescription": {
+    "description": ""
+  },
+  "toggleVisibility": "Toggle Visibility",
+  "@toggleVisibility": {
+    "description": ""
+  },
+  "visibilitySettings": "Visibility Settings",
+  "@visibilitySettings": {
+    "description": ""
+  },
+  "chooseFieldsToHide": "Choose fields to hide",
+  "@chooseFieldsToHide": {
+    "description": ""
+  },
+  "damageTypes": "Damage Types",
+  "@damageTypes": {
+    "description": ""
+  },
+  "noDamageTypesSelected": "No damage types selected",
+  "@noDamageTypesSelected": {
+    "description": ""
+  },
+  "companions": "Companions",
+  "@companions": {
+    "description": ""
+  },
+  "removeCompanionConfirm": "Are you sure you want to remove ({companionName})?",
+  "@removeCompanionConfirm": {
+    "description": "",
+    "placeholders": {
+      "companionName": {
+        "type": "String"
+      }
+    }
+  },
+  "removeCompanion": "Remove Companion",
+  "@removeCompanion": {
+    "description": ""
+  },
+  "addCompanion": "Add Companion",
+  "@addCompanion": {
+    "description": ""
+  },
+  "noCompanions": "No companions added yet",
+  "@noCompanions": {
+    "description": ""
+  },
+  "characterBonuses": "Character Bonuses",
+  "@characterBonuses": {
+    "description": "Label for character bonuses section"
+  },
+  "armorClassBonus": "Armor Class Bonus",
+  "@armorClassBonus": {
+    "description": "Label for armor class bonus field"
+  },
+  "savingThrowBonus": "Saving Throw Bonus",
+  "@savingThrowBonus": {
+    "description": "Label for saving throw bonus field"
+  },
+  "weaponBonus": "Weapon Bonus",
+  "@weaponBonus": {
+    "description": "Label for weapon bonus field"
+  },
+  "weaponBonusHit": "Weapon Bonus Hit",
+  "@weaponBonusHit": {
+    "description": "Label for weapon bonus field"
+  },
+  "weaponBonusDmg": "Weapon Bonus Damage",
+  "@weaponBonusDmg": {
+    "description": "Label for weapon bonus field"
+  },
+  "spellSaveDCBonus": "Spell Save DC Bonus",
+  "@spellSaveDCBonus": {
+    "description": "Label for spell save DC bonus field"
+  },
+  "hitPointsBonus": "Hit Points Bonus",
+  "@hitPointsBonus": {
+    "description": "Label for hit points bonus field"
+  },
+  "initiativeBonus": "Initiative Bonus",
+  "@initiativeBonus": {
+    "description": "Label for initiative bonus field"
+  },
+  "speedBonus": "Speed Bonus",
+  "@speedBonus": {
+    "description": "Label for speed bonus field"
+  },
+  "passivePerceptionBonus": "Passive Perception Bonus",
+  "@passivePerceptionBonus": {
+    "description": "Label for passive perception bonus field"
+  },
+  "proficientSkills": "Proficient Skills",
+  "@proficientSkills": {
+    "description": "Label for proficient skills section"
+  },
+  "skillExpertise": "Skill Expertise",
+  "@skillExpertise": {
+    "description": "Label for skill expertise section"
+  },
+  "halfProficiencySkills": "Half Proficiency Skills",
+  "@halfProficiencySkills": {
+    "description": "Label for half proficiency skills section"
+  },
+  "noneSelected": "None selected",
+  "@noneSelected": {
+    "description": "Message when no options are selected"
+  },
+  "magicBonuses": "Magic Bonuses",
+  "@magicBonuses": {
+    "description": "Label for magic bonuses section"
+  },
+  "weaponMagicBonus": "Weapon Magic Bonus (+1, +2, etc.)",
+  "@weaponMagicBonus": {
+    "description": "Label for weapon magic bonus field"
+  },
+  "tiny": "Tiny",
+  "@tiny": {
+    "description": "Label for Sizes"
+  },
+  "small": "Small",
+  "@small": {
+    "description": "Label for Sizes"
+  },
+  "medium": "Medium",
+  "@medium": {
+    "description": "Label for Sizes"
+  },
+  "large": "Large",
+  "@large": {
+    "description": "Label for Sizes"
+  },
+  "huge": "Huge",
+  "@huge": {
+    "description": "Label for Sizes"
+  },
+  "gargantuan": "Gargantuan",
+  "@gargantuan": {
+    "description": "Label for Sizes"
+  },
+  "itemFeatureProficiencyBonus": "Items/Features/Feats Bonus: +{bonus}",
+  "@itemFeatureProficiencyBonus": {
+    "description": "Text showing bonus from items and features to proficiency",
+    "placeholders": {
+      "bonus": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "itemFeatureSavingThrowBonus": "Items/Features/Feats Saving Throw Bonus: +{bonus}",
+  "@itemFeatureSavingThrowBonus": {
+    "description": "Text showing bonus from items and features to saving throws",
+    "placeholders": {
+      "bonus": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "skillHasProficiencyFrom": "This skill has proficiency from:",
+  "@skillHasProficiencyFrom": {
+    "description": ""
+  },
+  "proficiencyWillTakePriority": "Your character's proficiencies will take priority if set.",
+  "@proficiencyWillTakePriority": {
+    "description": ""
+  },
+  "conditionImmunities": "Condition Immunities",
+  "@conditionImmunities": {
+    "description": ""
+  },
+  "proficiencies": "Proficiencies",
+  "@proficiencies": {
+    "description": ""
+  },
+  "enterProficiency": "Enter Proficiency",
+  "@enterProficiency": {
+    "description": ""
+  },
+  "subspecies": "Variant Species",
+  "@subspecies": {
+    "description": ""
+  },
+  "noSubspeciesAdded": "No Variant Species Added",
+  "@noSubspeciesAdded": {
+    "description": ""
+  },
+  "addSubspecies": "Add Variant Species",
+  "@addSubspecies": {
+    "description": ""
+  },
+  "spellAbility": "Spell Ability",
+  "@spellAbility": {
+    "description": ""
+  },
+  "enterSpellAbility": "Enter Spell Ability",
+  "@enterSpellAbility": {
+    "description": ""
+  },
+  "ascending": "Ascending",
+  "@ascending": {
+    "description": ""
+  },
+  "descending": "Descending",
+  "@descending": {
+    "description": ""
+  },
+  "sortBy": "Sort By",
+  "@sortBy": {
+    "description": ""
+  },
+  "syncRequiresPurchase": "Sync requires purchase",
+  "@syncRequiresPurchase": {
+    "description": ""
+  },
+  "selectImageSource": "Select Image Source",
+  "@selectImageSource": {
+    "description": "Title for image source selection dialog"
+  },
+  "gallery": "Gallery",
+  "@gallery": {
+    "description": "Option to select image from gallery"
+  },
+  "imageUrl": "Image URL",
+  "@imageUrl": {
+    "description": "Option to enter image URL"
+  },
+  "enterImageUrl": "Enter Image URL",
+  "@enterImageUrl": {
+    "description": "Placeholder for image URL input field"
+  },
+  "invalidImageUrl": "Invalid image URL. Please enter a valid URL ending with .jpg, .png, .gif, etc.",
+  "@invalidImageUrl": {
+    "description": "Error message for invalid image URL"
+  },
+  "removeImage": "Remove Image",
+  "@removeImage": {
+    "description": "Option to remove selected image"
+  },
+  "plusSkillsFromSpecies": "Plus {count} skill{count, plural, =1{} other{s}} from your species ({speciesName})",
+  "@plusSkillsFromSpecies": {
+    "description": "Message showing number of skills from character species",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      },
+      "speciesName": {
+        "type": "String",
+        "example": "Elf"
+      }
+    }
+  },
+  "total": "Total",
+  "@total": {
+    "description": ""
+  },
+  "createSpellFilter": "Create Spell Filter",
+  "@createSpellFilter": {
+    "description": "Title for creating a new spell filter"
+  },
+  "editSpellFilter": "Edit Spell Filter",
+  "@editSpellFilter": {
+    "description": "Title for editing an existing spell filter"
+  },
+  "filterName": "Filter Name",
+  "@filterName": {
+    "description": "Label for filter name field"
+  },
+  "enterFilterName": "Enter a name for this filter",
+  "@enterFilterName": {
+    "description": "Placeholder for filter name input field"
+  },
+  "selectTags": "Select Tags",
+  "@selectTags": {
+    "description": "Label for tag selection section"
+  },
+  "noTagsAvailable": "No tags available in your spells",
+  "@noTagsAvailable": {
+    "description": "Message shown when no spell tags are available"
+  },
+  "pleaseEnterNameAndSelectTags": "Please enter a name and select at least one tag",
+  "@pleaseEnterNameAndSelectTags": {
+    "description": "Validation error message for spell filter form"
+  },
+  "noSpellFilters": "No spell filters created",
+  "@noSpellFilters": {
+    "description": "Message shown when no spell filters exist"
+  },
+  "addSpellFilter": "Add Spell Filter",
+  "@addSpellFilter": {
+    "description": "Button text to add a new spell filter"
+  },
+  "treasures": "Treasures",
+  "@treasures": {
+    "description": ""
+  },
+  "noTreasuresRecorded": "No treasures recorded",
+  "@noTreasuresRecorded": {
+    "description": ""
+  },
+  "classEditDialogTitle": "Edit Class Information",
+  "@classEditDialogTitle": {
+    "description": "Title for the class edit dialog"
+  },
+  "classEditDialogXpLabel": "XP",
+  "@classEditDialogXpLabel": {
+    "description": "Label for the XP field in the class edit dialog"
+  },
+  "classEditDialogLevelUpButton": "Level up!",
+  "@classEditDialogLevelUpButton": {
+    "description": "Button text for leveling up in the class edit dialog"
+  },
+  "classEditHpIncreaseTitle": "Choose HP Increase",
+  "@classEditHpIncreaseTitle": {
+    "description": "Title for the HP increase selection in the class edit dialog"
+  },
+  "classEditRollResultTitle": "Roll Result",
+  "@classEditRollResultTitle": {
+    "description": "Title for the roll result section in the class edit dialog"
+  },
+  "classEditNewFeaturesTitle": "New Features Gained",
+  "@classEditNewFeaturesTitle": {
+    "description": "Title for the new features section in the class edit dialog"
+  },
+  "classEditSubclassTitle": "Choose a {className} Subclass",
+  "@classEditSubclassTitle": {
+    "placeholders": {
+      "className": {
+        "type": "String"
+      }
+    }
+  },
+  "classEditCannotMulticlassTitle": "Cannot Multiclass",
+  "@classEditCannotMulticlassTitle": {
+    "description": "Title for the dialog when multiclassing is not allowed"
+  },
+  "classEditSelectSkillsTitle": "Select {count} Skill Proficiencies",
+  "@classEditSelectSkillsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classEditSelectExactSkillsError": "Please select exactly {count} skills",
+  "@classEditSelectExactSkillsError": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseOneOption": "Choose one of the following options:",
+  "@chooseOneOption": {
+    "description": "Prompt to choose one option from a list"
+  },
+  "increaseAbilityScores": "Increase Ability Scores",
+  "@increaseAbilityScores": {
+    "description": "Option to increase ability scores"
+  },
+  "increaseOneByTwoOrTwoByOne": "Increase one ability score by 2, or two ability scores by 1",
+  "@increaseOneByTwoOrTwoByOne": {
+    "description": "Description of ability score increase options"
+  },
+  "selectAFeat": "Select a Feat",
+  "@selectAFeat": {
+    "description": "Option to select a feat"
+  },
+  "chooseFeatInstead": "Choose a feat instead of increasing ability scores",
+  "@chooseFeatInstead": {
+    "description": "Description of feat selection option"
+  },
+  "asiSelected": "ASI Selected",
+  "@asiSelected": {
+    "description": "Indicator that ability score improvement was selected"
+  },
+  "featSelected": "Feat {name} Selected",
+  "@featSelected": {
+    "description": "Indicator that a specific feat was selected",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Alert"
+      }
+    }
+  },
+  "abilityScoreImprovement": "Ability Score Improvement",
+  "@abilityScoreImprovement": {
+    "description": "ability score improvement"
+  },
+  "back": "Back",
+  "@back": {
+    "description": ""
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": ""
+  },
+  "selectSkillProficiencies": "Select {count} Skill Proficiencies",
+  "@selectSkillProficiencies": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "Title for selecting skill proficiencies in class edit dialog"
+  },
+  "selectExactlySkills": "Please select exactly {count} skills",
+  "@selectExactlySkills": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "Error message when the number of selected skills does not match the required count"
+  },
+  "levelUp": "Level Up",
+  "@levelUp": {
+    "description": ""
+  },
+  "chooseHPIncrease": "Choose HP Increase",
+  "@chooseHPIncrease": {
+    "description": ""
+  },
+  "adjustImagePosition": "Adjust Image Position",
+  "@adjustImagePosition": {
+    "description": ""
+  },
+  "imagePositionEditorTitle": "Position Image",
+  "@imagePositionEditorTitle": {
+    "description": "Title for the image position editor dialog"
+  },
+  "imagePositionEditorDragInstructions": "Drag sliders to position image:",
+  "@imagePositionEditorDragInstructions": {
+    "description": "Instructions for adjusting image position using sliders"
+  },
+  "imagePositionEditorHorizontal": "Horizontal:",
+  "@imagePositionEditorHorizontal": {
+    "description": "Label for horizontal position slider in image position editor"
+  },
+  "imagePositionEditorVertical": "Vertical:",
+  "@imagePositionEditorVertical": {
+    "description": "Label for vertical position slider in image position editor"
+  },
+  "imagePositionEditorHelp": "Fine-tune the position to focus on the important part of your image.",
+  "@imagePositionEditorHelp": {
+    "description": "Help text for the image position editor"
+  },
+  "calculateDamageFormula": "Calculate Damage Formula",
+  "@calculateDamageFormula": {
+    "description": ""
+  },
+  "calculateHitBonus": "Calculate Hit Bonus",
+  "@calculateHitBonus": {
+    "description": ""
+  },
+  "versatileWeaponMessage": "Equip {weaponName} in two hands to use its versatile damage?",
+  "@versatileWeaponMessage": {
+    "description": "",
+    "placeholders": {
+      "weaponName": {
+        "type": "String"
+      }
+    }
+  },
+  "oneHanded": "One-Handed",
+  "@oneHanded": {
+    "description": ""
+  },
+  "characterLevelCorrect": "Character Level: {level} (correct for XP)",
+  "@characterLevelCorrect": {
+    "description": "Indicates the character level is correct for the given XP",
+    "placeholders": {
+      "level": {
+        "type": "num"
+      }
+    }
+  },
+  "characterLevelTooLow": "Character Level: {actualLevel} (should be {expectedLevel} based on XP)",
+  "@characterLevelTooLow": {
+    "description": "Indicates the character level is too low for the given XP",
+    "placeholders": {
+      "actualLevel": {
+        "type": "num"
+      },
+      "expectedLevel": {
+        "type": "num"
+      }
+    }
+  },
+  "characterLevelTooHigh": "Character Level: {actualLevel} (exceeds XP level {expectedLevel})",
+  "@characterLevelTooHigh": {
+    "description": "Indicates the character level is too high for the given XP",
+    "placeholders": {
+      "actualLevel": {
+        "type": "num"
+      },
+      "expectedLevel": {
+        "type": "num"
+      }
+    }
+  },
+  "filterItems": "Filter Items",
+  "@filterItems": {
+    "description": ""
+  },
+  "itemType": "Item Type",
+  "@itemType": {
+    "description": ""
+  },
+  "onlyMagicalItems": "Only Magical Items",
+  "@onlyMagicalItems": {
+    "description": ""
+  },
+  "additionalFilters": "Additional Filters",
+  "@additionalFilters": {
+    "description": ""
+  },
+  "gearItemType": "Gear",
+  "@gearItemType": {
+    "description": "Term for general equipment and adventuring gear"
+  },
+  "lightArmorItemType": "Light Armor",
+  "@lightArmorItemType": {
+    "description": "Type of armor that offers minimal protection but doesn't restrict movement"
+  },
+  "mediumArmorItemType": "Medium Armor",
+  "@mediumArmorItemType": {
+    "description": "Type of armor that offers more protection than light armor but restricts movement slightly"
+  },
+  "heavyArmorItemType": "Heavy Armor",
+  "@heavyArmorItemType": {
+    "description": "Type of armor that offers significant protection but restricts movement more"
+  },
+  "shieldItemType": "Shield",
+  "@shieldItemType": {
+    "description": "A protective item held in one hand to block attacks"
+  },
+  "meleeWeaponItemType": "Melee Weapon",
+  "@meleeWeaponItemType": {
+    "description": "Weapon used in close combat"
+  },
+  "rangedWeaponItemType": "Ranged Weapon",
+  "@rangedWeaponItemType": {
+    "description": "Weapon used to attack from a distance"
+  },
+  "ammunitionItemType": "Ammunition",
+  "@ammunitionItemType": {
+    "description": "Projectiles like arrows, bolts, or bullets used with ranged weapons"
+  },
+  "rodItemType": "Rod",
+  "@rodItemType": {
+    "description": "Magical item in the form of a rod, typically used by spellcasters"
+  },
+  "staffItemType": "Staff",
+  "@staffItemType": {
+    "description": "Magical item in the form of a staff, typically used by spellcasters"
+  },
+  "wandItemType": "Wand",
+  "@wandItemType": {
+    "description": "Magical item in the form of a wand, typically used by spellcasters"
+  },
+  "ringItemType": "Ring",
+  "@ringItemType": {
+    "description": "Magical item worn on a finger"
+  },
+  "potionItemType": "Potion",
+  "@potionItemType": {
+    "description": "Magical liquid with various effects when consumed"
+  },
+  "scrollItemType": "Scroll",
+  "@scrollItemType": {
+    "description": "Magical writing that allows for one-time casting of a spell"
+  },
+  "wondrousItemType": "Wondrous Item",
+  "@wondrousItemType": {
+    "description": "Miscellaneous magical items that don't fit other categories"
+  },
+  "wealthItemType": "Wealth",
+  "@wealthItemType": {
+    "description": "Currency and monetary items"
+  },
+  "gemItemType": "Gem",
+  "@gemItemType": {
+    "description": "Precious and semi-precious gemstones"
+  },
+  "treasureItemType": "Treasure",
+  "@treasureItemType": {
+    "description": "Valuable items like art objects, jewelry, etc."
+  },
+  "toolItemType": "Tool",
+  "@toolItemType": {
+    "description": "Items used for specific tasks or professions"
+  },
+  "instrumentItemType": "Instrument",
+  "@instrumentItemType": {
+    "description": "Musical instruments"
+  },
+  "vehicleItemType": "Vehicle",
+  "@vehicleItemType": {
+    "description": "Land, water, or air transportation"
+  },
+  "mountItemType": "Mount",
+  "@mountItemType": {
+    "description": "Animals used for riding"
+  },
+  "othersItemType": "Others",
+  "@othersItemType": {
+    "description": "Items that don't fit into other categories"
+  },
+  "createNewAttribute": "Create New Attribute",
+  "@createNewAttribute": {
+    "description": ""
+  },
+  "attributeName": "Attribute Name",
+  "@attributeName": {
+    "description": ""
+  },
+  "value": "Value",
+  "@value": {
+    "description": ""
+  },
+  "addAttribute": "Add Attribute",
+  "@addAttribute": {
+    "description": ""
+  },
+  "containedItems": "Items inside",
+  "@containedItems": {
+    "description": "Label for contained items section"
+  },
+  "gp": "GP",
+  "@gp": {
+    "description": ""
+  },
+  "pp": "PP",
+  "@pp": {
+    "description": ""
+  },
+  "sp": "SP",
+  "@sp": {
+    "description": ""
+  },
+  "ep": "EP",
+  "@ep": {
+    "description": ""
+  },
+  "cp": "CP",
+  "@cp": {
+    "description": ""
+  },
+  "addActions": "Add Actions",
+  "@addActions": {
+    "description": ""
+  },
+  "noActionsAvaliable": "No Actions Available",
+  "@noActionsAvaliable": {
+    "description": ""
+  },
+  "noSpellsAvaliable": "No Spells Available",
+  "@noSpellsAvaliable": {
+    "description": ""
+  },
+  "characterWasUpdated": "{characterName} was updated",
+  "@characterWasUpdated": {
+    "description": "",
+    "placeholders": {
+      "characterName": {
+        "type": "String",
+        "example": "Aragorn"
+      }
+    }
+  },
+  "condition2014Blinded": "Blinded",
+  "condition2014BlindedDesc": "• A blinded creature can't see and automatically fails any ability check that requires sight.\n• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
+  "condition2014Charmed": "Charmed",
+  "condition2014CharmedDesc": "• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n• The charmer has advantage on any ability check to interact socially with the creature.",
+  "condition2014Deafened": "Deafened",
+  "condition2014DeafenedDesc": "• A deafened creature can't hear and automatically fails any ability check that requires hearing.",
+  "condition2014Frightened": "Frightened",
+  "condition2014FrightenedDesc": "• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n• The creature can't willingly move closer to the source of its fear.",
+  "condition2014Grappled": "Grappled",
+  "condition2014GrappledDesc": "• A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n• The condition ends if the grappler is incapacitated.\n• The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunder-wave spell.",
+  "condition2014Incapacitated": "Incapacitated",
+  "condition2014IncapacitatedDesc": "• An incapacitated creature can't take actions or reactions.",
+  "condition2014Invisible": "Invisible",
+  "condition2014InvisibleDesc": "• An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.\n• Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.",
+  "condition2014Paralyzed": "Paralyzed",
+  "condition2014ParalyzedDesc": "• A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n• The creature automatically fails Strength and Dexterity saving throws.\n• Attack rolls against the creature have advantage.\n• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+  "condition2014Petrified": "Petrified",
+  "condition2014PetrifiedDesc": "• A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.\n• The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n• Attack rolls against the creature have advantage.\n• The creature automatically fails Strength and Dexterity saving throws.\n• The creature has resistance to all damage.\n• The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.",
+  "condition2014Poisoned": "Poisoned",
+  "condition2014PoisonedDesc": "• A poisoned creature has disadvantage on attack rolls and ability checks.",
+  "condition2014Prone": "Prone",
+  "condition2014ProneDesc": "• A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n• The creature has disadvantage on attack rolls.\n• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.",
+  "condition2014Restrained": "Restrained",
+  "condition2014RestrainedDesc": "• A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n• The creature has disadvantage on Dexterity saving throws.",
+  "condition2014Stunned": "Stunned",
+  "condition2014StunnedDesc": "• A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n• The creature automatically fails Strength and Dexterity saving throws.\n• Attack rolls against the creature have advantage.",
+  "condition2014Unconscious": "Unconscious",
+  "condition2014UnconsciousDesc": "• An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n• The creature drops whatever it's holding and falls prone.\n• The creature automatically fails Strength and Dexterity saving throws.\n• Attack rolls against the creature have advantage.\n• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+  "condition2014Exhaustion1": "Exhaustion (Level 1)",
+  "condition2014Exhaustion1Desc": "Level 1: Disadvantage on ability checks",
+  "condition2014Exhaustion2": "Exhaustion (Level 2)",
+  "condition2014Exhaustion2Desc": "Level 1: Disadvantage on ability checks\nLevel 2: Speed halved",
+  "condition2014Exhaustion3": "Exhaustion (Level 3)",
+  "condition2014Exhaustion3Desc": "Level 1: Disadvantage on ability checks\nLevel 2: Speed halved\nLevel 3: Disadvantage on attack rolls and saving throws",
+  "condition2014Exhaustion4": "Exhaustion (Level 4)",
+  "condition2014Exhaustion4Desc": "Level 1: Disadvantage on ability checks\nLevel 2: Speed halved\nLevel 3: Disadvantage on attack rolls and saving throws\nLevel 4: Hit point maximum halved",
+  "condition2014Exhaustion5": "Exhaustion (Level 5)",
+  "condition2014Exhaustion5Desc": "Level 1: Disadvantage on ability checks\nLevel 2: Speed halved\nLevel 3: Disadvantage on attack rolls and saving throws\nLevel 4: Hit point maximum halved\nLevel 5: Speed reduced to 0",
+  "condition2014Exhaustion6": "Exhaustion (Level 6)",
+  "condition2014Exhaustion6Desc": "Level 6: Death",
+  "rulesVersion": "Rules Version",
+  "@rulesVersion": {
+    "description": "Label for the rules version setting"
+  },
+  "featureGroupChoiceTemplate": "Choose one {groupType} option:\n{optionsList}\n\nEach option is available as a separate feature with full details.",
+  "@featureGroupChoiceTemplate": {
+    "description": "Template for feature group choice with options",
+    "placeholders": {
+      "groupType": {
+        "type": "String"
+      },
+      "optionsList": {
+        "type": "String"
+      }
+    }
+  },
+  "featureGroupOptionBullet": "• {optionName}",
+  "@featureGroupOptionBullet": {
+    "description": "Bullet point for feature group options",
+    "placeholders": {
+      "optionName": {
+        "type": "String"
+      }
+    }
+  },
+  "hasSpellAttackRoll": "Has spell attack roll",
+  "@hasSpellAttackRoll": {
+    "description": "Label for indicating if a spell has an attack roll"
+  },
+  "hasSpellAttackRollDesc": "Spell requires an attack roll to hit",
+  "@hasSpellAttackRollDesc": {
+    "description": "Label for indicating if a spell has an attack roll"
+  }
+}
