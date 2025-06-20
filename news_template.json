@@ -1,21 +1,21 @@
 {
   "en": {
-    "image": "https://i.imgur.com/NmYXQCa.jpeg",
-    "title": "⚠️New Features & Improvements - Update 1.3.8 (89)",
-    "text": "New features and important fixes!\n\n🎭 Adventures: Added Adventures and Treasures to campaigns, enabling better campaign refinement and preparation for games.\n\n🎨 Themes: Updated theming system with ability to input custom color values.\n\n🛠️ Custom Attributes: For homebrew fans, the app now supports custom attributes.\n\n🎒 Containers: Items can now store other items! (Perfect for quivers or bags)\n\n🐛 Bug Fixes:\n- Fixed HP editing not updating in some cases\n- Fixed some ability scores not displaying correctly\n- Improved compatibility for XML character content imports"
+    "image": "https://i.imgur.com/h8rAa5z.jpeg",
+    "title": "⚠️New Features & Improvements - Update 1.3.10 (95)",
+    "text": "Important:\nIt is strongly recommended that all users reimport the XML content, so the latest data can be loaded properly, ensuring a better gameplay experience!\n\nOfficial Launch for macOS and iOS 🎉\n\nBug fix when importing the Bestiary from an XML file 🐉\n\nBug fix when importing Classes, fixing the detection of spell slots ✨\n\nImproved visualization of class information, making elements more intuitive 📚\n\nBug fix in the Mob Calculator on iOS 🛠️"
   },
   "pt": {
-    "image": "https://i.imgur.com/NmYXQCa.jpeg",
-    "title": "⚠️Novos Recursos & Melhorias - Atualização 1.3.8 (89)",
-    "text": "Novos recursos e correções importantes!\n\n🎭 Aventuras: Adicionado Aventuras e Tesouros às campanhas, possibilitando um refinamento e preparo das campanhas para os jogos.\n\n🎨 Temas: Atualização para os temas, adicionando a habilidade para digitar os valores das cores desejadas.\n\n🛠️ Atributos Personalizados: Para os fãs de homebrew, agora o app suporta atributos customizados.\n\n🎒 Contêineres: Agora os itens podem guardar outros itens! (Ideal para uma aljava ou bolsa por exemplo)\n\n🐛 Correções:\n- Correção ao editar o HP em que o valor não era atualizado em alguns casos\n- Correção de alguns ability scores não tendo os valores mostrados corretamente\n- Melhorada a compatibilidade para importação de conteúdos XML de personagens"
+    "image": "https://i.imgur.com/h8rAa5z.jpeg",
+    "title": "⚠️Novos Recursos & Melhorias - Atualização 1.3.10 (95)",
+    "text": "Importante:\nÉ fortemente recomendado que todos os usuários reimportem o conteúdo XML, para que os dados mais recentes possam ser carregados corretamente, garantindo uma melhor experiência de jogo!\n\nLançamento oficial para macOS e iOS 🎉\n\nCorreção de bug ao importar o Bestiário de um arquivo XML 🐉\n\nCorreção de bug ao importar Classes, corrigindo a detecção de espaços para magias ✨\n\nVisualização melhorada das informações de classe, tornando os elementos mais intuitivos 📚\n\nCorreção de bug na Calculadora de Hordas no iOS 🛠️"
   },
   "es": {
-    "image": "https://i.imgur.com/NmYXQCa.jpeg",
-    "title": "⚠️Nuevas Funciones & Mejoras - Actualización 1.3.8 (89)",
-    "text": "¡Nuevas funciones y correcciones importantes!\n\n🎭 Aventuras: Añadidas Aventuras y Tesoros a las campañas, permitiendo un mejor refinamiento y preparación de campañas para los juegos.\n\n🎨 Temas: Actualización del sistema de temas con la capacidad de introducir valores de color personalizados.\n\n🛠️ Atributos Personalizados: Para los fans del homebrew, la app ahora soporta atributos personalizados.\n\n🎒 Contenedores: ¡Ahora los objetos pueden almacenar otros objetos! (Perfecto para carcajes o bolsas)\n\n🐛 Correcciones:\n- Solucionado problema al editar el HP donde el valor no se actualizaba en algunos casos\n- Corregidos algunos puntajes de habilidad que no se mostraban correctamente\n- Mejorada la compatibilidad para importación de contenido XML de personajes"
+    "image": "https://i.imgur.com/h8rAa5z.jpeg",
+    "title": "⚠️Nuevas Funciones & Mejoras - Actualización 1.3.10 (95)",
+    "text": "Importante:\n¡Se recomienda encarecidamente que todos los usuarios vuelvan a importar el contenido XML, para que los datos más recientes puedan cargarse correctamente, garantizando una mejor experiencia de juego!\n\nLanzamiento oficial para macOS e iOS 🎉\n\nCorreción de error al importar el Bestiario desde un archivo XML 🐉\n\nCorreción de error al importar Clases, arreglando la detección de espacios de hechizos ✨\n\nVisualización mejorada de la información de clase, haciendo los elementos más intuitivos 📚\n\nCorreción de error en la Calculadora de Hordas en iOS 🛠️"
   },
   "lastVersion": {
-    "version": "Version 1.3.8 (89)",
+    "version": "Version 1.3.10 (95)",
     "message": {
       "en": "A new official release is available! Update now for the best experience.",
       "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
@@ -25,7 +25,7 @@
   "Android": "Version 1.3.10 (95)",
   "Ios": "Version 1.3.9 (94)",
   "MacOS": "Version 1.3.9 (94)",
-  "Windows": "Version 1.3.9 (94)",
+  "Windows": "Version 1.3.10 (95)",
   "Web": "Version 1.3.8 (83)",
   "Linux": "Version 1.3.8 (83)",
   "message": {
