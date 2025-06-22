@@ -5516,5 +5516,26 @@
   "hasSpellAttackRollDesc": "Spell requires an attack roll to hit",
   "@hasSpellAttackRollDesc": {
     "description": "Label for indicating if a spell has an attack roll"
-  }
+  },
+  "hpGainedPerLevel": "HP Gained Per Level",
+  "hpGainedPerLevelDescription": "Track how many hit points a character with this class gained at each level",
+  "exhaustionPenalty": "Exhaustion Penalty: -{exhaustionLevel}",
+  "@exhaustionPenalty": {
+    "description": "Displays the current exhaustion penalty",
+    "placeholders": {
+      "exhaustionLevel": {
+        "type": "int"
+      }
+    }
+  },
+  "includesExhaustionPenalty": "Includes -{exhaustionLevel} exhaustion penalty",
+  "@includesExhaustionPenalty": {
+    "description": "Indicates that a roll includes an exhaustion penalty",
+    "placeholders": {
+      "exhaustionLevel": {
+        "type": "int"
+      }
+    }
+  },
+  "selectSpellcastingClass": "Select Spellcasting Class"
 }
