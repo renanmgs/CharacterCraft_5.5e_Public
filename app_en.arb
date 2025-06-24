@@ -5537,5 +5537,7 @@
       }
     }
   },
-  "selectSpellcastingClass": "Select Spellcasting Class"
+  "selectSpellcastingClass": "Select Spellcasting Class",
+  "featuresWithCustomResources": "Features with Counters",
+  "criticalRangeColon": "Critical Range: "
 }
