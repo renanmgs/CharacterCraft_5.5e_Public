@@ -15,7 +15,7 @@
     "text": "Importante:\n¡Se recomienda encarecidamente que todos los usuarios vuelvan a importar el contenido XML, para que los datos más recientes puedan cargarse correctamente, garantizando una mejor experiencia de juego!\n\nLanzamiento oficial para macOS e iOS 🎉\n\nCorreción de error al importar el Bestiario desde un archivo XML 🐉\n\nCorreción de error al importar Clases, arreglando la detección de espacios de hechizos ✨\n\nVisualización mejorada de la información de clase, haciendo los elementos más intuitivos 📚\n\nCorreción de error en la Calculadora de Hordas en iOS 🛠️"
   },
   "lastVersion": {
-    "version": "Version 1.4.2 (97)",
+    "version": "Version 1.4.3 (101)",
     "message": {
       "en": "A new official release is available! Update now for the best experience.",
       "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
@@ -24,8 +24,8 @@
   },
   "Android": "Version 1.4.3 (101)",
   "Ios": "Version 1.4.2 (97)",
-  "MacOS": "Version 1.4.2 (97)",
-  "Windows": "Version 1.4.2 (97)",
+  "MacOS": "Version 1.4.3 (101)",
+  "Windows": "Version 1.4.3 (101)",
   "Web": "Version 1.3.8 (83)",
   "Linux": "Version 1.3.8 (83)",
   "message": {
