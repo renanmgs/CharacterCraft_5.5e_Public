@@ -5539,5 +5539,38 @@
   },
   "selectSpellcastingClass": "Select Spellcasting Class",
   "featuresWithCustomResources": "Features with Counters",
-  "criticalRangeColon": "Critical Range: "
+  "criticalRangeColon": "Critical Range: ",
+  "finesse": "Finesse",
+  "heavy": "Heavy",
+  "light": "Light",
+  "loading": "Loading",
+  "thrown": "Thrown",
+  "reach": "Reach {reach}",
+  "@reach": {
+    "description": "Indicates the reach of a weapon",
+    "placeholders": {
+      "reach": {
+        "type": "String"
+      }
+    }
+  },
+  "range": "Range {range}",
+  "@range": {
+    "description": "Indicates the range of a weapon",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "versatile": "Versatile {damage}",
+  "@versatile": {
+    "description": "Indicates that a weapon can be used with one or two hands, with the damage dealt depending on how it is wielded",
+    "placeholders": {
+      "damage": {
+        "type": "String"
+      }
+    }
+  },
+  "weaponProperties": "Weapon Properties"
 }
