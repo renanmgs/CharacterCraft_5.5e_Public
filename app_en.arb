@@ -5572,5 +5572,95 @@
       }
     }
   },
-  "weaponProperties": "Weapon Properties"
+  "weaponProperties": "Weapon Properties",
+  "chooseAbilitiesToIncrease": "Choose abilities to increase",
+  "fixedAbilityIncreases": "Fixed Ability Increases",
+  "anyAbilityChoicesProgress": "Any ability: {anyChoicesMade}/{anyChoicesCount}",
+  "@anyAbilityChoicesProgress": {
+    "description": "Shows progress of ability score selection",
+    "placeholders": {
+      "anyChoicesMade": {
+        "type": "int",
+        "example": "2"
+      },
+      "anyChoicesCount": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "oneAbilityChoicesProgress": "One ability: {anyChoicesMade}/{anyChoicesCount}",
+  "@oneAbilityChoicesProgress": {
+    "description": "Shows progress of ability score selection",
+    "placeholders": {
+      "anyChoicesMade": {
+        "type": "int",
+        "example": "2"
+      },
+      "anyChoicesCount": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "fixedAbilityScores": "Fixed Ability Score Bonuses",
+  "anyAbilityScores": "Any Ability Score Bonuses",
+  "oneAbilityScores": "One Ability Score Bonuses",
+  "addNewBonus": "Add new bonus",
+  "oneAbilityScoresDescription":"Player must select different abilities for each bonus",
+  "anyAbilityScoresDescription":"Player can select same ability multiple times",
+  "anyAbilityBonusSingle": "+{value} to any ability",
+  "@anyAbilityBonusSingle": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "anyAbilityBonusMultiple": "{count} × +{value} to any ability",
+  "@anyAbilityBonusMultiple": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "oneAbilityBonusSingle": "+{value} to one ability",
+  "@oneAbilityBonusSingle": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "oneAbilityBonusMultiple": "{count} × +{value} to different abilities",
+  "@oneAbilityBonusMultiple": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseFromAnyAbility": "Choose {count} from any ability score",
+  "@chooseFromAnyAbility": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseFromOneAbility": "Choose {count} from one ability score",
+  "@chooseFromOneAbility": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
 }
