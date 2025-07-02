@@ -282,9 +282,9 @@
   "@insuficientPoints": {
     "description": "Insufficient Points"
   },
-  "pointCost": "Point Cost",
+  "pointCost": "Point Buy",
   "@pointCost": {
-    "description": "Ability score method - point cost"
+    "description": "Ability score method - point buy"
   },
   "assignStandardArray": "Assign the standard array values to abilities:",
   "@assignStandardArray": {
@@ -5607,8 +5607,8 @@
   "anyAbilityScores": "Any Ability Score Bonuses",
   "oneAbilityScores": "One Ability Score Bonuses",
   "addNewBonus": "Add new bonus",
-  "oneAbilityScoresDescription":"Player must select different abilities for each bonus",
-  "anyAbilityScoresDescription":"Player can select same ability multiple times",
+  "oneAbilityScoresDescription": "Player must select different abilities for each bonus",
+  "anyAbilityScoresDescription": "Player can select same ability multiple times",
   "anyAbilityBonusSingle": "+{value} to any ability",
   "@anyAbilityBonusSingle": {
     "placeholders": {
@@ -5662,5 +5662,96 @@
         "type": "int"
       }
     }
-  }
+  },
+  "skillBonuses": "Skill Bonuses",
+  "@skillBonuses": {
+    "description": "Title for the skill bonuses section"
+  },
+  "noSkillBonuses": "No skill bonuses",
+  "@noSkillBonuses": {
+    "description": "Text shown when no skill bonuses are available"
+  },
+  "noSkillBonusesDefined": "No skill bonuses defined",
+  "@noSkillBonusesDefined": {
+    "description": "Text shown when the skill bonuses list is empty"
+  },
+  "addSkillBonus": "Add Skill Bonus",
+  "@addSkillBonus": {
+    "description": "Button text to add a new skill bonus"
+  },
+  "editSkillBonus": "Edit {skill} Bonus",
+  "@editSkillBonus": {
+    "description": "Dialog title when editing a skill bonus",
+    "placeholders": {
+      "skill": {
+        "type": "String",
+        "example": "Acrobatics"
+      }
+    }
+  },
+  "skillLabel": "Skill:",
+  "@skillLabel": {
+    "description": "Label for skill selection in bonus dialog"
+  },
+  "bonusLabel": "Bonus:",
+  "@bonusLabel": {
+    "description": "Label for bonus input field"
+  },
+  "bonusHint": "e.g., 2 or 1d4 or proficiency",
+  "@bonusHint": {
+    "description": "Hint text for bonus input field"
+  },
+  "bonusDescription": "Can be a number or formula like 'wisdom', 'pb', etc.",
+  "@bonusDescription": {
+    "description": "Explanation text for bonus input options"
+  },
+  "proficiencyFromItemFeatureFeat": "Proficiency from item/feature/feat",
+  "skillBonusFromItemFeatureFeat": "Skill bonus from item/feature/feat",
+  "additionalBars": "Additional Bars",
+  "@additionalBars": {
+    "description": "Label for additional bars section"
+  },
+  "addBar": "Add Bar",
+  "@addBar": {
+    "description": "Button text to add a new bar"
+  },
+  "noAdditionalBars": "No additional bars",
+  "@noAdditionalBars": {
+    "description": "Message shown when no additional bars exist"
+  },
+  "addAdditionalBar": "Add Additional Bar",
+  "@addAdditionalBar": {
+    "description": "Button text to add an additional bar"
+  },
+  "maxValue": "Maximum Value",
+  "@maxValue": {
+    "description": "Label for maximum value field"
+  },
+  "removeBar": "Remove Bar",
+  "@removeBar": {
+    "description": "Button text to remove a bar"
+  },
+  "removeBarConfirmation": "Are you sure you want to remove the bar '{name}'?",
+  "@removeBarConfirmation": {
+    "description": "Confirmation message for removing a bar",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Rage"
+      }
+    }
+  },
+  "decrease": "Decrease",
+  "@decrease": {
+    "description": "Button text to decrease a value"
+  },
+  "increase": "Increase",
+  "@increase": {
+    "description": "Button text to increase a value"
+  },
+  "hitRollColon": "Hit Roll: ",
+  "rollAttack": "Roll Attack",
+  "discardedRollColon": "Discarded roll: ",
+  "abilityModifiers": "Ability Modifiers",
+  "skillModifiers": "Skill Modifiers"
 }
