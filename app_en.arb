@@ -1092,9 +1092,15 @@
   "@equippedEquipment": {
     "description": "Label for equipped equipment section"
   },
-  "attunementLimitError": "You cannot attune to more than 3 magic items at the same time.",
+  "attunementLimitError": "You cannot attune to more than {number} magic items at the same time.",
   "@attunementLimitError": {
-    "description": "Error message when trying to attune more than 3 items"
+    "description": "Error message when trying to attune more than 3 items",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "3"
+      }
+    }
   },
   "unequippedArmorMessage": "Unequipped {names} because only one armor can be equipped at a time.",
   "@unequippedArmorMessage": {
@@ -3010,7 +3016,7 @@
   "@equipmentOptions": {
     "description": "Label for equipment options section"
   },
-  "damageResistancesVulnerabilitiesImmunities": "Resi, Vul, and Imm",
+  "damageResistancesVulnerabilitiesImmunities": "Resistances/Vulnerabilities/Immunities",
   "@damageResistancesVulnerabilitiesImmunities": {
     "description": "Header for the damage resistances, vulnerabilities, and immunities section"
   },
@@ -5697,11 +5703,11 @@
   "@bonusLabel": {
     "description": "Label for bonus input field"
   },
-  "bonusHint": "e.g., 2 or 1d4 or proficiency",
+  "bonusHint": "e.g., 2 or pb",
   "@bonusHint": {
     "description": "Hint text for bonus input field"
   },
-  "bonusDescription": "Can be a number or formula like 'wisdom', 'pb', etc.",
+  "bonusDescription": "Can be a number or formula like 'wisdom', 'pb'.",
   "@bonusDescription": {
     "description": "Explanation text for bonus input options"
   },
@@ -5753,5 +5759,28 @@
   "rollAttack": "Roll Attack",
   "discardedRollColon": "Discarded roll: ",
   "abilityModifiers": "Ability Modifiers",
-  "skillModifiers": "Skill Modifiers"
+  "skillModifiers": "Skill Modifiers",
+  "editAttunementLimit": "Edit Attunement Limit",
+  "attunementLimitDescription": "The maximum number of magic items your character can attune to simultaneously. Most characters can attune to a maximum of 3 items.",
+  "maxAttunements": "Maximum Attunements",
+  "advantageOn": "Advantage on",
+  "@advantageOn": {
+    "description": "Indicates when a character has advantage on a skill check"
+  },
+  "disadvantageOn": "Disadvantage on",
+  "@disadvantageOn": {
+    "description": "Indicates when a character has disadvantage on a skill check"
+  },
+  "sourceColon": "Source:",
+  "@sourceColon": {
+    "description": "Label for the source of an effect or bonus"
+  },
+  "rollWithAdvantageReminder": "Remember to roll with advantage when using this skill.",
+  "@rollWithAdvantageReminder": {
+    "description": "Reminder to roll with advantage when using a skill"
+  },
+  "rollWithDisadvantageReminder": "Remember to roll with disadvantage when using this skill.",
+  "@rollWithDisadvantageReminder": {
+    "description": "Reminder to roll with disadvantage when using a skill"
+  }
 }
