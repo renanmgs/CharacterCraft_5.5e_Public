@@ -1,29 +1,29 @@
 {
   "en": {
-    "image": "https://i.imgur.com/h8rAa5z.jpeg",
-    "title": "⚠️New Features & Improvements - Update 1.4.7 (111)",
-    "text": "Bug fixes: all bugs reported on Discord have been resolved.\n\nSpell slots can now be manually edited on the spell list page.\n\nGet ready for a new wave of updates, as I'm back from my trip and the app is ready to start receiving some ads on certain platforms! Don't forget that all feedback is useful, and I always try to respond on Reddit when I can!"
+    "image": "https://i.imgur.com/rlna8QB.jpeg",
+    "title": "⚠️I Cast COMPREHEND LANGUAGES - Update 1.4.8 (118)",
+    "text": "This update is a call to arms, an invitation to nayone who wants to contribute to Character Craft development by adding new languages in the app! Whant to have the UI in French or German? Sure! You can downlod the ARB file from the Public Character Craft GitHub repository and start translating the file. Once ready, you can DM me or post it on our discord, and I will make it to the app!\n\nI hope that one day we can have various languages, making the process of Playing D&D easier to everyone!"
   },
   "pt": {
-    "image": "https://i.imgur.com/h8rAa5z.jpeg",
-    "title": "⚠️Novos Recursos & Melhorias - Atualização 1.4.7 (111)",
-    "text": "Correção de bugs: todos os bugs relatados no Discord foram resolvidos.\n\nAgora os espaços de magia podem ser editados manualmente na página da lista de magias.\n\nEsteja preparado para uma nova onda de atualizações, pois voltei de viagem e o aplicativo está pronto para começar a receber alguns anúncios em algumas plataformas! Não se esqueça de que todo feedback é útil e sempre tento responder no Reddit quando posso!"
+    "image": "https://i.imgur.com/rlna8QB.jpeg",
+    "title": "⚠️Eu conjuro COMPREENDER IDIOMAS - Atualização 1.4.8 (118)",
+    "text": "Esta atualização é um chamado às armas, um convite a qualquer pessoa que queira contribuir para o desenvolvimento do Character Craft adicionando novos idiomas no aplicativo! Quer ter a interface em francês ou alemão? Claro! Você pode baixar o arquivo ARB do repositório público do Character Craft no GitHub e começar a traduzir o arquivo. Quando estiver pronto, você pode enviar uma mensagem direta para mim ou publicá-lo em nosso Discord, e eu o colocarei no aplicativo!\n\nEspero que um dia possamos ter vários idiomas, tornando o processo de jogar D&D mais fácil para todos!"
   },
   "es": {
-    "image": "https://i.imgur.com/h8rAa5z.jpeg",
-    "title": "⚠️Nuevas Funciones & Mejoras - Actualización 1.4.7 (111)",
-    "text": "Corrección de errores: todos los errores reportados en Discord han sido resueltos.\n\nAhora los espacios de hechizos pueden ser editados manualmente en la página de la lista de hechizos.\n\n¡Prepárate para una nueva ola de actualizaciones, ya que he vuelto de mi viaje y la aplicación está lista para comenzar a recibir algunos anuncios en algunas plataformas! ¡No olvides que todos los comentarios son útiles y siempre intento responder en Reddit cuando puedo!"
+    "image": "https://i.imgur.com/rlna8QB.jpeg",
+    "title": "⚠️Lanzo COMPRENDER IDIOMAS - Actualización 1.4.8 (118)",
+    "text": "Esta actualización es un llamado a la acción, una invitación a cualquiera que quiera contribuir al desarrollo de Character Craft añadiendo nuevos idiomas en la aplicación. ¿Quieres tener la interfaz en francés o alemán? ¡Por supuesto! Puedes descargar el archivo ARB del repositorio público de Character Craft en GitHub y comenzar a traducir el archivo. Cuando esté listo, puedes enviarme un mensaje directo o publicarlo en nuestro Discord, ¡y lo incluiré en la aplicación!\n\n¡Espero que algún día podamos tener varios idiomas, haciendo que el proceso de jugar D&D sea más fácil para todos!"
   },
-  "Android": "Version 1.4.7 (111)",
+  "Android": "Version 1.4.8 (118)",
   "Ios": "Version 1.4.7 (111)",
-  "MacOS": "Version 1.4.7 (111)",
-  "Windows": "Version 1.4.7 (111)",
-  "Web": "Version 1.3.8 (83)",
-  "Linux": "Version 1.3.8 (83)",
+  "MacOS": "Version 1.4.8 (118)",
+  "Windows": "Version 1.4.8 (118)",
+  "Web": "Version 1.4.8 (118)",
+  "Linux": "Version 1.4.8 (118)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
     "es": "¡Hay una nueva versión oficial disponible! Actualiza ahora para la mejor experiencia."
   },
-  "date": "2025-05-23T12:00:00Z"
+  "date": "2023-08-15T12:00:00Z"
 }

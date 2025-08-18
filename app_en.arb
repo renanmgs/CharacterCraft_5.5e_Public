@@ -5782,5 +5782,20 @@
   "rollWithDisadvantageReminder": "Remember to roll with disadvantage when using this skill.",
   "@rollWithDisadvantageReminder": {
     "description": "Reminder to roll with disadvantage when using a skill"
-  }
+  },
+  "archivedNotes": "Archived Notes",
+  "noArchivedNotes": "No archived notes",
+  "viewArchivedNotes": "View archived notes",
+  "viewActiveNotes": "View active notes",
+  "archiveNote": "Archive note",
+  "unarchiveNote": "Unarchive note",
+  "noteArchived": "Note archived",
+  "noteUnarchived": "Note unarchived",
+  "shareNote": "Share note",
+  "importNotes": "Import notes",
+  "undo": "Undo",
+  "customResourceValue": "Custom Resource Value",
+  "customResourceDescription": "Set a custom resource value that can be used for tracking special abilities.",
+  "customResource": "Custom Resource",
+  "customResourceHint": "Enter value or formula (e.g., \"1\" or \"proficiency\")"
 }
