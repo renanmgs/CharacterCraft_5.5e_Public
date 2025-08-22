@@ -6,7 +6,7 @@ A digital character sheet application for Dungeons & Dragons 2024 (5.5e).
 
 Character Craft 5.5e is a multiplatform comprehensive character sheet app for D&D 2024, built using the Free Rules 2024 under the OGL. The app allows players to create, manage, and update their D&D characters digitally. 
 
-Avaliable for Android and Windows initially. Expected for Apple Devices, sometime in the future (just need my license and a MAC lol).
+Avaliable for Android, Windows, Ios and MacOS
 
 ## Features
 
