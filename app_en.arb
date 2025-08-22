@@ -5797,5 +5797,22 @@
   "customResourceValue": "Custom Resource Value",
   "customResourceDescription": "Set a custom resource value that can be used for tracking special abilities.",
   "customResource": "Custom Resource",
-  "customResourceHint": "Enter value or formula (e.g., \"1\" or \"proficiency\")"
+  "customResourceHint": "Enter value or formula (e.g., \"1\" or \"proficiency\")",
+  "noNotesSelected": "No notes selected",
+  "selectedSimple": "selected",
+  "selectAll": "Select all",
+  "exportSelected": "Export selected",
+  "exportNotes": "Export notes",
+  "ignoreContainedWeight": "Ignore contained items weight",
+  "ignoreContainedWeightDesc": "When enabled, the weight of items inside this container won't count towards character's total weight",
+  "featureItemBonusTooltip": "Includes +{featureBonus} from features or items",
+  "@featureItemBonusTooltip": {
+    "description": "Tooltip shown when an attribute has bonuses from features",
+    "placeholders": {
+      "featureBonus": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  }
 }
