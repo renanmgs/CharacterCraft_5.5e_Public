@@ -5814,5 +5814,37 @@
         "example": "2"
       }
     }
-  }
+  },
+  "alwaysPreparedSources": "Always Prepared Sources",
+  "alwaysPreparedSpecies": "Always Prepared (Species)",
+  "alwaysPreparedSpeciesDesc": "Spell granted by your species/race",
+  "alwaysPreparedSubclass": "Always Prepared (Subclass)",
+  "alwaysPreparedSubclassDesc": "Spell granted by your subclass features",
+  "alwaysPreparedFeat": "Always Prepared (Feat)",
+  "alwaysPreparedFeatDesc": "Spell granted by a feat",
+  "alwaysPreparedItem": "Always Prepared (Magic Item)",
+  "alwaysPreparedItemDesc": "Spell granted by a magic item",
+  "alwaysPreparedOther": "Always Prepared (Other)",
+  "alwaysPreparedOtherDesc": "Spell always prepared from another source",
+  "spellcastingClasses": "Spellcasting Classes",
+  "alwaysPreparedText": "Always Prepared",
+  "speciesLabel": "Species",
+  "subclassLabel": "Subclass",
+  "featLabel": "Feat",
+  "magicItemLabel": "Magic Item",
+  "otherLabel": "Other",
+  "createCustomSkill": "Create Custom Skill",
+  "skillName": "Skill Name",
+  "deleteCustomSkill": "Delete Custom Skill",
+  "deleteCustomSkillConfirmation": "Are you sure you want to delete \"{skillName}\"? This action cannot be undone.",
+  "@deleteCustomSkillConfirmation": {
+    "description": "Confirmação para excluir uma perícia personalizada",
+    "placeholders": {
+      "skillName": {
+        "type": "String",
+        "example": "Acrobatics"
+      }
+    }
+  },
+  "addCustomSkill": "Add Custom Skill"
 }
