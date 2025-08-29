@@ -5846,5 +5846,8 @@
       }
     }
   },
-  "addCustomSkill": "Add Custom Skill"
+  "addCustomSkill": "Add Custom Skill",
+  "totalmaxhp": "Total/Max HP",
+  "basemaxhp": "Base/Max HP",
+  "showOnlyPreparedSpells": "Show only prepared spells"
 }
