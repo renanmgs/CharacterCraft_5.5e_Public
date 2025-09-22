@@ -5868,5 +5868,31 @@
   "masteryTopple": "Topple",
   "masteryToppleDesc": "If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.",
   "masteryVex": "Vex",
-  "masteryVexDesc": "If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn."
+  "masteryVexDesc": "If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.",
+  "recalculateWeapons": "Recalculate Weapons",
+  "recalculateWeaponsTooltip": "Recalculate weapon damage and hit bonuses",
+  "recalculateWeaponsConfirmation": "This will recalculate damage formulas and hit bonuses for all weapons. Continue?",
+  "verbalComponent": "Verbal",
+  "somaticComponent": "Somatic",
+  "materialComponent": "Material",
+  "materialComponentDescription": "Material Component Description",
+  "materialComponentDescriptionHint": "e.g., \"a diamond worth at least 500 gp\"",
+  "ritualDescription": "Can be cast as a ritual",
+  "requiresConcentration": "Requires Concentration",
+  "requiresConcentrationDescription": "Spell requires concentration to maintain",
+  "noSpellcastingFeatureRequired": "Can be cast without spellcasting feature",
+  "noSpellcastingFeatureDescription": "For racial abilities, magic items, etc.",
+  "isConcentrating": "Currently Concentrating",
+  "isConcentratingDescription": "Indicates if you are currently concentrating on this spell",
+  "alreadyConcentratingWarning": "You are already concentrating on {spell}.\nCasting this spell will end that concentration.",
+  "@alreadyConcentratingWarning": {
+    "description": "Warning shown when trying to concentrate on a new spell while already concentrating on another",
+    "placeholders": {
+      "spell": {
+        "type": "String",
+        "example": "Invisibility"
+      }
+    }
+  },
+  "warning": "Warning"
 }
