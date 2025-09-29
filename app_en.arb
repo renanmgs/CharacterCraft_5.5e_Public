@@ -5894,5 +5894,183 @@
       }
     }
   },
-  "warning": "Warning"
+  "warning": "Warning",
+  "base": "Base",
+  "wisdomModifier": "Wisdom Modifier",
+  "skillModifier": "Skill Modifier",
+  "itemFeatureBonus": "Item/Feature Bonus",
+  "skillSpecificBonus": "Skill-Specific Bonus",
+  "proficiencySources": "Proficiency Sources",
+  "concentrationCheck": "Concentration Check Required",
+  "concentrationCheckDescription": "You took {damage} damage. Make a Constitution saving throw (DC {dc}) to maintain concentration.",
+  "@concentrationCheckDescription": {
+    "description": "Description shown when a concentration check is required after taking damage",
+    "placeholders": {
+      "damage": {
+        "type": "String",
+        "example": "12"
+      },
+      "dc": {
+        "type": "int",
+        "example": "15"
+      }
+    }
+  },
+  "rollConcentration": "Roll Concentration",
+  "ignoreConcentration": "Ignore",
+  "concentrationLost": "Concentration lost!",
+  "concentrationMaintained": "Concentration maintained!",
+  "shortRestTooltip": "Take a short rest to recover some resources",
+  "longRestTooltip": "Take a long rest to fully recover",
+  "applyHealing": "Apply healing",
+  "numberOfDice": "Number of dice to spend",
+  "available": "available",
+  "recovers": "Recovers {value}",
+  "@recovers": {
+    "description": "Indicates how much a resource recovers on a rest",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "1d6 + 2"
+      }
+    }
+  },
+  "shortRestCompleted": "Short Rest completed. Some resources have been recovered.",
+  "@shortRestCompleted": {
+    "description": "Message displayed when a short rest is completed"
+  },
+  "finishRest": "Finish Rest",
+  "@finishRest": {
+    "description": "Button text to finish a rest"
+  },
+  "rollHitDie": "Roll Hit Die",
+  "resourceName": "Resource Name",
+  "resourceNameHint": "Resource name",
+  "scalingOptions": "Scaling Options",
+  "fixedValuePerLevel": "Fixed Value (per level)",
+  "attributeModifier": "Attribute Modifier",
+  "baseValuePlus": "Base Value + ",
+  "attributeLabel": "Attribute: ",
+  "resourceUsesPerLevel": "Resource Uses Per Level",
+  "levelPrefix": "Level {level}",
+  "@levelPrefix": {
+    "description": "Prefix for level-based resource scaling",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "recoveryOptions": "Recovery Options",
+  "shortRestRecovery": "Short Rest Recovery",
+  "recoveryHint": "Number or \"all\" to recover all uses",
+  "longRestRecovery": "Long Rest Recovery",
+  "resourceNameEmpty": "Resource name cannot be empty",
+  "resourceAlreadyExists": "A resource with this name already exists",
+  "buildEncounter": "Generate Encounter",
+  "partyParameters": "Party Parameters",
+  "averagePartyLevel": "Average Party Level",
+  "numberOfPartyMembers": "Number of Party Members",
+  "encounterDifficulty": "Encounter Difficulty",
+  "encounterParameters": "Encounter Parameters",
+  "numberOfCreatures": "Number of Creatures",
+  "strongWeakRatio": "Strong vs Weak Creatures Ratio",
+  "allWeak": "All Weak",
+  "balanced": "Balanced",
+  "allStrong": "All Strong",
+  "xpBudget": "XP Budget",
+  "used": "Used",
+  "selectedCreatures": "Selected Creatures",
+  "noCreaturesSelected": "No creatures selected",
+  "selectCreatures": "Select Creatures",
+  "suggestCreatures": "Suggest Creatures",
+  "pleaseEnterValue": "Please enter a value",
+  "levelMustBeBetween1and20": "Level must be between 1 and 20",
+  "mustBePositiveNumber": "Must be a positive number",
+  "strong": "Strong",
+  "noSuitableCreaturesFound": "No suitable creatures found",
+  "error": "Error",
+  "maxNumberOfCreatures": "Maximum Number of Creatures",
+  "strongWeakRatioUpdated": "Strong vs Weak Creatures Distribution (affects how many creatures will be selected)",
+  "getDifficultyText": "{difficulty, select, Low{Low} Medium{Moderate} High{High} other{Unknown}}",
+  "@getDifficultyText": {
+    "description": "Returns text for encounter difficulty",
+    "placeholders": {
+      "difficulty": {
+        "type": "String",
+        "example": "Medium"
+      }
+    }
+  },
+  "encounterDifficultyLow": "Low",
+  "encounterDifficultyMedium": "Moderate",
+  "encounterDifficultyHigh": "High",
+  "keywordsFilter": "Keywords Filter",
+  "keywordsFilterHint": "dragon, undead, forest (comma-separated)",
+  "matchAll": "Match ALL keywords",
+  "matchAny": "Match ANY keyword",
+  "noCreaturesMatchingKeywords": "No creatures found matching your keywords. Showing all creatures instead.",
+  "negativeKeywordsFilter": "Exclude Keywords",
+  "negativeKeywordsFilterHint": "undead, water (creatures containing these will be excluded)",
+  "maxNumberOfUniqueCreatures": "Max unique creature types",
+  "maxTotalNumberOfCreatures": "Max total creatures",
+  "totalCreaturesMustBeGreaterThanUnique": "Total creatures must be greater than or equal to unique creatures",
+  "enable": "Enable",
+  "disable": "Disable",
+  "historyPast": "History",
+"rollHistory": "Roll History",
+"clearHistory": "Clear",
+"clearHistoryTitle": "Clear History",
+"clearHistoryConfirmation": "Are you sure you want to clear all roll history?",
+"noRollsYet": "No dice rolls yet",
+"useFormula": "Use this formula",
+"customSpellAttackBonus": "Custom Attack Bonus",
+"customSpellAttackBonusHelp": "Leave empty for automatic calculation. When filled, overrides the automatic bonus.",
+"customSpellSaveDC": "Custom Spell Save DC",
+"customSpellSaveDCHelp": "Leave empty for automatic calculation. When filled, overrides the automatic DC.",
+"availableDamageFormulas": "Available Damage Formulas",
+"baseFormula": "Base Formula",
+"noSlotAvailableForLevel": "Character doesn't have a level {level} spell slot available",
+"@noSlotAvailableForLevel": {
+  "description": "Message shown when trying to cast a spell at a level for which no spell slots are available",
+  "placeholders": {
+    "level": {
+      "type": "int",
+      "example": "3"
+    }
+  }
+},
+"featuresAndActions": "Features & Actions",
+"id": "ID: ",
+"enterID": "Enter ID",
+"finishEditing": "Finish editing",
+"editId": "Edit ID",
+"idDatabaseWarning": "Changing the ID will determine if this data overwrites an existing one or creates a new entry in the database.",
+"spellcastingMultiplier": "Spellcasting Multiplier",
+"enterSpellcastingMultiplier": "Enter spellcasting multiplier (1.0=full, 0.5=half, 0.33=third)",
+"spellcastingMultiplierHelp": "Full caster (Wizard, Cleric, etc): 1.0\nHalf caster (Paladin, Ranger): 0.5\nThird caster (Fighter/Rogue subclasses): 0.33\nNon-caster: 0.0",
+"searchOtherClassSubclasses": "Search Subclasses from Other Classes",
+"classHasNoSubclasses": "{className} has no subclasses available.",
+"@classHasNoSubclasses": {
+  "description": "Message shown when a class has no subclasses available",
+  "placeholders": {
+    "className": {
+      "type": "String",
+      "example": "Barbarian"
+    }
+  }
+},
+"chooseSubclassFrom": "Choose a Subclass from {className}",
+"@chooseSubclassFrom": {
+  "description": "Prompt to choose a subclass from another class",
+  "placeholders": {
+    "className": {
+      "type": "String",
+      "example": "Wizard"
+    }
+  }
+},
+"crossClassSubclassWarning": "Warning: Taking a subclass from another class is a homebrew option. Make sure your DM approves this choice."
+
 }
