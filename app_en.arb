@@ -6071,6 +6071,57 @@
     }
   }
 },
-"crossClassSubclassWarning": "Warning: Taking a subclass from another class is a homebrew option. Make sure your DM approves this choice."
+"crossClassSubclassWarning": "Warning: Taking a subclass from another class is a homebrew option. Make sure your DM approves this choice.",
+"encounterSummary": "Encounter Summary",
+"defeatedEnemies": "Defeated Enemies",
+"noDefeatedEnemies": "No enemies were defeated",
+"totalXP": "Total XP",
+"xpPerPlayer": "XP per player (suggestions):",
+"players": "players",
+"each": "each",
+"finishEncounter": "Finish Encounter",
+"finishAndReset": "Finish & Reset",
+"previousTurn": "Previous Turn",
+"xpPerPlayerCharacter": "XP per player character:",
+"noPlayerCharacters": "No player characters in encounter",
+"saveToCharacters": "Save to Characters",
+"characterUpdated": "Character updated in database",
+"characterAdded": "Character added to database",
+"confirmSaveCharacter": "Confirm Save Character",
+"saveCharacterWarning": "Saving will overwrite the stored character data with the current combat state. Any changes made during combat (HP, conditions, etc.) will become permanent. Do you want to continue?",
+"nonDefeatedEnemies": "Non-defeated Enemies",
+"includeInXP": "Include in XP",
+"awardXpToCharacters": "Award XP to Characters",
+"awardXpDescription": "Would you like to award XP to the player characters for this encounter?",
+"xpToAward": "XP to Award",
+"xpPoints": "XP points",
+"playerCharactersReceivingXp": "Player Characters Receiving XP",
+"resetTrackerAfterAwardingXp": "Reset tracker after awarding XP",
+"skipXpAward": "Skip",
+"awardXp": "Award XP",
+"xpAwardedToCharacters": "{count} characters awarded {xp} XP",
+"@xpAwardedToCharacters": {
+  "description": "Message shown when XP is awarded to characters",
+  "placeholders": {
+    "count": {
+      "type": "int",
+      "example": "3"
+    },
+    "xp": {
+      "type": "int",
+      "example": "150"
+    }
+  }
+},
+"noCharactersUpdated": "No characters were updated",
+"finish": "Finish",
+"groupedRolls": "Grouped Rolls",
+"individualRolls": "Individual Rolls",
+"rollIndividually": "Roll Individually",
+"rollByGroup": "Roll by Group",
+"chooseHowToRollInitiative": "Roll initiative by groups or individually?",
+"multiclassAbilityRequirement": "You need the following ability scores at 13 or higher:\n\n",
+"cannotMulticlass": "Cannot Multiclass",
+"usesPactMagic": "Uses Pact Magic"
 
 }
