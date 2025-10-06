@@ -763,6 +763,13 @@ a:hover {
     border-bottom: none;
 }
 
+.guidelines-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
 /* License Section */
 .license-content {
     max-width: 800px;
@@ -1140,6 +1147,11 @@ a:hover {
     .help-links {
         flex-direction: column;
         align-items: center;
+    }
+    
+    .guidelines-buttons {
+        flex-direction: column;
+        align-items: stretch;
     }
     
     .slider-container {
