@@ -442,7 +442,7 @@ a:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(218, 165, 32, 0.8);
+    background: rgba(218, 165, 32, 0);
     border: none;
     color: white;
     width: 40px;
