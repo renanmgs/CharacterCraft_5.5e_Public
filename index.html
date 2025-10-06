@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Character Craft 5.5e - Digital character sheet application for Dungeons & Dragons 2024. Download translation files and contribute to the community.">
     <title>Character Craft 5.5e - D&D Digital Character Sheet</title>
+    
+    <!-- Favicon and App Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icon.png">
+    <meta name="msapplication-TileImage" content="assets/icon.png">
+    
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -44,7 +51,10 @@
                 </div>
             </div>
             <div class="hero-image">
-                <i class="fas fa-dragon"></i>
+                <img src="assets/icon.png" alt="Character Craft 5.5e Logo" class="hero-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="hero-fallback" style="display: none;">
+                    <i class="fas fa-dragon"></i>
+                </div>
             </div>
         </div>
     </header>
@@ -185,7 +195,7 @@
             <div class="container">
                 <h2>Open Game License</h2>
                 <div class="license-content">
-                    <p>This application uses material from the D&D SRD 5.1 OGL. All game rules content is © Wizards of the Coast LLC. This app is an unofficial tool created solely for the purpose of helping users access and reference open game content.</p>
+                    <p>This application uses material from the D&D SRD 5.2. All game rules content is © Wizards of the Coast LLC. This app is an unofficial tool created solely for the purpose of helping users access and reference open game content.</p>
                     <p><strong>Wizards of the Coast is not affiliated with, endorsed by, or responsible for this application.</strong></p>
                 </div>
             </div>
