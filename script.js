@@ -1,5 +1,8 @@
 // DOM Content Loaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize Slider
+    initializeSlider();
+    
     // Mobile Navigation Toggle
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
@@ -257,6 +260,190 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Hero Slider Functionality
+function initializeSlider() {
+    const slidesContainer = document.getElementById('slides');
+    const dotsContainer = document.getElementById('sliderDots');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    
+    let currentSlide = 0;
+    let slides = [];
+    let autoSlideInterval;
+    
+    // Load slides from assets/slides directory
+    async function loadSlides() {
+        const slideImages = [
+            'assets/slides/slide-1.png',
+            'assets/slides/slide-2.png',
+            'assets/slides/slide-3.png',
+            'assets/slides/slide-4.png',
+            'assets/slides/slide-5.png'
+        ];
+        
+        const validSlides = [];
+        
+        for (let i = 0; i < slideImages.length; i++) {
+            try {
+                const img = new Image();
+                img.src = slideImages[i];
+                
+                await new Promise((resolve, reject) => {
+                    img.onload = () => resolve();
+                    img.onerror = () => reject();
+                    setTimeout(() => reject(), 1000); // Timeout after 1 second
+                });
+                
+                validSlides.push({
+                    src: slideImages[i],
+                    alt: `Character Craft Screenshot ${i + 1}`
+                });
+            } catch (error) {
+                // Image doesn't exist or failed to load
+                console.log(`Slide ${slideImages[i]} not found`);
+            }
+        }
+        
+        return validSlides;
+    }
+    
+    // Create slide elements
+    function createSlides(slideData) {
+        if (slideData.length === 0) {
+            // Keep fallback slide if no screenshots found
+            return;
+        }
+        
+        // Clear existing slides except fallback
+        slidesContainer.innerHTML = '';
+        
+        slideData.forEach((slide, index) => {
+            const slideDiv = document.createElement('div');
+            slideDiv.className = 'slide';
+            slideDiv.innerHTML = `
+                <img src="${slide.src}" alt="${slide.alt}" class="slide-image">
+            `;
+            slidesContainer.appendChild(slideDiv);
+        });
+        
+        slides = document.querySelectorAll('.slide');
+        createDots();
+        setupEventListeners();
+        startAutoSlide();
+    }
+    
+    // Create dots for navigation
+    function createDots() {
+        dotsContainer.innerHTML = '';
+        
+        slides.forEach((_, index) => {
+            const dot = document.createElement('span');
+            dot.className = 'dot';
+            if (index === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(index));
+            dotsContainer.appendChild(dot);
+        });
+    }
+    
+    // Setup event listeners
+    function setupEventListeners() {
+        if (prevBtn && nextBtn) {
+            prevBtn.addEventListener('click', () => {
+                stopAutoSlide();
+                previousSlide();
+                startAutoSlide();
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                stopAutoSlide();
+                nextSlide();
+                startAutoSlide();
+            });
+        }
+        
+        // Pause auto-slide on hover
+        const sliderContainer = document.querySelector('.slider-container');
+        if (sliderContainer) {
+            sliderContainer.addEventListener('mouseenter', stopAutoSlide);
+            sliderContainer.addEventListener('mouseleave', startAutoSlide);
+        }
+        
+        // Touch/swipe support
+        let startX = 0;
+        let endX = 0;
+        
+        slidesContainer.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+        });
+        
+        slidesContainer.addEventListener('touchend', (e) => {
+            endX = e.changedTouches[0].clientX;
+            handleSwipe();
+        });
+        
+        function handleSwipe() {
+            const threshold = 50;
+            const diff = startX - endX;
+            
+            if (Math.abs(diff) > threshold) {
+                stopAutoSlide();
+                if (diff > 0) {
+                    nextSlide();
+                } else {
+                    previousSlide();
+                }
+                startAutoSlide();
+            }
+        }
+    }
+    
+    // Slide navigation functions
+    function goToSlide(index) {
+        currentSlide = index;
+        updateSlider();
+    }
+    
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        updateSlider();
+    }
+    
+    function previousSlide() {
+        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+        updateSlider();
+    }
+    
+    function updateSlider() {
+        if (slides.length === 0) return;
+        
+        slidesContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+        
+        // Update dots
+        const dots = document.querySelectorAll('.dot');
+        dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentSlide);
+        });
+    }
+    
+    // Auto-slide functionality
+    function startAutoSlide() {
+        if (slides.length <= 1) return;
+        
+        autoSlideInterval = setInterval(() => {
+            nextSlide();
+        }, 4000); // Change slide every 4 seconds
+    }
+    
+    function stopAutoSlide() {
+        if (autoSlideInterval) {
+            clearInterval(autoSlideInterval);
+        }
+    }
+    
+    // Initialize slider
+    loadSlides().then(createSlides);
+}
 
 // Utility Functions
 function debounce(func, wait) {

@@ -340,20 +340,159 @@ a:hover {
     max-width: 400px;
 }
 
-.hero-logo {
-    max-width: 300px;
-    max-height: 300px;
+/* Hero Buttons and Social Links */
+.hero-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+    margin: var(--spacing-lg) 0;
+}
+
+.hero-social {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+    justify-content: flex-start;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--accent-color), var(--accent-light));
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.social-link:hover {
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: var(--shadow-lg);
+    color: white;
+}
+
+/* Hero Slider */
+.hero-slider {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    position: relative;
+}
+
+.slider-container {
+    position: relative;
     width: 100%;
+    max-width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+    border: 2px solid var(--border-color);
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-card);
+    position: relative;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.slide-image:hover {
+    transform: scale(1.02);
+}
+
+.hero-logo {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
     height: auto;
     object-fit: contain;
     filter: drop-shadow(0 10px 30px rgba(218, 165, 32, 0.3));
     animation: float 6s ease-in-out infinite;
-    transition: var(--transition);
 }
 
 .hero-logo:hover {
     filter: drop-shadow(0 15px 40px rgba(218, 165, 32, 0.5));
-    transform: scale(1.05);
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(218, 165, 32, 0.8);
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: var(--transition);
+    z-index: 10;
+}
+
+.slider-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.dot.active {
+    background: var(--secondary-color);
+    transform: scale(1.2);
+}
+
+.dot:hover {
+    background: var(--secondary-color);
 }
 
 .hero-fallback {
@@ -814,14 +953,28 @@ a:hover {
         gap: var(--spacing-lg);
     }
     
+    .hero-buttons {
+        justify-content: center;
+        gap: var(--spacing-sm);
+    }
+    
+    .hero-social {
+        justify-content: center;
+    }
+    
+    .slider-container {
+        max-width: 250px;
+        height: 350px;
+    }
+    
     .hero-logo {
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 150px;
+        max-height: 150px;
     }
     
     .hero-fallback i,
     .hero-image i {
-        font-size: 8rem;
+        font-size: 6rem;
     }
     
     .contribute-content {
@@ -847,8 +1000,26 @@ a:hover {
         justify-content: center;
     }
     
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-sm);
+    }
+    
+    .slider-container {
+        max-width: 200px;
+        height: 300px;
+    }
+    
     .btn {
         padding: 10px 20px;
         font-size: 0.9rem;
+        min-width: 200px;
+    }
+    
+    .social-link {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
     }
 }
