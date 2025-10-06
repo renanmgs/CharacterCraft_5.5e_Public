@@ -196,6 +196,18 @@ a:hover {
     color: var(--accent-color);
 }
 
+.nav-logo-img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.nav-logo-fallback {
+    font-size: 1.8rem;
+    color: var(--accent-color);
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
