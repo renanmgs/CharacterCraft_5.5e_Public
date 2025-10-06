@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Character Craft 5.5e Documentation - Frequently Asked Questions and User Guide">
     <title>Documentation - Character Craft 5.5e</title>
-    
+
     <!-- Favicon and App Icons -->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icon.png">
     <meta name="msapplication-TileImage" content="assets/icon.png">
-    
+
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <header class="header-simple">
         <nav class="nav">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <img src="assets/icon.png" alt="Character Craft 5.5e" class="nav-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline'">
+                    <img src="assets/icon.png" alt="Character Craft 5.5e" class="nav-logo-img"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='inline'">
                     <i class="fas fa-scroll nav-logo-fallback" style="display: none;"></i>
                     <a href="index.html">Character Craft 5.5e</a>
                 </div>
@@ -52,12 +57,12 @@
                 <div class="faq-item">
                     <div class="faq-question">
                         <h3>
-                            <i class="fas fa-question-circle"></i>
                             1. Why are some classes, items, or species missing from the app?
                         </h3>
                     </div>
                     <div class="faq-answer">
-                        <p>Character Craft 5.5e includes only the freely available content authorized by WOTC, known as the <strong>SRD 5.2</strong>, by default.</p>
+                        <p>Character Craft 5.5e includes only the freely available content authorized by WOTC, known as
+                            the <strong>SRD 5.2</strong>, by default.</p>
                     </div>
                 </div>
 
@@ -91,8 +96,9 @@
                             <li><strong>Cloud Sync</strong> to save and sync characters across platforms</li>
                         </ul>
                         <div class="note">
-                            
-                            <strong>Note:</strong> Premium is required per platform, except for Mac and iOS which share the same store.
+
+                            <strong>Note:</strong> Premium is required per platform, except for Mac and iOS which share
+                            the same store.
                         </div>
                     </div>
                 </div>
@@ -100,14 +106,16 @@
                 <div class="faq-item">
                     <div class="faq-question">
                         <h3>
-                            
-                            4. I added a Feature with limited-use resources (Rage, Second Wind, Luck, etc.), but I can't find how to use them.
+
+                            4. I added a Feature with limited-use resources (Rage, Second Wind, Luck, etc.), but I can't
+                            find how to use them.
                         </h3>
                     </div>
                     <div class="faq-answer">
                         <p>You need to add a <strong>Custom Counter</strong> to the Feature or Feat:</p>
                         <ol>
-                            <li>Go to <strong>Edit Feature</strong>, scroll down, and click <strong>Add Custom Counter</strong></li>
+                            <li>Go to <strong>Edit Feature</strong>, scroll down, and click <strong>Add Custom
+                                    Counter</strong></li>
                             <li>Give it a name, define the number of uses per level</li>
                             <li>Set when it resets (e.g., Long Rest)</li>
                         </ol>
@@ -117,7 +125,7 @@
                 <div class="faq-item">
                     <div class="faq-question">
                         <h3>
-                            
+
                             5. My Feature gives a bonus to my character. How can I apply it?
                         </h3>
                     </div>
@@ -127,7 +135,7 @@
                         <ul>
                             <li>Stats, Attack rolls, Damage, Saving throw DCs, etc.</li>
                         </ul>
-                        
+
                         <div class="code-examples">
                             <h4>You can use:</h4>
                             <ul>
@@ -145,7 +153,7 @@
                 <div class="faq-item">
                     <div class="faq-question">
                         <h3>
-                           
+
                             6. My character doesn't have spell slots. What should I do?
                         </h3>
                     </div>
@@ -153,7 +161,8 @@
                         <ol>
                             <li>Check the <strong>Feature that grants Spellcasting</strong></li>
                             <li>Make sure the option <strong>"Includes Spellcasting"</strong> is enabled</li>
-                            <li>Then check and edit the <strong>number of spell slots</strong> available at that level</li>
+                            <li>Then check and edit the <strong>number of spell slots</strong> available at that level
+                            </li>
                         </ol>
                     </div>
                 </div>
@@ -161,14 +170,16 @@
                 <div class="faq-item">
                     <div class="faq-question">
                         <h3>
-                            
-                            7. My spell adds the spellcasting ability modifier (like Cure Wounds). How do I automate that in the roll?
+
+                            7. My spell adds the spellcasting ability modifier (like Cure Wounds). How do I automate
+                            that in the roll?
                         </h3>
                     </div>
                     <div class="faq-answer">
                         <p>Use <code>+spell</code> in the roll formula.</p>
-                        <p>The system will automatically use the modifier from the spellcasting ability set <strong>in the spell</strong>.</p>
-                        
+                        <p>The system will automatically use the modifier from the spellcasting ability set <strong>in
+                                the spell</strong>.</p>
+
                         <div class="example">
                             <h4>Example:</h4>
                             <p>For Cure Wounds: <code>1d8+spell</code></p>
@@ -180,19 +191,21 @@
                     <div class="help-section">
                         <h3>Need More Help?</h3>
                         <p>If you can't find the answer you're looking for, join our community for support:</p>
-                        
+
                         <div class="help-links">
-                            <a href="https://discord.com/invite/UX8V4ZY6eX" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <a href="https://discord.com/invite/UX8V4ZY6eX" class="btn btn-primary" target="_blank"
+                                rel="noopener noreferrer">
                                 <i class="fab fa-discord"></i>
                                 Join Discord Community
                             </a>
                         </div>
                     </div>
-                    
+
                     <div class="support-section">
                         <h3>Support Development</h3>
                         <p>Help keep Character Craft growing and improving:</p>
-                        <a href="https://www.patreon.com/c/charactercraft" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.patreon.com/c/charactercraft" class="btn btn-secondary" target="_blank"
+                            rel="noopener noreferrer">
                             <i class="fab fa-patreon"></i>
                             Support on Patreon
                         </a>
@@ -212,7 +225,7 @@
                     </div>
                     <p>Empowering D&D adventures worldwide</p>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul>
@@ -222,7 +235,7 @@
                         <li><a href="index.html#contribute">Contribute</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Support & Legal</h3>
                     <ul>
@@ -231,7 +244,7 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p>&copy; 2024 Character Craft 5.5e. Built with ❤️ for the D&D community.</p>
             </div>
@@ -240,4 +253,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
