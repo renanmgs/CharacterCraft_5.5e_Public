@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize Slider
     initializeSlider();
     
+    // Load Latest Update
+    loadLatestUpdate();
+    
     // Mobile Navigation Toggle
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
@@ -443,6 +446,127 @@ function initializeSlider() {
     
     // Initialize slider
     loadSlides().then(createSlides);
+}
+
+// Latest Update Loader
+async function loadLatestUpdate() {
+    try {
+        const response = await fetch('news_template.json');
+        const newsData = await response.json();
+        
+        // Get English content
+        const enContent = newsData.en;
+        
+        // Update image
+        const updateImage = document.getElementById('updateImage');
+        if (updateImage && enContent.image) {
+            updateImage.src = enContent.image;
+            updateImage.style.display = 'block';
+        }
+        
+        // Update title
+        const updateTitle = document.getElementById('updateTitle');
+        if (updateTitle) {
+            updateTitle.textContent = enContent.title;
+        }
+        
+        // Format and update date
+        const updateDate = document.getElementById('updateDate');
+        if (updateDate && newsData.date) {
+            const date = new Date(newsData.date);
+            const options = { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                timeZone: 'UTC'
+            };
+            updateDate.textContent = `Released: ${date.toLocaleDateString('en-US', options)}`;
+        }
+        
+        // Update version badges
+        const androidVersion = document.getElementById('androidVersion');
+        const iosVersion = document.getElementById('iosVersion');
+        const windowsVersion = document.getElementById('windowsVersion');
+        
+        if (androidVersion && newsData.Android) {
+            androidVersion.textContent = `Android ${newsData.Android}`;
+        }
+        if (iosVersion && newsData.Ios) {
+            iosVersion.textContent = `iOS ${newsData.Ios}`;
+        }
+        if (windowsVersion && newsData.Windows) {
+            windowsVersion.textContent = `Windows ${newsData.Windows}`;
+        }
+        
+        // Update content text
+        const updateText = document.getElementById('updateText');
+        if (updateText && enContent.text) {
+            // Convert text to HTML with proper formatting
+            const formattedText = formatUpdateText(enContent.text);
+            updateText.innerHTML = formattedText;
+        }
+        
+    } catch (error) {
+        console.error('Failed to load latest update:', error);
+        
+        // Fallback content
+        const updateTitle = document.getElementById('updateTitle');
+        const updateText = document.getElementById('updateText');
+        
+        if (updateTitle) {
+            updateTitle.textContent = 'Character Craft 5.5e - Latest Updates';
+        }
+        
+        if (updateText) {
+            updateText.innerHTML = `
+                <p>Stay up to date with the latest Character Craft 5.5e improvements and features!</p>
+                <p>Download the app from your preferred store to get the newest version.</p>
+            `;
+        }
+    }
+}
+
+// Format update text for better HTML display
+function formatUpdateText(text) {
+    // Split by double line breaks to create paragraphs
+    const paragraphs = text.split('\n\n');
+    let formattedHTML = '';
+    
+    paragraphs.forEach(paragraph => {
+        paragraph = paragraph.trim();
+        if (!paragraph) return;
+        
+        // Convert single line breaks to <br>
+        paragraph = paragraph.replace(/\n/g, '<br>');
+        
+        // Make headers bold
+        if (paragraph.startsWith('🚀') || paragraph.startsWith('⚔️') || paragraph.startsWith('📜') || paragraph.includes('What\'s New') || paragraph.includes('NEW:')) {
+            formattedHTML += `<h4>${paragraph}</h4>`;
+        }
+        // Handle bullet points
+        else if (paragraph.includes('\n•') || paragraph.startsWith('•')) {
+            const lines = paragraph.split('<br>');
+            let listHTML = '<ul>';
+            lines.forEach(line => {
+                line = line.trim();
+                if (line.startsWith('•')) {
+                    listHTML += `<li>${line.substring(1).trim()}</li>`;
+                } else if (line) {
+                    if (listHTML === '<ul>') {
+                        listHTML = `<p>${line}</p><ul>`;
+                    }
+                }
+            });
+            listHTML += '</ul>';
+            formattedHTML += listHTML;
+        }
+        // Regular paragraphs
+        else {
+            formattedHTML += `<p>${paragraph}</p>`;
+        }
+    });
+    
+    return formattedHTML;
 }
 
 // Utility Functions
