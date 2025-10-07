@@ -357,15 +357,15 @@ function initializeSlider() {
     function setupEventListeners() {
         if (prevBtn && nextBtn) {
             prevBtn.addEventListener('click', () => {
-                stopAutoSlide();
+                //stopAutoSlide();
                 previousSlide();
-                startAutoSlide();
+                //startAutoSlide();
             });
             
             nextBtn.addEventListener('click', () => {
-                stopAutoSlide();
+                //stopAutoSlide();
                 nextSlide();
-                startAutoSlide();
+                //startAutoSlide();
             });
         }
         
