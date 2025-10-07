@@ -405,27 +405,33 @@ a:hover {
     width: 100%;
     max-width: 450px;
     height: 800px;
-    overflow: hidden;
+    overflow: visible;
     border-radius: 20px;
-    box-shadow: var(--shadow-lg);
     aspect-ratio: 9/16;
+    perspective: 1000px;
 }
 
 .slides {
     display: flex;
-    width: 100%;
+    width: 300%;
     height: 100%;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform-style: preserve-3d;
 }
 
 .slide {
-    min-width: 100%;
+    width: 33.333%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--bg-card);
     position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform-origin: center;
+    box-shadow: var(--shadow-lg);
 }
 
 
@@ -434,11 +440,55 @@ a:hover {
     height: 100%;
     object-fit: contain;
     background: var(--bg-secondary);
-    transition: var(--transition);
+    transition: all 0.6s ease;
 }
 
 .slide-image:hover {
     transform: none;
+}
+
+/* Slide States */
+.slide.active {
+    transform: scale(1) translateZ(0);
+    opacity: 1;
+    z-index: 3;
+}
+
+.slide.prev,
+.slide.next {
+    transform: scale(0.85) translateZ(-50px);
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.slide.prev {
+    transform: scale(0.85) translateX(-10%) translateZ(-50px);
+}
+
+.slide.next {
+    transform: scale(0.85) translateX(10%) translateZ(-50px);
+}
+
+.slide:not(.active):not(.prev):not(.next) {
+    opacity: 0;
+    transform: scale(0.7) translateZ(-100px);
+    z-index: 0;
+}
+
+/* Hover effects para slides laterais */
+.slide.prev:hover,
+.slide.next:hover {
+    opacity: 0.8;
+    transform: scale(0.9) translateZ(-30px);
+    cursor: pointer;
+}
+
+.slide.prev:hover {
+    transform: scale(0.9) translateX(-5%) translateZ(-30px);
+}
+
+.slide.next:hover {
+    transform: scale(0.9) translateX(5%) translateZ(-30px);
 }
 
 .hero-logo {
@@ -1281,9 +1331,16 @@ a:hover {
     }
     
     .slider-container {
-        max-width: 350px;
-        height: 622px;
+        max-width: 320px;
+        height: 568px;
         aspect-ratio: 9/16;
+    }
+    
+    /* Simplificar em mobile - mostrar apenas slide ativo */
+    .slide.prev,
+    .slide.next {
+        opacity: 0.3;
+        transform: scale(0.7) translateZ(-50px);
     }
     
     .hero-logo {
@@ -1331,9 +1388,16 @@ a:hover {
     }
     
     .slider-container {
-        max-width: 280px;
-        height: 497px;
+        max-width: 260px;
+        height: 462px;
         aspect-ratio: 9/16;
+    }
+    
+    /* Em telas muito pequenas, ocultar slides laterais */
+    .slide.prev,
+    .slide.next {
+        opacity: 0;
+        pointer-events: none;
     }
     
     .btn {

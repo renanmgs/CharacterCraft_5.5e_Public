@@ -369,6 +369,17 @@ function initializeSlider() {
             });
         }
         
+        // Add click listeners to slides for navigation
+        slides.forEach((slide, index) => {
+            slide.addEventListener('click', () => {
+                if (index !== currentSlide) {
+                    stopAutoSlide();
+                    goToSlide(index);
+                    startAutoSlide();
+                }
+            });
+        });
+        
         // Pause auto-slide on hover
         const sliderContainer = document.querySelector('.slider-container');
         if (sliderContainer) {
@@ -424,7 +435,22 @@ function initializeSlider() {
     function updateSlider() {
         if (slides.length === 0) return;
         
-        slidesContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+        // Calculate the offset to center the current slide
+        const offset = currentSlide * (100 / 3); // Each slide is 33.333% width
+        slidesContainer.style.transform = `translateX(-${offset}%) translateX(33.333%)`;
+        
+        // Update slide states
+        slides.forEach((slide, index) => {
+            slide.classList.remove('active', 'prev', 'next');
+            
+            if (index === currentSlide) {
+                slide.classList.add('active');
+            } else if (index === (currentSlide - 1 + slides.length) % slides.length) {
+                slide.classList.add('prev');
+            } else if (index === (currentSlide + 1) % slides.length) {
+                slide.classList.add('next');
+            }
+        });
         
         // Update dots
         const dots = document.querySelectorAll('.dot');
