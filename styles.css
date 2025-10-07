@@ -397,6 +397,7 @@ a:hover {
     min-width: 400px;
     position: relative;
     padding-top: 30px;
+
 }
 
 .slider-container {
@@ -427,33 +428,6 @@ a:hover {
     position: relative;
 }
 
-.slide::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(26, 26, 26, 0.95);
-    pointer-events: none;
-    z-index: 2;
-}
-
-/* Fade adicional para melhor integração com o texto */
-.hero-slider::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60%;
-    height: 100%;
-    background: linear-gradient(to right, 
-        transparent 0%, 
-        rgba(26, 26, 26, 0.2) 80%, 
-        rgba(26, 26, 26, 0.6) 100%);
-    pointer-events: none;
-    z-index: 3;
-}
 
 .slide-image {
     width: 100%;
