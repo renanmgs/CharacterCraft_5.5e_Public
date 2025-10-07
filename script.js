@@ -435,11 +435,7 @@ function initializeSlider() {
     function updateSlider() {
         if (slides.length === 0) return;
         
-        // Calculate the offset to center the current slide
-        const offset = currentSlide * (100 / 3); // Each slide is 33.333% width
-        slidesContainer.style.transform = `translateX(-${offset}%) translateX(33.333%)`;
-        
-        // Update slide states
+        // Update slide states - no transform needed on container
         slides.forEach((slide, index) => {
             slide.classList.remove('active', 'prev', 'next');
             
