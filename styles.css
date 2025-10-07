@@ -403,8 +403,8 @@ a:hover {
 .slider-container {
     position: relative;
     width: 100%;
-    max-width: 450px;
-    height: 1000px;
+    max-width: 337px;
+    height: 750px;
     aspect-ratio: 575/1280;
     display: flex;
     justify-content: center;
