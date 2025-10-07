@@ -336,6 +336,7 @@ function initializeSlider() {
         
         slides = document.querySelectorAll('.slide');
         createDots();
+        updateSlider(); // ✅ Chama updateSlider imediatamente para mostrar o primeiro slide
         setupEventListeners();
         startAutoSlide();
     }
@@ -459,6 +460,7 @@ function initializeSlider() {
     function startAutoSlide() {
         if (slides.length <= 1) return;
         
+        // ✅ Adiciona um delay inicial menor para o primeiro avanço automático
         autoSlideInterval = setInterval(() => {
             nextSlide();
         }, 4000); // Change slide every 4 seconds
