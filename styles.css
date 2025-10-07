@@ -400,11 +400,12 @@ a:hover {
 .slider-container {
     position: relative;
     width: 100%;
-    max-width: 500px;
-    height: 600px;
+    max-width: 300px;
+    height: 533px;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: var(--shadow-lg);
+    aspect-ratio: 9/16;
 }
 
 .slides {
@@ -439,7 +440,8 @@ a:hover {
 .slide-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    background: var(--bg-secondary);
     transition: var(--transition);
 }
 
@@ -702,44 +704,11 @@ a:hover {
     font-style: italic;
 }
 
-.update-versions {
-    display: flex;
-    gap: var(--spacing-xs);
-    flex-wrap: wrap;
-}
-
-.version-badge {
-    padding: 4px 8px;
-    border-radius: 12px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.version-badge.android {
-    background: rgba(76, 175, 80, 0.2);
-    color: #4CAF50;
-    border: 1px solid #4CAF50;
-}
-
-.version-badge.ios {
-    background: rgba(33, 150, 243, 0.2);
-    color: #2196F3;
-    border: 1px solid #2196F3;
-}
-
-.version-badge.windows {
-    background: rgba(255, 152, 0, 0.2);
-    color: #FF9800;
-    border: 1px solid #FF9800;
-}
-
 .update-content {
     padding: var(--spacing-lg);
 }
 
 .update-text {
-    margin-bottom: var(--spacing-lg);
     max-height: 300px;
     overflow-y: auto;
     padding-right: var(--spacing-sm);
@@ -767,15 +736,6 @@ a:hover {
 
 .update-text strong {
     color: var(--secondary-color);
-}
-
-.update-actions {
-    display: flex;
-    gap: var(--spacing-md);
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: var(--spacing-md);
-    border-top: 1px solid var(--border-color);
 }
 
 /* Download Grid */
@@ -1321,14 +1281,12 @@ a:hover {
         height: 100px;
     }
     
-    .update-actions {
-        flex-direction: column;
-        align-items: stretch;
-    }
+
     
     .slider-container {
-        max-width: 350px;
-        height: 450px;
+        max-width: 250px;
+        height: 444px;
+        aspect-ratio: 9/16;
     }
     
     .hero-logo {
@@ -1371,8 +1329,9 @@ a:hover {
     }
     
     .slider-container {
-        max-width: 280px;
-        height: 380px;
+        max-width: 200px;
+        height: 356px;
+        aspect-ratio: 9/16;
     }
     
     .btn {

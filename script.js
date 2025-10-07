@@ -483,20 +483,7 @@ async function loadLatestUpdate() {
             updateDate.textContent = `Released: ${date.toLocaleDateString('en-US', options)}`;
         }
         
-        // Update version badges
-        const androidVersion = document.getElementById('androidVersion');
-        const iosVersion = document.getElementById('iosVersion');
-        const windowsVersion = document.getElementById('windowsVersion');
-        
-        if (androidVersion && newsData.Android) {
-            androidVersion.textContent = `Android ${newsData.Android}`;
-        }
-        if (iosVersion && newsData.Ios) {
-            iosVersion.textContent = `iOS ${newsData.Ios}`;
-        }
-        if (windowsVersion && newsData.Windows) {
-            windowsVersion.textContent = `Windows ${newsData.Windows}`;
-        }
+
         
         // Update content text
         const updateText = document.getElementById('updateText');
