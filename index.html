@@ -204,6 +204,61 @@
             </div>
         </section>
 
+        <section id="example-character" class="section">
+            <div class="container">
+                <h2>Featured Sample Character</h2>
+                <p class="section-subtitle">Preview a ready-to-import hero and download the JSON to test Character Craft 5.5e</p>
+
+                <div class="character-card" id="characterCard">
+                    <div class="character-header">
+                        <div class="character-image-wrapper">
+                            <img id="characterImage" src="" alt="Featured character portrait" class="character-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="character-image-fallback">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                        </div>
+
+                        <div class="character-summary">
+                            <h3 id="characterName">Loading character...</h3>
+                            <p class="character-class"><strong>Class:</strong> <span id="characterClass">--</span></p>
+                            <p class="character-species"><strong>Species:</strong> <span id="characterSpecies">--</span></p>
+                            <p class="character-background"><strong>Background:</strong> <span id="characterBackground">--</span></p>
+                            <a href="Canam_Human_Barbarian.json" class="btn btn-primary" download>
+                                <i class="fas fa-download"></i>
+                                Download Character JSON
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="character-body">
+                        <div class="character-column">
+                            <h4>Background Overview</h4>
+                            <p id="characterBackgroundDescription">Loading background...</p>
+
+                            <h4>Bio</h4>
+                            <p id="characterBio">Loading bio...</p>
+                        </div>
+
+                        <div class="character-column">
+                            <h4>Attributes</h4>
+                            <ul id="characterAttributes" class="character-attributes"></ul>
+
+                            <h4>Equipment</h4>
+                            <ul id="characterEquipment" class="character-list"></ul>
+                        </div>
+
+                        <div class="character-column">
+                            <h4>Features &amp; Traits</h4>
+                            <ul id="characterFeatures" class="character-list"></ul>
+
+                            <h4>Feats</h4>
+                            <ul id="characterFeats" class="character-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="contribute" class="section">
             <div class="container">
                 <h2>Contribute to Character Craft</h2>

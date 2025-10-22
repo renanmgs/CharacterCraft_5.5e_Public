@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Load Latest Update
     loadLatestUpdate();
+
+    // Load Featured Character
+    loadFeaturedCharacter();
     
     // Mobile Navigation Toggle
     const navToggle = document.querySelector('.nav-toggle');
@@ -539,6 +542,154 @@ async function loadLatestUpdate() {
             `;
         }
     }
+}
+
+// Featured Character Loader
+async function loadFeaturedCharacter() {
+    const card = document.getElementById('characterCard');
+    if (!card) return;
+
+    try {
+        const response = await fetch('Canam_Human_Barbarian.json');
+        if (!response.ok) {
+            throw new Error('Failed to fetch character data');
+        }
+
+        const characterData = await response.json();
+
+        const nameEl = document.getElementById('characterName');
+        if (nameEl) {
+            nameEl.textContent = characterData.name || 'Unnamed Adventurer';
+        }
+
+        const className = Array.isArray(characterData.class) && characterData.class.length > 0
+            ? characterData.class[0].name
+            : 'Unknown';
+        const classEl = document.getElementById('characterClass');
+        if (classEl) {
+            classEl.textContent = className;
+        }
+
+        const speciesEl = document.getElementById('characterSpecies');
+        if (speciesEl) {
+            speciesEl.textContent = characterData.species?.name || 'Unknown';
+        }
+
+        const backgroundName = characterData.background?.name || 'Unknown';
+        const backgroundEl = document.getElementById('characterBackground');
+        if (backgroundEl) {
+            backgroundEl.textContent = backgroundName;
+        }
+
+        const imageEl = document.getElementById('characterImage');
+        const fallbackEl = imageEl ? imageEl.nextElementSibling : null;
+        if (imageEl) {
+            if (characterData.image) {
+                imageEl.src = characterData.image;
+                imageEl.style.display = 'block';
+                if (fallbackEl) {
+                    fallbackEl.style.display = 'none';
+                }
+            } else {
+                imageEl.style.display = 'none';
+                if (fallbackEl) {
+                    fallbackEl.style.display = 'flex';
+                }
+            }
+        }
+
+        setTextWithFallback('characterBackgroundDescription', characterData.background?.description, 'Background details unavailable.');
+        setTextWithFallback('characterBio', characterData.bio, 'No biography provided.');
+
+        renderAttributes(characterData.attributes);
+        renderList('characterEquipment', mapItemNames(characterData.equipment), 8, 'No equipment listed.');
+        renderList('characterFeatures', mapItemNames(characterData.featuresAndTraits), 8, 'No features available.');
+        renderList('characterFeats', mapItemNames(characterData.feats), 6, 'No feats recorded.');
+    } catch (error) {
+        console.error('Failed to load featured character:', error);
+        const nameEl = document.getElementById('characterName');
+        if (nameEl) {
+            nameEl.textContent = 'Example character unavailable at the moment';
+        }
+    }
+}
+
+function setTextWithFallback(elementId, value, fallback) {
+    const element = document.getElementById(elementId);
+    if (!element) return;
+
+    const content = typeof value === 'string' && value.trim().length > 0
+        ? truncateText(value.replace(/\t/g, ' ').replace(/\s+/g, ' ').trim(), 500)
+        : fallback;
+
+    element.textContent = content;
+}
+
+function renderAttributes(attributes) {
+    const list = document.getElementById('characterAttributes');
+    if (!list) return;
+
+    list.innerHTML = '';
+    if (!attributes || Object.keys(attributes).length === 0) {
+        const li = document.createElement('li');
+        li.textContent = 'Attributes unavailable';
+        list.appendChild(li);
+        return;
+    }
+
+    Object.entries(attributes).forEach(([key, value]) => {
+        const li = document.createElement('li');
+        const label = document.createElement('strong');
+        label.textContent = key;
+        const stat = document.createElement('span');
+        stat.textContent = value;
+        li.appendChild(label);
+        li.appendChild(stat);
+        list.appendChild(li);
+    });
+}
+
+function renderList(elementId, items, limit, emptyMessage) {
+    const list = document.getElementById(elementId);
+    if (!list) return;
+
+    list.innerHTML = '';
+
+    if (!items || items.length === 0) {
+        const li = document.createElement('li');
+        li.textContent = emptyMessage;
+        list.appendChild(li);
+        return;
+    }
+
+    const maxItems = typeof limit === 'number' ? limit : items.length;
+    items.slice(0, maxItems).forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        list.appendChild(li);
+    });
+
+    if (items.length > maxItems) {
+        const li = document.createElement('li');
+        li.textContent = `+${items.length - maxItems} more`;
+        list.appendChild(li);
+    }
+}
+
+function mapItemNames(collection) {
+    if (!Array.isArray(collection)) return [];
+    return collection
+        .map(item => {
+            if (!item) return null;
+            if (typeof item === 'string') return item;
+            return item.name || item.title || null;
+        })
+        .filter(Boolean);
+}
+
+function truncateText(text, maxLength) {
+    if (!text || text.length <= maxLength) return text;
+    return `${text.substring(0, maxLength - 1).trim()}…`;
 }
 
 // Format update text for better HTML display
