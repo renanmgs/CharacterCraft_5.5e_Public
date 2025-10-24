@@ -19,6 +19,17 @@
         href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESF2EN8P12"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ESF2EN8P12');
+    </script>
+    </script>
 </head>
 
 <body>
@@ -34,7 +45,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#download">Downloads</a></li>
                     <li><a href="#contribute">Contribute</a></li>
-                    <li><a href="documentation.html">Documentation</a></li>
+                    <li><a href="documentation.html" data-analytics-location="nav">Documentation</a></li>
                     <li><a href="privacy-policy.html">Privacy Policy</a></li>
                 </ul>
                 <div class="nav-toggle">
@@ -205,7 +216,7 @@
                             </p>
                             <p class="character-background"><strong>Background:</strong> <span
                                     id="characterBackground">--</span></p>
-                            <a href="Canam_Human_Barbarian.json" class="btn btn-primary" download>
+                            <a href="Canam_Human_Barbarian.json" class="btn btn-primary" download data-analytics-label="featured_character_demo_json">
                                 <i class="fas fa-download"></i>
                                 Download Character JSON
                             </a>
@@ -259,7 +270,7 @@
                             <span class="file-name">app_en.arb</span>
                             <span class="file-size">Translation Template</span>
                         </div>
-                        <a href="app_en.arb" class="btn btn-primary" download>
+                        <a href="app_en.arb" class="btn btn-primary" download data-analytics-label="translation_template">
                             <i class="fas fa-download"></i>
                             Download Translation
                         </a>
@@ -275,7 +286,7 @@
                             <span class="file-name">CC_Default_DB.json</span>
                             <span class="file-size">Database Template</span>
                         </div>
-                        <a href="Character_Craft_Default_DB.json" class="btn btn-primary" download>
+                        <a href="Character_Craft_Default_DB.json" class="btn btn-primary" download data-analytics-label="default_database_template">
                             <i class="fas fa-download"></i>
                             Download Database
                         </a>
@@ -328,7 +339,7 @@
                         </ul>
 
                         <div class="guidelines-buttons">
-                            <a href="documentation.html" class="btn btn-primary">
+                            <a href="documentation.html" class="btn btn-primary" data-analytics-location="contribute_guidelines">
                                 <i class="fas fa-book"></i>
                                 View Documentation
                             </a>
@@ -376,8 +387,8 @@
                 <div class="footer-section">
                     <h3>Community</h3>
                     <ul>
-                        <li><a href="app_en.arb" download>Translation Template</a></li>
-                        <li><a href="Character_Craft_Default_DB.json" download>Database Template</a></li>
+                        <li><a href="app_en.arb" download data-analytics-label="translation_template_footer">Translation Template</a></li>
+                        <li><a href="Character_Craft_Default_DB.json" download data-analytics-label="default_database_template_footer">Database Template</a></li>
                     </ul>
                 </div>
             </div>
@@ -388,16 +399,7 @@
         </div>
     </footer>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESF2EN8P12"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-ESF2EN8P12');
-    </script>
-    </script>
+    
 
     <script src="script.js"></script>
 </body>

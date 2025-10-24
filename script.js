@@ -1,3 +1,9 @@
+function trackAnalyticsEvent(eventName, params = {}) {
+    if (typeof gtag === 'function' && window.GA_MEASUREMENT_ID) {
+        gtag('event', eventName, params);
+    }
+}
+
 // DOM Content Loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize Slider
@@ -96,6 +102,15 @@ document.addEventListener('DOMContentLoaded', function() {
     downloadButtons.forEach(button => {
         button.addEventListener('click', function() {
             const fileName = this.getAttribute('href');
+            const analyticsLabel = this.dataset.analyticsLabel || fileName;
+            const fileExtension = fileName ? fileName.split('.').pop().toLowerCase() : '';
+            const linkUrl = this.href;
+            trackAnalyticsEvent('file_download', {
+                file_name: fileName,
+                file_extension: fileExtension,
+                link_label: analyticsLabel,
+                link_url: linkUrl
+            });
             console.log(`Download initiated: ${fileName}`);
             
             // Add a visual feedback
@@ -110,6 +125,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     this.style.pointerEvents = 'auto';
                 }, 2000);
             }, 1000);
+        });
+    });
+
+    const documentationLinks = document.querySelectorAll('a[href="documentation.html"]');
+    documentationLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            const linkLocation = this.dataset.analyticsLocation || 'unknown';
+            trackAnalyticsEvent('documentation_link_click', {
+                link_location: linkLocation,
+                link_text: this.textContent.trim(),
+                link_url: this.href
+            });
         });
     });
     
