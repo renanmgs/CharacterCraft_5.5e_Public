@@ -210,13 +210,25 @@
                         </div>
 
                         <div class="character-summary">
-                            <h3 id="characterName">Loading character...</h3>
-                            <p class="character-class"><strong>Class:</strong> <span id="characterClass">--</span></p>
+                            <div class="character-summary-header">
+                                <h3 id="characterName">Loading character...</h3>
+                                <div class="character-navigation" id="characterNavigation" aria-live="polite">
+                                    <button class="character-nav-btn" id="characterPrevBtn" type="button" aria-label="Previous character demo">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </button>
+                                    <span class="character-counter" id="characterCounter">1 / 1</span>
+                                    <button class="character-nav-btn" id="characterNextBtn" type="button" aria-label="Next character demo">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="character-level"><strong>Total Level:</strong> <span id="characterLevel">--</span></p>
+                            <p class="character-classes"><strong>Classes:</strong> <span id="characterClasses">--</span></p>
                             <p class="character-species"><strong>Species:</strong> <span id="characterSpecies">--</span>
                             </p>
                             <p class="character-background"><strong>Background:</strong> <span
                                     id="characterBackground">--</span></p>
-                            <a href="Canam_Human_Barbarian.json" class="btn btn-primary" download data-analytics-label="featured_character_demo_json">
+                            <a href="#" id="characterDownloadLink" class="btn btn-primary" download data-analytics-label="featured_character_demo_json">
                                 <i class="fas fa-download"></i>
                                 Download Character JSON
                             </a>
