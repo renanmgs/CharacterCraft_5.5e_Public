@@ -8,8 +8,16 @@
         "label": "Dominus"
     },
     {
+        "file": "Kath_Dragonborn_Sorcerer.json",
+        "label": "Kath"
+    },
+    {
         "file": "Bar-Kathum_Dwarf_Monk_Barbarian.json",
         "label": "Bar-Kathum"
+    },
+    {
+        "file": "Lanaya_Halfling_Rogue.json",
+        "label": "Lanaya"
     }
     
 ]
