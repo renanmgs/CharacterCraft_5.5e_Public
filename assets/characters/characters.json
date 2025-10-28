@@ -1,9 +1,5 @@
 [
     {
-        "file": "Canam_Human_Barbarian.json",
-        "label": "Canam Soferhaun"
-    },
-    {
         "file": "Dominus_Elf_High_Paladin_Warlock.json",
         "label": "Dominus"
     },
@@ -18,6 +14,10 @@
     {
         "file": "Lanaya_Halfling_Rogue.json",
         "label": "Lanaya"
+    },
+    {
+        "file": "Canam_Human_Barbarian.json",
+        "label": "Canam Soferhaun"
     }
     
 ]
