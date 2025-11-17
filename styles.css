@@ -595,6 +595,30 @@ a:hover {
     background: var(--bg-secondary);
 }
 
+.section-highlight {
+    background: var(--bg-light);
+    color: var(--text-dark);
+}
+
+.section-highlight h2 {
+    color: var(--primary-dark);
+}
+
+.section-highlight p {
+    color: var(--text-dark);
+}
+
+.section-highlight .feature-card {
+    background: #ffffff;
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: var(--shadow);
+    color: var(--text-dark);
+}
+
+.section-highlight .feature-card i {
+    color: var(--primary-color);
+}
+
 .section h2 {
     text-align: center;
     color: var(--secondary-color);
@@ -672,6 +696,50 @@ a:hover {
 .feature-card h3 {
     color: var(--secondary-color);
     margin-bottom: var(--spacing-sm);
+}
+
+.section-highlight .feature-card h3 {
+    color: var(--primary-dark);
+}
+
+.section-highlight .feature-card p {
+    color: var(--text-dark);
+}
+
+.faq-list {
+    display: grid;
+    gap: var(--spacing-md);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-list details {
+    background: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    padding: var(--spacing-md);
+    transition: var(--transition);
+}
+
+.faq-list details[open] {
+    border-color: var(--secondary-color);
+    box-shadow: var(--shadow-lg);
+}
+
+.faq-list summary {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+    outline: none;
+}
+
+.faq-list summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-list p {
+    margin-top: var(--spacing-sm);
 }
 
 /* Latest Update Section */
