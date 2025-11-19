@@ -156,6 +156,32 @@ a:hover {
     color: var(--text-dark);
 }
 
+.btn-highlight {
+    background: linear-gradient(135deg, var(--accent-color), #ff4d4d);
+    color: white;
+    box-shadow: 0 0 15px rgba(220, 20, 60, 0.5);
+    font-size: 1.2rem;
+    padding: 16px 32px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    animation: pulse-glow 2s infinite;
+}
+
+.btn-highlight:hover {
+    background: linear-gradient(135deg, #ff4d4d, var(--accent-color));
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 0 25px rgba(220, 20, 60, 0.8);
+    color: white;
+}
+
+@keyframes pulse-glow {
+    0% { box-shadow: 0 0 15px rgba(220, 20, 60, 0.5); }
+    50% { box-shadow: 0 0 25px rgba(220, 20, 60, 0.8); }
+    100% { box-shadow: 0 0 15px rgba(220, 20, 60, 0.5); }
+}
+
 /* Navigation */
 .nav {
     position: fixed;
