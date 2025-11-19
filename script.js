@@ -15,6 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize Featured Characters carousel
     initializeCharacterCarousel();
     
+    // Show Web App button on desktop
+    const webAppBtn = document.getElementById('web-app-btn');
+    if (webAppBtn && !isMobileDevice()) {
+        webAppBtn.style.display = 'inline-flex';
+    }
+
     // Mobile Navigation Toggle
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
@@ -1106,3 +1112,7 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+function isMobileDevice() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
