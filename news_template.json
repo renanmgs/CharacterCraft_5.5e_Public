@@ -15,7 +15,7 @@
     "text": "¡Saludos aventureros! ¡Tenemos novedades emocionantes en esta actualización!\n\n🚀 Novedades\n\n🌐 **¡Versión Web Disponible!**\n¡Ahora puedes probar Character Craft 5.5e directamente en tu navegador! (Recomendado solo para escritorio)\n\n✨ **Interfaz del Rastreador de Iniciativa Mejorada**\nAhora muestra las Acciones de las criaturas, haciendo el combate más fluido.\n\n🐉 **Importación de Monstruos XML Mejorada**\nAhora importa correctamente acciones legendarias, salvaciones y competencias en habilidades.\n\n💾 **Importación XML Mejorada**\nMantiene tus datos actuales si los IDs de los datos son diferentes, evitando sobrescrituras accidentales.\n\n🔍 **Barra de Búsqueda en Referencia de Reglas**\nAñadida una Barra de Búsqueda en la página de Referencia de Reglas para acceso rápido.\n\n🐛 **Corrección de Errores**\n• Corregido un error al guardar el estado de un personaje de una Campaña (ALERTA - Esta corrección solo funcionará si vuelves a agregar tus personajes PJ en tu campaña y encuentros de campaña)\n• Corregido un error al importar un archivo parcial (solo objetos por ejemplo) usando el botón Importar Todos los Datos"
   },
   "Android": "Version 1.5.5 (163)",
-  "Ios": "Version 1.5.5 (162)",
+  "Ios": "Version 1.5.5 (163)",
   "MacOS": "Version 1.5.5 (163)",
   "Windows": "Version 1.5.5 (163)",
   "Web": "Version 1.5.5 (163)",
