@@ -2,7 +2,7 @@
   "en": {
     "image": "https://i.imgur.com/RJgiNbe.png",
     "title": "🔧 Version 1.5.5 (168)",
-    "text": "1.5.5 (167)\n\n- Fixed how ASIs are selected during Character Creation and when changing Species\n- Changed several dialogs to the new Bottom Modal Sheet pattern\n- Added Campaign Encounter Export/Import\n- Added a dialog when equipping one-handed weapons asking about Main/Off-hand\n- Added toggleable bonuses to Spells so they can be used in the Combat Tab as well\n- Added an Item Randomizer in the Item Search dialog. Set filters and press Randomize!\n- Moved Background Features to the Background card instead of copying them to the Feats list"
+    "text": "1.5.5 (168)\n\n- Fixed how ASIs are selected during Character Creation and when changing Species\n- Changed several dialogs to the new Bottom Modal Sheet pattern\n- Added Campaign Encounter Export/Import\n- Added a dialog when equipping one-handed weapons asking about Main/Off-hand\n- Added toggleable bonuses to Spells so they can be used in the Combat Tab as well\n- Added an Item Randomizer in the Item Search dialog. Set filters and press Randomize!\n- Moved Background Features to the Background card instead of copying them to the Feats list"
   },
   "pt": {
     "image": "https://i.imgur.com/RJgiNbe.png",
