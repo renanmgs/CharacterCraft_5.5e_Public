@@ -1,25 +1,25 @@
 {
   "en": {
     "image": "https://i.imgur.com/wj6thTx.png",
-    "title": "🚀 Web Version & Improvements!",
-    "text": "Greetings adventurers! We have some exciting new features in this update!\n\n🚀 What's New\n\n🌐 **Web Version Available!**\nYou can now try Character Craft 5.5e directly in your browser! (Desktop only recommended)\n\n✨ **Improved Initiative Tracker UI**\nNow it shows the Actions of the creatures, making combat smoother.\n\n🐉 **Improved Monsters XML Import**\nNow it correctly imports legendary actions, saves, and skills proficiencies.\n\n💾 **Improved XML Import**\nKeeps your current data if the data IDs are different, preventing accidental overwrites.\n\n🔍 **Search Bar in Rules Reference**\nAdded a Search Bar in the Rules Reference page for quick access to rules.\n\n🐛 **Bug Fixes**\n• Fixed a bug when saving the state of a character from a Campaign (ALERT - This fix will only work if you re-add your PC characters in your campaign and campaign encounters)\n• Fixed a bug when importing a partial file (only items for example) using the Import All Data button"
+    "title": "🔧 Version 1.5.5 (168)",
+    "text": "1.5.5 (167)\n\n- Fixed how ASIs are selected during Character Creation and when changing Species\n- Changed several dialogs to the new Bottom Modal Sheet pattern\n- Added Campaign Encounter Export/Import\n- Added a dialog when equipping one-handed weapons asking about Main/Off-hand\n- Added toggleable bonuses to Spells so they can be used in the Combat Tab as well\n- Added an Item Randomizer in the Item Search dialog. Set filters and press Randomize!\n- Moved Background Features to the Background card instead of copying them to the Feats list"
   },
   "pt": {
     "image": "https://i.imgur.com/wj6thTx.png",
-    "title": "🚀 Versão Web e Melhorias!",
-    "text": "Saudações aventureiros! Temos novidades emocionantes nesta atualização!\n\n🚀 O que há de novo\n\n🌐 **Versão Web Disponível!**\nAgora você pode experimentar o Character Craft 5.5e diretamente no seu navegador! (Recomendado apenas para Desktop)\n\n✨ **Interface do Rastreador de Iniciativa Melhorada**\nAgora mostra as Ações das criaturas, tornando o combate mais fluido.\n\n🐉 **Importação de Monstros XML Melhorada**\nAgora importa corretamente ações lendárias, testes de resistência e proficiências em perícias.\n\n💾 **Importação XML Melhorada**\nMantém seus dados atuais se os IDs dos dados forem diferentes, evitando substituições acidentais.\n\n🔍 **Barra de Pesquisa na Referência de Regras**\nAdicionada uma Barra de Pesquisa na página de Referência de Regras para acesso rápido.\n\n🐛 **Correções de Bugs**\n• Corrigido um bug ao salvar o estado de um personagem de uma Campanha (ALERTA - Esta correção só funcionará se você readicionar seus personagens de PJ em sua campanha e encontros de campanha)\n• Corrigido um bug ao importar um arquivo parcial (apenas itens, por exemplo) usando o botão Importar Todos os Dados"
+    "title": "🔧 Versão 1.5.5 (168)",
+    "text": "1.5.5 (168)\n\n- Corrigido como os ASIs são selecionados na Criação de Personagem e ao mudar de Espécie\n- Alterados diálogos de alguns locais para o novo padrão Bottom Modal Sheet\n- Adicionado Exportar/Importar Encontros de Campanha\n- Adicionado diálogo ao equipar armas com uma mão perguntando sobre Mão Principal/Mão Secundária\n- Adicionados bônus ativáveis em Magias, para que possam ser usados também na aba de Combate\n- Adicionado um Randomizador de Itens no diálogo de Busca de Itens. Defina filtros e clique em Aleatorizar!\n- Movidas as Características de Background para o cartão de Background em vez de copiá-las para a lista de Talentos"
   },
   "es": {
     "image": "https://i.imgur.com/wj6thTx.png",
-    "title": "🚀 ¡Versión Web y Mejoras!",
-    "text": "¡Saludos aventureros! ¡Tenemos novedades emocionantes en esta actualización!\n\n🚀 Novedades\n\n🌐 **¡Versión Web Disponible!**\n¡Ahora puedes probar Character Craft 5.5e directamente en tu navegador! (Recomendado solo para escritorio)\n\n✨ **Interfaz del Rastreador de Iniciativa Mejorada**\nAhora muestra las Acciones de las criaturas, haciendo el combate más fluido.\n\n🐉 **Importación de Monstruos XML Mejorada**\nAhora importa correctamente acciones legendarias, salvaciones y competencias en habilidades.\n\n💾 **Importación XML Mejorada**\nMantiene tus datos actuales si los IDs de los datos son diferentes, evitando sobrescrituras accidentales.\n\n🔍 **Barra de Búsqueda en Referencia de Reglas**\nAñadida una Barra de Búsqueda en la página de Referencia de Reglas para acceso rápido.\n\n🐛 **Corrección de Errores**\n• Corregido un error al guardar el estado de un personaje de una Campaña (ALERTA - Esta corrección solo funcionará si vuelves a agregar tus personajes PJ en tu campaña y encuentros de campaña)\n• Corregido un error al importar un archivo parcial (solo objetos por ejemplo) usando el botón Importar Todos los Datos"
+    "title": "🔧 Versión 1.5.5 (168)",
+    "text": "1.5.5 (168)\n\n- Corregido cómo se seleccionan los ASI en la Creación de Personaje y al cambiar de Especie\n- Cambiados los diálogos en algunos lugares al nuevo patrón Bottom Modal Sheet\n- Añadido Exportar/Importar Encuentros de Campaña\n- Añadido un diálogo al equipar armas a una mano preguntando sobre Mano Principal/Mano Secundaria\n- Añadidos bonos activables a los Hechizos, para que también puedan usarse en la pestaña de Combate\n- Añadido un Aleatorizador de Ítems en el diálogo de Búsqueda de Ítems. Define filtros y pulsa Aleatorizar!\n- Movidas las Características de Trasfondo a la tarjeta de Trasfondo en lugar de copiarlas a la lista de Dotes"
   },
   "Android": "Version 1.5.5 (167)",
   "Ios": "Version 1.5.5 (167)",
   "MacOS": "Version 1.5.5 (167)",
-  "Windows": "Version 1.5.5 (167)",
+  "Windows": "Version 1.5.5 (168)",
   "Web": "Version 1.5.5 (167)",
-  "Linux": "Version 1.5.5 (159)",
+  "Linux": "Version 1.5.5 (167)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
