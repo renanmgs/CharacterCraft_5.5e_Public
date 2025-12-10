@@ -15,8 +15,8 @@
     "text": "1.5.5 (168)\n\n- Corregido cómo se seleccionan los ASI en la Creación de Personaje y al cambiar de Especie\n- Cambiados los diálogos en algunos lugares al nuevo patrón Bottom Modal Sheet\n- Añadido Exportar/Importar Encuentros de Campaña\n- Añadido un diálogo al equipar armas a una mano preguntando sobre Mano Principal/Mano Secundaria\n- Añadidos bonos activables a los Hechizos, para que también puedan usarse en la pestaña de Combate\n- Añadido un Aleatorizador de Ítems en el diálogo de Búsqueda de Ítems. Define filtros y pulsa Aleatorizar!\n- Movidas las Características de Trasfondo a la tarjeta de Trasfondo en lugar de copiarlas a la lista de Dotes"
   },
   "Android": "Version 1.5.6 (169)",
-  "Ios": "Version 1.5.5 (168)",
-  "MacOS": "Version 1.5.5 (168)",
+  "Ios": "Version 1.5.6 (169)",
+  "MacOS": "Version 1.5.6 (169)",
   "Windows": "Version 1.5.6 (169)",
   "Web": "Version 1.5.6 (169)",
   "Linux": "Version 1.5.5 (167)",
