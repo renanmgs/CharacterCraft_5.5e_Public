@@ -54,7 +54,7 @@
             </div>
 
             <div class="documentation-content">
-                <div class="faq-item">
+                <div class="faq-item" id="faq-1">
                     <div class="faq-question">
                         <h3>
                             1. Why are some classes, items, or species missing from the app?
@@ -66,7 +66,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
+                <div class="faq-item" id="faq-2">
                     <div class="faq-question">
                         <h3>
                             2. Where can I get more content to import?
@@ -82,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
+                <div class="faq-item" id="faq-3">
                     <div class="faq-question">
                         <h3>
                             3. What do I get with Premium?
@@ -104,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
+                <div class="faq-item" id="faq-4">
                     <div class="faq-question">
                         <h3>
 
@@ -123,7 +123,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
+                <div class="faq-item" id="faq-5">
                     <div class="faq-question">
                         <h3>
 
@@ -151,7 +151,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
+                <div class="faq-item" id="faq-6">
                     <div class="faq-question">
                         <h3>
 
@@ -168,7 +168,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
+                <div class="faq-item" id="faq-7">
                     <div class="faq-question">
                         <h3>
 
@@ -188,7 +188,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
+                <div class="faq-item" id="faq-8">
                     <div class="faq-question">
                         <h3>
                             8. My Multiclass Spell Slots are incorrect. What should I do?
@@ -207,7 +207,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
+                <div class="faq-item" id="faq-9">
                     <div class="faq-question">
                         <h3>
                             9. My Feature lets me use a resource (like "Rage" or "Lucky"). How do I track it?
@@ -229,7 +229,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
+                <div class="faq-item" id="faq-10">
                     <div class="faq-question">
                         <h3>
                             10. How do I mark a Feature's Action Type?
@@ -242,6 +242,56 @@
                         <p>
                             Not sure what to write? Check the <strong>Demo Characters</strong> for reference examples.
                         </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-11">
+                    <div class="faq-question">
+                        <h3>
+                            11. How do Magic Item Charges and Recharges work?
+                        </h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The recharge system supports three main categories:</p>
+
+                        <h4>1. Rest or Time-based Recharges (Default)</h4>
+                        <p>The system automatically recognizes these terms in the <code>recharge</code> field:</p>
+                        <ul>
+                            <li><strong>Dawn:</strong> Recharges at dawn. (Example: <code>"dawn"</code>)</li>
+                            <li><strong>Dusk:</strong> Recharges at dusk. (Example: <code>"dusk"</code>)</li>
+                            <li><strong>Short Rest:</strong> Recharges after a short rest. (Example: <code>"short rest"</code>)</li>
+                            <li><strong>Long Rest:</strong> Recharges after a long rest. (Example: <code>"long rest"</code>)</li>
+                            <li><strong>Short or Long Rest:</strong> Recharges on any rest. (Example: <code>"short/long rest"</code>)</li>
+                        </ul>
+
+                        <h4>2. Dice Recharge</h4>
+                        <p>Used for items that have a chance to recharge (e.g., "Recharge 5-6").</p>
+                        <ul>
+                            <li><strong>recharge:</strong> The die to roll (e.g., <code>d6</code>).</li>
+                            <li><strong>rechargeAmount:</strong> The success range (e.g., <code>5-6</code>).</li>
+                        </ul>
+                        <p><strong>Result:</strong> A die button 🎲 appears. Clicking it rolls the die and recharges if successful.</p>
+
+                        <h4>3. Special or Free Text</h4>
+                        <ul>
+                            <li><strong>Special:</strong> For unique conditions (<code>"special"</code>).</li>
+                            <li><strong>Never:</strong> For finite consumables (<code>"never"</code>).</li>
+                            <li><strong>Free Text:</strong> If <code>recharge</code> is empty, <code>rechargeAmount</code> text is displayed.</li>
+                        </ul>
+
+                        <div class="example">
+                            <h4>Practical Example: "3 Charges per Day"</h4>
+                            <ul>
+                                <li><strong>Charges (Total):</strong> Max charges (e.g., 7).</li>
+                                <li><strong>Recharge:</strong> Dawn.</li>
+                                <li><strong>Recharge Amount:</strong> 3.</li>
+                            </ul>
+                            <p><strong>Result:</strong> Clicking <strong>Long Rest</strong> restores 3 charges automatically.</p>
+                        </div>
+
+                        <div class="note">
+                            <strong>Note on Long Rests:</strong> In the app, clicking <strong>Long Rest</strong> simulates the passage of a day, triggering all <strong>Long Rest</strong>, <strong>Dawn</strong>, and <strong>Dusk</strong> recharges.
+                        </div>
                     </div>
                 </div>
 
