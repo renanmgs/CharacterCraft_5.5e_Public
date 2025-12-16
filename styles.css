@@ -1713,3 +1713,58 @@ a:hover {
         height: 180px;
     }
 }
+/* Documentation Index */
+.documentation-index {
+    max-width: 900px;
+    margin: 0 auto var(--spacing-lg);
+    background: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    padding: var(--spacing-lg);
+}
+
+.documentation-index h3 {
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--spacing-sm);
+}
+
+.documentation-index ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-sm);
+}
+
+.documentation-index li a {
+    display: block;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    color: var(--text-secondary);
+    border-radius: 6px;
+    transition: var(--transition);
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+.documentation-index li a:hover {
+    background: rgba(218, 165, 32, 0.1);
+    color: var(--secondary-color);
+    transform: translateX(5px);
+}
+
+/* Make FAQ headers clickable */
+.faq-question {
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-question:hover h3 {
+    color: var(--accent-light);
+}
+
+/* Highlight active FAQ */
+.faq-item.active {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 15px rgba(218, 165, 32, 0.2);
+}

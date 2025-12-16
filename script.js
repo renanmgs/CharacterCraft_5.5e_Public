@@ -1116,3 +1116,64 @@ document.head.appendChild(style);
 function isMobileDevice() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
+// Documentation Page Functionality
+function initializeDocumentation() {
+    const indexList = document.getElementById('doc-index-list');
+    if (!indexList) return; // Not on documentation page
+
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question h3');
+        if (!question) return;
+        
+        const id = item.id;
+        const title = question.textContent.trim();
+        
+        // Create Index Item
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#' + id;
+        a.textContent = title;
+        
+        // Smooth scroll on index click
+        a.addEventListener('click', (e) => {
+            e.preventDefault();
+            item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            history.pushState(null, null, '#' + id);
+            
+            // Highlight active item
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+            item.classList.add('active');
+        });
+        
+        li.appendChild(a);
+        indexList.appendChild(li);
+        
+        // Make Header Clickable to update URL
+        const header = item.querySelector('.faq-question');
+        header.addEventListener('click', () => {
+            history.pushState(null, null, '#' + id);
+            
+            // Highlight active item
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+            item.classList.add('active');
+        });
+    });
+    
+    // Check for hash on load to highlight
+    if (window.location.hash) {
+        const targetId = window.location.hash.substring(1);
+        const targetItem = document.getElementById(targetId);
+        if (targetItem) {
+            setTimeout(() => {
+                targetItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                targetItem.classList.add('active');
+            }, 500);
+        }
+    }
+}
+
+// Initialize on load
+document.addEventListener('DOMContentLoaded', initializeDocumentation);
+
