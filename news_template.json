@@ -1,18 +1,18 @@
 {
   "en": {
-    "image": "https://i.imgur.com/RJgiNbe.png",
-    "title": "🔧 Version 1.5.5 (168)",
-    "text": "1.5.5 (168)\n\n- Fixed how ASIs are selected during Character Creation and when changing Species\n- Changed several dialogs to the new Bottom Modal Sheet pattern\n- Added Campaign Encounter Export/Import\n- Added a dialog when equipping one-handed weapons asking about Main/Off-hand\n- Added toggleable bonuses to Spells so they can be used in the Combat Tab as well\n- Added an Item Randomizer in the Item Search dialog. Set filters and press Randomize!\n- Moved Background Features to the Background card instead of copying them to the Feats list"
+    "image": "https://i.imgur.com/c3Ap8XV.png",
+    "title": "🔧 Version 1.5.6 (173)",
+    "text": "1.5.6 (173)\n\n- Changed Item Search Dialog: sorts by Price by default, supports multi-word search\n- Species can now have attached Features (Racial modifiers). XML Import creates \"(Species Name) Traits\"\n- Revamped Class Cards and removed HP Card from Attributes Page\n- Adding spells no longer asks if it has Attack Rolls (detected on XML Import, English only)\n- Fullscreen mode for mobile\n- Adjusted more dialogs to bottom dialogs\n- Fixed Item Charges issues and a breaking bug when changing Features from Classes\n- Fixed minor bug in short rest hit rolls with +0 CON"
   },
   "pt": {
-    "image": "https://i.imgur.com/RJgiNbe.png",
-    "title": "🔧 Versão 1.5.5 (168)",
-    "text": "1.5.5 (168)\n\n- Corrigido como os ASIs são selecionados na Criação de Personagem e ao mudar de Espécie\n- Alterados diálogos de alguns locais para o novo padrão Bottom Modal Sheet\n- Adicionado Exportar/Importar Encontros de Campanha\n- Adicionado diálogo ao equipar armas com uma mão perguntando sobre Mão Principal/Mão Secundária\n- Adicionados bônus ativáveis em Magias, para que possam ser usados também na aba de Combate\n- Adicionado um Randomizador de Itens no diálogo de Busca de Itens. Defina filtros e clique em Aleatorizar!\n- Movidas as Características de Background para o cartão de Background em vez de copiá-las para a lista de Talentos"
+    "image": "https://i.imgur.com/c3Ap8XV.png",
+    "title": "🔧 Versão 1.5.6 (173)",
+    "text": "1.5.6 (173)\n\n- Alterado o Diálogo de Busca de Itens: ordena por Preço por padrão, suporta busca por múltiplas palavras\n- Espécies agora podem ter Características anexadas (modificadores Raciais). Importação XML cria \"Traços de (Nome da Espécie)\"\n- Cartões de Classe renovados e removido o Cartão de PV da Página de Atributos\n- Adicionar magias não pergunta mais se possui Jogadas de Ataque (detectado na Importação XML, apenas em Inglês)\n- Modo tela cheia para mobile\n- Mais diálogos ajustados para o padrão inferior (bottom dialogs)\n- Corrigidos problemas com Cargas de Itens e um erro crítico ao alterar Características de Classes\n- Corrigido erro menor em rolagens de descanso curto com modificador de CON +0"
   },
   "es": {
-    "image": "https://i.imgur.com/RJgiNbe.png",
-    "title": "🔧 Versión 1.5.5 (168)",
-    "text": "1.5.5 (168)\n\n- Corregido cómo se seleccionan los ASI en la Creación de Personaje y al cambiar de Especie\n- Cambiados los diálogos en algunos lugares al nuevo patrón Bottom Modal Sheet\n- Añadido Exportar/Importar Encuentros de Campaña\n- Añadido un diálogo al equipar armas a una mano preguntando sobre Mano Principal/Mano Secundaria\n- Añadidos bonos activables a los Hechizos, para que también puedan usarse en la pestaña de Combate\n- Añadido un Aleatorizador de Ítems en el diálogo de Búsqueda de Ítems. Define filtros y pulsa Aleatorizar!\n- Movidas las Características de Trasfondo a la tarjeta de Trasfondo en lugar de copiarlas a la lista de Dotes"
+    "image": "https://i.imgur.com/c3Ap8XV.png",
+    "title": "🔧 Versión 1.5.6 (173)",
+    "text": "1.5.6 (173)\n\n- Cambiado el Diálogo de Búsqueda de Ítems: ordena por Precio por defecto, soporta búsqueda de múltiples palabras\n- Las Especies ahora pueden tener Características adjuntas (modificadores Raciales). La importación XML crea \"Rasgos de (Nombre de Especie)\"\n- Tarjetas de Clase renovadas y eliminada la Tarjeta de PV de la Página de Atributos\n- Añadir hechizos ya no pregunta si tiene Tiradas de Ataque (detectado en la Importación XML, solo en Inglés)\n- Modo pantalla completa para móviles\n- Más diálogos ajustados al patrón inferior (bottom dialogs)\n- Corregidos problemas con Cargas de Ítems y un error crítico al cambiar Características de Clases\n- Corregido error menor en tiradas de descanso corto con modificador de CON +0"
   },
   "Android": "Version 1.5.6 (172)",
   "Ios": "Version 1.5.6 (170)",
