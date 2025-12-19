@@ -61,244 +61,435 @@
             </div>
 
             <div class="documentation-content">
-                <div class="faq-item" id="faq-1">
-                    <div class="faq-question">
-                        <h3>
-                            1. Why are some classes, items, or species missing from the app?
-                        </h3>
+                <!-- General & Content -->
+                <div class="doc-category" data-title="General & Content">
+                    <div class="faq-item" id="faq-missing-content">
+                        <div class="faq-question">
+                            <h3>Why are some classes, items, or species missing from the app?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Character Craft 5.5e includes only the freely available content authorized by WOTC, known as
+                                the <strong>SRD 5.2</strong>, by default.</p>
+                        </div>
                     </div>
-                    <div class="faq-answer">
-                        <p>Character Craft 5.5e includes only the freely available content authorized by WOTC, known as
-                            the <strong>SRD 5.2</strong>, by default.</p>
-                    </div>
-                </div>
 
-                <div class="faq-item" id="faq-2">
-                    <div class="faq-question">
-                        <h3>
-                            2. Where can I get more content to import?
-                        </h3>
+                    <div class="faq-item" id="faq-import-content">
+                        <div class="faq-question">
+                            <h3>Where can I get more content to import?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>CC5.5e can import:</p>
+                            <ul>
+                                <li><strong>Native JSON files</strong> exported by other players</li>
+                                <li><strong>XML files</strong> following the FC5 format</li>
+                            </ul>
+                            <p>Some community members create and share extended content on their own pages.</p>
+                        </div>
                     </div>
-                    <div class="faq-answer">
-                        <p>CC5.5e can import:</p>
-                        <ul>
-                            <li><strong>Native JSON files</strong> exported by other players</li>
-                            <li><strong>XML files</strong> following the FC5 format</li>
-                        </ul>
-                        <p>Some community members create and share extended content on their own pages.</p>
-                    </div>
-                </div>
 
-                <div class="faq-item" id="faq-3">
-                    <div class="faq-question">
-                        <h3>
-                            3. What do I get with Premium?
-                        </h3>
+                    <div class="faq-item" id="faq-import-char">
+                        <div class="faq-question">
+                            <h3>Can I import my character from another app, like Fight Club 5?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No. The structure of CC5.5e is different and the data the character needs to function correctly does not exist in the file that other apps export.</p>
+                        </div>
                     </div>
-                    <div class="faq-answer">
-                        <p>With <strong>Premium (Unlimited Characters)</strong>, you gain access to:</p>
-                        <ul>
-                            <li><strong>Creating more than 3 characters</strong></li>
-                            <li><strong>Online Initiative Tracker</strong></li>
-                            <li><strong>Cloud Sync</strong> to save and sync characters across platforms</li>
-                            <li><strong>Ad-free</strong></li>
-                        </ul>
-                        <div class="note">
 
-                            <strong>Note:</strong> Premium is required per platform, except for Mac and iOS which share
-                            the same store.
+                    <div class="faq-item" id="faq-premium-features">
+                        <div class="faq-question">
+                            <h3>What do I get with Premium?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>With <strong>Premium (Unlimited Characters)</strong>, you gain access to:</p>
+                            <ul>
+                                <li><strong>Creating more than 3 characters</strong></li>
+                                <li><strong>Online Initiative Tracker</strong></li>
+                                <li><strong>Cloud Sync</strong> to save and sync characters across platforms</li>
+                                <li><strong>Ad-free</strong></li>
+                            </ul>
+                            <div class="note">
+
+                                <strong>Note:</strong> Premium is required per platform, except for Mac and iOS which share
+                                the same store.
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="faq-item" id="faq-4">
-                    <div class="faq-question">
-                        <h3>
+                <!-- Features & Mechanics -->
+                <div class="doc-category" data-title="Features & Mechanics">
+                    <div class="faq-item" id="faq-limited-use-counters">
+                        <div class="faq-question">
+                            <h3>
 
-                            4. I added a Feature with limited-use resources (Rage, Second Wind, Luck, etc.), but I can't
-                            find how to use them.
-                        </h3>
+                                I added a Feature with limited-use resources (Rage, Second Wind, Luck, etc.), but I can't
+                                find how to use them.
+                            </h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>You need to add a <strong>Custom Counter</strong> to the Feature or Feat:</p>
+                            <ol>
+                                <li>Go to <strong>Edit Feature</strong>, scroll down, and click <strong>Add Custom
+                                        Counter</strong></li>
+                                <li>Give it a name, define the number of uses per level</li>
+                                <li>Set when it resets (e.g., Long Rest)</li>
+                            </ol>
+                        </div>
                     </div>
-                    <div class="faq-answer">
-                        <p>You need to add a <strong>Custom Counter</strong> to the Feature or Feat:</p>
-                        <ol>
-                            <li>Go to <strong>Edit Feature</strong>, scroll down, and click <strong>Add Custom
-                                    Counter</strong></li>
-                            <li>Give it a name, define the number of uses per level</li>
-                            <li>Set when it resets (e.g., Long Rest)</li>
-                        </ol>
+
+                    <div class="faq-item" id="faq-character-bonuses">
+                        <div class="faq-question">
+                            <h3>
+
+                                My Feature gives a bonus to my character. How can I apply it?
+                            </h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Go to <strong>Edit Feature → Character Bonuses</strong> section.</p>
+                            <p>There you can add bonuses to:</p>
+                            <ul>
+                                <li>Stats, Attack rolls, Damage, Saving throw DCs, etc.</li>
+                            </ul>
+
+                            <div class="code-examples">
+                                <h4>You can use:</h4>
+                                <ul>
+                                    <li><code>+2</code> - Direct values</li>
+                                    <li><code>pb</code> - for Proficiency Bonus</li>
+                                    <li><code>Wisdom</code> - Ability names in English</li>
+                                    <li><code>spell</code> - gets your character or spell spellcasting attribute</li>
+                                    <li><code>level</code> - gets your character total level</li>
+                                    <li><code>classlevel:classname</code> - gets a specific class level</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-custom-resources-tracking">
+                        <div class="faq-question">
+                            <h3>
+                                My Feature lets me use a resource (like "Rage" or "Lucky"). How do I track it?
+                            </h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                To add a custom resource to a Feature, open the Feature's edit screen and scroll to the bottom. There you will find the <strong>Custom Resources</strong> section.
+                            </p>
+                            <ol>
+                                <li>Click <strong>Add Custom Resource</strong>.</li>
+                                <li>Enter the desired name for your resource.</li>
+                                <li>Set the number of uses (you can use formulas like <code>pb</code> for proficiency bonus, etc.).</li>
+                                <li>Specify how many charges are recovered per rest (use <code>all</code> to recover all charges).</li>
+                            </ol>
+                            <p>
+                                This allows you to track and manage any custom resource your Feature provides.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-action-type">
+                        <div class="faq-question">
+                            <h3>
+                                How do I mark a Feature's Action Type?
+                            </h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Edit the Feature and fill the <strong>Action Type</strong> field with the desired value (Action, Bonus Action, Reaction, etc.). The list will display those entries sorted alphabetically.
+                            </p>
+                            <p>
+                                Not sure what to write? Check the <strong>Demo Characters</strong> for reference examples.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="faq-item" id="faq-5">
-                    <div class="faq-question">
-                        <h3>
+                <!-- Magic & Spells -->
+                <div class="doc-category" data-title="Magic & Spells">
+                    <div class="faq-item" id="faq-spell-slots">
+                        <div class="faq-question">
+                            <h3>
 
-                            5. My Feature gives a bonus to my character. How can I apply it?
-                        </h3>
+                                My character doesn't have spell slots. What should I do?
+                            </h3>
+                        </div>
+                        <div class="faq-answer">
+                            <ol>
+                                <li>Check the <strong>Feature that grants Spellcasting</strong></li>
+                                <li>Make sure the option <strong>"Includes Spellcasting"</strong> is enabled</li>
+                                <li>Then check and edit the <strong>number of spell slots</strong> available at that level
+                                </li>
+                            </ol>
+                        </div>
                     </div>
-                    <div class="faq-answer">
-                        <p>Go to <strong>Edit Feature → Character Bonuses</strong> section.</p>
-                        <p>There you can add bonuses to:</p>
-                        <ul>
-                            <li>Stats, Attack rolls, Damage, Saving throw DCs, etc.</li>
-                        </ul>
 
-                        <div class="code-examples">
-                            <h4>You can use:</h4>
+                    <div class="faq-item" id="faq-spell-modifier">
+                        <div class="faq-question">
+                            <h3>
+
+                                My spell adds the spellcasting ability modifier (like Cure Wounds). How do I automate
+                                that in the roll?
+                            </h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Use <code>+spell</code> in the roll formula.</p>
+                            <p>The system will automatically use the modifier from the spellcasting ability set <strong>in
+                                    the spell</strong>.</p>
+
+                            <div class="example">
+                                <h4>Example:</h4>
+                                <p>For Cure Wounds: <code>1d8+spell</code></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-multiclass-spells">
+                        <div class="faq-question">
+                            <h3>
+                                My Multiclass Spell Slots are incorrect. What should I do?
+                            </h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Check if the <strong>Spellcasting Multiplier</strong> is set correctly for each of your classes. 
+                                An error in an older version could cause this value to be imported as <code>1.0</code> for all classes.
+                            </p>
+                            <ol>
+                                <li>Go to your class settings and verify the <strong>Spellcasting Multiplier</strong> value.</li>
+                                <li>Adjust it according to the official multiclass spellcasting rules if needed.</li>
+                                <li>If this information is already correct, check if the spell slots are filled in the <strong>Spellcasting Feature</strong> in your character's Features list.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Items & Equipment -->
+                <div class="doc-category" data-title="Items & Equipment">
+                    <div class="faq-item" id="faq-item-charges">
+                        <div class="faq-question">
+                            <h3>
+                                How do Magic Item Charges and Recharges work?
+                            </h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The recharge system supports three main categories:</p>
+
+                            <h4>1. Rest or Time-based Recharges (Default)</h4>
+                            <p>The system automatically recognizes these terms in the <code>recharge</code> field:</p>
                             <ul>
-                                <li><code>+2</code> - Direct values</li>
-                                <li><code>pb</code> - for Proficiency Bonus</li>
-                                <li><code>Wisdom</code> - Ability names in English</li>
-                                <li><code>spell</code> - gets your character or spell spellcasting attribute</li>
-                                <li><code>level</code> - gets your character total level</li>
-                                <li><code>classlevel:classname</code> - gets a specific class level</li>
+                                <li><strong>Dawn:</strong> Recharges at dawn. (Example: <code>"dawn"</code>)</li>
+                                <li><strong>Dusk:</strong> Recharges at dusk. (Example: <code>"dusk"</code>)</li>
+                                <li><strong>Short Rest:</strong> Recharges after a short rest. (Example: <code>"short rest"</code>)</li>
+                                <li><strong>Long Rest:</strong> Recharges after a long rest. (Example: <code>"long rest"</code>)</li>
+                                <li><strong>Short or Long Rest:</strong> Recharges on any rest. (Example: <code>"short/long rest"</code>)</li>
+                            </ul>
+
+                            <h4>2. Dice Recharge</h4>
+                            <p>Used for items that have a chance to recharge (e.g., "Recharge 5-6").</p>
+                            <ul>
+                                <li><strong>recharge:</strong> The die to roll (e.g., <code>d6</code>).</li>
+                                <li><strong>rechargeAmount:</strong> The success range (e.g., <code>5-6</code>).</li>
+                            </ul>
+                            <p><strong>Result:</strong> A die button 🎲 appears. Clicking it rolls the die and recharges if successful.</p>
+
+                            <h4>3. Special or Free Text</h4>
+                            <ul>
+                                <li><strong>Special:</strong> For unique conditions (<code>"special"</code>).</li>
+                                <li><strong>Never:</strong> For finite consumables (<code>"never"</code>).</li>
+                                <li><strong>Free Text:</strong> If <code>recharge</code> is empty, <code>rechargeAmount</code> text is displayed.</li>
+                            </ul>
+
+                            <div class="example">
+                                <h4>Practical Example: "3 Charges per Day"</h4>
+                                <ul>
+                                    <li><strong>Charges (Total):</strong> Max charges (e.g., 7).</li>
+                                    <li><strong>Recharge:</strong> Dawn.</li>
+                                    <li><strong>Recharge Amount:</strong> 3.</li>
+                                </ul>
+                                <p><strong>Result:</strong> Clicking <strong>Long Rest</strong> restores 3 charges automatically.</p>
+                            </div>
+
+                            <div class="note">
+                                <strong>Note on Long Rests:</strong> In the app, clicking <strong>Long Rest</strong> simulates the passage of a day, triggering all <strong>Long Rest</strong>, <strong>Dawn</strong>, and <strong>Dusk</strong> recharges.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Classes (2024) -->
+                <div class="doc-category" data-title="Classes (2024)">
+                    <div class="faq-item" id="class-barbarian">
+                        <div class="faq-question"><h3>Barbarian</h3></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                            
+                            <h4>How to configure Unarmored Defense?</h4>
+                            <p>To change the character's base AC calculation, ensure they have <strong>no armor equipped</strong>.</p>
+                            <p>The recommended way to apply Unarmored Defense is through the Feature itself:</p>
+                            <ol>
+                                <li>Edit the <strong>Unarmored Defense</strong> feature.</li>
+                                <li>Scroll to the <strong>Armor Class Bonus</strong> section.</li>
+                                <li>Select the attribute to add to your AC (e.g., <strong>Constitution</strong> for Barbarians).</li>
+                            </ol>
+                            <p>This changes the base formula to: <code>(10 + Dex) + Con</code>.</p>
+                            <p>Finally, click the <strong>Refresh Icon</strong> <i class="fas fa-sync-alt"></i> above the equipment list to update your AC.</p>
+
+                            <h4>How to automate Rage?</h4>
+                            <p>To do this, edit the Feature that grants Rage:</p>
+                            <ol>
+                                <li>Add a <strong>Custom Counter</strong> to it, filling in the number of charges at the desired levels (you only need to fill it where the value increases).</li>
+                                <li>Go to the <strong>Toggleable Bonuses</strong> section and create a new bonus.</li>
+                                <li>Add resistances to the 3 damage types (Bludgeoning, Piercing, Slashing).</li>
+                                <li>In <strong>Weapon Bonus Damage</strong>, enter the desired value (e.g., <code>2</code> for level 1).</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="faq-item" id="class-bard">
+                        <div class="faq-question"><h3>Bard</h3></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+
+                            <h4>How to add Expertise and Jack of All Trades to my skills?</h4>
+                            <p>You can mark the desired skills as <strong>Expertise</strong> or <strong>Half Proficiency</strong> manually, or automate this by adjusting the Feature that grants these bonuses.</p>
+                            <ol>
+                                <li>Edit the desired Feature.</li>
+                                <li>Scroll to the <strong>Expertise</strong> or <strong>Half Proficiency</strong> section.</li>
+                                <li>Check the desired skills.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="faq-item" id="class-cleric">
+                        <div class="faq-question"><h3>Cleric</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="class-druid">
+                        <div class="faq-question"><h3>Druid</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="class-fighter">
+                        <div class="faq-question"><h3>Fighter</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="class-monk">
+                        <div class="faq-question"><h3>Monk</h3></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+
+                            <h4>How to configure Unarmored Defense?</h4>
+                            <p>To change the character's base AC calculation, ensure they have <strong>no armor equipped</strong>.</p>
+                            <p>The recommended way to apply Unarmored Defense is through the Feature itself:</p>
+                            <ol>
+                                <li>Edit the <strong>Unarmored Defense</strong> feature.</li>
+                                <li>Scroll to the <strong>Armor Class Bonus</strong> section.</li>
+                                <li>Select the attribute to add to your AC (e.g., <strong>Wisdom</strong> for Monks).</li>
+                            </ol>
+                            <p>This changes the base formula to: <code>(10 + Dex) + Wis</code>.</p>
+                            <p>Finally, click the <strong>Refresh Icon</strong> <i class="fas fa-sync-alt"></i> above the equipment list to update your AC.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" id="class-paladin">
+                        <div class="faq-question"><h3>Paladin</h3></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+
+                            <h4>How to automate Lay on Hands?</h4>
+                            <p>You just need to create a <strong>Custom Counter</strong> on the Feature.</p>
+                            <p>You can fill the value for each level individually or enter <code>5*classlevel:paladin</code> at level 1 of the Counter.</p>
+                            <p>This formula means the maximum value is 5 times the Paladin class level (must be the exact class name).</p>
+                            <p>The Demo Character <strong>Dominus</strong> is a good example of this feature.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" id="class-ranger">
+                        <div class="faq-question"><h3>Ranger</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="class-rogue">
+                        <div class="faq-question"><h3>Rogue</h3></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+
+                            <h4>How to add Sneak Attack damage?</h4>
+                            <p>There are two ways to do this:</p>
+                            <ul>
+                                <li><strong>Weapon Formula:</strong> Add an extra Damage die to the weapon's formula. This allows you to toggle the added damage on or off when rolling the attack.</li>
+                                <li><strong>Toggleable Bonus (Recommended):</strong> Use a Toggleable Bonus (by editing the Feature that grants Sneak Attack) that adds a <strong>Damage Formula Bonus</strong> of <code>1d6</code> (or the desired value). The Demo Character <strong>Lanaya</strong> is a good example of this feature.</li>
                             </ul>
                         </div>
                     </div>
-                </div>
-
-                <div class="faq-item" id="faq-6">
-                    <div class="faq-question">
-                        <h3>
-
-                            6. My character doesn't have spell slots. What should I do?
-                        </h3>
+                    <div class="faq-item" id="class-sorcerer">
+                        <div class="faq-question"><h3>Sorcerer</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
                     </div>
-                    <div class="faq-answer">
-                        <ol>
-                            <li>Check the <strong>Feature that grants Spellcasting</strong></li>
-                            <li>Make sure the option <strong>"Includes Spellcasting"</strong> is enabled</li>
-                            <li>Then check and edit the <strong>number of spell slots</strong> available at that level
-                            </li>
-                        </ol>
+                    <div class="faq-item" id="class-warlock">
+                        <div class="faq-question"><h3>Warlock</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="class-wizard">
+                        <div class="faq-question"><h3>Wizard</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
                     </div>
                 </div>
 
-                <div class="faq-item" id="faq-7">
-                    <div class="faq-question">
-                        <h3>
-
-                            7. My spell adds the spellcasting ability modifier (like Cure Wounds). How do I automate
-                            that in the roll?
-                        </h3>
+                <!-- Species (2024) -->
+                <div class="doc-category" data-title="Species (2024)">
+                    <div class="faq-item" id="species-aasimar">
+                        <div class="faq-question"><h3>Aasimar</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
                     </div>
-                    <div class="faq-answer">
-                        <p>Use <code>+spell</code> in the roll formula.</p>
-                        <p>The system will automatically use the modifier from the spellcasting ability set <strong>in
-                                the spell</strong>.</p>
-
-                        <div class="example">
-                            <h4>Example:</h4>
-                            <p>For Cure Wounds: <code>1d8+spell</code></p>
-                        </div>
+                    <div class="faq-item" id="species-dragonborn">
+                        <div class="faq-question"><h3>Dragonborn</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
                     </div>
-                </div>
+                    <div class="faq-item" id="species-dwarf">
+                        <div class="faq-question"><h3>Dwarf</h3></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
 
-                <div class="faq-item" id="faq-8">
-                    <div class="faq-question">
-                        <h3>
-                            8. My Multiclass Spell Slots are incorrect. What should I do?
-                        </h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Check if the <strong>Spellcasting Multiplier</strong> is set correctly for each of your classes. 
-                            An error in an older version could cause this value to be imported as <code>1.0</code> for all classes.
-                        </p>
-                        <ol>
-                            <li>Go to your class settings and verify the <strong>Spellcasting Multiplier</strong> value.</li>
-                            <li>Adjust it according to the official multiclass spellcasting rules if needed.</li>
-                            <li>If this information is already correct, check if the spell slots are filled in the <strong>Spellcasting Feature</strong> in your character's Features list.</li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div class="faq-item" id="faq-9">
-                    <div class="faq-question">
-                        <h3>
-                            9. My Feature lets me use a resource (like "Rage" or "Lucky"). How do I track it?
-                        </h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            To add a custom resource to a Feature, open the Feature's edit screen and scroll to the bottom. There you will find the <strong>Custom Resources</strong> section.
-                        </p>
-                        <ol>
-                            <li>Click <strong>Add Custom Resource</strong>.</li>
-                            <li>Enter the desired name for your resource.</li>
-                            <li>Set the number of uses (you can use formulas like <code>pb</code> for proficiency bonus, etc.).</li>
-                            <li>Specify how many charges are recovered per rest (use <code>all</code> to recover all charges).</li>
-                        </ol>
-                        <p>
-                            This allows you to track and manage any custom resource your Feature provides.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item" id="faq-10">
-                    <div class="faq-question">
-                        <h3>
-                            10. How do I mark a Feature's Action Type?
-                        </h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Edit the Feature and fill the <strong>Action Type</strong> field with the desired value (Action, Bonus Action, Reaction, etc.). The list will display those entries sorted alphabetically.
-                        </p>
-                        <p>
-                            Not sure what to write? Check the <strong>Demo Characters</strong> for reference examples.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item" id="faq-11">
-                    <div class="faq-question">
-                        <h3>
-                            11. How do Magic Item Charges and Recharges work?
-                        </h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p>The recharge system supports three main categories:</p>
-
-                        <h4>1. Rest or Time-based Recharges (Default)</h4>
-                        <p>The system automatically recognizes these terms in the <code>recharge</code> field:</p>
-                        <ul>
-                            <li><strong>Dawn:</strong> Recharges at dawn. (Example: <code>"dawn"</code>)</li>
-                            <li><strong>Dusk:</strong> Recharges at dusk. (Example: <code>"dusk"</code>)</li>
-                            <li><strong>Short Rest:</strong> Recharges after a short rest. (Example: <code>"short rest"</code>)</li>
-                            <li><strong>Long Rest:</strong> Recharges after a long rest. (Example: <code>"long rest"</code>)</li>
-                            <li><strong>Short or Long Rest:</strong> Recharges on any rest. (Example: <code>"short/long rest"</code>)</li>
-                        </ul>
-
-                        <h4>2. Dice Recharge</h4>
-                        <p>Used for items that have a chance to recharge (e.g., "Recharge 5-6").</p>
-                        <ul>
-                            <li><strong>recharge:</strong> The die to roll (e.g., <code>d6</code>).</li>
-                            <li><strong>rechargeAmount:</strong> The success range (e.g., <code>5-6</code>).</li>
-                        </ul>
-                        <p><strong>Result:</strong> A die button 🎲 appears. Clicking it rolls the die and recharges if successful.</p>
-
-                        <h4>3. Special or Free Text</h4>
-                        <ul>
-                            <li><strong>Special:</strong> For unique conditions (<code>"special"</code>).</li>
-                            <li><strong>Never:</strong> For finite consumables (<code>"never"</code>).</li>
-                            <li><strong>Free Text:</strong> If <code>recharge</code> is empty, <code>rechargeAmount</code> text is displayed.</li>
-                        </ul>
-
-                        <div class="example">
-                            <h4>Practical Example: "3 Charges per Day"</h4>
+                            <h4>How to add racial bonuses (Poison Resistance, HP bonus per level, Tremorsense)?</h4>
+                            <p>To add these bonuses, modify the racial Feature (usually named <strong>Dwarf Traits</strong>) or another desired feature:</p>
                             <ul>
-                                <li><strong>Charges (Total):</strong> Max charges (e.g., 7).</li>
-                                <li><strong>Recharge:</strong> Dawn.</li>
-                                <li><strong>Recharge Amount:</strong> 3.</li>
+                                <li><strong>Poison Resistance:</strong> Add a permanent bonus of <strong>Damage Resistance</strong> (Poison).</li>
+                                <li><strong>HP Bonus:</strong> Add a <strong>Permanent Character Bonus</strong> of "Hit Point Bonus" and set the value to <code>level</code>. The system will automatically add the character's current level to Max HP.</li>
                             </ul>
-                            <p><strong>Result:</strong> Clicking <strong>Long Rest</strong> restores 3 charges automatically.</p>
+                            
+                            <p><strong>For Tremorsense:</strong></p>
+                            <p>Create a standard <strong>Custom Counter</strong>. Select <strong>Proficiency Bonus</strong> as the maximum value, or write <code>pb</code> in the level 1 field of "Fixed Value (Per Level)".</p>
                         </div>
+                    </div>
+                    <div class="faq-item" id="species-elf">
+                        <div class="faq-question"><h3>Elf</h3></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
 
-                        <div class="note">
-                            <strong>Note on Long Rests:</strong> In the app, clicking <strong>Long Rest</strong> simulates the passage of a day, triggering all <strong>Long Rest</strong>, <strong>Dawn</strong>, and <strong>Dusk</strong> recharges.
+                            <h4>How to add the Lineage Spell?</h4>
+                            <p>In the species feature or another desired feature, create a <strong>Custom Counter</strong> with a fixed value of 1, resetting on a Long Rest, with the desired name.</p>
+                            <p>The chosen spell must be added to the spell list manually. When preparing it, mark it as <strong>"Always Prepared (Species)"</strong>.</p>
                         </div>
+                    </div>
+                    <div class="faq-item" id="species-gnome">
+                        <div class="faq-question"><h3>Gnome</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="species-goliath">
+                        <div class="faq-question"><h3>Goliath</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="species-halfling">
+                        <div class="faq-question"><h3>Halfling</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="species-human">
+                        <div class="faq-question"><h3>Human</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="species-orc">
+                        <div class="faq-question"><h3>Orc</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="species-tiefling">
+                        <div class="faq-question"><h3>Tiefling</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
                     </div>
                 </div>
 
@@ -326,6 +517,8 @@
                         </a>
                     </div>
                 </div>
+                    <div style="height: 40px;">
+
             </div>
         </div>
     </main>

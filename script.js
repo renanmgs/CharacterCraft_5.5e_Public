@@ -1121,44 +1121,136 @@ function initializeDocumentation() {
     const indexList = document.getElementById('doc-index-list');
     if (!indexList) return; // Not on documentation page
 
-    const faqItems = document.querySelectorAll('.faq-item');
+    // Clear existing index content
+    indexList.innerHTML = '';
+
+    const categories = document.querySelectorAll('.doc-category');
     
-    faqItems.forEach(item => {
+    if (categories.length > 0) {
+        categories.forEach(category => {
+            const groupLi = document.createElement('li');
+            groupLi.className = 'index-category-group';
+
+            const categoryTitle = category.getAttribute('data-title');
+            if (categoryTitle) {
+                const catHeader = document.createElement('div');
+                catHeader.className = 'index-category-header';
+                catHeader.textContent = categoryTitle;
+                groupLi.appendChild(catHeader);
+            }
+
+            const catUl = document.createElement('ul');
+            catUl.className = 'index-category-list';
+            groupLi.appendChild(catUl);
+
+            const faqItems = category.querySelectorAll('.faq-item');
+            processFaqItems(faqItems, catUl);
+
+            indexList.appendChild(groupLi);
+        });
+    } else {
+        // Fallback for flat structure
+        const faqItems = document.querySelectorAll('.faq-item');
+        processFaqItems(faqItems, indexList);
+    }
+}
+
+function processFaqItems(items, parentList) {
+    items.forEach(item => {
         const question = item.querySelector('.faq-question h3');
         if (!question) return;
         
         const id = item.id;
         const title = question.textContent.trim();
         
-        // Create Index Item
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = '#' + id;
-        a.textContent = title;
-        
-        // Smooth scroll on index click
-        a.addEventListener('click', (e) => {
-            e.preventDefault();
-            item.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            history.pushState(null, null, '#' + id);
+        // Check for sub-topics (h4)
+        const subTopics = item.querySelectorAll('.faq-answer h4');
+
+        if (subTopics.length > 0) {
+            // Create a sub-group container
+            const subGroupLi = document.createElement('li');
+            subGroupLi.className = 'index-sub-group';
             
-            // Highlight active item
-            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
-            item.classList.add('active');
-        });
-        
-        li.appendChild(a);
-        indexList.appendChild(li);
+            // The Main Item Title acts as a header (Yellow)
+            const headerDiv = document.createElement('div');
+            headerDiv.className = 'index-sub-header';
+            headerDiv.textContent = title;
+            
+            // Make the header clickable to go to the main item
+            headerDiv.onclick = () => {
+                 item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                 history.pushState(null, null, '#' + id);
+                 document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                 item.classList.add('active');
+            };
+
+            subGroupLi.appendChild(headerDiv);
+            
+            // List for sub-topics
+            const subUl = document.createElement('ul');
+            subUl.className = 'index-sub-list';
+            
+            subTopics.forEach((subTopic, index) => {
+                const subTitle = subTopic.textContent.trim();
+                // Generate ID if missing
+                if (!subTopic.id) {
+                    subTopic.id = id + '-sub-' + index;
+                }
+                const subId = subTopic.id;
+                
+                const subLi = document.createElement('li');
+                const subA = document.createElement('a');
+                subA.href = '#' + subId;
+                subA.textContent = subTitle;
+                
+                subA.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    subTopic.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    history.pushState(null, null, '#' + subId);
+                     // Highlight parent item
+                    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                    item.classList.add('active');
+                });
+                
+                subLi.appendChild(subA);
+                subUl.appendChild(subLi);
+            });
+            
+            subGroupLi.appendChild(subUl);
+            parentList.appendChild(subGroupLi);
+
+        } else {
+            // Standard Item (No sub-topics)
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = '#' + id;
+            a.textContent = title;
+            
+            // Smooth scroll on index click
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                history.pushState(null, null, '#' + id);
+                
+                // Highlight active item
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+            });
+            
+            li.appendChild(a);
+            parentList.appendChild(li);
+        }
         
         // Make Header Clickable to update URL
         const header = item.querySelector('.faq-question');
-        header.addEventListener('click', () => {
+        // Use onclick to avoid duplicate listeners if run multiple times
+        header.onclick = () => {
             history.pushState(null, null, '#' + id);
             
             // Highlight active item
             document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
             item.classList.add('active');
-        });
+        };
     });
     
     // Check for hash on load to highlight
@@ -1170,6 +1262,17 @@ function initializeDocumentation() {
                 targetItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 targetItem.classList.add('active');
             }, 500);
+        } else {
+            // Try to find sub-item by ID
+            const targetSubItem = document.getElementById(targetId);
+             if (targetSubItem && targetSubItem.tagName === 'H4') {
+                 setTimeout(() => {
+                    targetSubItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    // Find parent faq-item to highlight
+                    const parentItem = targetSubItem.closest('.faq-item');
+                    if (parentItem) parentItem.classList.add('active');
+                }, 500);
+             }
         }
     }
 }

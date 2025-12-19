@@ -1768,3 +1768,118 @@ a:hover {
     border-color: var(--secondary-color);
     box-shadow: 0 0 15px rgba(218, 165, 32, 0.2);
 }
+
+/* Documentation Index Categories */
+#doc-index-list {
+    column-count: 1;
+    column-gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 600px) {
+    #doc-index-list {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    #doc-index-list {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1400px) {
+    #doc-index-list {
+        column-count: 4;
+    }
+}
+
+.index-category-group {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+    display: inline-block; /* Fix for column breaking in some browsers */
+    width: 100%;
+}
+
+.index-category-header {
+    font-family: var(--font-heading);
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.index-category-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.index-category-list li {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.index-category-list a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+    display: block;
+    padding: 2px 0;
+}
+
+.index-category-list a:hover {
+    color: var(--secondary-color);
+    padding-left: 2px;
+}
+
+/* WIP Warning */
+.wip-warning {
+    background-color: rgba(218, 165, 32, 0.1);
+    border-left: 3px solid var(--secondary-color);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+
+/* Sub-categories in Index (e.g. Classes) */
+.index-sub-header {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.index-sub-header:hover {
+    color: var(--secondary-dark);
+}
+
+.index-sub-list {
+    list-style: none;
+    padding-left: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-left: 1px solid var(--border-color);
+}
+
+.index-sub-list li a {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    padding: 1px 0;
+}
+
+.index-sub-list li a:hover {
+    color: var(--text-primary);
+}
+
