@@ -128,13 +128,18 @@
                             </h3>
                         </div>
                         <div class="faq-answer">
-                            <p>You need to add a <strong>Custom Counter</strong> to the Feature or Feat:</p>
+                            <p>
+                                To add a custom resource to a Feature, open the Feature's edit screen and scroll to the bottom. There you will find the <strong>Custom Resources</strong> section.
+                            </p>
                             <ol>
-                                <li>Go to <strong>Edit Feature</strong>, scroll down, and click <strong>Add Custom
-                                        Counter</strong></li>
-                                <li>Give it a name, define the number of uses per level</li>
-                                <li>Set when it resets (e.g., Long Rest)</li>
+                                <li>Click <strong>Add Custom Resource</strong>.</li>
+                                <li>Enter the desired name for your resource.</li>
+                                <li>Set the number of uses (you can use formulas like <code>pb</code> for proficiency bonus, etc.).</li>
+                                <li>Specify how many charges are recovered per rest (use <code>all</code> to recover all charges).</li>
                             </ol>
+                            <p>
+                                This allows you to track and manage any custom resource your Feature provides.
+                            </p>
                         </div>
                     </div>
 
@@ -153,7 +158,7 @@
                             </ul>
 
                             <div class="code-examples">
-                                <h4>You can use:</h4>
+                                <h4>Examples</h4>
                                 <ul>
                                     <li><code>+2</code> - Direct values</li>
                                     <li><code>pb</code> - for Proficiency Bonus</li>
@@ -163,28 +168,6 @@
                                     <li><code>classlevel:classname</code> - gets a specific class level</li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="faq-item" id="faq-custom-resources-tracking">
-                        <div class="faq-question">
-                            <h3>
-                                My Feature lets me use a resource (like "Rage" or "Lucky"). How do I track it?
-                            </h3>
-                        </div>
-                        <div class="faq-answer">
-                            <p>
-                                To add a custom resource to a Feature, open the Feature's edit screen and scroll to the bottom. There you will find the <strong>Custom Resources</strong> section.
-                            </p>
-                            <ol>
-                                <li>Click <strong>Add Custom Resource</strong>.</li>
-                                <li>Enter the desired name for your resource.</li>
-                                <li>Set the number of uses (you can use formulas like <code>pb</code> for proficiency bonus, etc.).</li>
-                                <li>Specify how many charges are recovered per rest (use <code>all</code> to recover all charges).</li>
-                            </ol>
-                            <p>
-                                This allows you to track and manage any custom resource your Feature provides.
-                            </p>
                         </div>
                     </div>
 
@@ -338,7 +321,7 @@
                             <h4>How to automate Rage?</h4>
                             <p>To do this, edit the Feature that grants Rage:</p>
                             <ol>
-                                <li>Add a <strong>Custom Counter</strong> to it, filling in the number of charges at the desired levels (you only need to fill it where the value increases).</li>
+                                <li>Add a <strong>Custom Resource</strong> to it, filling in the number of charges at the desired levels (you only need to fill it where the value increases).</li>
                                 <li>Go to the <strong>Toggleable Bonuses</strong> section and create a new bonus.</li>
                                 <li>Add resistances to the 3 damage types (Bludgeoning, Piercing, Slashing).</li>
                                 <li>In <strong>Weapon Bonus Damage</strong>, enter the desired value (e.g., <code>2</code> for level 1).</li>
@@ -394,7 +377,7 @@
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to automate Lay on Hands?</h4>
-                            <p>You just need to create a <strong>Custom Counter</strong> on the Feature.</p>
+                            <p>You just need to create a <strong>Custom Resource</strong> on the Feature.</p>
                             <p>You can fill the value for each level individually or enter <code>5*classlevel:paladin</code> at level 1 of the Counter.</p>
                             <p>This formula means the maximum value is 5 times the Paladin class level (must be the exact class name).</p>
                             <p>The Demo Character <strong>Dominus</strong> is a good example of this feature.</p>
@@ -435,7 +418,16 @@
                 <div class="doc-category" data-title="Species (2024)">
                     <div class="faq-item" id="species-aasimar">
                         <div class="faq-question"><h3>Aasimar</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+
+                            <h4>How to configure traits like Celestial Resistance, Healing Hands, and Celestial Revelation?</h4>
+                            <p>To do this, edit the Species Feature or another desired Feature:</p>
+                            <ol>
+                                <li>Add the two <strong>Damage Resistances</strong> (Necrotic and Radiant).</li>
+                                <li>Create two <strong>Custom Resources</strong> with 1 charge that recover on a Long Rest: one for <strong>Healing Hands</strong> and another for <strong>Celestial Revelation</strong>.</li>
+                            </ol>
+                        </div>
                     </div>
                     <div class="faq-item" id="species-dragonborn">
                         <div class="faq-question"><h3>Dragonborn</h3></div>
@@ -454,7 +446,7 @@
                             </ul>
                             
                             <p><strong>For Tremorsense:</strong></p>
-                            <p>Create a standard <strong>Custom Counter</strong>. Select <strong>Proficiency Bonus</strong> as the maximum value, or write <code>pb</code> in the level 1 field of "Fixed Value (Per Level)".</p>
+                            <p>Create a standard <strong>Custom Resource</strong>. Select <strong>Proficiency Bonus</strong> as the maximum value, or write <code>pb</code> in the level 1 field of "Fixed Value (Per Level)".</p>
                         </div>
                     </div>
                     <div class="faq-item" id="species-elf">
@@ -463,7 +455,7 @@
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to add the Lineage Spell?</h4>
-                            <p>In the species feature or another desired feature, create a <strong>Custom Counter</strong> with a fixed value of 1, resetting on a Long Rest, with the desired name.</p>
+                            <p>In the species feature or another desired feature, create a <strong>Custom Resource</strong> with a fixed value of 1, resetting on a Long Rest, with the desired name.</p>
                             <p>The chosen spell must be added to the spell list manually. When preparing it, mark it as <strong>"Always Prepared (Species)"</strong>.</p>
                         </div>
                     </div>
@@ -490,6 +482,74 @@
                     <div class="faq-item" id="species-tiefling">
                         <div class="faq-question"><h3>Tiefling</h3></div>
                         <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                </div>
+
+                <!-- Origin Feats (2024) -->
+                <div class="doc-category" data-title="Origin Feats (2024)">
+                    <div class="faq-item" id="feat-alert">
+                        <div class="faq-question"><h3>Alert</h3></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+
+                            <h4>How to add the Initiative bonus?</h4>
+                            <p>To add your Proficiency Bonus to Initiative, you can edit the initiative directly by clicking on its card. However, to automate this so you don't need to update it when leveling up:</p>
+                            <ol>
+                                <li>Open the Feature that grants this bonus (or another desired Feature).</li>
+                                <li>Add a <strong>Permanent Character Bonus</strong>.</li>
+                                <li>Select <strong>Initiative Bonus</strong> and set the value to <code>pb</code>.</li>
+                            </ol>
+                            <p>This ensures the system always uses your current Proficiency Bonus and adds it automatically to your final Initiative value.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" id="feat-crafter">
+                        <div class="faq-question"><h3>Crafter</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="feat-healer">
+                        <div class="faq-question"><h3>Healer</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="feat-lucky">
+                        <div class="faq-question"><h3>Lucky</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="feat-magic-initiate">
+                        <div class="faq-question"><h3>Magic Initiate</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="feat-musician">
+                        <div class="faq-question"><h3>Musician</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="feat-savage-attacker">
+                        <div class="faq-question"><h3>Savage Attacker</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="feat-skilled">
+                        <div class="faq-question"><h3>Skilled</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="feat-tavern-brawler">
+                        <div class="faq-question"><h3>Tavern Brawler</h3></div>
+                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                    </div>
+                    <div class="faq-item" id="feat-tough">
+                        <div class="faq-question"><h3>Tough</h3></div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+
+                            <h4>How to add the extra hit points?</h4>
+                            <p>The Tough feat increases your hit point maximum by an amount equal to twice your level.</p>
+                            <p>To automate this, you can use a simple formula:</p>
+                            <ol>
+                                <li>Edit the <strong>Tough</strong> feat.</li>
+                                <li>Go to the <strong>Permanent Character Bonuses</strong> section.</li>
+                                <li>Add a value to <strong>Hit Points</strong>.</li>
+                                <li>Set the value to <code>2 * level</code>.</li>
+                            </ol>
+                            <p>This will automatically calculate the correct bonus (2 HP per level) as you level up.</p>
+                        </div>
                     </div>
                 </div>
 
