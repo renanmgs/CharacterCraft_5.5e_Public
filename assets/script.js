@@ -106,11 +106,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Download Button Analytics (if you want to track downloads)
     const downloadButtons = document.querySelectorAll('a[download]');
     downloadButtons.forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function(e) {
             const fileName = this.getAttribute('href');
             const analyticsLabel = this.dataset.analyticsLabel || fileName;
             const fileExtension = fileName ? fileName.split('.').pop().toLowerCase() : '';
             const linkUrl = this.href;
+            
             trackAnalyticsEvent('file_download', {
                 file_name: fileName,
                 file_extension: fileExtension,
@@ -121,20 +122,25 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Add a visual feedback
             const originalText = this.innerHTML;
-            this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Downloading...';
-            this.style.pointerEvents = 'none';
+            const btn = this;
             
+            // Delay the visual change slightly to ensure the download action triggers
             setTimeout(() => {
-                this.innerHTML = '<i class="fas fa-check"></i> Downloaded!';
+                btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Downloading...';
+                btn.style.pointerEvents = 'none';
+                
                 setTimeout(() => {
-                    this.innerHTML = originalText;
-                    this.style.pointerEvents = 'auto';
-                }, 2000);
-            }, 1000);
+                    btn.innerHTML = '<i class="fas fa-check"></i> Downloaded!';
+                    setTimeout(() => {
+                        btn.innerHTML = originalText;
+                        btn.style.pointerEvents = 'auto';
+                    }, 2000);
+                }, 1000);
+            }, 100);
         });
     });
 
-    const documentationLinks = document.querySelectorAll('a[href="documentation.html"]');
+    const documentationLinks = document.querySelectorAll('a[href="documentation"]');
     documentationLinks.forEach(link => {
         link.addEventListener('click', function() {
             const linkLocation = this.dataset.analyticsLocation || 'unknown';
