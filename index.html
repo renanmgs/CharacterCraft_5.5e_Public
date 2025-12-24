@@ -3,6 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
+    <script>
+        (function() {
+            var targetDomain = "charactercraftapp.com";
+            var currentHostname = window.location.hostname;
+            if (currentHostname === "localhost" || currentHostname === "127.0.0.1") return;
+            if (currentHostname !== targetDomain && currentHostname !== "www." + targetDomain) {
+                var path = window.location.pathname;
+                // Remove repository name from path if present (common when moving from GitHub Pages to custom domain)
+                path = path.replace(/^\/CharacterCraft_5.5e_Public/, "");
+                if (!path.startsWith("/")) path = "/" + path;
+                var newUrl = "https://" + targetDomain + path + window.location.search + window.location.hash;
+                window.location.replace(newUrl);
+            }
+        })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Character Craft 5.5e is the multiplatform digital character sheet for Dungeons & Dragons 2024 (One D&D). Build, manage, and export D&D 5.5e heroes with translation and homebrew tools.">
