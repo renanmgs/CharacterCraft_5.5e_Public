@@ -168,7 +168,7 @@
   "@chooseLanguages": {
     "description": "Button text to choose languages"
   },
-  "selectLanguages": "Normally up to 3 languages:",
+  "selectLanguages": "On PCs, normally up to 3 languages",
   "@selectLanguages": {
     "description": "Instruction for language selection"
   },
@@ -330,9 +330,9 @@
   "@attributesToIncreaseRace": {
     "description": "Header for background ability increases"
   },
-  "chooseUpToThreeAttributes": "Choose up to 3 attributes to increase",
+  "chooseUpToThreeAttributes": "Choose up to 3 attributes to change",
   "@chooseUpToThreeAttributes": {
-    "description": "Choose up to 3 attributes to increase"
+    "description": "Choose up to 3 attributes to change"
   },
   "chooseAnyAbilityFromSpecies": "Choose any attribute from {value}",
   "@chooseAnyAbilityFromSpecies": {
@@ -5756,7 +5756,7 @@
     "description": "Button text to increase a value"
   },
   "hitRollColon": "Hit Roll: ",
-  "rollAttack": "Roll Attack",
+  "rollAttack": "Attack!",
   "discardedRollColon": "Discarded roll: ",
   "abilityModifiers": "Ability Modifiers",
   "skillModifiers": "Skill Modifiers",
@@ -6019,109 +6019,242 @@
   "enable": "Enable",
   "disable": "Disable",
   "historyPast": "History",
-"rollHistory": "Roll History",
-"clearHistory": "Clear",
-"clearHistoryTitle": "Clear History",
-"clearHistoryConfirmation": "Are you sure you want to clear all roll history?",
-"noRollsYet": "No dice rolls yet",
-"useFormula": "Use this formula",
-"customSpellAttackBonus": "Custom Attack Bonus",
-"customSpellAttackBonusHelp": "Leave empty for automatic calculation. When filled, overrides the automatic bonus.",
-"customSpellSaveDC": "Custom Spell Save DC",
-"customSpellSaveDCHelp": "Leave empty for automatic calculation. When filled, overrides the automatic DC.",
-"availableDamageFormulas": "Available Damage Formulas",
-"baseFormula": "Base Formula",
-"noSlotAvailableForLevel": "Character doesn't have a level {level} spell slot available",
-"@noSlotAvailableForLevel": {
-  "description": "Message shown when trying to cast a spell at a level for which no spell slots are available",
-  "placeholders": {
-    "level": {
-      "type": "int",
-      "example": "3"
+  "rollHistory": "Roll History",
+  "clearHistory": "Clear",
+  "clearHistoryTitle": "Clear History",
+  "clearHistoryConfirmation": "Are you sure you want to clear all roll history?",
+  "noRollsYet": "No dice rolls yet",
+  "useFormula": "Use this formula",
+  "customSpellAttackBonus": "Custom Attack Bonus",
+  "customSpellAttackBonusHelp": "Leave empty for automatic calculation. When filled, overrides the automatic bonus.",
+  "customSpellSaveDC": "Custom Spell Save DC",
+  "customSpellSaveDCHelp": "Leave empty for automatic calculation. When filled, overrides the automatic DC.",
+  "availableDamageFormulas": "Available Damage Formulas",
+  "baseFormula": "Base Formula",
+  "noSlotAvailableForLevel": "Character doesn't have a level {level} spell slot available",
+  "@noSlotAvailableForLevel": {
+    "description": "Message shown when trying to cast a spell at a level for which no spell slots are available",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "3"
+      }
     }
-  }
-},
-"featuresAndActions": "Features & Actions",
-"id": "ID: ",
-"enterID": "Enter ID",
-"finishEditing": "Finish editing",
-"editId": "Edit ID",
-"idDatabaseWarning": "Changing the ID will determine if this data overwrites an existing one or creates a new entry in the database.",
-"spellcastingMultiplier": "Spellcasting Multiplier",
-"enterSpellcastingMultiplier": "Enter spellcasting multiplier (1.0=full, 0.5=half, 0.33=third)",
-"spellcastingMultiplierHelp": "Full caster (Wizard, Cleric, etc): 1.0\nHalf caster (Paladin, Ranger): 0.5\nThird caster (Fighter/Rogue subclasses): 0.33\nNon-caster: 0.0",
-"searchOtherClassSubclasses": "Search Subclasses from Other Classes",
-"classHasNoSubclasses": "{className} has no subclasses available.",
-"@classHasNoSubclasses": {
-  "description": "Message shown when a class has no subclasses available",
-  "placeholders": {
-    "className": {
-      "type": "String",
-      "example": "Barbarian"
+  },
+  "featuresAndActions": "Features & Actions",
+  "id": "ID: ",
+  "enterID": "Enter ID",
+  "finishEditing": "Finish editing",
+  "editId": "Edit ID",
+  "idDatabaseWarning": "Changing the ID will determine if this data overwrites an existing one or creates a new entry in the database.",
+  "spellcastingMultiplier": "Spellcasting Multiplier",
+  "enterSpellcastingMultiplier": "Enter spellcasting multiplier (1.0=full, 0.5=half, 0.33=third)",
+  "spellcastingMultiplierHelp": "Full caster (Wizard, Cleric, etc): 1.0\nHalf caster (Paladin, Ranger): 0.5\nThird caster (Fighter/Rogue subclasses): 0.33\nNon-caster: 0.0",
+  "searchOtherClassSubclasses": "Search Subclasses from Other Classes",
+  "classHasNoSubclasses": "{className} has no subclasses available.",
+  "@classHasNoSubclasses": {
+    "description": "Message shown when a class has no subclasses available",
+    "placeholders": {
+      "className": {
+        "type": "String",
+        "example": "Barbarian"
+      }
     }
-  }
-},
-"chooseSubclassFrom": "Choose a Subclass from {className}",
-"@chooseSubclassFrom": {
-  "description": "Prompt to choose a subclass from another class",
-  "placeholders": {
-    "className": {
-      "type": "String",
-      "example": "Wizard"
+  },
+  "chooseSubclassFrom": "Choose a Subclass from {className}",
+  "@chooseSubclassFrom": {
+    "description": "Prompt to choose a subclass from another class",
+    "placeholders": {
+      "className": {
+        "type": "String",
+        "example": "Wizard"
+      }
     }
-  }
-},
-"crossClassSubclassWarning": "Warning: Taking a subclass from another class is a homebrew option. Make sure your DM approves this choice.",
-"encounterSummary": "Encounter Summary",
-"defeatedEnemies": "Defeated Enemies",
-"noDefeatedEnemies": "No enemies were defeated",
-"totalXP": "Total XP",
-"xpPerPlayer": "XP per player (suggestions):",
-"players": "players",
-"each": "each",
-"finishEncounter": "Finish Encounter",
-"finishAndReset": "Finish & Reset",
-"previousTurn": "Previous Turn",
-"xpPerPlayerCharacter": "XP per player character:",
-"noPlayerCharacters": "No player characters in encounter",
-"saveToCharacters": "Save to Characters",
-"characterUpdated": "Character updated in database",
-"characterAdded": "Character added to database",
-"confirmSaveCharacter": "Confirm Save Character",
-"saveCharacterWarning": "Saving will overwrite the stored character data with the current combat state. Any changes made during combat (HP, conditions, etc.) will become permanent. Do you want to continue?",
-"nonDefeatedEnemies": "Non-defeated Enemies",
-"includeInXP": "Include in XP",
-"awardXpToCharacters": "Award XP to Characters",
-"awardXpDescription": "Would you like to award XP to the player characters for this encounter?",
-"xpToAward": "XP to Award",
-"xpPoints": "XP points",
-"playerCharactersReceivingXp": "Player Characters Receiving XP",
-"resetTrackerAfterAwardingXp": "Reset tracker after awarding XP",
-"skipXpAward": "Skip",
-"awardXp": "Award XP",
-"xpAwardedToCharacters": "{count} characters awarded {xp} XP",
-"@xpAwardedToCharacters": {
-  "description": "Message shown when XP is awarded to characters",
-  "placeholders": {
-    "count": {
-      "type": "int",
-      "example": "3"
+  },
+  "crossClassSubclassWarning": "Warning: Taking a subclass from another class is a homebrew option. Make sure your DM approves this choice.",
+  "encounterSummary": "Encounter Summary",
+  "defeatedEnemies": "Defeated Enemies",
+  "noDefeatedEnemies": "No enemies were defeated",
+  "totalXP": "Total XP",
+  "xpPerPlayer": "XP per player (suggestions):",
+  "players": "players",
+  "each": "each",
+  "finishEncounter": "Finish Encounter",
+  "finishAndReset": "Finish & Reset",
+  "previousTurn": "Previous Turn",
+  "xpPerPlayerCharacter": "XP per player character:",
+  "noPlayerCharacters": "No player characters in encounter",
+  "saveToCharacters": "Save to Characters",
+  "characterUpdated": "Character updated in database",
+  "characterAdded": "Character added to database",
+  "confirmSaveCharacter": "Confirm Save Character",
+  "saveCharacterWarning": "Saving will overwrite the stored character data with the current combat state. Any changes made during combat (HP, conditions, etc.) will become permanent. Do you want to continue?",
+  "nonDefeatedEnemies": "Non-defeated Enemies",
+  "includeInXP": "Include in XP",
+  "awardXpToCharacters": "Award XP to Characters",
+  "awardXpDescription": "Would you like to award XP to the player characters for this encounter?",
+  "xpToAward": "XP to Award",
+  "xpPoints": "XP points",
+  "playerCharactersReceivingXp": "Player Characters Receiving XP",
+  "resetTrackerAfterAwardingXp": "Reset tracker after awarding XP",
+  "skipXpAward": "Skip",
+  "awardXp": "Award XP",
+  "xpAwardedToCharacters": "{count} characters awarded {xp} XP",
+  "@xpAwardedToCharacters": {
+    "description": "Message shown when XP is awarded to characters",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      },
+      "xp": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  "noCharactersUpdated": "No characters were updated",
+  "finish": "Finish",
+  "groupedRolls": "Grouped Rolls",
+  "individualRolls": "Individual Rolls",
+  "rollIndividually": "Roll Individually",
+  "rollByGroup": "Roll by Group",
+  "chooseHowToRollInitiative": "Roll initiative by groups or individually?",
+  "multiclassAbilityRequirement": "You need the following ability scores at 13 or higher:\n\n",
+  "cannotMulticlass": "Cannot Multiclass",
+  "usesPactMagic": "Uses Pact Magic",
+  "adjustImage": "Adjust Image",
+  "position": "Position",
+  "zoom": "Zoom",
+  "bulkHpEdit": "Bulk HP Edit",
+  "cancelBulkHpEdit": "Cancel Bulk Edit",
+  "applyToSelected": "Apply to Selected",
+  "multipleCharactersSelected": "{count} characters selected",
+  "@multipleCharactersSelected": {
+    "description": "Indicates how many characters are selected for bulk HP edit",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "moreCombatants": "more combatants",
+  "removingSpecies": "Removing Species",
+  "removingSpeciesAttributes": "The following attribute modifiers will be removed",
+  "noAttributeChanges": "No attribute changes",
+  "removingBackgroundAbilityScores": "Removing Background Ability Scores",
+  "removingBackgroundAbilityScoresMessage": "The following attribute modifiers will be removed",
+  "rulesReference": "2024 Rules Reference",
+  "tableOfContents": "Table of Contents",
+  "setDurationForNewConditions": "Set duration for new conditions (0 = permanent)",
+  "applyToMultipleCombatants": "Apply to {count} selected combatants",
+  "@applyToMultipleCombatants": {
+    "description": "Indicates how many combatants will be affected when applying a condition",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "pactMagicSlots": "Pact Magic Slots",
+  "actionType": "Action Type",
+  "actionTypeHint": "e.g., Action, Bonus Action, Reaction",
+  "actionTypeNotSet": "Action Type not set",
+  "tapToAddImage": "Tap to add image",
+  "editSpell": "Edit spell",
+  "cantrip": "Cantrip",
+  "prepareSpell": "Prepare spell",
+  "unprepareSpell": "Unprepare spell",
+  "abjuration": "Abjuration",
+  "conjuration": "Conjuration",
+  "divination": "Divination",
+  "enchantment": "Enchantment",
+  "evocation": "Evocation",
+  "illusion": "Illusion",
+  "necromancy": "Necromancy",
+  "transmutation": "Transmutation",
+  "viewSpellsAsCards": "View Spells as Cards",
+  "criticalTypeColon": "Critical Type:",
+  "criticalTypeDoubleDice": "Double Dice",
+  "criticalTypeMaximumDamage": "Maximum Damage",
+  "criticalTypeMaximumPlusRolled": "Maximum + Rolled",
+  "abilityCheck": "Ability Check",
+  "latestNews": "Latest News",
+  "reRoll": "Re-roll",
+  "@reRoll": {
+    "description": "Button text to roll the same formula again"
+  },
+  "noSpellcastingClassesFound": "No spellcasting classes found",
+  "ensureSpellcastingFeaturesAreSetInClassOrCharacterFeatures": "Ensure spellcasting features are set in character or class features.",
+  "currency": "Currency",
+  "itemsWithCustomResources": "Items with Counters",
+  "useAttributeModifier": "Use Attribute Modifier",
+  "useAttributeModifierDescription": "Include the selected attribute modifier in the calculation",
+  "senses": "Senses",
+  "quickReminderSpells": "Quick Spells Reminder",
+  "selectAttributesToRemove": "Select attributes to remove",
+  "source": "Source",
+  "instrumentProficiencies": "Instrument Proficiencies",
+  "customInstrumentProficiency": "Custom Instrument Proficiency",
+  "enterCustomInstrument": "Enter custom instrument",
+  "selectedInstruments": "Selected Instruments",
+  "selectInstruments": "Select Instruments",
+  "bagpipes": "Bagpipes",
+  "drum": "Drum",
+  "dulcimer": "Dulcimer",
+  "flute": "Flute",
+  "lute": "Lute",
+  "lyre": "Lyre",
+  "horn": "Horn",
+  "panFlute": "Pan Flute",
+  "shawm": "Shawm",
+  "viol": "Viol",
+  "campaignTracker": "Campaign Tracker",
+  "adventures": "Adventures",
+  "randomDungeon": "Random Dungeon",
+  "adventuresTitle": "Adventures",
+  "continueAdventure": "Continue Adventure",
+  "newAdventure": "New Adventure",
+  "selectCharacter": "Select Character",
+  "deleteSave": "Delete Save",
+  "deleteSaveConfirmation": "Are you sure you want to delete this save?",
+  "noSavesFound": "No saved adventures found.",
+  "startNewAdventure": "Start a new adventure!",
+  "visualNovelStyle": "Visual Novel Style",
+  "adventureLoading": "Loading Adventure...",
+  "adventureError": "Error loading adventure.",
+  "randomizeItem": "Randomize Item",
+  "filtersRequiredForRandomization": "Please select filters to randomize",
+  "noItemsFound": "No items found with current filters",
+      "checkSuccess": "Success! Rolled {result} (DC {difficulty})",
+    "@checkSuccess": {
+        "placeholders": {
+            "result": {
+                "type": "int"
+            },
+            "difficulty": {
+                "type": "int"
+            }
+        }
     },
-    "xp": {
-      "type": "int",
-      "example": "150"
-    }
-  }
-},
-"noCharactersUpdated": "No characters were updated",
-"finish": "Finish",
-"groupedRolls": "Grouped Rolls",
-"individualRolls": "Individual Rolls",
-"rollIndividually": "Roll Individually",
-"rollByGroup": "Roll by Group",
-"chooseHowToRollInitiative": "Roll initiative by groups or individually?",
-"multiclassAbilityRequirement": "You need the following ability scores at 13 or higher:\n\n",
-"cannotMulticlass": "Cannot Multiclass",
-"usesPactMagic": "Uses Pact Magic"
-
+    "checkFailure": "Failure! Rolled {result} (DC {difficulty})",
+    "@checkFailure": {
+        "placeholders": {
+            "result": {
+                "type": "int"
+            },
+            "difficulty": {
+                "type": "int"
+            }
+        }
+    },
+    "skillCheck": "Skill Check",
+    "difficultyClass": "Difficulty Class (DC)",
+    "failureNode": "Failure Node (Optional)",
+    "combatEncounter": "Combat Encounter",
+    "encounterName": "Encounter Name",
+    "enemiesDetected": "Enemies Detected",
+"cannotFlee": "You cannot flee from this battle!"
 }
