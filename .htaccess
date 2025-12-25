@@ -1,0 +1,20 @@
+DirectoryIndex index.html
+
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect /index.html or /index to /
+RewriteCond %{THE_REQUEST} ^.*/index(\.html)?\s [NC]
+RewriteRule ^index(\.html)?$ / [L,R=301]
+
+# Remove .html extension from external URL (if user types .html)
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R=301]
+
+# Internally rewrite clean URLs to .html files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]

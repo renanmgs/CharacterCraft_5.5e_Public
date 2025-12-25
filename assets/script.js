@@ -53,16 +53,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
     anchorLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault();
             const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
             
-            if (targetElement) {
-                const offsetTop = targetElement.offsetTop - 80; // Account for fixed header
-                window.scrollTo({
-                    top: offsetTop,
-                    behavior: 'smooth'
-                });
+            // Only prevent default if it's still an anchor link and not just "#"
+            if (!targetId || !targetId.startsWith('#') || targetId === '#') return;
+
+            e.preventDefault();
+            
+            try {
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    const offsetTop = targetElement.offsetTop - 80; // Account for fixed header
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            } catch (error) {
+                // Ignore invalid selectors
             }
         });
     });
