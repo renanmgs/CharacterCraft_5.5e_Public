@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <script>
-        (function() {
+        (function () {
             var targetDomain = "charactercraftapp.com";
             var currentHostname = window.location.hostname;
             if (currentHostname === "localhost" || currentHostname === "127.0.0.1") return;
@@ -83,7 +83,8 @@
                             <h3>Why are some classes, items, or species missing from the app?</h3>
                         </div>
                         <div class="faq-answer">
-                            <p>Character Craft 5.5e includes only the freely available content authorized by WOTC, known as
+                            <p>Character Craft 5.5e includes only the freely available content authorized by WOTC, known
+                                as
                                 the <strong>SRD 5.2</strong>, by default.</p>
                         </div>
                     </div>
@@ -107,7 +108,8 @@
                             <h3>Can I import my character from another app, like Fight Club 5?</h3>
                         </div>
                         <div class="faq-answer">
-                            <p>No. The structure of CC5.5e is different and the data the character needs to function correctly does not exist in the file that other apps export.</p>
+                            <p>No. The structure of CC5.5e is different and the data the character needs to function
+                                correctly does not exist in the file that other apps export.</p>
                         </div>
                     </div>
 
@@ -125,7 +127,8 @@
                             </ul>
                             <div class="note">
 
-                                <strong>Note:</strong> Premium is required per platform, except for Mac and iOS which share
+                                <strong>Note:</strong> Premium is required per platform, except for Mac and iOS which
+                                share
                                 the same store.
                             </div>
                         </div>
@@ -136,8 +139,10 @@
                             <h3>How do I update my character's profile picture?</h3>
                         </div>
                         <div class="faq-answer">
-                            <p>To update it, simply go to the image and click on the <strong>Gear icon</strong> <i class="fas fa-cog"></i> in the bottom right corner.</p>
-                            <p>We recommend using <strong>Imgur</strong> to host your images. For animated <strong>WEBP</strong> files, we recommend <strong>Postimg</strong>.</p>
+                            <p>To update it, simply go to the image and click on the <strong>Gear icon</strong> <i
+                                    class="fas fa-cog"></i> in the bottom right corner.</p>
+                            <p>We recommend using <strong>Imgur</strong> to host your images. For animated
+                                <strong>WEBP</strong> files, we recommend <strong>Postimg</strong>.</p>
                         </div>
                     </div>
                 </div>
@@ -148,19 +153,23 @@
                         <div class="faq-question">
                             <h3>
 
-                                I added a Feature with limited-use resources (Rage, Second Wind, Luck, etc.), but I can't
+                                I added a Feature with limited-use resources (Rage, Second Wind, Luck, etc.), but I
+                                can't
                                 find how to use them.
                             </h3>
                         </div>
                         <div class="faq-answer">
                             <p>
-                                To add a custom resource to a Feature, open the Feature's edit screen and scroll to the bottom. There you will find the <strong>Custom Resources</strong> section.
+                                To add a custom resource to a Feature, open the Feature's edit screen and scroll to the
+                                bottom. There you will find the <strong>Custom Resources</strong> section.
                             </p>
                             <ol>
                                 <li>Click <strong>Add Custom Resource</strong>.</li>
                                 <li>Enter the desired name for your resource.</li>
-                                <li>Set the number of uses (you can use formulas like <code>pb</code> for proficiency bonus, etc.).</li>
-                                <li>Specify how many charges are recovered per rest (use <code>all</code> to recover all charges).</li>
+                                <li>Set the number of uses (you can use formulas like <code>pb</code> for proficiency
+                                    bonus, etc.).</li>
+                                <li>Specify how many charges are recovered per rest (use <code>all</code> to recover all
+                                    charges).</li>
                             </ol>
                             <p>
                                 This allows you to track and manage any custom resource your Feature provides.
@@ -191,11 +200,13 @@
                                     <li><code>spell</code> - gets your character or spell spellcasting attribute</li>
                                     <li><code>level</code> - gets your character total level</li>
                                     <li><code>classlevel:classname</code> - gets a specific class level</li>
+                                    <li><code>ranged=2</code> When used on Hit Bonus or Damage Bonus, only Weapons with Ranged property (have Range set) will receive the bonus</li>
                                 </ul>
                                 <h4>You can use formulas as well</h4>
                                 <ul>
                                     <li><code>1+pb</code></li>
                                     <li><code>2*level</code></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -208,10 +219,13 @@
                         </div>
                         <div class="faq-answer">
                             <p>
-                                Edit the Feature and fill the <strong>Action Type</strong> field with the desired value (Action, Bonus Action, Reaction, etc.). The list will display those entries sorted alphabetically.
+                                Edit the Feature and fill the <strong>Action Type</strong> field with the desired value
+                                (Action, Bonus Action, Reaction, etc.). The list will display those entries sorted
+                                alphabetically.
                             </p>
                             <p>
-                                Not sure what to write? Check the <strong>Demo Characters</strong> for reference examples.
+                                Not sure what to write? Check the <strong>Demo Characters</strong> for reference
+                                examples.
                             </p>
                         </div>
                     </div>
@@ -230,7 +244,8 @@
                             <ol>
                                 <li>Check the <strong>Feature that grants Spellcasting</strong></li>
                                 <li>Make sure the option <strong>"Includes Spellcasting"</strong> is enabled</li>
-                                <li>Then check and edit the <strong>number of spell slots</strong> available at that level
+                                <li>Then check and edit the <strong>number of spell slots</strong> available at that
+                                    level
                                 </li>
                             </ol>
                         </div>
@@ -246,7 +261,8 @@
                         </div>
                         <div class="faq-answer">
                             <p>Use <code>+spell</code> in the roll formula.</p>
-                            <p>The system will automatically use the modifier from the spellcasting ability set <strong>in
+                            <p>The system will automatically use the modifier from the spellcasting ability set
+                                <strong>in
                                     the spell</strong>.</p>
 
                             <div class="example">
@@ -264,13 +280,17 @@
                         </div>
                         <div class="faq-answer">
                             <p>
-                                Check if the <strong>Spellcasting Multiplier</strong> is set correctly for each of your classes. 
-                                An error in an older version could cause this value to be imported as <code>1.0</code> for all classes.
+                                Check if the <strong>Spellcasting Multiplier</strong> is set correctly for each of your
+                                classes.
+                                An error in an older version could cause this value to be imported as <code>1.0</code>
+                                for all classes.
                             </p>
                             <ol>
-                                <li>Go to your class settings and verify the <strong>Spellcasting Multiplier</strong> value.</li>
+                                <li>Go to your class settings and verify the <strong>Spellcasting Multiplier</strong>
+                                    value.</li>
                                 <li>Adjust it according to the official multiclass spellcasting rules if needed.</li>
-                                <li>If this information is already correct, check if the spell slots are filled in the <strong>Spellcasting Feature</strong> in your character's Features list.</li>
+                                <li>If this information is already correct, check if the spell slots are filled in the
+                                    <strong>Spellcasting Feature</strong> in your character's Features list.</li>
                             </ol>
                         </div>
                     </div>
@@ -292,9 +312,12 @@
                             <ul>
                                 <li><strong>Dawn:</strong> Recharges at dawn. (Example: <code>"dawn"</code>)</li>
                                 <li><strong>Dusk:</strong> Recharges at dusk. (Example: <code>"dusk"</code>)</li>
-                                <li><strong>Short Rest:</strong> Recharges after a short rest. (Example: <code>"short rest"</code>)</li>
-                                <li><strong>Long Rest:</strong> Recharges after a long rest. (Example: <code>"long rest"</code>)</li>
-                                <li><strong>Short or Long Rest:</strong> Recharges on any rest. (Example: <code>"short/long rest"</code>)</li>
+                                <li><strong>Short Rest:</strong> Recharges after a short rest. (Example:
+                                    <code>"short rest"</code>)</li>
+                                <li><strong>Long Rest:</strong> Recharges after a long rest. (Example:
+                                    <code>"long rest"</code>)</li>
+                                <li><strong>Short or Long Rest:</strong> Recharges on any rest. (Example:
+                                    <code>"short/long rest"</code>)</li>
                             </ul>
 
                             <h4>2. Dice Recharge</h4>
@@ -303,13 +326,15 @@
                                 <li><strong>recharge:</strong> The die to roll (e.g., <code>d6</code>).</li>
                                 <li><strong>rechargeAmount:</strong> The success range (e.g., <code>5-6</code>).</li>
                             </ul>
-                            <p><strong>Result:</strong> A die button 🎲 appears. Clicking it rolls the die and recharges if successful.</p>
+                            <p><strong>Result:</strong> A die button 🎲 appears. Clicking it rolls the die and recharges
+                                if successful.</p>
 
                             <h4>3. Special or Free Text</h4>
                             <ul>
                                 <li><strong>Special:</strong> For unique conditions (<code>"special"</code>).</li>
                                 <li><strong>Never:</strong> For finite consumables (<code>"never"</code>).</li>
-                                <li><strong>Free Text:</strong> If <code>recharge</code> is empty, <code>rechargeAmount</code> text is displayed.</li>
+                                <li><strong>Free Text:</strong> If <code>recharge</code> is empty,
+                                    <code>rechargeAmount</code> text is displayed.</li>
                             </ul>
 
                             <div class="example">
@@ -319,11 +344,14 @@
                                     <li><strong>Recharge:</strong> Dawn.</li>
                                     <li><strong>Recharge Amount:</strong> 3.</li>
                                 </ul>
-                                <p><strong>Result:</strong> Clicking <strong>Long Rest</strong> restores 3 charges automatically.</p>
+                                <p><strong>Result:</strong> Clicking <strong>Long Rest</strong> restores 3 charges
+                                    automatically.</p>
                             </div>
 
                             <div class="note">
-                                <strong>Note on Long Rests:</strong> In the app, clicking <strong>Long Rest</strong> simulates the passage of a day, triggering all <strong>Long Rest</strong>, <strong>Dawn</strong>, and <strong>Dusk</strong> recharges.
+                                <strong>Note on Long Rests:</strong> In the app, clicking <strong>Long Rest</strong>
+                                simulates the passage of a day, triggering all <strong>Long Rest</strong>,
+                                <strong>Dawn</strong>, and <strong>Dusk</strong> recharges.
                             </div>
                         </div>
                     </div>
@@ -332,244 +360,385 @@
                 <!-- Classes (2024) -->
                 <div class="doc-category" data-title="Classes (2024)">
                     <div class="faq-item" id="class-barbarian">
-                        <div class="faq-question"><h3>Barbarian</h3></div>
+                        <div class="faq-question">
+                            <h3>Barbarian</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
-                            
+
                             <h4>How to configure Unarmored Defense?</h4>
-                            <p>To change the character's base AC calculation, ensure they have <strong>no armor equipped</strong>.</p>
+                            <p>To change the character's base AC calculation, ensure they have <strong>no armor
+                                    equipped</strong>.</p>
                             <p>The recommended way to apply Unarmored Defense is through the Feature itself:</p>
                             <ol>
                                 <li>Edit the <strong>Unarmored Defense</strong> feature.</li>
                                 <li>Scroll to the <strong>Armor Class Bonus</strong> section.</li>
-                                <li>Select the attribute to add to your AC (e.g., <strong>Constitution</strong> for Barbarians).</li>
+                                <li>Select the attribute to add to your AC (e.g., <strong>Constitution</strong> for
+                                    Barbarians).</li>
                             </ol>
                             <p>This changes the base formula to: <code>(10 + Dex) + Con</code>.</p>
-                            <p>Finally, click the <strong>Refresh Icon</strong> <i class="fas fa-sync-alt"></i> above the equipment list to update your AC.</p>
+                            <p>Finally, click the <strong>Refresh Icon</strong> <i class="fas fa-sync-alt"></i> above
+                                the equipment list to update your AC.</p>
 
                             <h4>How to automate Rage?</h4>
                             <p>To do this, edit the Feature that grants Rage:</p>
                             <ol>
-                                <li>Add a <strong>Custom Resource</strong> to it, filling in the number of charges at the desired levels (you only need to fill it where the value increases).</li>
+                                <li>Add a <strong>Custom Resource</strong> to it, filling in the number of charges at
+                                    the desired levels (you only need to fill it where the value increases).</li>
                                 <li>Go to the <strong>Toggleable Bonuses</strong> section and create a new bonus.</li>
                                 <li>Add resistances to the 3 damage types (Bludgeoning, Piercing, Slashing).</li>
-                                <li>In <strong>Weapon Bonus Damage</strong>, enter the desired value (e.g., <code>2</code> for level 1).</li>
+                                <li>In <strong>Weapon Bonus Damage</strong>, enter the desired value (e.g.,
+                                    <code>2</code> for level 1).</li>
                             </ol>
                         </div>
                     </div>
                     <div class="faq-item" id="class-bard">
-                        <div class="faq-question"><h3>Bard</h3></div>
+                        <div class="faq-question">
+                            <h3>Bard</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to add Expertise and Jack of All Trades to my skills?</h4>
-                            <p>You can mark the desired skills as <strong>Expertise</strong> or <strong>Half Proficiency</strong> manually, or automate this by adjusting the Feature that grants these bonuses.</p>
+                            <p>You can mark the desired skills as <strong>Expertise</strong> or <strong>Half
+                                    Proficiency</strong> manually, or automate this by adjusting the Feature that grants
+                                these bonuses.</p>
                             <ol>
                                 <li>Edit the desired Feature.</li>
-                                <li>Scroll to the <strong>Expertise</strong> or <strong>Half Proficiency</strong> section.</li>
+                                <li>Scroll to the <strong>Expertise</strong> or <strong>Half Proficiency</strong>
+                                    section.</li>
                                 <li>Check the desired skills.</li>
                             </ol>
                         </div>
                     </div>
                     <div class="faq-item" id="class-cleric">
-                        <div class="faq-question"><h3>Cleric</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Cleric</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="class-druid">
-                        <div class="faq-question"><h3>Druid</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Druid</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="class-fighter">
-                        <div class="faq-question"><h3>Fighter</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Fighter</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="class-monk">
-                        <div class="faq-question"><h3>Monk</h3></div>
+                        <div class="faq-question">
+                            <h3>Monk</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to configure Unarmored Defense?</h4>
-                            <p>To change the character's base AC calculation, ensure they have <strong>no armor equipped</strong>.</p>
+                            <p>To change the character's base AC calculation, ensure they have <strong>no armor
+                                    equipped</strong>.</p>
                             <p>The recommended way to apply Unarmored Defense is through the Feature itself:</p>
                             <ol>
                                 <li>Edit the <strong>Unarmored Defense</strong> feature.</li>
                                 <li>Scroll to the <strong>Armor Class Bonus</strong> section.</li>
-                                <li>Select the attribute to add to your AC (e.g., <strong>Wisdom</strong> for Monks).</li>
+                                <li>Select the attribute to add to your AC (e.g., <strong>Wisdom</strong> for Monks).
+                                </li>
                             </ol>
                             <p>This changes the base formula to: <code>(10 + Dex) + Wis</code>.</p>
-                            <p>Finally, click the <strong>Refresh Icon</strong> <i class="fas fa-sync-alt"></i> above the equipment list to update your AC.</p>
+                            <p>Finally, click the <strong>Refresh Icon</strong> <i class="fas fa-sync-alt"></i> above
+                                the equipment list to update your AC.</p>
                         </div>
                     </div>
                     <div class="faq-item" id="class-paladin">
-                        <div class="faq-question"><h3>Paladin</h3></div>
+                        <div class="faq-question">
+                            <h3>Paladin</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to automate Lay on Hands?</h4>
                             <p>You just need to create a <strong>Custom Resource</strong> on the Feature.</p>
-                            <p>You can fill the value for each level individually or enter <code>5*classlevel:paladin</code> at level 1 of the Counter.</p>
-                            <p>This formula means the maximum value is 5 times the Paladin class level (must be the exact class name).</p>
+                            <p>You can fill the value for each level individually or enter
+                                <code>5*classlevel:paladin</code> at level 1 of the Counter.</p>
+                            <p>This formula means the maximum value is 5 times the Paladin class level (must be the
+                                exact class name).</p>
                             <p>The Demo Character <strong>Dominus</strong> is a good example of this feature.</p>
                         </div>
                     </div>
                     <div class="faq-item" id="class-ranger">
-                        <div class="faq-question"><h3>Ranger</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Ranger</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="class-rogue">
-                        <div class="faq-question"><h3>Rogue</h3></div>
+                        <div class="faq-question">
+                            <h3>Rogue</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to add Sneak Attack damage?</h4>
                             <p>There are two ways to do this:</p>
                             <ul>
-                                <li><strong>Weapon Formula:</strong> Add an extra Damage die to the weapon's formula. This allows you to toggle the added damage on or off when rolling the attack.</li>
-                                <li><strong>Toggleable Bonus (Recommended):</strong> Use a Toggleable Bonus (by editing the Feature that grants Sneak Attack) that adds a <strong>Damage Formula Bonus</strong> of <code>1d6</code> (or the desired value). The Demo Character <strong>Lanaya</strong> is a good example of this feature.</li>
+                                <li><strong>Weapon Formula:</strong> Add an extra Damage die to the weapon's formula.
+                                    This allows you to toggle the added damage on or off when rolling the attack.</li>
+                                <li><strong>Toggleable Bonus (Recommended):</strong> Use a Toggleable Bonus (by editing
+                                    the Feature that grants Sneak Attack) that adds a <strong>Damage Formula
+                                        Bonus</strong> of <code>1d6</code> (or the desired value). The Demo Character
+                                    <strong>Lanaya</strong> is a good example of this feature.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="faq-item" id="class-sorcerer">
-                        <div class="faq-question"><h3>Sorcerer</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Sorcerer</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="class-warlock">
-                        <div class="faq-question"><h3>Warlock</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Warlock</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="class-wizard">
-                        <div class="faq-question"><h3>Wizard</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Wizard</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Species (2024) -->
                 <div class="doc-category" data-title="Species (2024)">
                     <div class="faq-item" id="species-aasimar">
-                        <div class="faq-question"><h3>Aasimar</h3></div>
+                        <div class="faq-question">
+                            <h3>Aasimar</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
-                            <h4>How to configure traits like Celestial Resistance, Healing Hands, and Celestial Revelation?</h4>
+                            <h4>How to configure traits like Celestial Resistance, Healing Hands, and Celestial
+                                Revelation?</h4>
                             <p>To do this, edit the Species Feature or another desired Feature:</p>
                             <ol>
                                 <li>Add the two <strong>Damage Resistances</strong> (Necrotic and Radiant).</li>
-                                <li>Create two <strong>Custom Resources</strong> with 1 charge that recover on a Long Rest: one for <strong>Healing Hands</strong> and another for <strong>Celestial Revelation</strong>.</li>
+                                <li>Create two <strong>Custom Resources</strong> with 1 charge that recover on a Long
+                                    Rest: one for <strong>Healing Hands</strong> and another for <strong>Celestial
+                                        Revelation</strong>.</li>
                             </ol>
                         </div>
                     </div>
                     <div class="faq-item" id="species-dragonborn">
-                        <div class="faq-question"><h3>Dragonborn</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Dragonborn</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="species-dwarf">
-                        <div class="faq-question"><h3>Dwarf</h3></div>
+                        <div class="faq-question">
+                            <h3>Dwarf</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to add racial bonuses (Poison Resistance, HP bonus per level, Tremorsense)?</h4>
-                            <p>To add these bonuses, modify the racial Feature (usually named <strong>Dwarf Traits</strong>) or another desired feature:</p>
+                            <p>To add these bonuses, modify the racial Feature (usually named <strong>Dwarf
+                                    Traits</strong>) or another desired feature:</p>
                             <ul>
-                                <li><strong>Poison Resistance:</strong> Add a permanent bonus of <strong>Damage Resistance</strong> (Poison).</li>
-                                <li><strong>HP Bonus:</strong> Add a <strong>Permanent Character Bonus</strong> of "Hit Point Bonus" and set the value to <code>level</code>. The system will automatically add the character's current level to Max HP.</li>
+                                <li><strong>Poison Resistance:</strong> Add a permanent bonus of <strong>Damage
+                                        Resistance</strong> (Poison).</li>
+                                <li><strong>HP Bonus:</strong> Add a <strong>Permanent Character Bonus</strong> of "Hit
+                                    Point Bonus" and set the value to <code>level</code>. The system will automatically
+                                    add the character's current level to Max HP.</li>
                             </ul>
-                            
+
                             <p><strong>For Tremorsense:</strong></p>
-                            <p>Create a standard <strong>Custom Resource</strong>. Select <strong>Proficiency Bonus</strong> as the maximum value, or write <code>pb</code> in the level 1 field of "Fixed Value (Per Level)".</p>
+                            <p>Create a standard <strong>Custom Resource</strong>. Select <strong>Proficiency
+                                    Bonus</strong> as the maximum value, or write <code>pb</code> in the level 1 field
+                                of "Fixed Value (Per Level)".</p>
                         </div>
                     </div>
                     <div class="faq-item" id="species-elf">
-                        <div class="faq-question"><h3>Elf</h3></div>
+                        <div class="faq-question">
+                            <h3>Elf</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to add the Lineage Spell?</h4>
-                            <p>In the species feature or another desired feature, create a <strong>Custom Resource</strong> with a fixed value of 1, resetting on a Long Rest, with the desired name.</p>
-                            <p>The chosen spell must be added to the spell list manually. When preparing it, mark it as <strong>"Always Prepared (Species)"</strong>.</p>
+                            <p>In the species feature or another desired feature, create a <strong>Custom
+                                    Resource</strong> with a fixed value of 1, resetting on a Long Rest, with the
+                                desired name.</p>
+                            <p>The chosen spell must be added to the spell list manually. When preparing it, mark it as
+                                <strong>"Always Prepared (Species)"</strong>.</p>
                         </div>
                     </div>
                     <div class="faq-item" id="species-gnome">
-                        <div class="faq-question"><h3>Gnome</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Gnome</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="species-goliath">
-                        <div class="faq-question"><h3>Goliath</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Goliath</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="species-halfling">
-                        <div class="faq-question"><h3>Halfling</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Halfling</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="species-human">
-                        <div class="faq-question"><h3>Human</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Human</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="species-orc">
-                        <div class="faq-question"><h3>Orc</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Orc</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="species-tiefling">
-                        <div class="faq-question"><h3>Tiefling</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Tiefling</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Origin Feats (2024) -->
                 <div class="doc-category" data-title="Origin Feats (2024)">
                     <div class="faq-item" id="feat-alert">
-                        <div class="faq-question"><h3>Alert</h3></div>
+                        <div class="faq-question">
+                            <h3>Alert</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to add the Initiative bonus?</h4>
-                            <p>To add your Proficiency Bonus to Initiative, you can edit the initiative directly by clicking on its card. However, to automate this so you don't need to update it when leveling up:</p>
+                            <p>To add your Proficiency Bonus to Initiative, you can edit the initiative directly by
+                                clicking on its card. However, to automate this so you don't need to update it when
+                                leveling up:</p>
                             <ol>
                                 <li>Open the Feature that grants this bonus (or another desired Feature).</li>
                                 <li>Add a <strong>Permanent Character Bonus</strong>.</li>
                                 <li>Select <strong>Initiative Bonus</strong> and set the value to <code>pb</code>.</li>
                             </ol>
-                            <p>This ensures the system always uses your current Proficiency Bonus and adds it automatically to your final Initiative value.</p>
+                            <p>This ensures the system always uses your current Proficiency Bonus and adds it
+                                automatically to your final Initiative value.</p>
                         </div>
                     </div>
                     <div class="faq-item" id="feat-crafter">
-                        <div class="faq-question"><h3>Crafter</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Crafter</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="feat-healer">
-                        <div class="faq-question"><h3>Healer</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Healer</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="feat-lucky">
-                        <div class="faq-question"><h3>Lucky</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Lucky</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="feat-magic-initiate">
-                        <div class="faq-question"><h3>Magic Initiate</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Magic Initiate</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="feat-musician">
-                        <div class="faq-question"><h3>Musician</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Musician</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="feat-savage-attacker">
-                        <div class="faq-question"><h3>Savage Attacker</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Savage Attacker</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="feat-skilled">
-                        <div class="faq-question"><h3>Skilled</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Skilled</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="feat-tavern-brawler">
-                        <div class="faq-question"><h3>Tavern Brawler</h3></div>
-                        <div class="faq-answer"><p class="wip-warning">⚠️ Work in Progress</p></div>
+                        <div class="faq-question">
+                            <h3>Tavern Brawler</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="wip-warning">⚠️ Work in Progress</p>
+                        </div>
                     </div>
                     <div class="faq-item" id="feat-tough">
-                        <div class="faq-question"><h3>Tough</h3></div>
+                        <div class="faq-question">
+                            <h3>Tough</h3>
+                        </div>
                         <div class="faq-answer">
                             <p class="wip-warning">⚠️ Work in Progress</p>
 
                             <h4>How to add the extra hit points?</h4>
-                            <p>The Tough feat increases your hit point maximum by an amount equal to twice your level.</p>
+                            <p>The Tough feat increases your hit point maximum by an amount equal to twice your level.
+                            </p>
                             <p>To automate this, you can use a simple formula:</p>
                             <ol>
                                 <li>Edit the <strong>Tough</strong> feat.</li>
@@ -606,10 +775,10 @@
                         </a>
                     </div>
                 </div>
-                    <div style="height: 40px;">
+                <div style="height: 40px;">
 
+                </div>
             </div>
-        </div>
     </main>
 
     <footer class="footer">
@@ -617,7 +786,8 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <img src="assets/icon.png" alt="Character Craft 5.5e" class="nav-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline'">             
+                        <img src="assets/icon.png" alt="Character Craft 5.5e" class="nav-logo-img"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='inline'">
                         <span>Character Craft 5.5e</span>
                     </div>
                     <p>Empowering D&D adventures worldwide</p>
