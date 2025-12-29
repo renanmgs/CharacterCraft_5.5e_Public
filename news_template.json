@@ -14,12 +14,12 @@
     "title": "🔧 Versión 1.5.6 (173)",
     "text": "1.5.6 (173)\n\n- Cambiado el Diálogo de Búsqueda de Ítems: ordena por Precio por defecto, soporta búsqueda de múltiples palabras\n- Las Especies ahora pueden tener Características adjuntas (modificadores Raciales). La importación XML crea \"Rasgos de (Nombre de Especie)\"\n- Tarjetas de Clase renovadas y eliminada la Tarjeta de PV de la Página de Atributos\n- Añadir hechizos ya no pregunta si tiene Tiradas de Ataque (detectado en la Importación XML, solo en Inglés)\n- Modo pantalla completa para móviles\n- Más diálogos ajustados al patrón inferior (bottom dialogs)\n- Corregidos problemas con Cargas de Ítems y un error crítico al cambiar Características de Clases\n- Corregido error menor en tiradas de descanso corto con modificador de CON +0"
   },
-  "Android": "Version 1.5.6 (174)",
+  "Android": "Version 1.5.7 (175)",
   "Ios": "Version 1.5.6 (174)",
   "MacOS": "Version 1.5.6 (174)",
   "Windows": "Version 1.5.6 (174)",
   "Web": "Version 1.5.7 (175)",
-  "Linux": "Version 1.5.5 (167)",
+  "Linux": "Version 1.5.7 (175)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
