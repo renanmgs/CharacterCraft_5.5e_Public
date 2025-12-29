@@ -1,18 +1,18 @@
 {
   "en": {
-    "image": "https://i.imgur.com/c3Ap8XV.png",
-    "title": "🔧 Version 1.5.6 (173)",
-    "text": "1.5.6 (173)\n\n- Changed Item Search Dialog: sorts by Price by default, supports multi-word search\n- Species can now have attached Features (Racial modifiers). XML Import creates \"(Species Name) Traits\"\n- Revamped Class Cards and removed HP Card from Attributes Page\n- Adding spells no longer asks if it has Attack Rolls (detected on XML Import, English only)\n- Fullscreen mode for mobile\n- Adjusted more dialogs to bottom dialogs\n- Fixed Item Charges issues and a breaking bug when changing Features from Classes\n- Fixed minor bug in short rest hit rolls with +0 CON"
+    "image": "https://i.imgur.com/fzkEQJY.jpeg",
+    "title": "🔧 Version 1.5.7 (175)",
+    "text": "1.5.7 (175)\n\nBug Fixes and Improvements\n- Weight conversion system\n- Toggleable Modifiers now can use Speed as a formula\n- Spells filters now show Full/Partial Matches\n- Rework of Classes Primary Abilities\n- Fixed some typos in some features bonuses\n- Quick Spells reminders now work apart from Toggleable Effects from spells\n- Fixed Spells effects that were not working to give advantage to skills\n- Fixed Numbered Enemies losing its numbers when applying Conditions in the Tracker\n- Adjusted Character Cards for small Screens"
   },
   "pt": {
-    "image": "https://i.imgur.com/c3Ap8XV.png",
-    "title": "🔧 Versão 1.5.6 (173)",
-    "text": "1.5.6 (173)\n\n- Alterado o Diálogo de Busca de Itens: ordena por Preço por padrão, suporta busca por múltiplas palavras\n- Espécies agora podem ter Características anexadas (modificadores Raciais). Importação XML cria \"Traços de (Nome da Espécie)\"\n- Cartões de Classe renovados e removido o Cartão de PV da Página de Atributos\n- Adicionar magias não pergunta mais se possui Jogadas de Ataque (detectado na Importação XML, apenas em Inglês)\n- Modo tela cheia para mobile\n- Mais diálogos ajustados para o padrão inferior (bottom dialogs)\n- Corrigidos problemas com Cargas de Itens e um erro crítico ao alterar Características de Classes\n- Corrigido erro menor em rolagens de descanso curto com modificador de CON +0"
+    "image": "https://i.imgur.com/fzkEQJY.jpeg",
+    "title": "🔧 Versão 1.5.7 (175)",
+    "text": "1.5.7 (175)\n\nCorreções de bugs e melhorias\n- Sistema de conversão de peso\n- Modificadores alternáveis agora podem usar Velocidade como fórmula\n- Filtros de magias agora mostram correspondências completas/parciais\n- Reestruturação das Habilidades Primárias das Classes\n- Corrigidos alguns erros de digitação em bônus de características\n- Lembretes rápidos de magias agora funcionam independentemente dos Efeitos Alternáveis das magias\n- Corrigidos efeitos de magias que não estavam funcionando para dar vantagem em perícias\n- Corrigido inimigos numerados perdendo seus números ao aplicar Condições no Rastreador\n- Cards de Personagem ajustados para telas pequenas"
   },
   "es": {
-    "image": "https://i.imgur.com/c3Ap8XV.png",
-    "title": "🔧 Versión 1.5.6 (173)",
-    "text": "1.5.6 (173)\n\n- Cambiado el Diálogo de Búsqueda de Ítems: ordena por Precio por defecto, soporta búsqueda de múltiples palabras\n- Las Especies ahora pueden tener Características adjuntas (modificadores Raciales). La importación XML crea \"Rasgos de (Nombre de Especie)\"\n- Tarjetas de Clase renovadas y eliminada la Tarjeta de PV de la Página de Atributos\n- Añadir hechizos ya no pregunta si tiene Tiradas de Ataque (detectado en la Importación XML, solo en Inglés)\n- Modo pantalla completa para móviles\n- Más diálogos ajustados al patrón inferior (bottom dialogs)\n- Corregidos problemas con Cargas de Ítems y un error crítico al cambiar Características de Clases\n- Corregido error menor en tiradas de descanso corto con modificador de CON +0"
+    "image": "https://i.imgur.com/fzkEQJY.jpeg",
+    "title": "🔧 Versión 1.5.7 (175)",
+    "text": "1.5.7 (175)\n\nCorrecciones de errores y mejoras\n- Sistema de conversión de peso\n- Modificadores activables ahora pueden usar Velocidad como fórmula\n- Los filtros de hechizos ahora muestran coincidencias completas/parciales\n- Rework de las Habilidades Primarias de las Clases\n- Corregidos algunos errores tipográficos en bonos de rasgos\n- Los recordatorios rápidos de hechizos ahora funcionan aparte de los Efectos Activables de los hechizos\n- Corregidos efectos de hechizos que no estaban funcionando para dar ventaja en habilidades\n- Corregido que los Enemigos numerados perdieran sus números al aplicar Condiciones en el Tracker\n- Tarjetas de Personaje ajustadas para pantallas pequeñas"
   },
   "Android": "Version 1.5.7 (175)",
   "Ios": "Version 1.5.6 (174)",
