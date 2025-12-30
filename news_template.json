@@ -15,7 +15,7 @@
     "text": "1.5.7 (175)\n\nCorrecciones de errores y mejoras\n- Sistema de conversión de peso\n- Modificadores activables ahora pueden usar Velocidad como fórmula\n- Los filtros de hechizos ahora muestran coincidencias completas/parciales\n- Rework de las Habilidades Primarias de las Clases\n- Corregidos algunos errores tipográficos en bonos de rasgos\n- Los recordatorios rápidos de hechizos ahora funcionan aparte de los Efectos Activables de los hechizos\n- Corregidos efectos de hechizos que no estaban funcionando para dar ventaja en habilidades\n- Corregido que los Enemigos numerados perdieran sus números al aplicar Condiciones en el Tracker\n- Tarjetas de Personaje ajustadas para pantallas pequeñas"
   },
   "Android": "Version 1.5.7 (175)",
-  "Ios": "Version 1.5.6 (174)",
+  "Ios": "Version 1.5.7 (175)",
   "MacOS": "Version 1.5.6 (174)",
   "Windows": "Version 1.5.7 (175)",
   "Web": "Version 1.5.7 (175)",
