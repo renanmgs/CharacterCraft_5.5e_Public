@@ -1808,7 +1808,7 @@
   "@cantripsColon": {
     "description": "Label for cantrips section with colon"
   },
-  "abilityScoreIncreases": "Ability Score Increases:",
+  "abilityScoreIncreases": "Ability Score Increases",
   "@abilityScoreIncreases": {
     "description": "Label for ability score increases section"
   },
@@ -2816,7 +2816,7 @@
   "@pleaseEnterNameContinuing": {
     "description": "Error message when name is not entered"
   },
-  "speciesManualInfoWarning": "You need to manually add some information about the Species. Check its data in the third tab and make the necessary modifications.",
+  "speciesManualInfoWarning": "You need to manually add some information about the Species. Check its data in the third tab and make the necessary modifications on the Species Feature  (Like adding Poison resistance for Dwarfs).",
   "@speciesManualInfoWarning": {
     "description": "Warning message for manual species information entry"
   },
@@ -4824,7 +4824,7 @@
   "@noCompanions": {
     "description": ""
   },
-  "characterBonuses": "Permanent Character Bonuses",
+  "characterBonuses": "Character Bonuses",
   "@characterBonuses": {
     "description": "Label for character bonuses section"
   },
@@ -5669,19 +5669,19 @@
       }
     }
   },
-  "skillBonuses": "Skill Bonuses",
+  "skillBonuses": "Skill/Attributes Bonuses",
   "@skillBonuses": {
     "description": "Title for the skill bonuses section"
   },
-  "noSkillBonuses": "No skill bonuses",
+  "noSkillBonuses": "No Skill/Attributes bonuses",
   "@noSkillBonuses": {
     "description": "Text shown when no skill bonuses are available"
   },
-  "noSkillBonusesDefined": "No skill bonuses defined",
+  "noSkillBonusesDefined": "No Skill/Attributes bonuses defined",
   "@noSkillBonusesDefined": {
     "description": "Text shown when the skill bonuses list is empty"
   },
-  "addSkillBonus": "Add Skill Bonus",
+  "addSkillBonus": "Add Skill/Attribute Bonus",
   "@addSkillBonus": {
     "description": "Button text to add a new skill bonus"
   },
@@ -6211,50 +6211,43 @@
   "panFlute": "Pan Flute",
   "shawm": "Shawm",
   "viol": "Viol",
-  "campaignTracker": "Campaign Tracker",
-  "adventures": "Adventures",
-  "randomDungeon": "Random Dungeon",
-  "adventuresTitle": "Adventures",
-  "continueAdventure": "Continue Adventure",
-  "newAdventure": "New Adventure",
-  "selectCharacter": "Select Character",
-  "deleteSave": "Delete Save",
-  "deleteSaveConfirmation": "Are you sure you want to delete this save?",
-  "noSavesFound": "No saved adventures found.",
-  "startNewAdventure": "Start a new adventure!",
-  "visualNovelStyle": "Visual Novel Style",
-  "adventureLoading": "Loading Adventure...",
-  "adventureError": "Error loading adventure.",
   "randomizeItem": "Randomize Item",
   "filtersRequiredForRandomization": "Please select filters to randomize",
   "noItemsFound": "No items found with current filters",
-      "checkSuccess": "Success! Rolled {result} (DC {difficulty})",
-    "@checkSuccess": {
-        "placeholders": {
-            "result": {
-                "type": "int"
-            },
-            "difficulty": {
-                "type": "int"
-            }
-        }
-    },
-    "checkFailure": "Failure! Rolled {result} (DC {difficulty})",
-    "@checkFailure": {
-        "placeholders": {
-            "result": {
-                "type": "int"
-            },
-            "difficulty": {
-                "type": "int"
-            }
-        }
-    },
-    "skillCheck": "Skill Check",
-    "difficultyClass": "Difficulty Class (DC)",
-    "failureNode": "Failure Node (Optional)",
-    "combatEncounter": "Combat Encounter",
-    "encounterName": "Encounter Name",
-    "enemiesDetected": "Enemies Detected",
-"cannotFlee": "You cannot flee from this battle!"
+    "equipItemTitle": "Equip {itemName}",
+  "@equipItemTitle": {
+    "description": "Title for the equip item dialog",
+    "placeholders": {
+      "itemName": {
+        "type": "String",
+        "example": "Longsword"
+      }
+    }
+  },
+  "equipItemMessage": "How do you want to equip this weapon?",
+  "mainHand": "Main Hand",
+  "offhand": "Offhand",
+  "offhandWithModifier": "Offhand (with Ability Modifier)",
+  "otherSkills": "Other Skills (Homebrew)",
+  "speciesTraitsDescriptionPrefix": "The following traits are granted by this species. Please ensure to apply any relevant modifiers (e.g., Dwarf Poison Resistance) manually if needed.\n\n",
+  "speciesFeatureTypeName": "Species Feature",
+  "backgroundFeatureTypeName": "Background Feature",
+    "documentationAndSupport": "Documentation & Support",
+  "documentationAlertContent": "Welcome to Character Craft! \n\nWe have a new documentation website to help you get started and answer your questions. You can also join our Discord server to chat with the community and get support.",
+  "documentation": "Documentation",
+  "gotIt": "Got it",
+  "single": "Single",
+  "logic": "Logic",
+    "fullClassMatch": "Full class match",
+  "@fullClassMatch": {
+    "description": "Tooltip indicating spell fully matches the selected class"
+  },
+  "partialClassMatch": "Partial match (requires subclass)",
+  "@partialClassMatch": {
+    "description": "Tooltip indicating spell matches only a subclass and requires subclass selection"
+  },
+      "customVariableTitle": "Custom Variable",
+"customVariableDescription": "Define a custom variable that can be used in formulas (e.g. 'customValue').",
+"customVariableLabel": "Variable Label",
+"customVariableDefaultValue": "Default Value"
 }
