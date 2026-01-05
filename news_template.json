@@ -14,16 +14,22 @@
     "title": "🔧 Versión 1.5.7 (175)",
     "text": "1.5.7 (175)\n\nCorrecciones de errores y mejoras\n- Sistema de conversión de peso\n- Modificadores activables ahora pueden usar Velocidad como fórmula\n- Los filtros de hechizos ahora muestran coincidencias completas/parciales\n- Rework de las Habilidades Primarias de las Clases\n- Corregidos algunos errores tipográficos en bonos de rasgos\n- Los recordatorios rápidos de hechizos ahora funcionan aparte de los Efectos Activables de los hechizos\n- Corregidos efectos de hechizos que no estaban funcionando para dar ventaja en habilidades\n- Corregido que los Enemigos numerados perdieran sus números al aplicar Condiciones en el Tracker\n- Tarjetas de Personaje ajustadas para pantallas pequeñas"
   },
+  "pl": {
+    "image": "https://i.imgur.com/fzkEQJY.jpeg",
+    "title": "🔧 Wersja 1.5.7 (175)",
+    "text": "1.5.7 (175)\n\nPoprawki i ulepszenia\n- System konwersji wagi\n- Przełączalne modyfikatory mogą teraz używać Szybkości jako formuły\n- Filtry czarów teraz pokazują dopasowania pełne/częściowe\n- Przeróbka Głównych Atrybutów Klas\n- Naprawiono kilka literówek w premiach cech\n- Szybkie przypomnienia o czarach teraz działają niezależnie od Przełączalnych Efektów czarów\n- Naprawiono efekty czarów, które nie działały, aby dawać przewagę w umiejętnościach\n- Naprawiono, że Numerowani Wrogowie tracili swoje numery po zastosowaniu Kondycji w Trackerze\n- Dostosowano Karty Postaci do małych ekranów"
+  },
   "Android": "Version 1.5.7 (175)",
   "Ios": "Version 1.5.7 (175)",
   "MacOS": "Version 1.5.7 (175)",
   "Windows": "Version 1.5.7 (175)",
-  "Web": "Version 1.5.7 (175)",
+  "Web": "Version 1.5.7 (176)",
   "Linux": "Version 1.5.7 (175)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
-    "es": "¡Hay una nueva versión oficial disponible! Actualiza ahora para la mejor experiencia."
+    "es": "¡Hay una nueva versión oficial disponible! Actualiza ahora para la mejor experiencia.",
+    "pl": "Dostępne jest nowe oficjalne wydanie! Zaktualizuj teraz, aby uzyskać najlepsze wrażenia."
   },
   "date": "2025-11-19T12:00:00Z"
 }
