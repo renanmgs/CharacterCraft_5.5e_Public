@@ -1,23 +1,23 @@
 {
   "en": {
-    "image": "https://i.imgur.com/fzkEQJY.jpeg",
-    "title": "🔧 Version 1.5.7 (175)",
-    "text": "1.5.7 (175)\n\nBug Fixes and Improvements\n- Weight conversion system\n- Toggleable Modifiers now can use Speed as a formula\n- Spells filters now show Full/Partial Matches\n- Rework of Classes Primary Abilities\n- Fixed some typos in some features bonuses\n- Quick Spells reminders now work apart from Toggleable Effects from spells\n- Fixed Spells effects that were not working to give advantage to skills\n- Fixed Numbered Enemies losing its numbers when applying Conditions in the Tracker\n- Adjusted Character Cards for small Screens"
+    "image": "https://i.imgur.com/fpMDypS.png",
+    "title": "🔧 Version 1.5.7 (176)",
+    "text": "1.5.7 (176)\n\nBug Fixes and Improvements\n- Polish added to the app languages list! Thanks to @ciszko on Discord for making this possible!\n- More UI improvements: revamped HP bar, panels with adjusted margins, etc.\n- Item, background, species and spell search dialog boxes now have improved filters and sorting\n- Spells can now have custom Schools of Magic\n- Added a method for Features and Items to modify only the Saving Throws score\n- Notes are now expandable cards\n- Fixed minor bugs"
   },
   "pt": {
-    "image": "https://i.imgur.com/fzkEQJY.jpeg",
-    "title": "🔧 Versão 1.5.7 (175)",
-    "text": "1.5.7 (175)\n\nCorreções de bugs e melhorias\n- Sistema de conversão de peso\n- Modificadores alternáveis agora podem usar Velocidade como fórmula\n- Filtros de magias agora mostram correspondências completas/parciais\n- Reestruturação das Habilidades Primárias das Classes\n- Corrigidos alguns erros de digitação em bônus de características\n- Lembretes rápidos de magias agora funcionam independentemente dos Efeitos Alternáveis das magias\n- Corrigidos efeitos de magias que não estavam funcionando para dar vantagem em perícias\n- Corrigido inimigos numerados perdendo seus números ao aplicar Condições no Rastreador\n- Cards de Personagem ajustados para telas pequenas"
+    "image": "https://i.imgur.com/fpMDypS.png",
+    "title": "🔧 Versão 1.5.7 (176)",
+    "text": "1.5.7 (176)\n\nCorreções de bugs e melhorias\n- Polonês adicionado à lista de idiomas do App! Obrigado a @ciszko no Discord por tornar isso possível!\n- Mais melhorias de UI: barra de HP reformulada, painéis com margens ajustadas, etc.\n- Caixas de diálogo de procura de itens, background, species e magias agora têm filtros e ordenações melhoradas\n- Magias podem agora ter Escolas de Magia customizadas\n- Adicionado um método para que Features e Itens modifiquem apenas o valor de Salvaguardas\n- Notes agora são cards expansíveis\n- Correção de pequenos bugs"
   },
   "es": {
-    "image": "https://i.imgur.com/fzkEQJY.jpeg",
-    "title": "🔧 Versión 1.5.7 (175)",
-    "text": "1.5.7 (175)\n\nCorrecciones de errores y mejoras\n- Sistema de conversión de peso\n- Modificadores activables ahora pueden usar Velocidad como fórmula\n- Los filtros de hechizos ahora muestran coincidencias completas/parciales\n- Rework de las Habilidades Primarias de las Clases\n- Corregidos algunos errores tipográficos en bonos de rasgos\n- Los recordatorios rápidos de hechizos ahora funcionan aparte de los Efectos Activables de los hechizos\n- Corregidos efectos de hechizos que no estaban funcionando para dar ventaja en habilidades\n- Corregido que los Enemigos numerados perdieran sus números al aplicar Condiciones en el Tracker\n- Tarjetas de Personaje ajustadas para pantallas pequeñas"
+    "image": "https://i.imgur.com/fpMDypS.png",
+    "title": "🔧 Versión 1.5.7 (176)",
+    "text": "1.5.7 (176)\n\nCorrecciones y mejoras\n- ¡Polaco añadido a la lista de idiomas de la app! ¡Gracias a @ciszko en Discord por hacerlo posible!\n- Más mejoras de UI: barra de HP rediseñada, paneles con márgenes ajustados, etc.\n- Los cuadros de diálogo de búsqueda de objetos, background, species y spells ahora tienen filtros y ordenaciones mejoradas\n- Los spells ahora pueden tener Schools of Magic personalizadas\n- Añadido un método para que Features e Items modifiquen solo la puntuación de Saving Throws\n- Las Notes ahora son tarjetas expandibles\n- Corrección de pequeños errores"
   },
   "pl": {
-    "image": "https://i.imgur.com/fzkEQJY.jpeg",
-    "title": "🔧 Wersja 1.5.7 (175)",
-    "text": "1.5.7 (175)\n\nPoprawki i ulepszenia\n- System konwersji wagi\n- Przełączalne modyfikatory mogą teraz używać Szybkości jako formuły\n- Filtry czarów teraz pokazują dopasowania pełne/częściowe\n- Przeróbka Głównych Atrybutów Klas\n- Naprawiono kilka literówek w premiach cech\n- Szybkie przypomnienia o czarach teraz działają niezależnie od Przełączalnych Efektów czarów\n- Naprawiono efekty czarów, które nie działały, aby dawać przewagę w umiejętnościach\n- Naprawiono, że Numerowani Wrogowie tracili swoje numery po zastosowaniu Kondycji w Trackerze\n- Dostosowano Karty Postaci do małych ekranów"
+    "image": "https://i.imgur.com/fpMDypS.png",
+    "title": "🔧 Wersja 1.5.7 (176)",
+    "text": "1.5.7 (176)\n\nPoprawki i ulepszenia\n- Polski dodany do listy języków aplikacji! Dzięki @ciszko na Discord za umożliwienie tego!\n- Więcej ulepszeń UI: przebudowany pasek HP, panele z dostosowanymi marginesami itd.\n- Okna dialogowe wyszukiwania przedmiotów, background, species i zaklęć mają teraz ulepszone filtry i sortowanie\n- Zaklęcia mogą teraz mieć niestandardowe Schools of Magic\n- Dodano metodę, aby Features i Items modyfikowały tylko wynik Saving Throws\n- Notes są teraz rozwijalnymi kartami\n- Naprawiono drobne błędy"
   },
   "Android": "Version 1.5.7 (175)",
   "Ios": "Version 1.5.7 (175)",
