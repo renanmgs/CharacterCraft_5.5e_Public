@@ -20,9 +20,9 @@
     "text": "1.5.7 (176)\n\nPoprawki i ulepszenia\n- Polski dodany do listy języków aplikacji! Dzięki @ciszko na Discord za umożliwienie tego!\n- Więcej ulepszeń UI: przebudowany pasek HP, panele z dostosowanymi marginesami itd.\n- Okna dialogowe wyszukiwania przedmiotów, background, species i zaklęć mają teraz ulepszone filtry i sortowanie\n- Zaklęcia mogą teraz mieć niestandardowe Schools of Magic\n- Dodano metodę, aby Features i Items modyfikowały tylko wynik Saving Throws\n- Notes są teraz rozwijalnymi kartami\n- Naprawiono drobne błędy"
   },
   "Android": "Version 1.5.7 (178)",
-  "Ios": "Version 1.5.7 (177)",
+  "Ios": "Version 1.5.7 (178)",
   "MacOS": "Version 1.5.7 (177)",
-  "Windows": "Version 1.5.7 (177)",
+  "Windows": "Version 1.5.7 (178)",
   "Web": "Version 1.5.7 (178)",
   "Linux": "Version 1.5.7 (176)",
   "message": {
