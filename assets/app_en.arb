@@ -6249,5 +6249,36 @@
       "customVariableTitle": "Custom Variable",
 "customVariableDescription": "Define a custom variable that can be used in formulas (e.g. 'customValue').",
 "customVariableLabel": "Variable Label",
-"customVariableDefaultValue": "Default Value"
+"customVariableDefaultValue": "Default Value",
+  "filterClasses": "Filter Classes",
+  "@filterClasses": {
+    "description": "Tooltip for filter classes button"
+  },
+  "filterSpecies": "Filter Species",
+  "@filterSpecies": {
+    "description": "Tooltip for filter species button"
+  },
+  "filterBackgrounds": "Filter Backgrounds",
+  "@filterBackgrounds": {
+    "description": "Tooltip for filter backgrounds button"
+  },
+  "hitDie": "Hit Die",
+  "@hitDie": {
+    "description": "Label for hit die"
+  },
+  "enterSource": "Enter source...",
+  "@enterSource": {
+    "description": "Hint text for source filter input"
+  },
+  "enterSkill": "Enter skill name...",
+  "@enterSkill": {
+    "description": "Hint text for skill filter input"
+  },
+  "defaultOrder": "Default Order",
+  "compendium": "Compendium",
+  "acBaseMessage": "Base AC cannot be changed here. See your equipment and features that modify AC.",
+  "showXp": "Show XP",
+"useCapacity": "Use Encumbrance",
+"currencies": "Currencies",
+"extraSpellSlotsGrid": "Extra Spell Slots (Grid)"
 }
