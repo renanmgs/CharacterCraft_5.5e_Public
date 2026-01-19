@@ -1,35 +1,41 @@
 {
   "en": {
-    "image": "https://i.imgur.com/fpMDypS.png",
-    "title": "🔧 Version 1.5.7 (176)",
-    "text": "1.5.7 (176)\n\nBug Fixes and Improvements\n- Polish added to the app languages list! Thanks to @ciszko on Discord for making this possible!\n- More UI improvements: revamped HP bar, panels with adjusted margins, etc.\n- Item, background, species and spell search dialog boxes now have improved filters and sorting\n- Spells can now have custom Schools of Magic\n- Added a method for Features and Items to modify only the Saving Throws score\n- Notes are now expandable cards\n- Fixed minor bugs"
+    "image": "https://i.imgur.com/Wib3nde.png",
+    "title": "🔧 Version 1.5.7 (180)",
+    "text": "1.5.7 (180)\n\nBug Fixes and Improvements\n- Italian added! Thanks once again to the amazing Character Craft community, especially to @Alss on Discord for producing the complete Italian translation! Grazie!\n- Spell Card is now more compact.\n- Adjusted alignment of Custom Resources for features in some cases.\n- Features can now modify the maximum amount of Spell Slots. Just add the modifier to the feature or the desired Toggleable Bonus.\n- Fixed minor bugs"
   },
   "pt": {
-    "image": "https://i.imgur.com/fpMDypS.png",
-    "title": "🔧 Versão 1.5.7 (176)",
-    "text": "1.5.7 (176)\n\nCorreções de bugs e melhorias\n- Polonês adicionado à lista de idiomas do App! Obrigado a @ciszko no Discord por tornar isso possível!\n- Mais melhorias de UI: barra de HP reformulada, painéis com margens ajustadas, etc.\n- Caixas de diálogo de procura de itens, background, species e magias agora têm filtros e ordenações melhoradas\n- Magias podem agora ter Escolas de Magia customizadas\n- Adicionado um método para que Features e Itens modifiquem apenas o valor de Salvaguardas\n- Notes agora são cards expansíveis\n- Correção de pequenos bugs"
+    "image": "https://i.imgur.com/Wib3nde.png",
+    "title": "🔧 Versão 1.5.7 (180)",
+    "text": "1.5.7 (180)\n\nCorreções de bugs e melhorias\n- Italiano adicionado! Obrigado mais uma vez à incrível comunidade do Character Craft, em especial ao @Alss no discord por ter produzido a tradução completa para Italiano! Grazie!\n- Spell Card agora mais compacto.\n- Ajustado o alinhamento de Custom Resources de features em alguns casos.\n- Features agora podem alterar a quantidade máxima de Spell Slots. Basta adicionar o modificador no feature ou no Toggleable Bonus desejado.\n- Correção de pequenos bugs"
   },
   "es": {
-    "image": "https://i.imgur.com/fpMDypS.png",
-    "title": "🔧 Versión 1.5.7 (176)",
-    "text": "1.5.7 (176)\n\nCorrecciones y mejoras\n- ¡Polaco añadido a la lista de idiomas de la app! ¡Gracias a @ciszko en Discord por hacerlo posible!\n- Más mejoras de UI: barra de HP rediseñada, paneles con márgenes ajustados, etc.\n- Los cuadros de diálogo de búsqueda de objetos, background, species y spells ahora tienen filtros y ordenaciones mejoradas\n- Los spells ahora pueden tener Schools of Magic personalizadas\n- Añadido un método para que Features e Items modifiquen solo la puntuación de Saving Throws\n- Las Notes ahora son tarjetas expandibles\n- Corrección de pequeños errores"
+    "image": "https://i.imgur.com/Wib3nde.png",
+    "title": "🔧 Versión 1.5.7 (180)",
+    "text": "1.5.7 (180)\n\nCorrecciones y mejoras\n- ¡Italiano añadido! ¡Gracias una vez más a la increíble comunidad de Character Craft, especialmente a @Alss en Discord por producir la traducción completa al italiano! ¡Grazie!\n- Spell Card ahora es más compacta.\n- Ajustado la alineación de Custom Resources de features en algunos casos.\n- Features ahora pueden alterar la cantidad máxima de Spell Slots. Basta con añadir el modificador en la feature o en el Toggleable Bonus deseado.\n- Corrección de pequeños errores"
   },
   "pl": {
-    "image": "https://i.imgur.com/fpMDypS.png",
-    "title": "🔧 Wersja 1.5.7 (176)",
-    "text": "1.5.7 (176)\n\nPoprawki i ulepszenia\n- Polski dodany do listy języków aplikacji! Dzięki @ciszko na Discord za umożliwienie tego!\n- Więcej ulepszeń UI: przebudowany pasek HP, panele z dostosowanymi marginesami itd.\n- Okna dialogowe wyszukiwania przedmiotów, background, species i zaklęć mają teraz ulepszone filtry i sortowanie\n- Zaklęcia mogą teraz mieć niestandardowe Schools of Magic\n- Dodano metodę, aby Features i Items modyfikowały tylko wynik Saving Throws\n- Notes są teraz rozwijalnymi kartami\n- Naprawiono drobne błędy"
+    "image": "https://i.imgur.com/Wib3nde.png",
+    "title": "🔧 Wersja 1.5.7 (180)",
+    "text": "1.5.7 (180)\n\nPoprawki i ulepszenia\n- Dodano język włoski! Dziękujemy jeszcze raz niesamowitej społeczności Character Craft, w szczególności @Alss na Discordzie za przygotowanie pełnego tłumaczenia na włoski! Grazie!\n- Spell Card jest teraz bardziej kompaktowa.\n- Dostosowano wyrównanie Custom Resources w features w niektórych przypadkach.\n- Features mogą teraz zmieniać maksymalną ilość Spell Slots. Wystarczy dodać modyfikator w feature lub wybranym Toggleable Bonus.\n- Naprawiono drobne błędy"
   },
-  "Android": "Version 1.5.7 (179)",
+  "it": {
+    "image": "https://i.imgur.com/Wib3nde.png",
+    "title": "🔧 Versione 1.5.7 (180)",
+    "text": "1.5.7 (180)\n\nCorrezioni di bug e miglioramenti\n- Aggiunto l'italiano! Grazie ancora una volta all'incredibile comunità di Character Craft, in particolare a @Alss su Discord per aver realizzato la traduzione completa in italiano! Grazie!\n- La Spell Card ora è più compatta.\n- Modificato l'allineamento delle Custom Resources delle features in alcuni casi.\n- Le Features ora possono modificare la quantità massima di Spell Slots. Basta aggiungere il modificatore nella feature o nel Toggleable Bonus desiderato.\n- Corretti bug minori"
+  },
+  "Android": "Version 1.5.7 (180)",
   "Ios": "Version 1.5.7 (178)",
   "MacOS": "Version 1.5.7 (179)",
   "Windows": "Version 1.5.7 (179)",
-  "Web": "Version 1.5.7 (179)",
+  "Web": "Version 1.5.7 (180)",
   "Linux": "Version 1.5.7 (176)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
     "es": "¡Hay una nueva versión oficial disponible! Actualiza ahora para la mejor experiencia.",
-    "pl": "Dostępne jest nowe oficjalne wydanie! Zaktualizuj teraz, aby uzyskać najlepsze wrażenia."
+    "pl": "Dostępne jest nowe oficjalne wydanie! Zaktualizuj teraz, aby uzyskać najlepsze wrażenia.",
+    "it": "È disponibile una nuova versione ufficiale! Aggiorna ora per la migliore esperienza."
   },
-  "date": "2025-11-19T12:00:00Z"
+  "date": "2026-01-19T12:00:00Z"
 }
