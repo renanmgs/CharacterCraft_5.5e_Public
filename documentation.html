@@ -113,6 +113,16 @@
                         </div>
                     </div>
 
+                    <div class="faq-item" id="faq-content-saving">
+                        <div class="faq-question">
+                            <h3>My created Item/Spell isn't showing up for other characters.</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>When you create an Item or Spell directly inside a character sheet, it acts as a local copy for that character only.</p>
+                            <p>To create content that is saved to the database and accessible to all your characters, please create it using the <strong>Compendium Tab</strong>.</p>
+                        </div>
+                    </div>
+
                     <div class="faq-item" id="faq-premium-features">
                         <div class="faq-question">
                             <h3>What do I get with Premium?</h3>
@@ -123,6 +133,7 @@
                                 <li><strong>Creating more than 3 characters</strong></li>
                                 <li><strong>Online Initiative Tracker</strong></li>
                                 <li><strong>Cloud Sync</strong> to save and sync characters across platforms</li>
+                                <li><strong>Character Sharing</strong> (Receive characters shared by others)</li>
                                 <li><strong>Ad-free</strong></li>
                             </ul>
                             <div class="note">
@@ -149,6 +160,29 @@
 
                 <!-- Features & Mechanics -->
                 <div class="doc-category" data-title="Features & Mechanics">
+                    <div class="faq-item" id="faq-features-formulas">
+                        <div class="faq-question">
+                            <h3>Can I use formulas in Names or Descriptions?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. You can use dynamic formulas inside curly braces <code>{}</code> in Feature/Feat Names, Descriptions, and Action Types.</p>
+                            <div class="example">
+                                <h4>Example:</h4>
+                                <p>Text: <code>Breath Weapon {2d6} Fire</code></p>
+                                <p>Result: <strong>Breath Weapon 7 Fire</strong> (Calculates the roll)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-attached-spells">
+                        <div class="faq-question">
+                            <h3>How do I add a Spell to a Feature?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Edit the Feature and scroll to the <strong>Attached Spells</strong> section. Spells added here will appear directly on the feature card, useful for Feats like <em>Magic Initiate</em> or Species traits.</p>
+                        </div>
+                    </div>
+                    
                     <div class="faq-item" id="faq-limited-use-counters">
                         <div class="faq-question">
                             <h3>
@@ -202,6 +236,10 @@
                                     <li><code>classlevel:classname</code> - gets a specific class level</li>
                                     <li><code>ranged=2</code> When used on Hit Bonus or Damage Bonus, only Weapons with Ranged property (have Range set) will receive the bonus</li>
                                 </ul>
+                                <h4>Complex Weapon Formulas</h4>
+                                <p><strong>Weapon Hit Bonus</strong> and <strong>Weapon Damage Bonus</strong> support complex formulas like <code>1d6+2</code>. This is added to the weapon's base formula (e.g. <code>1d6+(1d6+2)</code>).</p>
+                                <p>Use <strong>Extra Damages</strong> (formerly "Additional Damage Formula") for separate damage instances (like Sneak Attack or Hunter's Mark).</p>
+
                                 <h4>You can use formulas as well</h4>
                                 <ul>
                                     <li><code>1+pb</code></li>
@@ -233,6 +271,19 @@
 
                 <!-- Magic & Spells -->
                 <div class="doc-category" data-title="Magic & Spells">
+                    <div class="faq-item" id="faq-spells-resource">
+                        <div class="faq-question">
+                            <h3>How do I make a Spell consume a specific Resource or Item Charge?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Edit the Spell and look for the <strong>Resource Consumption</strong> section.</p>
+                            <ul>
+                                <li>You can link it to a <strong>Custom Resource</strong> (like Sorcery Points or Ki).</li>
+                                <li>Or select an <strong>Item</strong> from your inventory to consume its Charges/Quantity.</li>
+                            </ul>
+                        </div>
+                    </div>
+
                     <div class="faq-item" id="faq-spell-slots">
                         <div class="faq-question">
                             <h3>
@@ -298,6 +349,15 @@
 
                 <!-- Items & Equipment -->
                 <div class="doc-category" data-title="Items & Equipment">
+                     <div class="faq-item" id="faq-healing-damage">
+                        <div class="faq-question">
+                            <h3>How do I create a Healing Item?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>When defining the item's damage/effect, select <strong>Healing</strong> as the "Damage Type". This ensures it heals the target instead of dealing damage.</p>
+                        </div>
+                    </div>
+
                     <div class="faq-item" id="faq-item-charges">
                         <div class="faq-question">
                             <h3>
