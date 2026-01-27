@@ -3360,7 +3360,7 @@
       }
     }
   },
-  "deleteAllDataConfirmation": "This will delete all data from the database including items, classes, backgrounds, spells, characters, features, etc. Proceed?",
+  "deleteAllDataConfirmation": "This will delete all data from the database including items, classes, backgrounds, spells, features, etc. Proceed? Characters will not be affected.",
   "@deleteAllDataConfirmation": {
     "description": "Confirmation message for deleting all data"
   },
@@ -6280,5 +6280,409 @@
   "showXp": "Show XP",
 "useCapacity": "Use Encumbrance",
 "currencies": "Currencies",
-"extraSpellSlotsGrid": "Extra Spell Slots (Grid)"
+"extraSpellSlotsGrid": "Extra Spell Slots (Grid)",
+
+"syncAndShareOptions": "Sync & Share Options",
+"@syncAndShareOptions": {
+  "description": "Title for sync and share options dialog"
+},
+"cloudSync": "Cloud Sync",
+"@cloudSync": {
+  "description": "Title for cloud sync option"
+},
+"cloudSyncDescription": "Sync this character across your devices",
+"@cloudSyncDescription": {
+  "description": "Description for cloud sync option"
+},
+"shareWithPlayers": "Share with Players",
+"@shareWithPlayers": {
+  "description": "Title for share with players option"
+},
+"shareDescription": "Share with other players via code",
+"@shareDescription": {
+  "description": "Description for share option"
+},
+"receiveSharedCharacter": "Receive Shared Character",
+"@receiveSharedCharacter": {
+  "description": "Title for receive shared character option"
+},
+"receiveSharedCharacterDescription": "Enter a share code to receive a character",
+"@receiveSharedCharacterDescription": {
+  "description": "Description for receive shared character option"
+},
+"syncAllCharacters": "Sync All Characters",
+"@syncAllCharacters": {
+  "description": "Title for sync all characters option"
+},
+"syncAllCharactersDescription": "Download latest versions from cloud",
+"@syncAllCharactersDescription": {
+  "description": "Description for sync all characters option"
+},
+"shareCode": "Share Code",
+"@shareCode": {
+  "description": "Label for share code"
+},
+"enterShareCode": "Enter the 6-character share code",
+"@enterShareCode": {
+  "description": "Hint for entering share code"
+},
+"createShare": "Create Share",
+"@createShare": {
+  "description": "Button to create a share"
+},
+"manageShare": "Manage Share",
+"@manageShare": {
+  "description": "Button to manage existing share"
+},
+"shareCreatedWithCode": "Share created! Code: {code}",
+"@shareCreatedWithCode": {
+  "description": "Message shown when share is created",
+  "placeholders": {
+    "code": {
+      "type": "String",
+      "example": "ABC123"
+    }
+  }
+},
+"shareRedeemed": "Character received successfully",
+"@shareRedeemed": {
+  "description": "Message when character is received"
+},
+"alreadySharingMaxFree": "Free users can only share 1 character. Upgrade to Premium for unlimited sharing.",
+"@alreadySharingMaxFree": {
+  "description": "Error when free user tries to share more than 1 character"
+},
+"stopSharing": "Stop Sharing",
+"@stopSharing": {
+  "description": "Button to stop sharing a character"
+},
+"stopSharingConfirm": "This will remove access for all players who received this character. Are you sure?",
+"@stopSharingConfirm": {
+  "description": "Confirmation message for stopping share"
+},
+"onlyOwnerCanStopSharing": "Only the original owner can stop sharing",
+"@onlyOwnerCanStopSharing": {
+  "description": "Error when non-owner tries to stop sharing"
+},
+"dailyQuotaExceeded": "Daily share limit reached ({used}/{max}). Try again tomorrow.",
+"@dailyQuotaExceeded": {
+  "description": "Error when daily quota is exceeded",
+  "placeholders": {
+    "used": {
+      "type": "int",
+      "example": "50"
+    },
+    "max": {
+      "type": "int",
+      "example": "50"
+    }
+  }
+},
+"invalidShareCode": "Invalid or expired share code",
+"@invalidShareCode": {
+  "description": "Error for invalid share code"
+},
+"shareCodeCopied": "Share code copied to clipboard",
+"@shareCodeCopied": {
+  "description": "Message when share code is copied"
+},
+"sharedWithXPlayers": "Shared with {count} player(s)",
+"@sharedWithXPlayers": {
+  "description": "Shows how many players have access",
+  "placeholders": {
+    "count": {
+      "type": "int",
+      "example": "3"
+    }
+  }
+},
+"pendingChanges": "There are pending changes to sync",
+"@pendingChanges": {
+  "description": "Indicator for pending sync changes"
+},
+"sharedBy": "Shared by: {email}",
+"@sharedBy": {
+  "description": "Shows who shared the character",
+  "placeholders": {
+    "email": {
+      "type": "String",
+      "example": "user@example.com"
+    }
+  }
+},
+"codeVerificationFailed": "This share code is no longer valid",
+"@codeVerificationFailed": {
+  "description": "Error when share code verification fails"
+},
+"leaveSharedCharacter": "Leave Shared Character",
+"@leaveSharedCharacter": {
+  "description": "Button to leave a shared character"
+},
+"leaveSharedCharacterConfirm": "You will no longer receive updates for this character. Continue?",
+"@leaveSharedCharacterConfirm": {
+  "description": "Confirmation for leaving shared character"
+},
+"receiveCharacter": "Receive Character",
+"@receiveCharacter": {
+  "description": "Button to receive a shared character"
+},
+"syncCompleted": "Sync completed",
+"@syncCompleted": {
+  "description": "Message when sync is complete"
+},
+"downloadLatestVersion": "Download Latest Version",
+"@downloadLatestVersion": {
+  "description": "Button to manually download latest shared character"
+},
+"downloadLatestVersionDescription": "Get the most recent version from the owner",
+"@downloadLatestVersionDescription": {
+  "description": "Description for download latest button"
+},
+"unlimitedCharactersFeature": "Unlimited Characters",
+"@unlimitedCharactersFeature": {
+  "description": "Premium feature: unlimited characters"
+},
+"onlineInitiativeRoom": "Online Initiative Room",
+"@onlineInitiativeRoom": {
+  "description": "Premium feature: online initiative tracker room"
+},
+  "noAdsFeature": "No Ads",
+  "@noAdsFeature": {
+    "description": "Premium feature: no advertisements"
+  },
+  "unlockPremiumFeatures": "Unlock Premium Features",
+  "@unlockPremiumFeatures": {
+    "description": "Title for premium dialog"
+  },
+  "elevateYourGame": "Elevate your game with unlimited access",
+  "@elevateYourGame": {
+    "description": "Subtitle for premium dialog"
+  },
+  "unlimitedCharacters": "Unlimited Characters",
+  "@unlimitedCharacters": {
+    "description": "Feature: Unlimited characters"
+  },
+  "unlimitedCharactersDesc": "Create as many characters as you want.",
+  "@unlimitedCharactersDesc": {
+    "description": "Description for unlimited characters"
+  },
+  "unlimitedSharing": "Unlimited Sharing",
+  "@unlimitedSharing": {
+    "description": "Feature: Unlimited sharing"
+  },
+  "unlimitedSharingDesc": "Share your characters with everyone.",
+  "@unlimitedSharingDesc": {
+    "description": "Description for unlimited sharing"
+  },
+  "onlineInitiativeTracker": "Online Initiative Tracker",
+  "@onlineInitiativeTracker": {
+    "description": "Feature: Online initiative tracker"
+  },
+  "onlineInitiativeTrackerDesc": "Sync combat in real-time with your party.",
+  "@onlineInitiativeTrackerDesc": {
+    "description": "Description for online initiative tracker"
+  },
+  "cloudSyncDesc": "Keep your data safe and synced across devices.",
+  "@cloudSyncDesc": {
+    "description": "Description for cloud sync"
+  },
+  "noAds": "No Ads",
+  "@noAds": {
+    "description": "Feature: No ads"
+  },
+  "noAdsDesc": "Enjoy an uninterrupted experience.",
+  "@noAdsDesc": {
+    "description": "Description for no ads"
+  },
+  "restorePurchases": "Restore Purchases",
+  "@restorePurchases": {
+    "description": "Button to restore purchases"
+  },
+  "healing": "Healing",
+  "loot": "Loot",
+  "noLootSelected": "No loot selected",
+  "addLoot": "Add Loot",
+  "awardXpAndLoot": "Award XP & Loot",
+  "awardXpDescriptionAndLoot": "Award XP and distribute loot",
+  "lootToDistribute": "Loot to Distribute:",
+  "awardAll": "Award All",
+  "select": "Select",
+  "unassigned": "Unassigned",
+  "advancedSettings": "Advanced Settings",
+"advancedFilters": "Advanced Filters",
+"noConcentration": "No Concentration",
+"spellAttackFilter": "Spell Attack",
+"pleaseEnterNameAndSelectFilters": "Please enter a name and select at least one filter",
+"addAnyway": "Add Anyway",
+"itemGrantedSpells": "Item Spells",
+"useItemCharges": "Use Item Charges",
+"castWithoutResources": "Cast without consuming resources",
+"concentration": "Concentration",
+"any": "Any",
+"spellAttack": "Spell Attack",
+"spellsFromExternalSources": "Spells from External Sources",
+  "resourceCost": "Resource Cost",
+  "linkResource": "Link Resource",
+  "resourceCostDescription": "Configure the resource consumed when casting this spell.",
+  "unknownSource": "Unknown Source",
+  "chargesLowercase": "charges",
+  "usesLowercase": "uses",
+  "noResourceCostConfigured": "No resource cost configured",
+  "costAmount": "Cost Amount",
+  "chargesCount": "Charges: {remaining}/{total}",
+  "@chargesCount": {
+    "placeholders": {
+      "remaining": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "itemsCharges": "Items (Charges)",
+  "itemCounterValue": "Item Counter: {available}/{max}",
+  "@itemCounterValue": {
+    "placeholders": {
+      "available": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "itemsCustomCounters": "Items (Custom Counters)",
+  "featureCounterValue": "Feature Counter: {available}/{max}",
+  "@featureCounterValue": {
+    "placeholders": {
+      "available": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "noResourcesFound": "No resources found",
+  "noResourcesFoundDescription": "This character has no items with charges or features with custom counters.",
+  "selectResourceSource": "Select Resource Source",
+  "globalRestSheetTitle": "Global Rest",
+  "@globalRestSheetTitle": {
+    "description": "Title for global rest sheet"
+  },
+  "globalRestShortSubtitle": "Short Rest",
+  "@globalRestShortSubtitle": {
+    "description": "Subtitle for short rest section in global rest"
+  },
+  "globalRestLongSubtitle": "Long Rest",
+  "@globalRestLongSubtitle": {
+    "description": "Subtitle for long rest section in global rest"
+  },
+  "globalRestShortResult": "{count} Short Rests applied",
+  "@globalRestShortResult": {
+    "description": "Result message for short rest",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "globalRestLongResult": "{count} Long Rests applied",
+  "@globalRestLongResult": {
+    "description": "Result message for long rest",
+    "placeholders": {
+        "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "globalRestError": "Error during rest: {error}",
+  "@globalRestError": {
+    "description": "Error message for global rest",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Something went wrong"
+      }
+    }
+  },
+    "newToggleableModifier": "New Toggleable Modifier",
+  "@newToggleableModifier": {
+    "description": "Title for creating a new toggleable modifier"
+  },
+  "editToggleableModifier": "Edit Toggleable Modifier",
+  "@editToggleableModifier": {
+    "description": "Title for editing a toggleable modifier"
+  },
+  "enterModifierName": "Enter modifier name",
+  "@enterModifierName": {
+    "description": "Hint for modifier name input"
+  },
+  "activeLabel": "Active",
+  "@activeLabel": {
+    "description": "Label for active status"
+  },
+  "enabled": "Enabled",
+  "@enabled": {
+    "description": "Status when modifier is enabled"
+  },
+  "disabled": "Disabled",
+  "@disabled": {
+    "description": "Status when modifier is disabled"
+  },
+  "enterModifierDescription": "Enter modifier description",
+  "@enterModifierDescription": {
+    "description": "Hint for modifier description input"
+  },
+  "acOverrideFormula": "AC Override Formula (e.g. 13 + Dexterity)",
+  "@acOverrideFormula": {
+    "description": "Label for AC override formula field"
+  },
+  "extraSpellSlots": "Extra Spell Slots (Grid)",
+  "@extraSpellSlots": {
+    "description": "Label for extra spell slots field"
+  },
+  "extraDamages": "Extra Damages",
+  "@extraDamages": {
+    "description": "Label for extra damages section"
+  },
+  "savingThrowBonuses": "Saving Throw Bonuses",
+  "@savingThrowBonuses": {
+    "description": "Label for saving throw bonuses section"
+  },
+  "expertiseSkills": "Expertise Skills",
+  "@expertiseSkills": {
+    "description": "Label for expertise skills section"
+  },
+  "halfProficiencySkills": "Half Proficiency Skills",
+  "@halfProficiencySkills": {
+    "description": "Label for half proficiency skills section"
+  },
+  "bonusWithValue": "Bonus: {value}",
+  "@bonusWithValue": {
+    "description": "Shows bonus value",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "+2"
+      }
+    }
+  },
+  "skillAttributeAdvantage": "Skill/Attribute Advantage",
+  "@skillAttributeAdvantage": {
+    "description": "Label for skill advantage section"
+  },
+  "noAdvantageDisadvantageSet": "No advantage/disadvantage modifiers set",
+  "@noAdvantageDisadvantageSet": {
+    "description": "Empty state message for advantage modifiers"
+  },
+  "addAdvantageDisadvantage": "Add Advantage/Disadvantage",
+  "@addAdvantageDisadvantage": {
+    "description": "Button label for adding advantage/disadvantage"
+  },
+  "modifierLabel": "Modifier",
+  "@modifierLabel": {
+    "description": "Label for modifier field"
+  },
+  "editX": "Edit {name}",
+  "@editX": {
+    "description": "Edit dialog title with name",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Perception"
+      }
+    }
+  }
 }
