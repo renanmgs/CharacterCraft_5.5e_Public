@@ -380,16 +380,19 @@
                                     <code>"short/long rest"</code>)</li>
                             </ul>
 
-                            <h4>2. Dice Recharge</h4>
-                            <p>Used for items that have a chance to recharge (e.g., "Recharge 5-6").</p>
+                            <h4>2. Range Recharge </h4>
+                            <p>Used for items or Attacks (Dragon's Breath Action for example) that have a chance to recharge based on a success range (e.g., "Recharge 5-6").</p>
                             <ul>
                                 <li><strong>recharge:</strong> The die to roll (e.g., <code>d6</code>).</li>
                                 <li><strong>rechargeAmount:</strong> The success range (e.g., <code>5-6</code>).</li>
                             </ul>
-                            <p><strong>Result:</strong> A die button 🎲 appears. Clicking it rolls the die and recharges
-                                if successful.</p>
+                            <p><strong>Result:</strong> A die button 🎲 appears. Clicking it rolls the die and recharges if the result falls inside the success range.</p>
 
-                            <h4>3. Special or Free Text</h4>
+                            <h4>3. Dice Recharge</h4>
+                            <p>Used for items that recover a variable number of charges (e.g., <code>1d6+1</code> charges per day).</p>
+                            <p>To configure this, place the formula (for example <code>1d6+1</code>) in the <strong>rechargeAmount</strong> field. The system will roll this formula automatically when the specified rest (e.g., Long Rest or Dawn) occurs and restore that many charges. A manual roll button is also available.</p>
+
+                            <h4>4. Special or Free Text</h4>
                             <ul>
                                 <li><strong>Special:</strong> For unique conditions (<code>"special"</code>).</li>
                                 <li><strong>Never:</strong> For finite consumables (<code>"never"</code>).</li>
