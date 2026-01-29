@@ -1,28 +1,28 @@
 {
   "en": {
     "image": "https://i.imgur.com/Wib3nde.png",
-    "title": "🔧 Version 1.5.7 (180)",
-    "text": "1.5.7 (180)\n\nBug Fixes and Improvements\n- Italian added! Thanks once again to the amazing Character Craft community, especially to @Alss on Discord for producing the complete Italian translation! Grazie!\n- Spell Card is now more compact.\n- Adjusted alignment of Custom Resources for features in some cases.\n- Features can now modify the maximum amount of Spell Slots. Just add the modifier to the feature or the desired Toggleable Bonus.\n- Fixed minor bugs"
+    "title": "🔧 Version 1.5.8 (186)",
+    "text": "1.5.8 (186)\n\nNew Features & Improvements\n- Features can now have Attached Spells.\n- Spells can consume Custom Resources or Item Charges when casting.\n- Toggleable Modifiers overhauled: \"Additional Damage Formula\" replaced with \"Extra Damages\"; \"Weapon Hit Bonus\" and \"Weapon Damage Bonus\" now support formulas (e.g., \"1d6+2\").\n- Improved Spell Filters with more parameters.\n- Improved compatibility with Archivist Campaign files.\n- Bug Fixes: Resolved issues with Class Primary Attributes, Passive Perception, Initiative calculation, Resource Counters, and Spell Slot detection.\n- Important: Items/Spells created within a character are local; use the Compendium Tab to save them to the official Database.\n- Italian added! Thanks to @Alss on Discord for the complete translation! Grazie!"
   },
   "pt": {
     "image": "https://i.imgur.com/Wib3nde.png",
-    "title": "🔧 Versão 1.5.7 (180)",
-    "text": "1.5.7 (180)\n\nCorreções de bugs e melhorias\n- Italiano adicionado! Obrigado mais uma vez à incrível comunidade do Character Craft, em especial ao @Alss no discord por ter produzido a tradução completa para Italiano! Grazie!\n- Spell Card agora mais compacto.\n- Ajustado o alinhamento de Custom Resources de features em alguns casos.\n- Features agora podem alterar a quantidade máxima de Spell Slots. Basta adicionar o modificador no feature ou no Toggleable Bonus desejado.\n- Correção de pequenos bugs"
+    "title": "🔧 Versão 1.5.8 (186)",
+    "text": "1.5.8 (186)\n\nNovidades e Melhorias\n- Features agora podem ter Magias Anexadas.\n- Magias podem consumir Recursos Customizados ou Cargas de Itens ao serem lançadas.\n- Modificadores Ativáveis: \"Additional Damage Formula\" agora é \"Extra Damages\"; Bônus de Ataque e Dano de Arma agora suportam fórmulas (ex: \"1d6+2\").\n- Filtros de Magia aprimorados com novos parâmetros.\n- Melhorada a compatibilidade com arquivos do Archivist.\n- Correção de Bugs: Atributos Primários, Percepção Passiva, Iniciativa, Contadores de Recursos e detecção de Spell Slots.\n- Importante: Itens/Magias criados no personagem são locais; use o Compêndio para salvá-los no Banco de Dados oficial.\n- Italiano adicionado! Obrigado ao @Alss no Discord pela tradução completa! Grazie!"
   },
   "es": {
     "image": "https://i.imgur.com/Wib3nde.png",
-    "title": "🔧 Versión 1.5.7 (180)",
-    "text": "1.5.7 (180)\n\nCorrecciones y mejoras\n- ¡Italiano añadido! ¡Gracias una vez más a la increíble comunidad de Character Craft, especialmente a @Alss en Discord por producir la traducción completa al italiano! ¡Grazie!\n- Spell Card ahora es más compacta.\n- Ajustado la alineación de Custom Resources de features en algunos casos.\n- Features ahora pueden alterar la cantidad máxima de Spell Slots. Basta con añadir el modificador en la feature o en el Toggleable Bonus deseado.\n- Corrección de pequeños errores"
+    "title": "🔧 Versión 1.5.8 (186)",
+    "text": "1.5.8 (186)\n\nNovedades y Mejoras\n- Las Features ahora pueden tener Hechizos Adjuntos.\n- Los Hechizos pueden consumir Recursos Personalizados o Cargas de Objetos.\n- Modificadores Activables: \"Additional Damage Formula\" ahora es \"Extra Damages\"; los bonos de Ataque y Daño de Arma ahora admiten fórmulas (ej: \"1d6+2\").\n- Filtros de Hechizos mejorados con nuevos parámetros.\n- Mejor compatibilidad con archivos de Archivist.\n- Corrección de Errores: Atributos Primarios, Percepción Pasiva, Iniciativa, Contadores de Recursos y detección de Spell Slots.\n- Importante: Los Objetos/Hechizos creados en el personaje son locales; usa el Compendio para guardarlos en la Base de Datos oficial.\n- ¡Idioma italiano añadido! Gracias a @Alss en Discord por la traducción completa! ¡Grazie!"
   },
   "pl": {
     "image": "https://i.imgur.com/Wib3nde.png",
-    "title": "🔧 Wersja 1.5.7 (180)",
-    "text": "1.5.7 (180)\n\nPoprawki i ulepszenia\n- Dodano język włoski! Dziękujemy jeszcze raz niesamowitej społeczności Character Craft, w szczególności @Alss na Discordzie za przygotowanie pełnego tłumaczenia na włoski! Grazie!\n- Spell Card jest teraz bardziej kompaktowa.\n- Dostosowano wyrównanie Custom Resources w features w niektórych przypadkach.\n- Features mogą teraz zmieniać maksymalną ilość Spell Slots. Wystarczy dodać modyfikator w feature lub wybranym Toggleable Bonus.\n- Naprawiono drobne błędy"
+    "title": "🔧 Wersja 1.5.8 (186)",
+    "text": "1.5.8 (186)\n\nNowości i Ulepszenia\n- Features mogą teraz mieć przypisane Zaklęcia.\n- Zaklęcia mogą zużywać Zasoby lub Ładunki Przedmiotów.\n- Przełączalne Modyfikatory: \"Additional Damage Formula\" to teraz \"Extra Damages\"; Bonusy do trafienia i obrażeń broni obsługują teraz formuły (np. \"1d6+2\").\n- Ulepszone filtry czarów z nowymi parametrami.\n- Poprawiona kompatybilność z plikami Archivist.\n- Poprawki błędów: Atrybuty Klasy, Pasywna Percepcja, Inicjatywa, Liczniki zasobów i wykrywanie komórek czarów.\n- Uwaga: Przedmioty/Czary stworzone w karcie postaci są lokalne; użyj Kompendium, aby zapisać je w oficjalnej Bazie Danych.\n- Dodano język włoski! Dzięki @Alss na Discordzie za przygotowanie pełnego tłumaczenia! Grazie!"
   },
   "it": {
     "image": "https://i.imgur.com/Wib3nde.png",
-    "title": "🔧 Versione 1.5.7 (180)",
-    "text": "1.5.7 (180)\n\nCorrezioni di bug e miglioramenti\n- Aggiunto l'italiano! Grazie ancora una volta all'incredibile comunità di Character Craft, in particolare a @Alss su Discord per aver realizzato la traduzione completa in italiano! Grazie!\n- La Spell Card ora è più compatta.\n- Modificato l'allineamento delle Custom Resources delle features in alcuni casi.\n- Le Features ora possono modificare la quantità massima di Spell Slots. Basta aggiungere il modificatore nella feature o nel Toggleable Bonus desiderato.\n- Corretti bug minori"
+    "title": "🔧 Versione 1.5.8 (186)",
+    "text": "1.5.8 (186)\n\nNovità e Miglioramenti\n- Le Features ora possono avere Incantesimi Collegati.\n- Gli Incantesimi possono consumare Risorse Personalizzate o Cariche di Oggetti.\n- Modificatori Attivabili: \"Additional Damage Formula\" è ora \"Extra Damages\"; i bonus di Colpito e Danno dell'arma ora supportano le formule (es: \"1d6+2\").\n- Filtri Incantesimi migliorati con nuovi parametri.\n- Migliore compatibilità con i file di Archivist.\n- Correzione di Bugs: Atributi di Classe, Percezione Passiva, Iniziativa, Contatori di Risorse e rilevamento degli Slot Incantesimo.\n- Nota: Oggetti/Incantesimi creati nel personaggio sono locali; usa il Compendio per salvarli nel Database ufficiale.\n- Aggiunto l'italiano! Grazie a @Alss su Discord per aver realizzato la traduzione completa! Grazie!"
   },
   "Android": "Version 1.5.7 (185)",
   "Ios": "Version 1.5.7 (178)",
@@ -37,5 +37,5 @@
     "pl": "Dostępne jest nowe oficjalne wydanie! Zaktualizuj teraz, aby uzyskać najlepsze wrażenia.",
     "it": "È disponibile una nuova versione ufficiale! Aggiorna ora per la migliore esperienza."
   },
-  "date": "2026-01-19T12:00:00Z"
+  "date": "2026-01-29T12:00:00Z"
 }
