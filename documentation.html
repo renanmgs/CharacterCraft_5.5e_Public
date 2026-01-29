@@ -78,6 +78,15 @@
             <div class="documentation-content">
                 <!-- General & Content -->
                 <div class="doc-category" data-title="General & Content">
+                    <div class="faq-item" id="faq-languages">
+                        <div class="faq-question">
+                            <h3>Which languages are supported?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Character Craft 5.5e is currently available in <strong>English</strong>, <strong>Spanish</strong>, <strong>Portuguese</strong>, <strong>Polish</strong> and <strong>Italian</strong>.</p>
+                        </div>
+                    </div>
+
                     <div class="faq-item" id="faq-missing-content">
                         <div class="faq-question">
                             <h3>Why are some classes, items, or species missing from the app?</h3>
@@ -224,6 +233,7 @@
                             <ul>
                                 <li>Stats, Attack rolls, Damage, Saving throw DCs, etc.</li>
                             </ul>
+                            <p class="note"><strong>Tip:</strong> Damage types are now represented by distinct colors throughout the app for easier identification during combat.</p>
 
                             <div class="code-examples">
                                 <h4>Examples</h4>
@@ -246,6 +256,33 @@
                                     <li><code>2*level</code></li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-level-up-hp">
+                        <div class="faq-question">
+                            <h3>How do I handle Hit Points when leveling up?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>When you level up, the app allows you to set your <strong>Max HP</strong> or a <strong>Custom HP</strong> bonus directly, giving you full control over your character's health growth.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-encounters-loot">
+                        <div class="faq-question">
+                            <h3>Can I add Loot to Encounters?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! Encounters now support <strong>Loot</strong>. You can define items or rewards within an encounter, which can then be easily tracked or distributed to your party.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-archivist-compatibility">
+                        <div class="faq-question">
+                            <h3>Is it compatible with Archivist Campaign files?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Character Craft 5.5e has limited but improving compatibility with <strong>Archivist Campaign</strong> files, making it easier to manage your campaign data and sessions.</p>
                         </div>
                     </div>
 
@@ -607,6 +644,14 @@
                                     Rest: one for <strong>Healing Hands</strong> and another for <strong>Celestial
                                         Revelation</strong>.</li>
                             </ol>
+
+                            <h4>How to automate Healing Hands?</h4>
+                            <p>After creating the resource, you can add an <strong>Attached Spell</strong> or create a Spell inside the Feature:</p>
+                            <ol>
+                                <li>Give it the name <strong>Healing Hands</strong> and select <strong>Healing</strong> as the damage/effect type.</li>
+                                <li>In the formula field, enter <code>(pb)d4</code>.</li>
+                            </ol>
+                            <p>This ensures the system rolls a number of <code>d4</code> dice equal to your <strong>Proficiency Bonus</strong>.</p>
                         </div>
                     </div>
                     <div class="faq-item" id="species-dragonborn">
