@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "en",
   "appTitle": "Character Craft 5.5e",
   "@appTitle": {
@@ -455,6 +455,10 @@
   "spells": "Spells",
   "@spells": {
     "description": "Label for spells tab"
+  },
+  "spell": "Spell",
+  "@spell": {
+    "description": "Label for a single spell"
   },
   "class_": "Class",
   "@class_": {
@@ -2028,7 +2032,7 @@
   "@noCharactersFound": {
     "description": "Message when no characters are found in search"
   },
-  "npcTypeFormat": "NPC • {type}",
+  "npcTypeFormat": "NPC � {type}",
   "@npcTypeFormat": {
     "description": "Format for displaying NPC type",
     "placeholders": {
@@ -5451,33 +5455,33 @@
     }
   },
   "condition2014Blinded": "Blinded",
-  "condition2014BlindedDesc": "• A blinded creature can't see and automatically fails any ability check that requires sight.\n• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
+  "condition2014BlindedDesc": "� A blinded creature can't see and automatically fails any ability check that requires sight.\n� Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
   "condition2014Charmed": "Charmed",
-  "condition2014CharmedDesc": "• A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n• The charmer has advantage on any ability check to interact socially with the creature.",
+  "condition2014CharmedDesc": "� A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n� The charmer has advantage on any ability check to interact socially with the creature.",
   "condition2014Deafened": "Deafened",
-  "condition2014DeafenedDesc": "• A deafened creature can't hear and automatically fails any ability check that requires hearing.",
+  "condition2014DeafenedDesc": "� A deafened creature can't hear and automatically fails any ability check that requires hearing.",
   "condition2014Frightened": "Frightened",
-  "condition2014FrightenedDesc": "• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n• The creature can't willingly move closer to the source of its fear.",
+  "condition2014FrightenedDesc": "� A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n� The creature can't willingly move closer to the source of its fear.",
   "condition2014Grappled": "Grappled",
-  "condition2014GrappledDesc": "• A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n• The condition ends if the grappler is incapacitated.\n• The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunder-wave spell.",
+  "condition2014GrappledDesc": "� A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n� The condition ends if the grappler is incapacitated.\n� The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunder-wave spell.",
   "condition2014Incapacitated": "Incapacitated",
-  "condition2014IncapacitatedDesc": "• An incapacitated creature can't take actions or reactions.",
+  "condition2014IncapacitatedDesc": "� An incapacitated creature can't take actions or reactions.",
   "condition2014Invisible": "Invisible",
-  "condition2014InvisibleDesc": "• An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.\n• Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.",
+  "condition2014InvisibleDesc": "� An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.\n� Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.",
   "condition2014Paralyzed": "Paralyzed",
-  "condition2014ParalyzedDesc": "• A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n• The creature automatically fails Strength and Dexterity saving throws.\n• Attack rolls against the creature have advantage.\n• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+  "condition2014ParalyzedDesc": "� A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n� The creature automatically fails Strength and Dexterity saving throws.\n� Attack rolls against the creature have advantage.\n� Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
   "condition2014Petrified": "Petrified",
-  "condition2014PetrifiedDesc": "• A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.\n• The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n• Attack rolls against the creature have advantage.\n• The creature automatically fails Strength and Dexterity saving throws.\n• The creature has resistance to all damage.\n• The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.",
+  "condition2014PetrifiedDesc": "� A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.\n� The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n� Attack rolls against the creature have advantage.\n� The creature automatically fails Strength and Dexterity saving throws.\n� The creature has resistance to all damage.\n� The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.",
   "condition2014Poisoned": "Poisoned",
-  "condition2014PoisonedDesc": "• A poisoned creature has disadvantage on attack rolls and ability checks.",
+  "condition2014PoisonedDesc": "� A poisoned creature has disadvantage on attack rolls and ability checks.",
   "condition2014Prone": "Prone",
-  "condition2014ProneDesc": "• A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n• The creature has disadvantage on attack rolls.\n• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.",
+  "condition2014ProneDesc": "� A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n� The creature has disadvantage on attack rolls.\n� An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.",
   "condition2014Restrained": "Restrained",
-  "condition2014RestrainedDesc": "• A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n• Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n• The creature has disadvantage on Dexterity saving throws.",
+  "condition2014RestrainedDesc": "� A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n� Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n� The creature has disadvantage on Dexterity saving throws.",
   "condition2014Stunned": "Stunned",
-  "condition2014StunnedDesc": "• A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n• The creature automatically fails Strength and Dexterity saving throws.\n• Attack rolls against the creature have advantage.",
+  "condition2014StunnedDesc": "� A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n� The creature automatically fails Strength and Dexterity saving throws.\n� Attack rolls against the creature have advantage.",
   "condition2014Unconscious": "Unconscious",
-  "condition2014UnconsciousDesc": "• An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n• The creature drops whatever it's holding and falls prone.\n• The creature automatically fails Strength and Dexterity saving throws.\n• Attack rolls against the creature have advantage.\n• Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+  "condition2014UnconsciousDesc": "� An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n� The creature drops whatever it's holding and falls prone.\n� The creature automatically fails Strength and Dexterity saving throws.\n� Attack rolls against the creature have advantage.\n� Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
   "condition2014Exhaustion1": "Exhaustion (Level 1)",
   "condition2014Exhaustion1Desc": "Level 1: Disadvantage on ability checks",
   "condition2014Exhaustion2": "Exhaustion (Level 2)",
@@ -5506,7 +5510,7 @@
       }
     }
   },
-  "featureGroupOptionBullet": "• {optionName}",
+  "featureGroupOptionBullet": "� {optionName}",
   "@featureGroupOptionBullet": {
     "description": "Bullet point for feature group options",
     "placeholders": {
@@ -5623,7 +5627,7 @@
       }
     }
   },
-  "anyAbilityBonusMultiple": "{count} × +{value} to any ability",
+  "anyAbilityBonusMultiple": "{count} � +{value} to any ability",
   "@anyAbilityBonusMultiple": {
     "placeholders": {
       "count": {
@@ -5642,7 +5646,7 @@
       }
     }
   },
-  "oneAbilityBonusMultiple": "{count} × +{value} to different abilities",
+  "oneAbilityBonusMultiple": "{count} � +{value} to different abilities",
   "@oneAbilityBonusMultiple": {
     "placeholders": {
       "count": {
@@ -5838,7 +5842,7 @@
   "deleteCustomSkill": "Delete Custom Skill",
   "deleteCustomSkillConfirmation": "Are you sure you want to delete \"{skillName}\"? This action cannot be undone.",
   "@deleteCustomSkillConfirmation": {
-    "description": "Confirmação para excluir uma perícia personalizada",
+    "description": "Confirma��o para excluir uma per�cia personalizada",
     "placeholders": {
       "skillName": {
         "type": "String",
@@ -6684,5 +6688,33 @@
         "example": "Perception"
       }
     }
+  }
+,
+  "spellCostsCharges": "This spell costs {count} charge(s)",
+  "@spellCostsCharges": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "spellCostsUses": "This spell costs {count} use(s)",
+  "@spellCostsUses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notEnoughCharges": "Not enough charges available",
+  "notEnoughUses": "Not enough uses available",
+  "consumeCharges": "Consume charges",
+  "consumeUses": "Consume uses",
+  "canCastWithoutResources": "You can still cast this spell without consuming resources."
+,
+  "featureGrantsSpells": "This feature grants access to the following spells:",
+  "itemGrantsSpells": "This item grants access to the following spells:",
+  "@itemGrantsSpells": {
+    "description": "Label introducing the spells attached to an item"
   }
 }
