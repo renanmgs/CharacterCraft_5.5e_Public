@@ -24,10 +24,10 @@
     "title": "🔧 Versione 1.5.7 (180)",
     "text": "1.5.7 (180)\n\nCorrezioni di bug e miglioramenti\n- Aggiunto l'italiano! Grazie ancora una volta all'incredibile comunità di Character Craft, in particolare a @Alss su Discord per aver realizzato la traduzione completa in italiano! Grazie!\n- La Spell Card ora è più compatta.\n- Modificato l'allineamento delle Custom Resources delle features in alcuni casi.\n- Le Features ora possono modificare la quantità massima di Spell Slots. Basta aggiungere il modificatore nella feature o nel Toggleable Bonus desiderato.\n- Corretti bug minori"
   },
-  "Android": "Version 1.5.7 (184)",
+  "Android": "Version 1.5.7 (185)",
   "Ios": "Version 1.5.7 (178)",
   "MacOS": "Version 1.5.7 (183)",
-  "Windows": "Version 1.5.7 (184)",
+  "Windows": "Version 1.5.7 (185)",
   "Web": "Version 1.5.7 (185)",
   "Linux": "Version 1.5.7 (176)",
   "message": {
