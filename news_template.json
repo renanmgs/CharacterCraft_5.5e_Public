@@ -24,10 +24,10 @@
     "title": "🔧 Versione 1.5.8 (186)",
     "text": "1.5.8 (186)\n\nNovità e Miglioramenti\n- Le Features ora possono avere Incantesimi Collegati.\n- Gli Incantesimi possono consumare Risorse Personalizzate o Cariche di Oggetti.\n- Modificatori Attivabili: \"Additional Damage Formula\" è ora \"Extra Damages\"; i bonus di Colpito e Danno dell'arma ora supportano le formule (es: \"1d6+2\").\n- Filtri Incantesimi migliorati con nuovi parametri.\n- Migliore compatibilità con i file di Archivist.\n- Correzione di Bugs: Atributi di Classe, Percezione Passiva, Iniziativa, Contatori di Risorse e rilevamento degli Slot Incantesimo.\n- Nota: Oggetti/Incantesimi creati nel personaggio sono locali; usa il Compendio per salvarli nel Database ufficiale.\n- Aggiunto l'italiano! Grazie a @Alss su Discord per aver realizzato la traduzione completa! Grazie!"
   },
-  "Android": "Version 1.5.7 (185)",
+  "Android": "Version 1.5.7 (186)",
   "Ios": "Version 1.5.7 (185)",
   "MacOS": "Version 1.5.7 (183)",
-  "Windows": "Version 1.5.7 (185)",
+  "Windows": "Version 1.5.7 (186)",
   "Web": "Version 1.5.7 (186)",
   "Linux": "Version 1.5.7 (176)",
   "message": {
