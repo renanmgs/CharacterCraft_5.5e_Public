@@ -259,6 +259,133 @@
                         </div>
                     </div>
 
+                    <div class="faq-item" id="faq-toggleable-modifiers">
+                        <div class="faq-question">
+                            <h3>What are Toggleable Modifiers and how do I use them?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p><strong>Toggleable Modifiers</strong> are powerful tools that allow you to create conditional, temporary effects, or "game modes" within your character sheet. They function as On/Off switches linked to Items or Features.</p>
+                            <p>Instead of permanently editing your sheet to apply a temporary buff (like a spell or potion), you simply "switch on" the corresponding modifier, and the system automatically recalculates all attributes.</p>
+                
+                            <h4>What Can They Modify?</h4>
+                            <p>A single toggleable modifier can alter multiple aspects of the sheet simultaneously:</p>
+                            <ul>
+                                <li><strong>Combat Attributes:</strong> Armor Class (AC), Initiative, Speed, Max HP, Passive Wisdom.</li>
+                                <li><strong>Attack & Magic:</strong> Hit Bonus, Damage Bonus, Extra Damage (e.g., +1d6 Fire), Spell DC, Magic Attack Bonus, Spell Slots.</li>
+                                <li><strong>Skills & Saves:</strong> Numeric bonuses, temporarily granting Proficiency or Expertise, Advantage/Disadvantage.</li>
+                                <li><strong>Defenses:</strong> Add Resistances, Vulnerabilities, or Immunities.</li>
+                                <li><strong>Base Stats:</strong> Temporary increases to Strength, Dexterity, etc.</li>
+                            </ul>
+                
+                            <h4>Integration with the System</h4>
+                            <p>Modifiers accept both fixed values (e.g., <code>+2</code>) and formulas supported by the system (e.g., <code>proficiency</code>, <code>str</code>, <code>level</code>).</p>
+                            <p><strong>When activated:</strong></p>
+                            <ul>
+                                <li>The system identifies all equipped items/features with active modifiers.</li>
+                                <li>All bonuses are added to the character's base stats in real-time.</li>
+                                <li>Deactivating the modifier removes the effects instantly.</li>
+                            </ul>
+                
+                            <div class="example">
+                                <h4>Practical Use Examples</h4>
+                                
+                                <p><strong>1. Great Weapon Master (Feat)</strong></p>
+                                <p>Create a modifier on the Feat to toggle "Heavy Attack Mode".</p>
+                                <ul>
+                                    <li>Hit Bonus: <code>-5</code></li>
+                                    <li>Damage Bonus: <code>+10</code></li>
+                                </ul>
+                                <p><em>Result:</em> When making a risky attack, toggle the switch. Attack and damage are adjusted in the roller.</p>
+                
+                                <p><strong>2. Shield (Spell)</strong></p>
+                                <p>Create an Item "Spell Effect: Shield" or add to the spell.</p>
+                                <ul>
+                                    <li>AC Bonus: <code>+5</code></li>
+                                </ul>
+                                <p><em>Result:</em> Toggle when casting the reaction to temporarily boost AC.</p>
+                
+                                <p><strong>3. Boots of Speed (Magic Item)</strong></p>
+                                <ul>
+                                    <li>Speed Bonus: <code>30</code> (or base speed value)</li>
+                                </ul>
+                                <p><em>Result:</em> Keep boots equipped, but only receive extra movement when the effect is activated.</p>
+                                
+                                <p><strong>4. Shadow Blade / Conditional Damage</strong></p>
+                                <ul>
+                                    <li>Name: "Dim Light/Darkness"</li>
+                                    <li>Hit/Damage Bonus: Advantage or extra damage.</li>
+                                </ul>
+                
+                                <p><strong>5. Conditions (e.g., Poisoned)</strong></p>
+                                <ul>
+                                    <li>Name: Poisoned</li>
+                                    <li>Skill Advantage Modifier: Disadvantage on all.</li>
+                                </ul>
+                            </div>
+                            <p>Combined with <strong>Custom Variables</strong>, this allows creating virtually any D&D 5e effect within the app.</p>
+
+                            <h4>Custom Variables in Modifiers</h4>
+                            <p><strong>Custom Variables</strong> allow you to create dynamic modifiers where the player can adjust numerical or dice values directly on the sheet, without editing the item or ability settings.</p>
+
+                            <h5>How It Works</h5>
+                            <ul>
+                                <li><strong>Definition:</strong> In the Toggleable Modifiers editor, define a <strong>Label</strong> and a <strong>Default Value</strong>.</li>
+                                <li><strong>Formula Usage:</strong> In bonus fields of that same modifier (like <em>Bonus Weapon Damage</em>, <em>Extra Damage</em>, <em>AC Bonus</em>), use the special keyword <code>customvalue</code>.</li>
+                                <li><strong>Interaction:</strong> When the modifier is toggled ON, a text field appears, allowing real-time editing of this value.</li>
+                            </ul>
+
+                            <div class="note">
+                                <strong>Important Rules:</strong>
+                                <ul>
+                                    <li><strong>Closed Scope:</strong> The <code>customvalue</code> keyword is only recognized within the fields of the specific modifier where it's defined.</li>
+                                    <li><strong>Limit:</strong> Currently, each modifier supports only <strong>one</strong> custom variable.</li>
+                                </ul>
+                            </div>
+
+                            <div class="example">
+                                <h5>Example 1: Barbarian Rage</h5>
+                                <p>Create a "Rage" button where damage scales with levels without constant editing.</p>
+                                <ol>
+                                    <li><strong>Modifier Setup:</strong>
+                                        <ul>
+                                            <li>Name: Rage</li>
+                                            <li>Custom Variable Label: "Rage Damage Bonus"</li>
+                                            <li>Custom Variable Default: <code>2</code></li>
+                                            <li>Bonus Weapon Damage: <code>customvalue</code></li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Behavior:</strong>
+                                        <ul>
+                                            <li>Player toggles "Rage". A field appears: <strong>Rage Damage Bonus: [ 2 ]</strong>.</li>
+                                            <li>System adds +2 to weapon damage.</li>
+                                            <li>At higher levels, player changes [ 2 ] to [ 3 ]. System updates damage instantly.</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+
+                                <h5>Example 2: Versatile Magic Weapon</h5>
+                                <p>A sword charged with variable fire damage.</p>
+                                <ol>
+                                    <li><strong>Modifier Setup:</strong>
+                                        <ul>
+                                            <li>Name: Fire Charge</li>
+                                            <li>Custom Variable Label: "Fire Dice"</li>
+                                            <li>Custom Variable Default: <code>1d6</code></li>
+                                            <li>Extra Damages (Fire): <code>customvalue</code></li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Behavior:</strong>
+                                        <ul>
+                                            <li>Player toggles modifier. Field shows: <strong>Fire Dice: [ 1d6 ]</strong>.</li>
+                                            <li>Attack deals weapon damage + 1d6 Fire.</li>
+                                            <li>Player can change [ 1d6 ] to [ 2d6 ] for a stronger attack. Damage updates instantly.</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="faq-item" id="faq-level-up-hp">
                         <div class="faq-question">
                             <h3>How do I handle Hit Points when leveling up?</h3>
