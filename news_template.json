@@ -24,12 +24,12 @@
     "title": "🔧 Versione 1.5.8 (188)",
     "text": "(AVVISO) Nuovo Sistema di Equipaggiamento!\n- Gli oggetti possono ora essere equipaggiati in un nuovo sistema di equipaggiamento progettato per rendere più intuitivo e comprensibile cosa è o non è equipaggiato. Accedi al tuo inventario ed equipaggia nuovamente i tuoi oggetti in modo che vengano mostrati gli slot disponibili. ATTENZIONE: Da questa versione in poi, alcuni dati cruciali sono stati modificati, quindi i personaggi aperti ora non saranno compatibili con le versioni precedenti dell'app (es. 1.5.7). Se hai la sincronizzazione attiva, è normale un errore durante la sincronizzazione con una vecchia versione. Grazie a Evan su Discord per aver creato le icone.\n\n- Trasformazioni! Sei un druido o vuoi essere polimorfato? Aggiungi una creatura nel sottomenu Transformations della Scheda HP!\n\n- Corretto bug sui mostri: Gli attacchi venivano importati in modo errato. Per applicare la correzione, basta reimportare il tuo file XML preferito.\n\n- Molti, molti piccoli fix. L'elenco completo si trova su Discord."
   },
-  "Android": "Version 1.5.8 (192)",
-  "Ios": "Version 1.5.8 (192)",
-  "MacOS": "Version 1.5.8 (192)",
-  "Windows": "Version 1.5.8 (192)",
-  "Web": "Version 1.5.8 (192)",
-  "Linux": "Version 1.5.8 (176)",
+  "Android": "Version 1.5.8 (193)",
+  "Ios": "Version 1.5.8 (193)",
+  "MacOS": "Version 1.5.8 (193)",
+  "Windows": "Version 1.5.8 (193)",
+  "Web": "Version 1.5.8 (193)",
+  "Linux": "Version 1.5.8 (193)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
