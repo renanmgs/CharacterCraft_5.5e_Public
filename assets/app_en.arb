@@ -3664,6 +3664,14 @@
   "@skipRollAnimation": {
     "description": "Skip Roll Animation"
   },
+  "skipDiceRolls": "Skip Dice Rolls",
+  "@skipDiceRolls": {
+    "description": "Skip all dice rolls for users who use real dice"
+  },
+  "skipDiceRollsDescription": "Skip all dice rolls and results. Does not affect the Dice Roller tool.",
+  "@skipDiceRollsDescription": {
+    "description": "Description for skip dice rolls setting"
+  },
   "exportCharacterToPDF": "Export Character to PDF",
   "@exportCharacterToPDF": {
     "description": "Export Character to PDF"
@@ -4401,6 +4409,18 @@
   "notEnoughItemsToAttack": "Not enough items to attack",
   "@notEnoughItemsToAttack": {
     "description": "Message shown when there are not enough items to perform an attack"
+  },
+  "consumeChargesOnAttack": "Consume Charges on Attack",
+  "@consumeChargesOnAttack": {
+    "description": "When enabled, using this item for an attack will consume charges"
+  },
+  "chargesConsumedPerAttack": "Charges per Attack",
+  "@chargesConsumedPerAttack": {
+    "description": "Number of charges consumed per attack"
+  },
+  "notEnoughChargesToAttack": "Not enough charges to attack",
+  "@notEnoughChargesToAttack": {
+    "description": "Message shown when there are not enough charges to perform an attack"
   },
   "zeroForPermanent": "0 for Permanent",
   "@zeroForPermanent": {
@@ -6784,5 +6804,155 @@
   "updatesSent": "Updates sent successfully",
   "savedAndBackedUp": "Saved & backed up to cloud",
   "savedAndShared": "Saved, backed up & shared with players",
-  "savedLocally": "Saved locally"
+  "savedLocally": "Saved locally",
+  "companionActions": "Companion Actions",
+  "companionSpells": "Companion Spells",
+  "companionFeatures": "Companion Features",
+  "xpToAddOrSubtract": "XP to add/subtract",
+  "@xpToAddOrSubtract": {
+    "description": "Label for XP adjustment input field"
+  },
+  "addToTotal": "Add to total",
+  "@addToTotal": {
+    "description": "Tooltip for adding to a total value"
+  },
+  "subtractFromTotal": "Subtract from total",
+  "@subtractFromTotal": {
+    "description": "Tooltip for subtracting from a total value"
+  },
+  "amountToAddOrSubtract": "Amount to add/subtract",
+  "@amountToAddOrSubtract": {
+    "description": "Label for the adjustment input field"
+  },
+  "applyAll": "Apply All",
+  "@applyAll": {
+    "description": "Button to apply all pending changes (HP, conditions, visibility) at once"
+  },
+  "pendingChanges": "Pending changes",
+  "@pendingChanges": {
+    "description": "Label indicating there are staged changes to apply"
+  },
+  "unsavedChangesTitle": "Unsaved Changes",
+  "@unsavedChangesTitle": {
+    "description": "Title for the unsaved changes confirmation dialog"
+  },
+  "unsavedChangesMessage": "You have unsaved changes. What would you like to do?",
+  "@unsavedChangesMessage": {
+    "description": "Message asking the user what to do with unsaved changes"
+  },
+  "discardChanges": "Discard Changes",
+  "@discardChanges": {
+    "description": "Button to discard unsaved changes and leave the page"
+  },
+  "keepEditing": "Keep Editing",
+  "@keepEditing": {
+    "description": "Button to cancel leaving and continue editing"
+  },
+  "cantripsDoNotCountTowardsPreparedLimit": "Cantrips do not count towards the prepared spell limit",
+  "verbalAbbrev": "V",
+  "@verbalAbbrev": {
+    "description": "Abbreviation for Verbal spell component"
+  },
+  "somaticAbbrev": "S",
+  "@somaticAbbrev": {
+    "description": "Abbreviation for Somatic spell component"
+  },
+  "materialAbbrev": "M",
+  "@materialAbbrev": {
+    "description": "Abbreviation for Material spell component"
+  },
+  "dcToResist": "DC to Resist",
+  "@dcToResist": {
+    "description": "Label for the DC saving throw field on items"
+  },
+  "saveType": "Save Type",
+  "@saveType": {
+    "description": "Label for the saving throw type dropdown"
+  },
+  "none": "None",
+  "@none": {
+    "description": "Generic none option"
+  },
+  "recoveryDialogTitle": "Character Recovery",
+  "@recoveryDialogTitle": {
+    "description": "Title for the recovery notification dialog"
+  },
+  "recoveryDialogDescription": "Some issues were detected with your character data. The app attempted to recover as much data as possible. Please review your characters to ensure everything is correct.",
+  "@recoveryDialogDescription": {
+    "description": "Description shown when characters were recovered from backup or had issues"
+  },
+  "recoveryDialogQuarantineInfo": "Corrupted character data has been saved to a recovery file for manual inspection.",
+  "@recoveryDialogQuarantineInfo": {
+    "description": "Info about quarantined corrupted character data"
+  },
+  "understood": "Understood",
+  "@understood": {
+    "description": "Acknowledgement button text"
+  },
+  "applyToTargets": "Apply to Targets",
+  "@applyToTargets": {
+    "description": "Button to apply rolled damage to selected combatants"
+  },
+  "selectTargets": "Select Targets",
+  "@selectTargets": {
+    "description": "Title for the target selection dialog"
+  },
+  "deselectAll": "Deselect all",
+  "@deselectAll": {
+    "description": "Button to deselect all items"
+  },
+  "damagePreview": "Damage Preview",
+  "@damagePreview": {
+    "description": "Title for the damage preview section"
+  },
+  "finalDamage": "Final Damage",
+  "@finalDamage": {
+    "description": "Label for the calculated final damage after interactions"
+  },
+  "resistant": "Resistant",
+  "@resistant": {
+    "description": "Label for damage resistance interaction"
+  },
+  "vulnerable": "Vulnerable",
+  "@vulnerable": {
+    "description": "Label for damage vulnerability interaction"
+  },
+  "immune": "Immune",
+  "@immune": {
+    "description": "Label for damage immunity interaction"
+  },
+  "applyDamageToTargetsCount": "Apply Damage to {count} Targets",
+  "@applyDamageToTargetsCount": {
+    "description": "Button label indicating number of targets to apply damage to",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "damageAfterInteractions": "After interactions",
+  "@damageAfterInteractions": {
+    "description": "Label for damage value after applying resistance/vulnerability/immunity"
+  },
+  "totalDamageFromAttack": "Total: {damage}",
+  "@totalDamageFromAttack": {
+    "description": "Shows total damage from an attack",
+    "placeholders": {
+      "damage": {
+        "type": "int"
+      }
+    }
+  },
+  "criticalHitLabel": "Critical!",
+  "@criticalHitLabel": {
+    "description": "Label for critical hit indicator"
+  },
+  "noInteraction": "Normal",
+  "@noInteraction": {
+    "description": "Label when a combatant has no damage interaction for a type"
+  },
+  "syncingCharacters": "Syncing characters...",
+  "@syncingCharacters": {
+    "description": "Shown while character sync is in progress"
+  }
 }
