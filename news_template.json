@@ -1,31 +1,31 @@
 {
   "en": {
-    "image": "https://i.imgur.com/t1FX1ie.png",
+    "image": "https://i.imgur.com/8Y7n187.png",
     "title": "🆕 Version 1.5.9 (196)",
     "text": "- Added French language, with a translated Default Database.\n\n- Added the new Initiative Tracker with a brand new Combat Grid!\n\n- Added a new Vision field to characters.\n\n- Remodel of the Premium features. Online Initiative Tracker is now free for every player to CONNECT, but to create an online room it will require the DM to pay for a HOST Subscription. This is to support the new Combat Grid in the Initiative Tracker. Everyone who buys Premium will have 2 months of free HOST trial for each platform that you bought.\n\n- Folders to sort characters in the Main Screen.\n\n- Fixed a bug when preparing spells.\n\n- Fixed the spell level not being correct on the spell preview.\n\n- Custom skills are now explicit to features/items.\n\n- Fixed a bug when selecting a subclass from other classes."
   },
   "pt": {
-    "image": "https://i.imgur.com/t1FX1ie.png",
+    "image": "https://i.imgur.com/8Y7n187.png",
     "title": "🆕 Versão 1.5.9 (196)",
     "text": "- Idioma Francês adicionado, com um Banco de Dados padrão traduzido.\n\n- Adicionado o novo Rastreador de Iniciativa com uma nova Grade de Combate!\n\n- Adicionado um novo campo de Visão aos personagens.\n\n- Reformulação dos recursos Premium. O Rastreador de Iniciativa Online agora é gratuito para qualquer jogador se CONECTAR, mas para criar uma sala online será necessário que o Mestre pague pela Assinatura HOST. Isso é para apoiar a nova Grade de Combate no Rastreador de Iniciativa. Quem comprar o Premium terá 2 meses de teste HOST gratuito para cada plataforma adquirida.\n\n- Pastas para organizar personagens na Tela Principal.\n\n- Corrigido um bug ao preparar magias.\n\n- Corrigido o nível da magia que estava incorreto no preview de magias.\n\n- Habilidades customizadas agora são explícitas em feições/itens.\n\n- Corrigido um bug ao selecionar uma subclasse de outras classes."
   },
   "es": {
-    "image": "https://i.imgur.com/t1FX1ie.png",
+    "image": "https://i.imgur.com/8Y7n187.png",
     "title": "🆕 Versión 1.5.9 (196)",
     "text": "- Idioma francés añadido, con una Base de Datos predeterminada traducida.\n\n- ¡Se añadió el nuevo Rastreador de Iniciativa con una nueva Cuadrícula de Combate!\n\n- Se añadió un nuevo campo de Visión a los personajes.\n\n- Remodelación de las funciones Premium. El Rastreador de Iniciativa en línea ahora es gratuito para que cualquier jugador se CONECTE, pero para crear una sala en línea se requerirá que el DM pague una Suscripción HOST. Esto es para respaldar la nueva Cuadrícula de Combate en el Rastreador de Iniciativa. Todos los que compren Premium tendrán 2 meses de prueba HOST gratuita para cada plataforma que compraron.\n\n- Carpetas para organizar personajes en la Pantalla Principal.\n\n- Se corrigió un error al preparar hechizos.\n\n- Se corrigió el nivel del hechizo que no era correcto en la vista previa del hechizo.\n\n- Las habilidades personalizadas ahora son explícitas para rasgos/objetos.\n\n- Se corrigió un error al seleccionar una subclase de otras clases."
   },
   "pl": {
-    "image": "https://i.imgur.com/t1FX1ie.png",
+    "image": "https://i.imgur.com/8Y7n187.png",
     "title": "🆕 Wersja 1.5.9 (196)",
     "text": "- Dodano język francuski z przetłumaczoną domyślną bazą danych.\n\n- Dodano nowy Tracker Inicjatywy z nową Siatką Walki!\n\n- Dodano nowe pole Wizji do postaci.\n\n- Przebudowa funkcji Premium. Tracker Inicjatywy online jest teraz bezpłatny dla każdego gracza, aby się POŁĄCZYĆ, ale aby założyć pokój online, DM będzie musiał zapłacić za subskrypcję HOST. Ma to na celu wsparcie nowej Siatki Walki w Trackerze Inicjatywy. Wszyscy, którzy kupią Premium, otrzymają 2 miesiące bezpłatnego okresu próbnego HOST dla każdej zakupionej platformy.\n\n- Foldery do sortowania postaci na ekranie głównym.\n\n- Naprawiono błąd podczas przygotowywania zaklęć.\n\n- Naprawiono poziom zaklęcia, który był niepoprawny w podglądzie zaklęcia.\n\n- Niestandardowe umiejętności są teraz wyraźnie widoczne w cechach/przedmiotach.\n\n- Naprawiono błąd podczas wybierania podklasy z innych klas."
   },
   "it": {
-    "image": "https://i.imgur.com/t1FX1ie.png",
+    "image": "https://i.imgur.com/8Y7n187.png",
     "title": "🆕 Versione 1.5.9 (196)",
     "text": "- Aggiunta la lingua francese, con un Database Predefinito tradotto.\n\n- Aggiunto il nuovo Tracker d'Iniziativa con una nuova Griglia di Combattimento!\n\n- Aggiunto un nuovo campo Visione ai personaggi.\n\n- Revisione delle funzionalità Premium. Il Tracker d'Iniziativa online è ora gratuito per tutti i giocatori per CONNETTERSI, ma per creare una stanza online sarà necessario che il DM paghi una Sottoscrizione HOST. Questo è per supportare la nuova Griglia di Combattimento nel Tracker d'Iniziativa. Chiunque acquisti Premium avrà 2 mesi di prova HOST gratuita per ogni piattaforma acquistata.\n\n- Cartelle per ordinare i personaggi nella Schermata Principale.\n\n- Corretto un bug durante la preparazione degli incantesimi.\n\n- Corretto il livello dell'incantesimo non corretto nell'anteprima dell'incantesimo.\n\n- Le abilità personalizzate sono ora esplicite per le caratteristiche/oggetti.\n\n- Corretto un bug durante la selezione di una sottoclasse da altre classi."
   },
   "fr": {
-    "image": "https://i.imgur.com/t1FX1ie.png",
+    "image": "https://i.imgur.com/8Y7n187.png",
     "title": "🆕 Version 1.5.9 (196)",
     "text": "- Ajout de la langue française, avec une Base de Données par défaut traduite.\n\n- Ajout du nouveau Tracker d'Initiative avec une toute nouvelle Grille de Combat !\n\n- Ajout d'un nouveau champ Vision aux personnages.\n\n- Refonte des fonctionnalités Premium. Le Tracker d'Initiative en ligne est maintenant gratuit pour que chaque joueur se CONNECTE, mais pour créer une salle en ligne, le MJ devra payer un Abonnement HOST. Ceci est pour soutenir la nouvelle Grille de Combat dans le Tracker d'Initiative. Toute personne qui achète Premium bénéficiera de 2 mois d'essai HOST gratuit pour chaque plateforme achetée.\n\n- Dossiers pour trier les personnages dans l'Écran Principal.\n\n- Correction d'un bug lors de la préparation des sorts.\n\n- Correction du niveau du sort incorrect dans l'aperçu du sort.\n\n- Les compétences personnalisées sont maintenant explicites pour les capacités/objets.\n\n- Correction d'un bug lors de la sélection d'une sous-classe d'autres classes."
   },
