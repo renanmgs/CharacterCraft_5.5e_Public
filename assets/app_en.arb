@@ -4811,7 +4811,7 @@
   "@visibilitySettings": {
     "description": ""
   },
-  "chooseFieldsToHide": "Choose fields to hide",
+  "chooseFieldsToHide": "Choose fields to hide (applies in Spectator mode)",
   "@chooseFieldsToHide": {
     "description": ""
   },
@@ -6235,9 +6235,39 @@
   "panFlute": "Pan Flute",
   "shawm": "Shawm",
   "viol": "Viol",
+  "campaignTracker": "Campaign Tracker",
   "randomizeItem": "Randomize Item",
   "filtersRequiredForRandomization": "Please select filters to randomize",
   "noItemsFound": "No items found with current filters",
+      "checkSuccess": "Success! Rolled {result} (DC {difficulty})",
+    "@checkSuccess": {
+        "placeholders": {
+            "result": {
+                "type": "int"
+            },
+            "difficulty": {
+                "type": "int"
+            }
+        }
+    },
+    "checkFailure": "Failure! Rolled {result} (DC {difficulty})",
+    "@checkFailure": {
+        "placeholders": {
+            "result": {
+                "type": "int"
+            },
+            "difficulty": {
+                "type": "int"
+            }
+        }
+    },
+    "skillCheck": "Skill Check",
+    "difficultyClass": "Difficulty Class (DC)",
+    "failureNode": "Failure Node (Optional)",
+    "combatEncounter": "Combat Encounter",
+    "encounterName": "Encounter Name",
+    "enemiesDetected": "Enemies Detected",
+"cannotFlee": "You cannot flee from this battle!",
     "equipItemTitle": "Equip {itemName}",
   "@equipItemTitle": {
     "description": "Title for the equip item dialog",
@@ -6954,5 +6984,442 @@
   "syncingCharacters": "Syncing characters...",
   "@syncingCharacters": {
     "description": "Shown while character sync is in progress"
-  }
+  },
+  "favorites": "Favorites",
+  "@favorites": {
+    "description": "Title for the favorites/bookmarks page"
+  },
+  "noFavorites": "No favorites yet",
+  "@noFavorites": {
+    "description": "Message shown when there are no bookmarked items"
+  },
+  "addedToFavorites": "Added to favorites",
+  "@addedToFavorites": {
+    "description": "Snackbar message when an item is bookmarked"
+  },
+  "removedFromFavorites": "Removed from favorites",
+  "@removedFromFavorites": {
+    "description": "Snackbar message when an item is un-bookmarked"
+  },
+  "favoriteItems": "Items",
+  "@favoriteItems": {
+    "description": "Section header for favorite items"
+  },
+  "favoriteSpells": "Spells",
+  "@favoriteSpells": {
+    "description": "Section header for favorite spells"
+  },
+  "favoriteFeatures": "Features",
+  "@favoriteFeatures": {
+    "description": "Section header for favorite features"
+  },
+  "favoriteClasses": "Classes",
+  "@favoriteClasses": {
+    "description": "Section header for favorite classes"
+  },
+  "favoriteSpecies": "Species",
+  "@favoriteSpecies": {
+    "description": "Section header for favorite species"
+  },
+  "favoriteBackgrounds": "Backgrounds",
+  "@favoriteBackgrounds": {
+    "description": "Section header for favorite backgrounds"
+  },
+  "favoriteSubClasses": "Subclasses",
+  "@favoriteSubClasses": {
+    "description": "Section header for favorite subclasses"
+  },
+  "favoriteNPCs": "NPCs",
+  "@favoriteNPCs": {
+    "description": "Section header for favorite NPCs"
+  },
+  "loadingFavorites": "Loading favorites...",
+  "@loadingFavorites": {
+    "description": "Shown while favorites are being loaded"
+  },
+  "characterFavorites": "Character Favorites",
+  "@characterFavorites": {
+    "description": "Section header for favorites from the currently open character"
+  },
+  "compendiumFavorites": "Compendium Favorites",
+  "@compendiumFavorites": {
+    "description": "Section header for favorites from the global compendium"
+  },
+  "onlyFavorites": "Favorites Only",
+  "@onlyFavorites": {
+    "description": "Filter label to show only favorited/bookmarked items"
+  },
+  "allowSpectatorControl": "Allow Spectator Control",
+  "@allowSpectatorControl": {
+    "description": "Toggle label to allow spectators to control the encounter"
+  },
+  "allowSpectatorControlDescription": "Spectators can drag tokens and edit combatants",
+  "@allowSpectatorControlDescription": {
+    "description": "Subtitle explaining what spectator control allows"
+  },
+
+  "tierFree": "Free",
+  "@tierFree": { "description": "Name of the Free tier" },
+  "tierPremium": "Premium",
+  "@tierPremium": { "description": "Name of the Premium tier" },
+  "tierHost": "Host",
+  "@tierHost": { "description": "Name of the Host tier" },
+  "tierFreePriceLabel": "Free",
+  "@tierFreePriceLabel": { "description": "Price label for Free tier" },
+  "tierPremiumPriceLabel": "One-time",
+  "@tierPremiumPriceLabel": { "description": "Pricing type for Premium" },
+  "tierHostPriceLabel": "/month",
+  "@tierHostPriceLabel": { "description": "Pricing suffix for Host subscription" },
+  "tierCurrentBadge": "Current Plan",
+  "@tierCurrentBadge": { "description": "Badge shown on the user's current tier" },
+  "tierUpgradePlan": "Upgrade Plan",
+  "@tierUpgradePlan": { "description": "Drawer item to open tier comparison" },
+  "tierFreeDesc": "Get started with the basics",
+  "@tierFreeDesc": { "description": "Short description of Free tier" },
+  "tierPremiumDesc": "Unlock the full character sheet experience",
+  "@tierPremiumDesc": { "description": "Short description of Premium tier" },
+  "tierHostDesc": "Run online sessions for your party",
+  "@tierHostDesc": { "description": "Short description of Host tier" },
+  "tierFeatureCharactersX": "{count} Characters",
+  "@tierFeatureCharactersX": { "description": "Feature: number of characters", "placeholders": { "count": {} } },
+  "tierFeatureUnlimitedCharacters": "Unlimited Characters",
+  "@tierFeatureUnlimitedCharacters": { "description": "Feature: unlimited characters" },
+  "tierFeatureAdsIncluded": "Contains Ads",
+  "@tierFeatureAdsIncluded": { "description": "Feature: ads are shown" },
+  "tierFeatureNoAds": "No Ads",
+  "@tierFeatureNoAds": { "description": "Feature: no ads" },
+  "tierFeatureCloudSync": "Cloud Sync",
+  "@tierFeatureCloudSync": { "description": "Feature: cloud sync" },
+  "tierFeatureJoinRooms": "Join Initiative Rooms",
+  "@tierFeatureJoinRooms": { "description": "Feature: join online rooms" },
+  "tierFeatureCreateRooms": "Create Online Rooms",
+  "@tierFeatureCreateRooms": { "description": "Feature: create online rooms" },
+  "tierFeatureSendCharacter": "Send Character to Room",
+  "@tierFeatureSendCharacter": { "description": "Feature: send character from profile" },
+  "tierFeatureFullRoomControl": "Full Room Control (DM)",
+  "@tierFeatureFullRoomControl": { "description": "Feature: full DM control of rooms" },
+  "tierFeatureCrossplatformSync": "Cross-Platform Subscription",
+  "@tierFeatureCrossplatformSync": { "description": "Feature: subscription works on all platforms" },
+  "getPremium": "Get Premium",
+  "@getPremium": { "description": "Button to buy Premium" },
+  "subscribeHost": "Subscribe",
+  "@subscribeHost": { "description": "Button to subscribe to Host" },
+  "hostSubscriptionRequired": "Host Subscription Required",
+  "@hostSubscriptionRequired": { "description": "Title for Host-only feature gate" },
+  "createRoomRequiresHost": "Creating online rooms requires a Host subscription.",
+  "@createRoomRequiresHost": { "description": "Gate message for creating rooms" },
+  "premiumOrHostRequired": "Premium or Host Required",
+  "@premiumOrHostRequired": { "description": "Title for Premium/Host feature gate" },
+  "joinRoomRequiresPremium": "Joining initiative rooms requires Premium or Host.",
+  "@joinRoomRequiresPremium": { "description": "Gate message for joining rooms" },
+  "hostNotAvailableWindows": "Host subscription is not available on Windows. Subscribe on Android, iOS, or macOS and it will work on all platforms.",
+  "@hostNotAvailableWindows": { "description": "Message for Windows users about Host subscription" },
+  "hostSubscriptionExpired": "Your Host subscription has expired.",
+  "@hostSubscriptionExpired": { "description": "Message when Host subscription lapses" },
+  "hostExpiredPremiumActive": "Your Host subscription has expired, but your Premium benefits are still active.",
+  "@hostExpiredPremiumActive": { "description": "Message when Host expires but Premium remains" },
+  "freeCharLimitInRoom": "Free accounts can send 1 character per room. Upgrade for unlimited.",
+  "@freeCharLimitInRoom": { "description": "Warning shown to Free users about room character limit" },
+  "choosePlan": "Choose Your Plan",
+  "@choosePlan": { "description": "Title for tier selection dialog" },
+  "includesPremium": "Includes all Premium features",
+  "@includesPremium": { "description": "Note on Host tier that Premium is included" },
+  "tierFeatureShareOneChar": "Share 1 Character",
+  "@tierFeatureShareOneChar": { "description": "Free tier: can share 1 character" },
+  "tierFeatureUnlimitedSharing": "Unlimited Sharing",
+  "@tierFeatureUnlimitedSharing": { "description": "Premium+: unlimited character sharing" },
+  "tierFeatureConnectTracker": "Connect to Initiative Tracker",
+  "@tierFeatureConnectTracker": { "description": "Free tier: can connect character to an initiative tracker room" },
+  "elevation": "Elevation",
+  "@elevation": { "description": "Token elevation / draw order on the combat grid" },
+  "showOnGrid": "Show on grid",
+  "@showOnGrid": { "description": "Subtitle for HP bar toggle on combat grid" },
+  "visible": "Visible",
+  "@visible": { "description": "Visibility toggle label for combat tokens" },
+  "vision": "Vision",
+  "@vision": { "description": "Vision settings section title" },
+  "normalVision": "Normal Vision",
+  "@normalVision": { "description": "Normal vision type label" },
+  "darkvision": "Darkvision",
+  "@darkvision": { "description": "Darkvision type label" },
+  "visionRangeFt": "{range} ft.",
+  "@visionRangeFt": { "description": "Vision range in feet", "placeholders": { "range": { "type": "int" } } },
+  "normalVisionRange": "Normal Vision Range",
+  "@normalVisionRange": { "description": "Label for normal vision range input" },
+  "darkvisionRange": "Darkvision Range",
+  "@darkvisionRange": { "description": "Label for darkvision range input" },
+  "visionSettings": "Vision Settings",
+  "@visionSettings": { "description": "Title for vision settings dialog" },
+  "noDarkvision": "No Darkvision",
+  "@noDarkvision": { "description": "Label when darkvision is 0" },
+  "feet": "ft.",
+  "@feet": { "description": "Abbreviation for feet" },
+  "lightEmission": "Light Emission",
+  "@lightEmission": { "description": "Section title for token light emission settings" },
+  "lightEmissionDescription": "Light emitted by this character (torch, lantern, etc.)",
+  "@lightEmissionDescription": { "description": "Description for light emission section" },
+  "brightLight": "Bright Light",
+  "@brightLight": { "description": "Bright light type label" },
+  "dimLight": "Dim Light",
+  "@dimLight": { "description": "Dim light type label" },
+  "brightLightRange": "Bright Light Range",
+  "@brightLightRange": { "description": "Label for bright light radius input" },
+  "dimLightRange": "Dim Light Range",
+  "@dimLightRange": { "description": "Label for dim light radius input" },
+  "dmReveal": "DM Reveal",
+  "@dmReveal": { "description": "Label for DM manual reveal (no light type)" },
+  "lightType": "Light Type",
+  "@lightType": { "description": "Label for light type selector" },
+  "premiumTrialOnlineTracker": "Includes 2 months Online Tracker",
+  "@premiumTrialOnlineTracker": { "description": "Premium feature: 2 months free Online Initiative Tracker trial" },
+  "trialEndsOn": "Trial active until {date}",
+  "@trialEndsOn": { "description": "Shows when the Premium trial for Online Tracker expires", "placeholders": { "date": { "type": "String" } } },
+  "sortCharacters": "Sort Characters",
+  "@sortCharacters": {
+    "description": "Title for the character sort options"
+  },
+  "sortByName": "Name",
+  "@sortByName": {
+    "description": "Sort characters by name"
+  },
+  "sortByLevel": "Level",
+  "@sortByLevel": {
+    "description": "Sort characters by level"
+  },
+  "sortByClass": "Class",
+  "@sortByClass": {
+    "description": "Sort characters by class"
+  },
+  "sortByModified": "Last Modified",
+  "@sortByModified": {
+    "description": "Sort characters by last modified date"
+  },
+  "sortManual": "Manual",
+  "@sortManual": {
+    "description": "Manual drag-and-drop ordering"
+  },
+  "moveToFolder": "Move to Folder",
+  "@moveToFolder": {
+    "description": "Option to move a character into a folder"
+  },
+  "newFolder": "New Folder",
+  "@newFolder": {
+    "description": "Label for creating a new folder"
+  },
+  "removeFromFolder": "Remove from Folder",
+  "@removeFromFolder": {
+    "description": "Option to remove a character from its folder"
+  },
+  "renameFolder": "Rename Folder",
+  "@renameFolder": {
+    "description": "Option to rename a folder"
+  },
+  "deleteFolder": "Delete Folder",
+  "@deleteFolder": {
+    "description": "Option to delete a folder"
+  },
+  "unfiled": "Unfiled",
+  "@unfiled": {
+    "description": "Label for characters not in any folder"
+  },
+  "folderNameHint": "Folder name",
+  "@folderNameHint": {
+    "description": "Hint text for folder name input field"
+  },
+  "deleteFolderConfirm": "Remove this folder? Characters will be moved to Unfiled.",
+  "@deleteFolderConfirm": {
+    "description": "Confirmation message when deleting a folder"
+  },
+  "renameFolderTitle": "Rename Folder",
+  "@renameFolderTitle": {
+    "description": "Title for the rename folder dialog"
+  },
+  "movedToFolder": "Moved to {folder}",
+  "@movedToFolder": {
+    "description": "Snackbar message after moving character to a folder",
+    "placeholders": {
+      "folder": {
+        "type": "String"
+      }
+    }
+  },
+  "removedFromFolder": "Removed from folder",
+  "@removedFromFolder": {
+    "description": "Snackbar message after removing character from folder"
+  },
+  "folderRenamed": "Folder renamed",
+  "@folderRenamed": {
+    "description": "Snackbar message after renaming a folder"
+  },
+  "folderDeleted": "Folder removed",
+  "@folderDeleted": {
+    "description": "Snackbar message after deleting a folder"
+  },
+  "existingFolders": "Existing Folders",
+  "@existingFolders": {
+    "description": "Header for list of existing folders"
+  },
+  "createNewFolder": "Create New Folder",
+  "@createNewFolder": {
+    "description": "Button text to create a new folder"
+  },
+  "sortApplied": "Sorted by {sortType}",
+  "@sortApplied": {
+    "description": "Snackbar message when sort is applied",
+    "placeholders": {
+      "sortType": {
+        "type": "String"
+      }
+    }
+  },
+  "connectionStatusConnected": "Connected",
+  "@connectionStatusConnected": {
+    "description": "RTDB connection status: connected"
+  },
+  "connectionStatusDisconnected": "Disconnected",
+  "@connectionStatusDisconnected": {
+    "description": "RTDB connection status: disconnected"
+  },
+  "connectionStatusConnecting": "Connecting...",
+  "@connectionStatusConnecting": {
+    "description": "RTDB connection status: connecting"
+  },
+  "connectedPlayersCount": "{count} connected",
+  "@connectedPlayersCount": {
+    "description": "Number of connected players in online room",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sentToDm": "Sent to DM",
+  "@sentToDm": {
+    "description": "Confirmation that an attack roll was sent to the DM for target selection"
+  },
+  "rollReceivedFromX": "Roll received from {name}",
+  "@rollReceivedFromX": {
+    "description": "Notification that a dice roll was received from a connected player",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "visionRangeM": "{range} m.",
+  "@visionRangeM": { "description": "Vision range in meters", "placeholders": { "range": { "type": "int" } } },
+  "unitFeet": "Feet (5 ft)",
+  "@unitFeet": { "description": "Feet unit label for vision/grid scale toggle" },
+  "unitMeters": "Meters (1.5 m)",
+  "@unitMeters": { "description": "Meters unit label for vision/grid scale toggle" },
+  "meters": "m.",
+  "@meters": { "description": "Abbreviation for meters" },
+  "initiativeRoll": "Initiative Roll",
+  "@initiativeRoll": { "description": "Title for initiative roll result sheet" },
+  "rolledInitiativeX": "Rolled Initiative: {value}",
+  "@rolledInitiativeX": { "description": "Shows the rolled initiative value", "placeholders": { "value": { "type": "int" } } },
+  "rollAttackHit": "Roll Attack Hit",
+  "@rollAttackHit": { "description": "Checkbox label for rolling the d20 hit roll on an attack" },
+  "adjustGridBackground": "Adjust Grid & Background",
+  "@adjustGridBackground": { "description": "Button label to open the inline grid/background adjustment overlay" },
+  "gridBackground": "Grid & Background",
+  "@gridBackground": { "description": "Title for the inline grid/background adjustment overlay" },
+  "measurementUnit": "Measurement Unit",
+  "@measurementUnit": { "description": "Label for grid measurement unit setting" },
+  "gridLineColor": "Grid Line Color",
+  "@gridLineColor": { "description": "Label for grid line color setting" },
+  "selectGridColor": "Select Grid Color",
+  "@selectGridColor": { "description": "Title for grid color picker dialog" },
+  "tileBackground": "Tile Background",
+  "@tileBackground": { "description": "Toggle label for tiling the background image" },
+  "useFogOfWar": "Use Fog of War",
+  "@useFogOfWar": { "description": "Toggle label for fog of war feature" },
+  "fogOfWarDescription": "Cover the map with fog that you can reveal",
+  "@fogOfWarDescription": { "description": "Subtitle description for fog of war toggle" },
+  "tokenVision": "Token Vision",
+  "@tokenVision": { "description": "Toggle label for token vision feature" },
+  "tokenVisionDescription": "Reveal fog around player tokens based on their vision range",
+  "@tokenVisionDescription": { "description": "Subtitle description for token vision toggle" },
+  "backgroundImage": "Background Image",
+  "@backgroundImage": { "description": "Label for background image section" },
+  "selectImage": "Select Image",
+  "@selectImage": { "description": "Button label to select an image" },
+  "imageTooLargeXMB": "Image too large ({currentSize} MB). Max {maxSize} MB.",
+  "@imageTooLargeXMB": { "description": "Error message when image exceeds size limit", "placeholders": { "currentSize": { "type": "String" }, "maxSize": { "type": "String" } } },
+  "combatGrid": "Combat Grid",
+  "@combatGrid": { "description": "Title for the combat grid screen" },
+  "exitFullscreen": "Exit Fullscreen",
+  "@exitFullscreen": { "description": "Tooltip for exit fullscreen button" },
+  "fullscreen": "Fullscreen",
+  "@fullscreen": { "description": "Tooltip for fullscreen button" },
+  "skill": "Skill",
+  "@skill": { "description": "Label for skill dropdown" },
+  "replaceImage": "Replace Image",
+  "@replaceImage": { "description": "Tooltip for replace image button on image tokens" },
+  "showNamePlates": "Show Name Plates",
+  "@showNamePlates": { "description": "Toggle to show or hide token name plates on the combat grid" },
+  "scalePerSquare": "Scale per Square",
+  "@scalePerSquare": { "description": "Label for the input that sets the distance each grid square represents" },
+  "exportEncounter": "Export Encounter",
+  "@exportEncounter": { "description": "Menu option to export an encounter" },
+  "exportingEncounter": "Exporting encounter...",
+  "@exportingEncounter": { "description": "Loading message while exporting encounter" },
+  "importingEncounter": "Importing encounter...",
+  "@importingEncounter": { "description": "Loading message while importing encounter" },
+  "encounterExportedSuccessfully": "Encounter exported successfully!",
+  "@encounterExportedSuccessfully": { "description": "Success message after encounter export" },
+  "encounterImportedSuccessfully": "Encounter imported successfully!",
+  "@encounterImportedSuccessfully": { "description": "Success message after encounter import" },
+  "errorExportingEncounter": "Error exporting encounter",
+  "@errorExportingEncounter": { "description": "Error message for encounter export failure" },
+  "errorImportingEncounter": "Error importing encounter",
+  "@errorImportingEncounter": { "description": "Error message for encounter import failure" },
+  "imageSkippedNotFound": "Some images were not found locally and were skipped",
+  "@imageSkippedNotFound": { "description": "Warning when some images could not be included in export" },
+  "importEncounter": "Import Encounter",
+  "@importEncounter": { "description": "Menu option to import an encounter from file" },
+  "imageCache": "Image Cache",
+  "@imageCache": { "description": "Section header for combat grid image cache management" },
+  "clearImageCache": "Clear Image Cache",
+  "@clearImageCache": { "description": "Button to delete all cached combat grid images" },
+  "clearImageCacheConfirmation": "This will delete all cached combat grid images from this device. Images will be re-downloaded when needed for online encounters. Continue?",
+  "@clearImageCacheConfirmation": { "description": "Confirmation message before clearing image cache" },
+  "imageCacheCleared": "Image cache cleared",
+  "@imageCacheCleared": { "description": "Snackbar message after clearing image cache" },
+  "imageCacheSizeX": "{size} MB used",
+  "@imageCacheSizeX": { "description": "Displays the image cache size in megabytes", "placeholders": { "size": { "type": "String" } } },
+  "imageCacheCountX": "{count} images cached",
+  "@imageCacheCountX": { "description": "Displays the number of cached images", "placeholders": { "count": { "type": "int" } } },
+  "viewCombatGrid": "View Combat Grid",
+  "@viewCombatGrid": { "description": "Tooltip for the FAB button that opens the combat grid as a spectator from the profile page" },
+  "sharedPartyVision": "Shared Party Vision",
+  "@sharedPartyVision": { "description": "Toggle label for switching between individual and shared party vision in Player View mode" },
+  "sharedPartyVisionDescription": "See what all player tokens see instead of only your own",
+  "@sharedPartyVisionDescription": { "description": "Subtitle for the shared party vision toggle" },
+  "uploadingImages": "Uploading images...",
+  "@uploadingImages": { "description": "Shown while encounter images are being uploaded to the server" },
+  "sendingCharacterToRoom": "Sending character to room...",
+  "@sendingCharacterToRoom": { "description": "Loading message when a player sends their character to an online room" },
+  "joiningRoom": "Joining room...",
+  "@joiningRoom": { "description": "Loading message when joining an online room as spectator" },
+  "initiativeAdvantage": "Initiative Adv/Disadv",
+  "@initiativeAdvantage": { "description": "Label for initiative advantage/disadvantage modifier setting" },
+  "skipShopConfirmation": "Skip Shop Confirmation",
+  "@skipShopConfirmation": { "description": "Setting to skip shop dialog when adding items" },
+  "skipShopConfirmationDescription": "Add items directly without the buy/price dialog",
+  "@skipShopConfirmationDescription": { "description": "Description for skip shop confirmation setting" },
+  "shopConfirmation": "Add to Inventory",
+  "@shopConfirmation": { "description": "Title for shop confirmation dialog" },
+  "buyItem": "Buy",
+  "@buyItem": { "description": "Button to buy an item deducting currency" },
+  "justAdd": "Just Add",
+  "@justAdd": { "description": "Button to add item without deducting currency" },
+  "insufficientCurrency": "Insufficient {currency}",
+  "@insufficientCurrency": { "description": "Warning when character doesn't have enough currency", "placeholders": { "currency": { "type": "String" } } },
+  "yourWallet": "Your Wallet",
+  "@yourWallet": { "description": "Label for current currency display" },
+  "itemCost": "Item Cost",
+  "@itemCost": { "description": "Label for item cost section" },
+  "freeItem": "Free",
+  "@freeItem": { "description": "Label when item has no price" }
 }
