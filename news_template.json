@@ -1,41 +1,47 @@
 {
   "en": {
     "image": "https://i.imgur.com/t1FX1ie.png",
-    "title": "🔧 Version 1.5.8 (188)",
-    "text": "(WARNING) New Equipment System!\n- Items can now be equipped in a new equipment system designed to make it more intuitive and understandable what is or isn't equipped. Access your inventory and re-equip your items so that available slots are shown. WARNING: From this version on, some crucial data has been modified, so characters opened now will not be compatible with previous versions of the app (e.g. 1.5.7). If you have sync enabled, an error when syncing with an old version is normal. Thanks to Evan on Discord for creating the icons.\n\n- Transformations! Are you a druid or want to be polymorphed? Just add a creature in the Transformations submenu of the HP Card!\n\n- Bug fix for monsters: Attacks were being imported incorrectly. To apply the fix, simply re-import your favorite XML file.\n\n- Many, many minor fixes. Full list can be found on Discord."
+    "title": "🆕 Version 1.5.9 (196)",
+    "text": "- Added French language, with a translated Default Database.\n\n- Added the new Initiative Tracker with a brand new Combat Grid!\n\n- Added a new Vision field to characters.\n\n- Remodel of the Premium features. Online Initiative Tracker is now free for every player to CONNECT, but to create an online room it will require the DM to pay for a HOST Subscription. This is to support the new Combat Grid in the Initiative Tracker. Everyone who buys Premium will have 2 months of free HOST trial for each platform that you bought.\n\n- Folders to sort characters in the Main Screen.\n\n- Fixed a bug when preparing spells.\n\n- Fixed the spell level not being correct on the spell preview.\n\n- Custom skills are now explicit to features/items.\n\n- Fixed a bug when selecting a subclass from other classes."
   },
   "pt": {
     "image": "https://i.imgur.com/t1FX1ie.png",
-    "title": "🔧 Versão 1.5.8 (188)",
-    "text": "(AVISO) Novo sistema de Equipamentos!\n- Agora os itens podem ser equipados em um novo sistema de equipamentos que foi criado para deixar mais intuitivo e compreensível o que está ou não equipado. Acesse seu inventário e equipe seus itens novamente, para que seja mostrado quais slots estão disponíveis. CUIDADO: A partir dessa versão, alguns dados cruciais foram modificados, então os personagens abertos agora não serão compatíveis com versões anteriores do app (1.5.7 por exemplo). Se você tem o sync ativado, é normal um erro ao fazer a sincronização com uma versão antiga. Agradecimentos ao Evan no Discord por criar os ícones.\n\n- Transformações! É um druida ou quer ser polimorfado? Basta adicionar uma criatura no submenu Transformations do Card de HP!\n\n- Bug corrigido sobre os monstros: os ataques estavam sendo importados incorretamente. Para que a correção seja feita, basta reimportar o seu arquivo XML favorito.\n\n- Muitos, muitos minor fixes. Pode ser encontrado completo no Discord."
+    "title": "🆕 Versão 1.5.9 (196)",
+    "text": "- Idioma Francês adicionado, com um Banco de Dados padrão traduzido.\n\n- Adicionado o novo Rastreador de Iniciativa com uma nova Grade de Combate!\n\n- Adicionado um novo campo de Visão aos personagens.\n\n- Reformulação dos recursos Premium. O Rastreador de Iniciativa Online agora é gratuito para qualquer jogador se CONECTAR, mas para criar uma sala online será necessário que o Mestre pague pela Assinatura HOST. Isso é para apoiar a nova Grade de Combate no Rastreador de Iniciativa. Quem comprar o Premium terá 2 meses de teste HOST gratuito para cada plataforma adquirida.\n\n- Pastas para organizar personagens na Tela Principal.\n\n- Corrigido um bug ao preparar magias.\n\n- Corrigido o nível da magia que estava incorreto no preview de magias.\n\n- Habilidades customizadas agora são explícitas em feições/itens.\n\n- Corrigido um bug ao selecionar uma subclasse de outras classes."
   },
   "es": {
     "image": "https://i.imgur.com/t1FX1ie.png",
-    "title": "🔧 Versión 1.5.8 (188)",
-    "text": "(AVISO) ¡Nuevo sistema de Equipamiento!\n- Ahora los objetos pueden equiparse en un nuevo sistema de equipamiento diseñado para que sea más intuitivo y comprensible qué está o no equipado. Accede a tu inventario y vuelve a equipar tus objetos para que se muestren qué ranuras están disponibles. CUIDADO: A partir de esta versión, se han modificado algunos datos cruciales, por lo que los personajes abiertos ahora no serán compatibles con versiones anteriores de la aplicación (1.5.7 por ejemplo). Si tienes la sincronización activada, es normal que ocurra un error al sincronizar con una versión antigua. Gracias a Evan en Discord por crear los iconos.\n\n- ¡Transformaciones! ¿Eres un druida o quieres ser polimorfado? ¡Solo añade una criatura en el submenú Transformations de la Tarjeta de HP!\n\n- Corrección de error en monstruos: Los ataques se importaban incorrectamente. Para aplicar la corrección, simplemente reimporta tu archivo XML favorito.\n\n- Muchos, muchos arreglos menores. La lista completa se puede encontrar en Discord."
+    "title": "🆕 Versión 1.5.9 (196)",
+    "text": "- Idioma francés añadido, con una Base de Datos predeterminada traducida.\n\n- ¡Se añadió el nuevo Rastreador de Iniciativa con una nueva Cuadrícula de Combate!\n\n- Se añadió un nuevo campo de Visión a los personajes.\n\n- Remodelación de las funciones Premium. El Rastreador de Iniciativa en línea ahora es gratuito para que cualquier jugador se CONECTE, pero para crear una sala en línea se requerirá que el DM pague una Suscripción HOST. Esto es para respaldar la nueva Cuadrícula de Combate en el Rastreador de Iniciativa. Todos los que compren Premium tendrán 2 meses de prueba HOST gratuita para cada plataforma que compraron.\n\n- Carpetas para organizar personajes en la Pantalla Principal.\n\n- Se corrigió un error al preparar hechizos.\n\n- Se corrigió el nivel del hechizo que no era correcto en la vista previa del hechizo.\n\n- Las habilidades personalizadas ahora son explícitas para rasgos/objetos.\n\n- Se corrigió un error al seleccionar una subclase de otras clases."
   },
   "pl": {
     "image": "https://i.imgur.com/t1FX1ie.png",
-    "title": "🔧 Wersja 1.5.8 (188)",
-    "text": "(OSTRZEŻENIE) Nowy System Ekwipunku!\n- Przedmioty mogą być teraz wyposażane w nowym systemie ekwipunku, zaprojektowanym tak, aby było bardziej intuicyjne i zrozumiale co jest, a co nie jest wyposażone. Uzyskaj dostęp do swojego ekwipunku i wyposaż swoje przedmioty ponownie, aby pokazać dostępne sloty. UWAGA: Od tej wersji zmodyfikowano niektóre kluczowe dane, więc postacie otwarte teraz nie będą kompatybilne z poprzednimi wersjami aplikacji (np. 1.5.7). Jeśli masz włączoną synchronizację, błąd podczas synchronizacji ze starszą wersją jest normalny. Podziękowania dla Evana na Discordzie za stworzenie ikon.\n\n- Transformacje! Jesteś druidem lub chcesz zostać polimorfowany? Po prostu dodaj stworzenie w podmenu Transformations na karcie PŻ!\n\n- Naprawiono błąd z potworami: Ataki były importowane nieprawidłowo. Aby zastosować poprawkę, po prostu zaimportuj ponownie swój ulubiony plik XML.\n\n- Wiele, wiele drobnych poprawek. Pełną listę można znaleźć na Discordzie."
+    "title": "🆕 Wersja 1.5.9 (196)",
+    "text": "- Dodano język francuski z przetłumaczoną domyślną bazą danych.\n\n- Dodano nowy Tracker Inicjatywy z nową Siatką Walki!\n\n- Dodano nowe pole Wizji do postaci.\n\n- Przebudowa funkcji Premium. Tracker Inicjatywy online jest teraz bezpłatny dla każdego gracza, aby się POŁĄCZYĆ, ale aby założyć pokój online, DM będzie musiał zapłacić za subskrypcję HOST. Ma to na celu wsparcie nowej Siatki Walki w Trackerze Inicjatywy. Wszyscy, którzy kupią Premium, otrzymają 2 miesiące bezpłatnego okresu próbnego HOST dla każdej zakupionej platformy.\n\n- Foldery do sortowania postaci na ekranie głównym.\n\n- Naprawiono błąd podczas przygotowywania zaklęć.\n\n- Naprawiono poziom zaklęcia, który był niepoprawny w podglądzie zaklęcia.\n\n- Niestandardowe umiejętności są teraz wyraźnie widoczne w cechach/przedmiotach.\n\n- Naprawiono błąd podczas wybierania podklasy z innych klas."
   },
   "it": {
     "image": "https://i.imgur.com/t1FX1ie.png",
-    "title": "🔧 Versione 1.5.8 (188)",
-    "text": "(AVVISO) Nuovo Sistema di Equipaggiamento!\n- Gli oggetti possono ora essere equipaggiati in un nuovo sistema di equipaggiamento progettato per rendere più intuitivo e comprensibile cosa è o non è equipaggiato. Accedi al tuo inventario ed equipaggia nuovamente i tuoi oggetti in modo che vengano mostrati gli slot disponibili. ATTENZIONE: Da questa versione in poi, alcuni dati cruciali sono stati modificati, quindi i personaggi aperti ora non saranno compatibili con le versioni precedenti dell'app (es. 1.5.7). Se hai la sincronizzazione attiva, è normale un errore durante la sincronizzazione con una vecchia versione. Grazie a Evan su Discord per aver creato le icone.\n\n- Trasformazioni! Sei un druido o vuoi essere polimorfato? Aggiungi una creatura nel sottomenu Transformations della Scheda HP!\n\n- Corretto bug sui mostri: Gli attacchi venivano importati in modo errato. Per applicare la correzione, basta reimportare il tuo file XML preferito.\n\n- Molti, molti piccoli fix. L'elenco completo si trova su Discord."
+    "title": "🆕 Versione 1.5.9 (196)",
+    "text": "- Aggiunta la lingua francese, con un Database Predefinito tradotto.\n\n- Aggiunto il nuovo Tracker d'Iniziativa con una nuova Griglia di Combattimento!\n\n- Aggiunto un nuovo campo Visione ai personaggi.\n\n- Revisione delle funzionalità Premium. Il Tracker d'Iniziativa online è ora gratuito per tutti i giocatori per CONNETTERSI, ma per creare una stanza online sarà necessario che il DM paghi una Sottoscrizione HOST. Questo è per supportare la nuova Griglia di Combattimento nel Tracker d'Iniziativa. Chiunque acquisti Premium avrà 2 mesi di prova HOST gratuita per ogni piattaforma acquistata.\n\n- Cartelle per ordinare i personaggi nella Schermata Principale.\n\n- Corretto un bug durante la preparazione degli incantesimi.\n\n- Corretto il livello dell'incantesimo non corretto nell'anteprima dell'incantesimo.\n\n- Le abilità personalizzate sono ora esplicite per le caratteristiche/oggetti.\n\n- Corretto un bug durante la selezione di una sottoclasse da altre classi."
   },
-  "Android": "Version 1.5.8 (194)",
-  "Ios": "Version 1.5.8 (194)",
-  "MacOS": "Version 1.5.8 (194)",
-  "Windows": "Version 1.5.8 (194)",
+  "fr": {
+    "image": "https://i.imgur.com/t1FX1ie.png",
+    "title": "🆕 Version 1.5.9 (196)",
+    "text": "- Ajout de la langue française, avec une Base de Données par défaut traduite.\n\n- Ajout du nouveau Tracker d'Initiative avec une toute nouvelle Grille de Combat !\n\n- Ajout d'un nouveau champ Vision aux personnages.\n\n- Refonte des fonctionnalités Premium. Le Tracker d'Initiative en ligne est maintenant gratuit pour que chaque joueur se CONNECTE, mais pour créer une salle en ligne, le MJ devra payer un Abonnement HOST. Ceci est pour soutenir la nouvelle Grille de Combat dans le Tracker d'Initiative. Toute personne qui achète Premium bénéficiera de 2 mois d'essai HOST gratuit pour chaque plateforme achetée.\n\n- Dossiers pour trier les personnages dans l'Écran Principal.\n\n- Correction d'un bug lors de la préparation des sorts.\n\n- Correction du niveau du sort incorrect dans l'aperçu du sort.\n\n- Les compétences personnalisées sont maintenant explicites pour les capacités/objets.\n\n- Correction d'un bug lors de la sélection d'une sous-classe d'autres classes."
+  },
+  "Android": "Version 1.5.9 (196)",
+  "Ios": "Version 1.5.9 (196)",
+  "MacOS": "Version 1.5.9 (196)",
+  "Windows": "Version 1.5.9 (196)",
   "Web": "Version 1.5.9 (196)",
-  "Linux": "Version 1.5.8 (193)",
+  "Linux": "Version 1.5.9 (196)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
     "es": "¡Hay una nueva versión oficial disponible! Actualiza ahora para la mejor experiencia.",
     "pl": "Dostępne jest nowe oficjalne wydanie! Zaktualizuj teraz, aby uzyskać najlepsze wrażenia.",
-    "it": "È disponibile una nuova versione ufficiale! Aggiorna ora per la migliore esperienza."
+    "it": "È disponibile una nuova versione ufficiale! Aggiorna ora per la migliore esperienza.",
+    "fr": "Une nouvelle version officielle est disponible ! Mettez à jour maintenant pour la meilleure expérience."
   },
-  "date": "2026-02-06T12:00:00Z"
+  "date": "2026-03-05T12:00:00Z"
 }
