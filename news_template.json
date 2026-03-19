@@ -30,10 +30,10 @@
     "text": "- Ajout de la langue française, avec une Base de Données par défaut traduite.\n\n- Ajout du nouveau Tracker d'Initiative avec une toute nouvelle Grille de Combat !\n\n- Ajout d'un nouveau champ Vision aux personnages.\n\n- Refonte des fonctionnalités Premium. Le Tracker d'Initiative en ligne est maintenant gratuit pour que chaque joueur se CONNECTE, mais pour créer une salle en ligne, le MJ devra payer un Abonnement HOST. Ceci est pour soutenir la nouvelle Grille de Combat dans le Tracker d'Initiative. Toute personne qui achète Premium bénéficiera de 2 mois d'essai HOST gratuit pour chaque plateforme achetée.\n\n- Dossiers pour trier les personnages dans l'Écran Principal.\n\n- Correction d'un bug lors de la préparation des sorts.\n\n- Correction du niveau du sort incorrect dans l'aperçu du sort.\n\n- Les compétences personnalisées sont maintenant explicites pour les capacités/objets.\n\n- Correction d'un bug lors de la sélection d'une sous-classe d'autres classes."
   },
   "Android": "Version 1.5.9 (199)",
-  "Ios": "Version 1.5.9 (197.3)",
+  "Ios": "Version 1.5.9 (199)",
   "MacOS": "Version 1.5.9 (197.3)",
   "Windows": "Version 1.5.9 (199)",
-  "Web": "Version 1.5.9 (199)",
+  "Web": "Version 1.5.9 (200)",
   "Linux": "Version 1.5.9 (196)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
