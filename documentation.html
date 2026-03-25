@@ -282,25 +282,62 @@
                             <p class="note"><strong>Tip:</strong> Damage types are now represented by distinct colors throughout the app for easier identification during combat.</p>
 
                             <div class="code-examples">
-                                <h4>Examples</h4>
+                                <h4>Basic Formulas</h4>
                                 <ul>
                                     <li><code>+2</code> - Direct values</li>
-                                    <li><code>pb</code> - for Proficiency Bonus</li>
+                                    <li><code>pb</code> - Proficiency Bonus</li>
                                     <li><code>Wisdom</code> - Ability names in English</li>
-                                    <li><code>spell</code> - gets your character or spell spellcasting attribute</li>
-                                    <li><code>level</code> - gets your character total level</li>
-                                    <li><code>classlevel:classname</code> - gets a specific class level</li>
-                                    <li><code>ranged=2</code> When used on Hit Bonus or Damage Bonus, only Weapons with Ranged property (have Range set) will receive the bonus</li>
+                                    <li><code>spell</code> - Your character's spellcasting attribute modifier</li>
+                                    <li><code>level</code> - Your character's total level</li>
+                                    <li><code>classlevel:classname</code> - A specific class level</li>
+                                    <li><code>1+pb</code>, <code>2*level</code> - Combine formulas with math operators</li>
                                 </ul>
+
                                 <h4>Complex Weapon Formulas</h4>
                                 <p><strong>Weapon Hit Bonus</strong> and <strong>Weapon Damage Bonus</strong> support complex formulas like <code>1d6+2</code>. This is added to the weapon's base formula (e.g. <code>1d6+(1d6+2)</code>).</p>
                                 <p>Use <strong>Extra Damages</strong> (formerly "Additional Damage Formula") for separate damage instances (like Sneak Attack or Hunter's Mark).</p>
 
-                                <h4>You can use formulas as well</h4>
+                                <h4>Conditional Formulas</h4>
+                                <p>For <strong>Weapon Hit Bonus</strong> and <strong>Weapon Damage Bonus</strong>, you can use conditional formulas that only apply when specific conditions are met. Use the format <code>condition=value</code>.</p>
+
+                                <p><strong>Character State Conditions</strong> — checked against your character's equipped items:</p>
                                 <ul>
-                                    <li><code>1+pb</code></li>
-                                    <li><code>2*level</code></li>
+                                    <li><code>wearing_armor=1</code> - Applies only when the character has armor equipped (e.g. Fighting Style: Defense)</li>
+                                    <li><code>no_armor=Wisdom</code> - Applies only when the character has no armor equipped (e.g. Unarmored bonuses)</li>
+                                    <li><code>single_weapon=2</code> - Applies only when exactly one weapon is equipped (e.g. Fighting Style: Dueling)</li>
                                 </ul>
+
+                                <p><strong>Weapon Property Conditions</strong> — checked against the specific weapon being used:</p>
+                                <ul>
+                                    <li><code>range=2</code> or <code>ranged=2</code> - Ranged weapons only (have Range set)</li>
+                                    <li><code>melee=2</code> - Melee weapons only (no Range set)</li>
+                                    <li><code>heavy=2</code> - Heavy weapons only</li>
+                                    <li><code>finesse=2</code> - Finesse weapons only</li>
+                                    <li><code>light=2</code> - Light weapons only</li>
+                                    <li><code>thrown=2</code> - Thrown weapons only</li>
+                                    <li><code>two-handed=2</code> - Two-Handed weapons only</li>
+                                    <li><code>versatile=2</code> - Versatile weapons only</li>
+                                    <li><code>ammunition=2</code> - Ammunition weapons only</li>
+                                    <li><code>reach=2</code> - Reach weapons only</li>
+                                </ul>
+
+                                <p><strong>Chaining Conditions</strong> — combine multiple conditions with <code>=</code> to require ALL of them:</p>
+                                <ul>
+                                    <li><code>melee=single_weapon=2</code> - +2 only for melee weapons AND only one weapon equipped (Fighting Style: Dueling)</li>
+                                    <li><code>heavy=two-handed=1d6</code> - +1d6 only for heavy two-handed weapons</li>
+                                </ul>
+
+                                <p><strong>OR Operator</strong> — use <code>||</code> to apply the first matching condition:</p>
+                                <ul>
+                                    <li><code>range=2||melee=3</code> - +2 for ranged weapons OR +3 for melee weapons (first match wins)</li>
+                                </ul>
+
+                                <div class="example">
+                                    <h4>Conditional Formula Examples</h4>
+                                    <p><strong>Fighting Style: Archery</strong> → Weapon Hit Bonus: <code>range=2</code></p>
+                                    <p><strong>Fighting Style: Defense</strong> → AC Bonus: <code>wearing_armor=1</code></p>
+                                    <p><strong>Fighting Style: Dueling</strong> → Weapon Damage Bonus: <code>melee=single_weapon=2</code></p>
+                                </div>
                             </div>
                         </div>
                     </div>
