@@ -31,9 +31,9 @@
   },
   "Android": "Version 1.6.0 (204)",
   "Ios": "Version 1.6.0 (204)",
-  "MacOS": "Version 1.5.9 (197.3)",
-  "Windows": "Version 1.6.0 (204)",
-  "Web": "Version 1.6.0 (204)",
+  "MacOS": "Version 1.6.0 (204)",
+  "Windows": "Version 1.6.0 (205)",
+  "Web": "Version 1.6.0 (205)",
   "Linux": "Version 1.6.0 (204)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
