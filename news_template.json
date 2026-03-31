@@ -32,9 +32,9 @@
   "Android": "Version 1.6.0 (205)",
   "Ios": "Version 1.6.0 (205)",
   "MacOS": "Version 1.6.0 (205)",
-  "Windows": "Version 1.6.0 (205)",
-  "Web": "Version 1.6.0 (205)",
-  "Linux": "Version 1.6.0 (204)",
+  "Windows": "Version 1.6.0 (206)",
+  "Web": "Version 1.6.0 (206)",
+  "Linux": "Version 1.6.0 (206)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
