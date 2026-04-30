@@ -29,11 +29,11 @@
     "title": "🆕 Version 1.6.0 (204)",
     "text": "- Ajout des Compagnons comme tokens séparés sur la grille\n\n- Ajout d'une Barre d'Actions pour les Tokens sélectionnés sur la grille\n\n- Les tokens peuvent maintenant être sélectionnés et pivotés\n\n- Les Aptitudes peuvent maintenant avoir des Lancers de Dés, et peuvent être liées à des Ressources Personnalisées pour les consommer automatiquement\n\n- Ajout de la Monnaie comme option de butin dans les rencontres\n\n- Correction du bouton Appliquer aux Cibles de la grille en ligne lors d'une attaque dans certains cas\n\n- Correction du Tracker d'Initiative qui nécessitait des tokens sur la grille pour ajouter des combattants\n\n- Correction de certaines conditions de course en ligne lors de la synchronisation\n\n- Correction du bug Lancer l'Initiative pour Tous lorsque des joueurs sont connectés à la salle\n\n- Les Scènes ont maintenant des Modèles de personnages, vous n'aurez donc plus besoin d'ajouter des gobelins actifs à la scène avant de placer des tokens sur la grille\n\n- Les descriptions des Aptitudes, Classes, Historiques, etc. ont maintenant un affichage plus propre, avec des en-têtes de section en gras et l'indentation\n\n- Correction des murs qui disparaissaient parfois sur la grille\n\n- Correction du Butin qui n'était pas distribué dans certains cas\n\n- Inversion des fonctions des Fenêtres de Recherche. Appuyer sélectionne, l'icône latérale ouvre les détails\n\n- Correction des personnages de campagne n'apparaissant pas dans le Tracker d'Initiative\n\n- Les éléments d'image sur la grille et l'image de fond peuvent maintenant utiliser des URLs (comme des images de profil, etc.)\n\n- Correction des Scènes de Campagne n'utilisant pas les Notes de Campagne\n\n- Ajout d'une boîte d'information lors de la sélection des compétences dans la Création de Personnage\n\n- LES CAMPAGNES PEUVENT MAINTENANT ÊTRE IMPORTÉES DEPUIS DES FICHIERS MARKDOWN\n\n- Ajout de nouvelles formules au système, pour des choses comme Tir à l'Arc et Robuste. L'importateur XML les détectera automatiquement et définira les modificateurs appropriés\n\n- Ajout d'une section Crédits dans le menu latéral de l'écran principal\n\n- Les avantages en Attributs/Compétences accordés par les Aptitudes/Objets/Activables peuvent maintenant avoir des sources pour aider à identifier la Source ou une autre information utile"
   },
-  "Android": "Version 1.6.1 (211)",
+  "Android": "Version 1.6.1 (212)",
   "Ios": "Version 1.6.1 (211)",
   "MacOS": "Version 1.6.1 (211)",
-  "Windows": "Version 1.6.1 (211)",
-  "Web": "Version 1.6.1 (211)",
+  "Windows": "Version 1.6.1 (212)",
+  "Web": "Version 1.6.1 (212)",
   "Linux": "Version 1.6.0 (206)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
