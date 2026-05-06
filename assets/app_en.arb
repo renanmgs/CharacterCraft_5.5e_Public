@@ -1456,6 +1456,10 @@
   "@decreaseHP": {
     "description": "Button text for decreasing hit points"
   },
+  "alterHP": "Alter HP",
+  "@alterHP": {
+    "description": "Title of the dialog used to apply damage or healing to current HP"
+  },
   "applyDamage": "Apply Damage",
   "@applyDamage": {
     "description": "Label for damage input field"
@@ -2726,39 +2730,39 @@
   "@languageUndercommon": {
     "description": "Undercommon language"
   },
-  "handCrossbows": "Hand Crossbows",
+  "handCrossbows": "Hand Crossbow",
   "@handCrossbows": {
     "description": "Hand crossbows weapon proficiency"
   },
-  "longswords": "Longswords",
+  "longswords": "Longsword",
   "@longswords": {
     "description": "Longswords weapon proficiency"
   },
-  "rapiers": "Rapiers",
+  "rapiers": "Rapier",
   "@rapiers": {
     "description": "Rapiers weapon proficiency"
   },
-  "shortswords": "Shortswords",
+  "shortswords": "Shortsword",
   "@shortswords": {
     "description": "Shortswords weapon proficiency"
   },
-  "lightCrossbows": "Light Crossbows",
+  "lightCrossbows": "Light Crossbow",
   "@lightCrossbows": {
     "description": "Light crossbows weapon proficiency"
   },
-  "battleaxes": "Battleaxes",
+  "battleaxes": "Battleaxe",
   "@battleaxes": {
     "description": "Battleaxes weapon proficiency"
   },
-  "handaxes": "Handaxes",
+  "handaxes": "Handaxe",
   "@handaxes": {
     "description": "Handaxes weapon proficiency"
   },
-  "warhammers": "Warhammers",
+  "warhammers": "Warhammer",
   "@warhammers": {
     "description": "Warhammers weapon proficiency"
   },
-  "longbows": "Longbows",
+  "longbows": "Longbow",
   "@longbows": {
     "description": "Longbows weapon proficiency"
   },
@@ -6782,6 +6786,12 @@
   "slotFeet": "Feet",
   "slotWearable": "Wearable",
   "slotNoSlot": "No Slot",
+  "slotWeapon": "Weapon",
+  "slotRing": "Ring",
+  "equippableSlots": "Equippable Slots",
+  "equippableSlotsHint": "Restrict which paper-doll slots this item can occupy. Leave empty to use the default for this item type.",
+  "resetToDefault": "Reset to default",
+  "defaultLabel": "Default",
   "slotMainHand": "Main Hand",
   "slotOffHand": "Off Hand",
   "slotTwoHands": "Two Hands",
@@ -7665,5 +7675,153 @@
   "friendly": "Friendly",
   "hostile": "Hostile",
   "indifferent": "Indifferent",
-  "conditionOptional": "Condition (optional)"
+  "conditionOptional": "Condition (optional)",
+  "showToPlayers": "Show to Players",
+  "showingToPlayers": "Showing to players",
+  "actionTypeCustom": "Custom",
+  "@actionTypeCustom": { "description": "Label for custom action type chip" },
+  "actionTypeNone": "None",
+  "@actionTypeNone": { "description": "Label for none action type chip — suppresses auto-assigned badge" },
+  "bonusExtraActions": "Extra Actions",
+  "@bonusExtraActions": { "description": "Label for bonus extra actions field" },
+  "bonusExtraBonusActions": "Extra Bonus Actions",
+  "@bonusExtraBonusActions": { "description": "Label for bonus extra bonus actions field" },
+  "bonusExtraReactions": "Extra Reactions",
+  "@bonusExtraReactions": { "description": "Label for bonus extra reactions field" },
+  "extraActionBonuses": "Extra Action Economy",
+  "@extraActionBonuses": { "description": "Section title for extra action economy bonuses" },
+  "noActionsRemaining": "No {actionType} remaining",
+  "@noActionsRemaining": {
+    "description": "Snackbar message when all actions of a type are spent",
+    "placeholders": {
+      "actionType": { "type": "String" }
+    }
+  },
+  "onlineBetaWarning": "Beta Feature — Online mode is currently in beta. Bugs and instability are expected.",
+  "@onlineBetaWarning": { "description": "Warning banner shown in online room dialogs indicating the feature is in beta" },
+  "noteItems": "Items",
+  "@noteItems": { "description": "Section title for items attached to a note" },
+  "addItem": "Add Item",
+  "@addItem": { "description": "Button to add an item to a note" },
+  "distributeItem": "Give to Character",
+  "@distributeItem": { "description": "Button to distribute an item from a note to a character" },
+  "distributeItemSuccess": "{item} given to {character}",
+  "@distributeItemSuccess": {
+    "description": "Success message when distributing an item",
+    "placeholders": {
+      "item": { "type": "String" },
+      "character": { "type": "String" }
+    }
+  },
+  "removeItem": "Remove Item",
+  "@removeItem": { "description": "Button to remove an item from a note" },
+  "notePageOf": "{current} of {total}",
+  "@notePageOf": {
+    "description": "Page indicator for sequential note reading",
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "readNote": "Read",
+  "@readNote": { "description": "Button to open note in read/preview mode" },
+  "characterAddedToSceneX": "{name} added to the scene",
+  "@characterAddedToSceneX": { "placeholders": { "name": { "type": "String" } } },
+  "minimumValue": "Min Value: ",
+  "@minimumValue": { "description": "Label for the minimum value field in custom resource scaling options" },
+  "acCalculation": "AC Calculation",
+  "@acCalculation": { "description": "Title for the armor class calculation breakdown section" },
+  "acOverride": "AC Override",
+  "@acOverride": { "description": "Label indicating that AC is overridden by a feature or spell" },
+  "noArmor": "No Armor",
+  "@noArmor": { "description": "Label indicating no armor is equipped" },
+  "quickReminderFeatures": "Quick Features Reminder",
+  "@quickReminderFeatures": { "description": "Section header for features marked as quick reminders in combat tab" },
+  "rollAs": "Roll as",
+  "@rollAs": { "description": "Title of the bottom sheet that asks the DM to pick which scene combatant should own the upcoming roll" },
+  "speedCalculation": "Speed Calculation",
+  "@speedCalculation": { "description": "Title for the speed calculation breakdown section" },
+  "proficiencyBonusCalculation": "Proficiency Bonus Calculation",
+  "@proficiencyBonusCalculation": { "description": "Title for the proficiency bonus calculation breakdown section" },
+  "initiativeCalculation": "Initiative Calculation",
+  "@initiativeCalculation": { "description": "Title for the initiative calculation breakdown section" },
+  "speciesBaseSpeed": "Species Base Speed",
+  "@speciesBaseSpeed": { "description": "Label for the base speed provided by the character's species" },
+  "baseProficiencyLevel": "Base (Level {level})",
+  "@baseProficiencyLevel": {
+    "description": "Base proficiency bonus line referencing the character level",
+    "placeholders": { "level": { "type": "int" } }
+  },
+  "manualModifier": "Manual Modifier",
+  "@manualModifier": { "description": "Label for a user-entered manual modifier in stat breakdowns" },
+  "exhaustionPenaltyLabel": "Exhaustion Penalty",
+  "@exhaustionPenaltyLabel": { "description": "Short label used for the exhaustion penalty line in stat breakdowns" },
+  "dexterityModifierLabel": "Dexterity Modifier",
+  "@dexterityModifierLabel": { "description": "Label used for the dexterity modifier line in the initiative breakdown" },
+  "showMovementRuler": "Show Movement Ruler",
+  "@showMovementRuler": { "description": "Toggle that marks the last player token movement on the combat grid for everyone to see" },
+  "showMovementRulerDescription": "Mark the last player token movement on the map for everyone to see",
+  "@showMovementRulerDescription": { "description": "Subtitle describing the Show Movement Ruler toggle" },
+  "autoPanToPlayers": "Auto-Pan to Players",
+  "@autoPanToPlayers": { "description": "Toggle that makes spectator screens automatically pan/zoom the camera to keep all player tokens framed" },
+  "autoPanToPlayersDescription": "Spectator screens automatically follow player tokens, keeping them all on-screen",
+  "@autoPanToPlayersDescription": { "description": "Subtitle describing the Auto-Pan to Players toggle" },
+  "alternateRollsLabel": "Alternate Rolls",
+  "@alternateRollsLabel": { "description": "Section header in the spell editor for the alternate damage roll set" },
+  "alternateRollsHelp": "Optional second damage set (e.g. Toll the Dead 1d8 vs 1d12). Choose at cast time.",
+  "@alternateRollsHelp": { "description": "Help text under the Alternate Rolls section in the spell editor" },
+  "primaryRoll": "Primary",
+  "@primaryRoll": { "description": "Default label for the spell's primary damage roll set when no custom label is set" },
+  "alternateRoll": "Alternate",
+  "@alternateRoll": { "description": "Default label for the spell's alternate damage roll set when no custom label is set" },
+  "rollVariantLabel": "Roll Variant",
+  "@rollVariantLabel": { "description": "Title above the dropdown that selects between primary and alternate roll sets at cast time" },
+  "primaryRollLabel": "Primary Roll Label",
+  "@primaryRollLabel": { "description": "Editor field label for the user-defined name of the primary roll set" },
+  "alternateRollLabelField": "Alternate Roll Label",
+  "@alternateRollLabelField": { "description": "Editor field label for the user-defined name of the alternate roll set" },
+  "rollLabelHint": "e.g. Full HP",
+  "@rollLabelHint": { "description": "Hint text for the primary-roll-label TextField in the spell editor" },
+  "alternateRollLabelHint": "e.g. Damaged",
+  "@alternateRollLabelHint": { "description": "Hint text for the alternate-roll-label TextField in the spell editor" },
+  "baseAlternateRollFormula": "Base Alternate Roll Formula",
+  "@baseAlternateRollFormula": { "description": "Label for the base formula TextField of the alternate roll set in the spell editor" },
+  "addLevelSpecificAlternateRoll": "Add Level Specific Alternate Roll",
+  "@addLevelSpecificAlternateRoll": { "description": "Button to open the dialog that adds a level-specific alternate roll formula" },
+  "addAlternateRollFormula": "Add Alternate Roll Formula",
+  "@addAlternateRollFormula": { "description": "Title of the dialog that adds a new alternate roll formula" },
+  "editAlternateRollFormula": "Edit Alternate Roll Formula",
+  "@editAlternateRollFormula": { "description": "Title of the dialog that edits an existing alternate roll formula" },
+  "resetTrackerOnFinish": "Reset tracker on finish",
+  "@resetTrackerOnFinish": { "description": "Switch label that toggles whether the initiative tracker is cleared after finishing an encounter" },
+  "unarmedStrike": "Unarmed Strike",
+  "@unarmedStrike": { "description": "Name of the default Unarmed Strike action available to all characters" },
+  "unarmedStrikeDescription": "Instead of using a weapon to make a melee attack, you can use a punch, kick, head-butt, or similar forceful blow. In game terms, this is an Unarmed Strike—a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.\n\nWhenever you use your Unarmed Strike, choose one of the following options for its effect.\n\nDamage. You make an attack roll against the target. Your bonus to the roll equals your Strength modifier plus your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier.\n\nGrapple. The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the Grappled condition. The DC for the saving throw and any escape attempts equals 8 plus your Strength modifier and Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it.\n\nShove. The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you.",
+  "@unarmedStrikeDescription": { "description": "Long-form 5.5e rules text describing the Unarmed Strike action" },
+  "unarmedStrikeAttack": "Attack",
+  "@unarmedStrikeAttack": { "description": "Button label that triggers the Unarmed Strike attack" },
+  "unarmedStrikeResetDefault": "Reset to Default",
+  "@unarmedStrikeResetDefault": { "description": "Button label that restores the standard 5.5e Unarmed Strike values" },
+  "unarmedStrikeResetMonk": "Apply Monk Default",
+  "@unarmedStrikeResetMonk": { "description": "Button label that applies a Monk-style Unarmed Strike preset" },
+  "unarmedStrikeResetDefaultConfirm": "Reset Unarmed Strike to its default values? Any customizations will be lost.",
+  "@unarmedStrikeResetDefaultConfirm": { "description": "Confirmation message before resetting Unarmed Strike to default" },
+  "unarmedStrikeResetMonkConfirm": "Apply the Monk-style Unarmed Strike (1d6 Bludgeoning, Dexterity-based)? Any customizations will be lost.",
+  "@unarmedStrikeResetMonkConfirm": { "description": "Confirmation message before applying Monk Unarmed Strike preset" },
+  "unarmedStrikeGrappleShoveLabel": "Grapple / Shove DC",
+  "@unarmedStrikeGrappleShoveLabel": { "description": "Label for the computed Grapple and Shove DC in the Unarmed Strike sheet" },
+  "moveToContainer": "Move To...",
+  "@moveToContainer": { "description": "Menu option on an item card that opens a sheet to move the item into a Gear container" },
+  "moveToContainerTitle": "Move to Container",
+  "@moveToContainerTitle": { "description": "Title of the bottom sheet listing Gear items that can receive the moved item" },
+  "noContainersAvailable": "No containers available",
+  "@noContainersAvailable": { "description": "Empty state shown in the Move To sheet when the character has no Gear items" },
+  "tabOrder": "Tab Order",
+  "@tabOrder": { "description": "Drawer entry / page title for the bottom navigation tab reordering screen" },
+  "tabOrderDescription": "Drag to reorder the bottom navigation tabs",
+  "@tabOrderDescription": { "description": "Subtitle on the tab order editor page explaining the drag gesture" },
+  "containerFlag": "Container",
+  "@containerFlag": { "description": "Item details checkbox label that marks an item as a container so other items can be moved into it" },
+  "mainInventory": "Main Inventory",
+  "@mainInventory": { "description": "Option in the Move To sheet that returns a contained item to the top-level equipment list" }
 }
