@@ -29,7 +29,7 @@
     "title": "🆕 Version 1.6.1 (216)",
     "text": "- Amélioration de la stabilité de la grille en ligne\n\n- Ajout d'un bouton sur les pages Détails pour sauvegarder les données du personnage dans la base de données. Ainsi, si vous ajoutez un objet personnalisé dans l'inventaire du personnage, vous pouvez le sauvegarder ultérieurement dans la base de données en ouvrant la page Modifier et en appuyant sur l'icône.\n\n- Correction d'un bug qui causait la perte de PNJ dans les grandes campagnes lors de la modification de plusieurs scènes.\n\n- Correction d'un bug de synchronisation lors de la conversion de monnaie en mode en ligne\n\n- Correction des traductions des prix des objets\n\n- Ajout d'un bouton pour alterner entre l'ajout de PNJ en lançant leurs PV ou en utilisant la valeur brute de la fiche."
   },
-  "Android": "Version 1.6.1 (216)",
+  "Android": "Version 1.6.1 (215)",
   "Ios": "Version 1.6.1 (216)",
   "MacOS": "Version 1.6.1 (216)",
   "Windows": "Version 1.6.1 (216)",
