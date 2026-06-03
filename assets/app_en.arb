@@ -3824,6 +3824,14 @@
   "@roomNotFound": {
     "description": "Label for initiative room"
   },
+  "roomNotFoundDmFirst": "Room not found. Ask the DM to open or create the room first.",
+  "@roomNotFoundDmFirst": {
+    "description": "Message shown when a player or spectator tries to reconnect to a room that is not currently available"
+  },
+  "onlineRoomUpdateRequired": "Update the app to join this online room.",
+  "@onlineRoomUpdateRequired": {
+    "description": "Message shown when the online server requires a newer app version"
+  },
   "connectedToRoom": "Connected to room",
   "@connectedToRoom": {
     "description": "Label for initiative room"
@@ -7854,5 +7862,16 @@
   "saveToCompendiumAddNewAction": "Save as new",
   "saveToCompendiumSuccessOverwritten": "Compendium entry updated.",
   "saveToCompendiumSuccessAdded": "Saved as a new compendium entry.",
-  "saveToCompendiumSubclassMissingParent": "Could not find the parent class of this subclass in the compendium. Please save the parent class first."
+  "saveToCompendiumSubclassMissingParent": "Could not find the parent class of this subclass in the compendium. Please save the parent class first.",
+  "importOrganizeTitle": "Organize Import",
+  "importOrganizeSubtitle": "Choose how each section becomes part of your campaign.",
+  "importRoleAdventure": "Adventure",
+  "importRoleSkip": "Don't import",
+  "importRoleAdventureDesc": "Its own sub-campaign with notes",
+  "importRoleSceneDesc": "A map in this campaign",
+  "importRoleNotesDesc": "Campaign notes",
+  "importRoleSkipDesc": "Leave this section out",
+  "importRolePickerTitle": "Import this section as",
+  "importResetToSuggested": "Reset to suggested",
+  "importPreambleSection": "(Intro text)"
 }

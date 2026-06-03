@@ -1,40 +1,40 @@
 {
   "en": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Version 1.6.1 (216)",
-    "text": "- Improved online grid stability\n\n- Added a button on Details pages to save your character data on the database. This way, if you add a custom item in the character inventory you can save it later in the database if you open the Edit page and press the icon.\n\n- Fixed a bug that causes NPCs loss on large campaigns when editing multiple scenes.\n\n- Fixed a sync bug when converting currency in online mode\n\n- Fixed translations on item prices\n\n- Added a toggle to alternate adding NPCs rolling their HPs or using its raw value from the sheet."
+    "title": "🆕 Version 1.6.2 (218)",
+    "text": "- Backend rework for online features: We completely rebuilt the online backend for the Initiative Tracker and Combat Grid. While minor bugs might occur during this transition, the sync is now significantly smoother and faster.\n\n- Real-time campaign saving: Characters connected to a campaign now sync and save all changes in real time. You no longer need to manually open the character sheet and hit save.\n\n- [Fix] Spellcasting attribute search: Fixed an issue with spellcasting attribute lookups. If a specific feature is missing its spellcasting trait, the engine will now correctly fallback and search for the attribute set in your main class."
   },
   "pt": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Versão 1.6.1 (216)",
-    "text": "- Melhorada a estabilidade da grade online\n\n- Adicionado um botão nas páginas de Detalhes para salvar os dados do personagem no banco de dados. Assim, se você adicionar um item personalizado no inventário do personagem, pode salvá-lo no banco de dados abrindo a página de Edição e pressionando o ícone.\n\n- Corrigido um bug que causava perda de NPCs em campanhas grandes ao editar múltiplas cenas.\n\n- Corrigido um bug de sincronização ao converter moeda no modo online\n\n- Corrigidas traduções nos preços de itens\n\n- Adicionado um botão para alternar entre adicionar NPCs rolando seus PVs ou usando o valor bruto da ficha."
+    "title": "🆕 Versão 1.6.2 (218)",
+    "text": "- Rework do backend para funcionalidades online: Reconstruímos completamente o backend online para o Rastreador de Iniciativa e a Grade de Combate. Embora possam ocorrer pequenos bugs durante essa transição, a sincronização agora é significativamente mais suave e rápida.\n\n- Salvamento em tempo real de campanha: Personagens conectados a uma campanha agora sincronizam e salvam todas as alterações em tempo real. Você não precisa mais abrir manualmente a ficha do personagem para salvar.\n\n- [Fix] Busca de atributo de conjuração: Corrigido um problema com buscas de atributo de conjuração. Se uma habilidade específica não tiver o traço de conjuração, o motor agora buscará corretamente o atributo definido na sua classe principal."
   },
   "es": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Versión 1.6.1 (216)",
-    "text": "- Mejorada la estabilidad de la cuadrícula en línea\n\n- Añadido un botón en las páginas de Detalles para guardar los datos del personaje en la base de datos. De esta forma, si añades un objeto personalizado en el inventario del personaje, puedes guardarlo más tarde en la base de datos abriendo la página de Edición y pulsando el icono.\n\n- Corregido un error que causaba la pérdida de PNJs en campañas grandes al editar múltiples escenas.\n\n- Corregido un error de sincronización al convertir moneda en el modo en línea\n\n- Corregidas las traducciones en los precios de objetos\n\n- Añadido un botón para alternar entre añadir PNJs tirando sus PV o usando el valor bruto de la hoja."
+    "title": "🆕 Versión 1.6.2 (218)",
+    "text": "- Rework del backend para funciones en línea: Reconstruimos completamente el backend en línea para el Rastreador de Iniciativa y la Cuadrícula de Combate. Aunque pueden surgir pequeños errores durante esta transición, la sincronización es ahora significativamente más fluida y rápida.\n\n- Guardado en tiempo real de campaña: Los personajes conectados a una campaña ahora sincronizan y guardan todos los cambios en tiempo real. Ya no necesitas abrir manualmente la hoja de personaje para guardar.\n\n- [Fix] Búsqueda de atributo de lanzamiento: Solucionado un problema con las búsquedas del atributo de lanzamiento de conjuros. Si a una habilidad específica le falta su rasgo de conjuración, el motor ahora buscará correctamente el atributo establecido en tu clase principal."
   },
   "pl": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Wersja 1.6.1 (216)",
-    "text": "- Poprawiono stabilność siatki online\n\n- Dodano przycisk na stronach Szczegółów do zapisywania danych postaci w bazie danych. W ten sposób, jeśli dodasz niestandardowy przedmiot do ekwipunku postaci, możesz go później zapisać w bazie danych, otwierając stronę Edycji i naciskając ikonę.\n\n- Naprawiono błąd powodujący utratę NPC-ów w dużych kampaniach podczas edytowania wielu scen.\n\n- Naprawiono błąd synchronizacji przy konwersji waluty w trybie online\n\n- Naprawiono tłumaczenia cen przedmiotów\n\n- Dodano przełącznik do naprzemiennego dodawania NPC-ów z rzucaniem ich PW lub używaniem wartości bezpośredniej z karty."
+    "title": "🆕 Wersja 1.6.2 (218)",
+    "text": "- Przebudowa backendu dla funkcji online: Całkowicie przebudowaliśmy backend online dla Śledzenia Inicjatywy i Siatki Walki. Choć podczas tej przejściowej fazy mogą pojawić się drobne błędy, synchronizacja jest teraz znacznie płynniejsza i szybsza.\n\n- Zapisywanie kampanii w czasie rzeczywistym: Postacie połączone z kampanią teraz synchronizują i zapisują wszystkie zmiany w czasie rzeczywistym. Nie musisz już ręcznie otwierać karty postaci, aby zapisać.\n\n- [Fix] Wyszukiwanie atrybutu czarowania: Naprawiono problem z wyszukiwaniem atrybutu czarowania. Jeśli określonej zdolności brakuje cechy czarowania, silnik teraz poprawnie wróci i wyszuka atrybut ustawiony w głównej klasie."
   },
   "it": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Versione 1.6.1 (216)",
-    "text": "- Migliorata la stabilità della griglia online\n\n- Aggiunto un pulsante nelle pagine Dettagli per salvare i dati del personaggio nel database. In questo modo, se aggiungi un oggetto personalizzato nell'inventario del personaggio, puoi salvarlo in seguito nel database aprendo la pagina Modifica e premendo l'icona.\n\n- Corretto un bug che causava la perdita di PNG in campagne grandi durante la modifica di più scene.\n\n- Corretto un bug di sincronizzazione durante la conversione della valuta in modalità online\n\n- Corrette le traduzioni dei prezzi degli oggetti\n\n- Aggiunta un'opzione per alternare l'aggiunta di PNG tirando i loro PF o usando il valore grezzo dalla scheda."
+    "title": "🆕 Versione 1.6.2 (218)",
+    "text": "- Rework del backend per le funzionalità online: Abbiamo completamente ricostruito il backend online per il Tracker dell'Iniziativa e la Griglia di Combattimento. Sebbene possano verificarsi piccoli bug durante questa transizione, la sincronizzazione è ora significativamente più fluida e veloce.\n\n- Salvataggio in tempo reale della campagna: I personaggi connessi a una campagna ora sincronizzano e salvano tutte le modifiche in tempo reale. Non è più necessario aprire manualmente la scheda del personaggio per salvare.\n\n- [Fix] Ricerca dell'attributo di lancio: Risolto un problema con le ricerche dell'attributo di lancio degli incantesimi. Se a una specifica abilità manca il tratto di lancio, il motore ora cercherà correttamente l'attributo impostato nella classe principale."
   },
   "fr": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Version 1.6.1 (216)",
-    "text": "- Amélioration de la stabilité de la grille en ligne\n\n- Ajout d'un bouton sur les pages Détails pour sauvegarder les données du personnage dans la base de données. Ainsi, si vous ajoutez un objet personnalisé dans l'inventaire du personnage, vous pouvez le sauvegarder ultérieurement dans la base de données en ouvrant la page Modifier et en appuyant sur l'icône.\n\n- Correction d'un bug qui causait la perte de PNJ dans les grandes campagnes lors de la modification de plusieurs scènes.\n\n- Correction d'un bug de synchronisation lors de la conversion de monnaie en mode en ligne\n\n- Correction des traductions des prix des objets\n\n- Ajout d'un bouton pour alterner entre l'ajout de PNJ en lançant leurs PV ou en utilisant la valeur brute de la fiche."
+    "title": "🆕 Version 1.6.2 (218)",
+    "text": "- Refonte du backend pour les fonctionnalités en ligne: Nous avons complètement reconstruit le backend en ligne pour le Suivi d'Initiative et la Grille de Combat. Bien que des bugs mineurs puissent survenir pendant cette transition, la synchronisation est maintenant nettement plus fluide et rapide.\n\n- Sauvegarde en temps réel de la campagne: Les personnages connectés à une campagne synchronisent et sauvegardent maintenant tous les changements en temps réel. Vous n'avez plus besoin d'ouvrir manuellement la fiche du personnage pour sauvegarder.\n\n- [Fix] Recherche d'attribut de lancement: Correction d'un problème avec les recherches d'attribut de lancement de sorts. Si une capacité spécifique n'a pas son trait de lancement de sorts, le moteur recherchera maintenant correctement l'attribut défini dans votre classe principale."
   },
-  "Android": "Version 1.6.1 (216)",
-  "Ios": "Version 1.6.1 (216)",
-  "MacOS": "Version 1.6.1 (216)",
-  "Windows": "Version 1.6.1 (216)",
-  "Web": "Version 1.6.1 (216)",
-  "Linux": "Version 1.6.1 (216)",
+  "Android": "Version 1.6.2 (218)",
+  "Ios": "Version 1.6.2 (218)",
+  "MacOS": "Version 1.6.2 (218)",
+  "Windows": "Version 1.6.2 (218)",
+  "Web": "Version 1.6.2 (218)",
+  "Linux": "Version 1.6.2 (218)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
@@ -43,5 +43,5 @@
     "it": "È disponibile una nuova versione ufficiale! Aggiorna ora per la migliore esperienza.",
     "fr": "Une nouvelle version officielle est disponible ! Mettez à jour maintenant pour la meilleure expérience."
   },
-  "date": "2026-05-22T12:00:00Z"
+  "date": "2026-06-03T12:00:00Z"
 }
