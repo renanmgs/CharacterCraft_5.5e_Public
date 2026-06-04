@@ -29,10 +29,10 @@
     "title": "🆕 Version 1.6.2 (218)",
     "text": "- Refonte du backend pour les fonctionnalités en ligne: Nous avons complètement reconstruit le backend en ligne pour le Suivi d'Initiative et la Grille de Combat. Bien que des bugs mineurs puissent survenir pendant cette transition, la synchronisation est maintenant nettement plus fluide et rapide.\n\n- Sauvegarde en temps réel de la campagne: Les personnages connectés à une campagne synchronisent et sauvegardent maintenant tous les changements en temps réel. Vous n'avez plus besoin d'ouvrir manuellement la fiche du personnage pour sauvegarder.\n\n- [Fix] Recherche d'attribut de lancement: Correction d'un problème avec les recherches d'attribut de lancement de sorts. Si une capacité spécifique n'a pas son trait de lancement de sorts, le moteur recherchera maintenant correctement l'attribut défini dans votre classe principale."
   },
-  "Android": "Version 1.6.2 (218)",
+  "Android": "Version 1.6.2 (219)",
   "Ios": "Version 1.6.2 (218)",
   "MacOS": "Version 1.6.2 (218)",
-  "Windows": "Version 1.6.2 (218)",
+  "Windows": "Version 1.6.2 (219)",
   "Web": "Version 1.6.2 (219)",
   "Linux": "Version 1.6.2 (218)",
   "message": {
