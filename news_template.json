@@ -1,40 +1,40 @@
 {
   "en": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Version 1.6.2 (218)",
-    "text": "- Backend rework for online features: We completely rebuilt the online backend for the Initiative Tracker and Combat Grid. While minor bugs might occur during this transition, the sync is now significantly smoother and faster.\n\n- Real-time campaign saving: Characters connected to a campaign now sync and save all changes in real time. You no longer need to manually open the character sheet and hit save.\n\n- [Fix] Spellcasting attribute search: Fixed an issue with spellcasting attribute lookups. If a specific feature is missing its spellcasting trait, the engine will now correctly fallback and search for the attribute set in your main class."
+    "title": "🆕 Version 1.6.2 (222)",
+    "text": "- Toggleable Modifiers can now be linked to Custom Resources, automatically enabling their bonuses when that resource is spent and disabling them on short and long rests.\n\n- Fixed online campaign reconnection in some cases.\n\n- Minor visual bugs fixed."
   },
   "pt": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Versão 1.6.2 (218)",
-    "text": "- Rework do backend para funcionalidades online: Reconstruímos completamente o backend online para o Rastreador de Iniciativa e a Grade de Combate. Embora possam ocorrer pequenos bugs durante essa transição, a sincronização agora é significativamente mais suave e rápida.\n\n- Salvamento em tempo real de campanha: Personagens conectados a uma campanha agora sincronizam e salvam todas as alterações em tempo real. Você não precisa mais abrir manualmente a ficha do personagem para salvar.\n\n- [Fix] Busca de atributo de conjuração: Corrigido um problema com buscas de atributo de conjuração. Se uma habilidade específica não tiver o traço de conjuração, o motor agora buscará corretamente o atributo definido na sua classe principal."
+    "title": "🆕 Versão 1.6.2 (222)",
+    "text": "- Modificadores Ativáveis agora podem ser conectados a Recursos Personalizados, ativando automaticamente seus bônus quando esse recurso é gasto e desativando-os em descansos curtos e longos.\n\n- Corrigida a reconexão de campanhas online em alguns casos.\n\n- Pequenos bugs visuais corrigidos."
   },
   "es": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Versión 1.6.2 (218)",
-    "text": "- Rework del backend para funciones en línea: Reconstruimos completamente el backend en línea para el Rastreador de Iniciativa y la Cuadrícula de Combate. Aunque pueden surgir pequeños errores durante esta transición, la sincronización es ahora significativamente más fluida y rápida.\n\n- Guardado en tiempo real de campaña: Los personajes conectados a una campaña ahora sincronizan y guardan todos los cambios en tiempo real. Ya no necesitas abrir manualmente la hoja de personaje para guardar.\n\n- [Fix] Búsqueda de atributo de lanzamiento: Solucionado un problema con las búsquedas del atributo de lanzamiento de conjuros. Si a una habilidad específica le falta su rasgo de conjuración, el motor ahora buscará correctamente el atributo establecido en tu clase principal."
+    "title": "🆕 Versión 1.6.2 (222)",
+    "text": "- Los Modificadores Activables ahora se pueden vincular a Recursos Personalizados, activando automáticamente sus bonificaciones cuando se gasta ese recurso y desactivándolas en los descansos cortos y largos.\n\n- Se corrigió la reconexión de campañas en línea en algunos casos.\n\n- Se corrigieron errores visuales menores."
   },
   "pl": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Wersja 1.6.2 (218)",
-    "text": "- Przebudowa backendu dla funkcji online: Całkowicie przebudowaliśmy backend online dla Śledzenia Inicjatywy i Siatki Walki. Choć podczas tej przejściowej fazy mogą pojawić się drobne błędy, synchronizacja jest teraz znacznie płynniejsza i szybsza.\n\n- Zapisywanie kampanii w czasie rzeczywistym: Postacie połączone z kampanią teraz synchronizują i zapisują wszystkie zmiany w czasie rzeczywistym. Nie musisz już ręcznie otwierać karty postaci, aby zapisać.\n\n- [Fix] Wyszukiwanie atrybutu czarowania: Naprawiono problem z wyszukiwaniem atrybutu czarowania. Jeśli określonej zdolności brakuje cechy czarowania, silnik teraz poprawnie wróci i wyszuka atrybut ustawiony w głównej klasie."
+    "title": "🆕 Wersja 1.6.2 (222)",
+    "text": "- Przełączalne Modyfikatory można teraz połączyć z Zasobami Niestandardowymi, dzięki czemu ich premie włączają się automatycznie po wydaniu tego zasobu i wyłączają się po krótkim lub długim odpoczynku.\n\n- Naprawiono ponowne łączenie z kampaniami online w niektórych przypadkach.\n\n- Naprawiono drobne błędy wizualne."
   },
   "it": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Versione 1.6.2 (218)",
-    "text": "- Rework del backend per le funzionalità online: Abbiamo completamente ricostruito il backend online per il Tracker dell'Iniziativa e la Griglia di Combattimento. Sebbene possano verificarsi piccoli bug durante questa transizione, la sincronizzazione è ora significativamente più fluida e veloce.\n\n- Salvataggio in tempo reale della campagna: I personaggi connessi a una campagna ora sincronizzano e salvano tutte le modifiche in tempo reale. Non è più necessario aprire manualmente la scheda del personaggio per salvare.\n\n- [Fix] Ricerca dell'attributo di lancio: Risolto un problema con le ricerche dell'attributo di lancio degli incantesimi. Se a una specifica abilità manca il tratto di lancio, il motore ora cercherà correttamente l'attributo impostato nella classe principale."
+    "title": "🆕 Versione 1.6.2 (222)",
+    "text": "- I Modificatori Attivabili ora possono essere collegati alle Risorse Personalizzate, attivando automaticamente i loro bonus quando quella risorsa viene spesa e disattivandoli durante i riposi brevi e lunghi.\n\n- Corretta la riconnessione alle campagne online in alcuni casi.\n\n- Corretti piccoli bug visivi."
   },
   "fr": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Version 1.6.2 (218)",
-    "text": "- Refonte du backend pour les fonctionnalités en ligne: Nous avons complètement reconstruit le backend en ligne pour le Suivi d'Initiative et la Grille de Combat. Bien que des bugs mineurs puissent survenir pendant cette transition, la synchronisation est maintenant nettement plus fluide et rapide.\n\n- Sauvegarde en temps réel de la campagne: Les personnages connectés à une campagne synchronisent et sauvegardent maintenant tous les changements en temps réel. Vous n'avez plus besoin d'ouvrir manuellement la fiche du personnage pour sauvegarder.\n\n- [Fix] Recherche d'attribut de lancement: Correction d'un problème avec les recherches d'attribut de lancement de sorts. Si une capacité spécifique n'a pas son trait de lancement de sorts, le moteur recherchera maintenant correctement l'attribut défini dans votre classe principale."
+    "title": "🆕 Version 1.6.2 (222)",
+    "text": "- Les Modificateurs Activables peuvent désormais être liés à des Ressources Personnalisées, ce qui active automatiquement leurs bonus lorsque cette ressource est dépensée et les désactive lors des repos courts et longs.\n\n- Correction de la reconnexion aux campagnes en ligne dans certains cas.\n\n- Correction de bugs visuels mineurs."
   },
-  "Android": "Version 1.6.2 (221)",
-  "Ios": "Version 1.6.2 (221)",
-  "MacOS": "Version 1.6.2 (221)",
-  "Windows": "Version 1.6.2 (221)",
-  "Web": "Version 1.6.2 (221)",
-  "Linux": "Version 1.6.2 (220)",
+  "Android": "Version 1.6.2 (222)",
+  "Ios": "Version 1.6.2 (222)",
+  "MacOS": "Version 1.6.2 (222)",
+  "Windows": "Version 1.6.2 (222)",
+  "Web": "Version 1.6.2 (222)",
+  "Linux": "Version 1.6.2 (222)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
@@ -43,5 +43,5 @@
     "it": "È disponibile una nuova versione ufficiale! Aggiorna ora per la migliore esperienza.",
     "fr": "Une nouvelle version officielle est disponible ! Mettez à jour maintenant pour la meilleure expérience."
   },
-  "date": "2026-06-03T12:00:00Z"
+  "date": "2026-06-30T12:00:00Z"
 }
