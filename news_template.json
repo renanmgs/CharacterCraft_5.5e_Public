@@ -30,8 +30,8 @@
     "text": "- Les Modificateurs Activables peuvent désormais être liés à des Ressources Personnalisées, ce qui active automatiquement leurs bonus lorsque cette ressource est dépensée et les désactive lors des repos courts et longs.\n\n- Correction de la reconnexion aux campagnes en ligne dans certains cas.\n\n- Correction de bugs visuels mineurs."
   },
   "Android": "Version 1.6.2 (224)",
-  "Ios": "Version 1.6.2 (222)",
-  "MacOS": "Version 1.6.2 (222)",
+  "Ios": "Version 1.6.2 (223)",
+  "MacOS": "Version 1.6.2 (223)",
   "Windows": "Version 1.6.2 (224)",
   "Web": "Version 1.6.2 (224)",
   "Linux": "Version 1.6.2 (222)",
