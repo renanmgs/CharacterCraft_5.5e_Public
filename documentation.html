@@ -469,6 +469,79 @@
                         </div>
                     </div>
 
+                    <div class="faq-item" id="faq-resource-effects">
+                        <div class="faq-question">
+                            <h3>Can spending a resource grant Temporary HP or other bonuses automatically?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. A <strong>Toggleable Modifier</strong> can be linked to a <strong>Custom Resource</strong>, so that spending that resource automatically applies the modifier's effects — including the new <strong>Temporary HP</strong> grant. This lets a spell, feat, or magic item hand out Temp HP (and other bonuses) with a single click, and clean up on the right rest.</p>
+
+                            <h4>Setting it up</h4>
+                            <p>Open <strong>Edit Feature / Item / Spell → Character Bonuses</strong> and edit (or add) a Toggleable Modifier:</p>
+                            <ul>
+                                <li><strong>Temp HP granted:</strong> a value or formula (e.g. <code>cha+level</code>). Applied instantly when the effect activates, following the 5e rule (Temp HP does not stack — the higher value wins).</li>
+                                <li><strong>Any other bonus</strong> (AC, Max HP, Initiative, Speed, damage, etc.) works as a normal toggle while the effect is active.</li>
+                                <li><strong>Consume resource on activate:</strong> link the modifier to a Custom Resource (item charges or a Feature/Item counter, such as Ki or Sorcery Points) and set the cost.</li>
+                            </ul>
+
+                            <h4>How it triggers</h4>
+                            <ul>
+                                <li><strong>Toggle it on</strong> in the Combat tab — it spends one use of the linked resource and applies the effect (blocked, with a warning, if none remain).</li>
+                                <li><strong>Spend the resource any other way</strong> — a Feature dice roll, casting a spell, or the +/- counters — and the linked effect fires automatically.</li>
+                            </ul>
+
+                            <h4>Clearing the effect</h4>
+                            <ul>
+                                <li>Continuous bonuses (AC, Max HP, etc.) stay active until the linked resource fully recovers on a <strong>Short or Long Rest</strong>, at which point they turn themselves off.</li>
+                                <li>Temporary HP follows the normal rules — it is cleared on a Long Rest.</li>
+                                <li>You can also toggle the effect off manually at any time.</li>
+                            </ul>
+
+                            <div class="example">
+                                <h4>Examples</h4>
+                                <p><strong>Chef / Inspiring Leader (Feat):</strong> a Custom Resource with a per-rest number of uses; a Toggleable Modifier with <em>Temp HP granted</em> linked to it. Spend a use to hand out Temp HP.</p>
+                                <p><strong>Temp-HP spell (e.g. False Life):</strong> add a Toggleable Modifier with <em>Temp HP granted: 1d4+4</em> to the spell; toggling it on when you cast applies the Temp HP.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-named-formulas">
+                        <div class="faq-question">
+                            <h3>Can I reuse a Feature's Dice Formula in other fields (like weapon damage)?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. Define a die once and reference it by name from any formula field using <strong>square brackets</strong> <code>[ ]</code>. This is ideal for scaling dice (like a Monk's Martial Arts die) that you want to define in one place and reuse everywhere.</p>
+
+                            <h4>Where the value comes from</h4>
+                            <ul>
+                                <li><strong>A Feature's Dice Formula</strong> — referenced by the Feature's <em>exact name</em>. This is the recommended source (it is always available).</li>
+                                <li><strong>A Toggleable Modifier's Custom Variable</strong> — referenced by its <em>Label</em>.</li>
+                            </ul>
+
+                            <h4>How to use it</h4>
+                            <p>Type <code>[Name]</code> inside any formula field — a weapon's Base Damage, Bonus Weapon Damage, Extra Damage, and so on. Before rolling, the app substitutes it with that source's formula.</p>
+
+                            <div class="example">
+                                <h4>Example: Monk Martial Arts die</h4>
+                                <ol>
+                                    <li>On the <strong>Martial Arts</strong> Feature, set the <strong>Dice Formula</strong> field to <code>1d6</code>.</li>
+                                    <li>On the <strong>Unarmed Strike</strong> (or any weapon), set the Base Damage to <code>[Martial Arts]+dex</code>.</li>
+                                    <li>The weapon now rolls <code>1d6 + DEX</code>. Bump the Feature's Dice Formula to <code>1d8</code> at higher levels and the weapon updates everywhere automatically.</li>
+                                </ol>
+                            </div>
+
+                            <div class="note">
+                                <strong>Good to know:</strong>
+                                <ul>
+                                    <li>The name inside the brackets must match the source <em>exactly</em> (spaces and punctuation are fine; matching is case-insensitive).</li>
+                                    <li>The referenced Feature must actually have its <strong>Dice Formula</strong> field filled.</li>
+                                    <li>Unlike the closed-scope <code>customvalue</code> keyword, named references work <em>across</em> fields and entities.</li>
+                                    <li>A name that doesn't match anything is shown as-is and simply ignored when rolling.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="faq-item" id="faq-level-up-hp">
                         <div class="faq-question">
                             <h3>How do I handle Hit Points when leveling up?</h3>
@@ -662,6 +735,37 @@
                                 <strong>Note on Long Rests:</strong> In the app, clicking <strong>Long Rest</strong>
                                 simulates the passage of a day, triggering all <strong>Long Rest</strong>,
                                 <strong>Dawn</strong>, and <strong>Dusk</strong> recharges.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-weapon-consume-resource">
+                        <div class="faq-question">
+                            <h3>Can a weapon consume a resource (like Ki) when it attacks?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. A weapon — or the Unarmed Strike — can be linked to a <strong>Custom Resource</strong>, even one that lives on a <em>different</em> Feature, and spend it automatically when it makes an attack roll. This is perfect for abilities like a Monk spending <strong>Ki</strong> on a flurry.</p>
+
+                            <h4>Setting it up</h4>
+                            <ol>
+                                <li>Edit the weapon and find the attack options (near the <em>Consume Charges on Attack</em> setting).</li>
+                                <li>Use <strong>Consume resource on attack</strong> to link a Custom Resource (for example, <em>Ki Points</em> on the Martial Arts feature) and set the cost.</li>
+                            </ol>
+
+                            <h4>When you attack</h4>
+                            <ul>
+                                <li>The attack dialog shows a <strong>Consume [resource]</strong> checkbox. It remembers your last choice for that weapon, so you don't have to set it every time.</li>
+                                <li>If the resource has no uses left, the option is disabled and nothing is spent.</li>
+                                <li>Because spending the resource goes through the normal system, any <a href="#faq-resource-effects">resource-linked effects</a> (such as Temporary HP) fire at the same time.</li>
+                            </ul>
+
+                            <div class="example">
+                                <h4>Example: Monk Unarmed Strike</h4>
+                                <ul>
+                                    <li>Link the Unarmed Strike to the <strong>Ki Points</strong> resource, cost <code>1</code>.</li>
+                                    <li>Set its Base Damage to <code>[Martial Arts]</code> so the die stays in sync with the feature.</li>
+                                    <li>Each attack rolls the Martial Arts die and (when the box is checked) spends 1 Ki.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
