@@ -1302,6 +1302,10 @@
   "@cantrips": {
     "description": "Label for cantrips section"
   },
+  "classAbilities": "Class Abilities",
+  "@classAbilities": {
+    "description": "Label for the class abilities (non-spell entries like Invocations/Metamagic) group and filter chip"
+  },
   "spellsLevel": "Level {level}",
   "@spellsLevel": {
     "description": "Label for spells level section",
@@ -1370,7 +1374,7 @@
       }
     }
   },
-  "castSucessfull": "{title} Cast Suceessful",
+  "castSucessfull": "{title} Cast Sucessful",
   "@castSucessfull": {
     "description": "Title for spell cast sucessful dialog",
     "placeholders": {
@@ -6232,7 +6236,10 @@
   "useAttributeModifierDescription": "Include the selected attribute modifier in the calculation",
   "senses": "Senses",
   "quickReminderSpells": "Quick Spells Reminder",
+  "understood": "Understood",
   "selectAttributesToRemove": "Select attributes to remove",
+  "webExperimentalTitle": "Web Version Info",
+  "webExperimentalContent": "Purchases are not available on the web version. If you bought the Premium version on Windows, Apple, or Android and have characters saved in the cloud, your Premium access will be automatically unlocked upon login. Otherwise, you can enjoy the free features, including the Online Initiative Tracker.",
   "source": "Source",
   "instrumentProficiencies": "Instrument Proficiencies",
   "customInstrumentProficiency": "Custom Instrument Proficiency",
@@ -7430,6 +7437,10 @@
   "@skipShopConfirmation": { "description": "Setting to skip shop dialog when adding items" },
   "skipShopConfirmationDescription": "Add items directly without the buy/price dialog",
   "@skipShopConfirmationDescription": { "description": "Description for skip shop confirmation setting" },
+  "alwaysShowSavingThrows": "Always Show Saving Throws",
+  "@alwaysShowSavingThrows": { "description": "Setting to always show saving throw value on attribute cards" },
+  "alwaysShowSavingThrowsDescription": "Show the saving throw value on attribute cards even when it matches the ability modifier",
+  "@alwaysShowSavingThrowsDescription": { "description": "Description for always show saving throws setting" },
   "shopConfirmation": "Add to Inventory",
   "@shopConfirmation": { "description": "Title for shop confirmation dialog" },
   "buyItem": "Buy",
@@ -7873,5 +7884,79 @@
   "importRoleSkipDesc": "Leave this section out",
   "importRolePickerTitle": "Import this section as",
   "importResetToSuggested": "Reset to suggested",
-  "importPreambleSection": "(Intro text)"
+  "importPreambleSection": "(Intro text)",
+  "optionalFeaturesTitle": "Optional Features",
+  "@optionalFeaturesTitle": { "description": "Header of the optional-features opt-out checklist shown at character creation and level-up." },
+  "optionalFeaturesSubtitle": "These features are optional. Uncheck any you don't want to add.",
+  "optionalFeaturesConfirm": "Add Selected",
+  "optionalFeatureToggleLabel": "Optional feature",
+  "@optionalFeatureToggleLabel": { "description": "Label for the toggle in the feature editor that marks a feature as optional." },
+  "optionalFeatureToggleDescription": "Optional features are added by default but can be unchecked during character creation and level-up.",
+  "tempHpGranted": "Temp HP granted",
+  "linkToResource": "Link to resource",
+  "consumeOnActivate": "Consume resource on activate",
+  "linkedResource": "Linked: {name}",
+  "@linkedResource": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "notEnoughResource": "Not enough uses to activate",
+  "consumeResourceOnAttack": "Consume {name} on attack",
+  "@consumeResourceOnAttack": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "consumeResourceOnAttackLabel": "Consume resource on attack",
+  "levelUpNewCantripsTitle": "New Cantrips",
+  "@levelUpNewCantripsTitle": {
+    "description": "Title of the level-up cantrip picker sheet"
+  },
+  "levelUpNewSpellsTitle": "New Spells",
+  "@levelUpNewSpellsTitle": {
+    "description": "Title of the level-up spell picker sheet"
+  },
+  "levelUpChooseCountFor": "Choose {count} for {className}",
+  "@levelUpChooseCountFor": {
+    "description": "Instruction telling how many spells to choose for a class",
+    "placeholders": {
+      "count": { "type": "int" },
+      "className": { "type": "String" }
+    }
+  },
+  "levelUpSelectedCounter": "{selected} / {total} selected",
+  "@levelUpSelectedCounter": {
+    "description": "Shows how many spells are selected out of the required total",
+    "placeholders": {
+      "selected": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "levelUpNewSpellLevelUnlocked": "New: level {level} spells unlocked",
+  "@levelUpNewSpellLevelUnlocked": {
+    "description": "Banner shown when a new spell level becomes available on level-up",
+    "placeholders": {
+      "level": { "type": "int" }
+    }
+  },
+  "decideLater": "Decide later",
+  "@decideLater": {
+    "description": "Button to skip a level-up spell choice and decide later"
+  },
+  "levelUpNoSpellsAvailable": "No spells available to add",
+  "@levelUpNoSpellsAvailable": {
+    "description": "Empty state when the level-up spell picker has no candidates"
+  },
+  "levelUpSpellLevelLabel": "Level {level}",
+  "@levelUpSpellLevelLabel": {
+    "description": "Short label for a spell's level in the picker list",
+    "placeholders": {
+      "level": { "type": "int" }
+    }
+  },
+  "damageReduction": "Damage Reduction",
+  "damageReductionHint": "Flat amount subtracted from incoming damage, before resistance. Accepts formulas (e.g. pb, wearing_heavy_armor=pb).",
+  "damageReductionAllTypes": "No type selected: applies to all damage types.",
+  "damageReductionManualHint": "Damage reduction available. It isn't subtracted automatically here — apply it manually when it applies."
 }

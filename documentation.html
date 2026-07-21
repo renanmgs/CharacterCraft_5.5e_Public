@@ -469,6 +469,37 @@
                         </div>
                     </div>
 
+                    <div class="faq-item" id="faq-damage-reduction">
+                        <div class="faq-question">
+                            <h3>Can a Feature give flat Damage Reduction (like Heavy Armor Master)?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. Both Features and Toggleable Modifiers have a <strong>Damage Reduction</strong> field, right next to Resistances/Vulnerabilities/Immunities. It subtracts a flat amount from incoming damage <em>before</em> resistance is applied.</p>
+
+                            <h4>Setting it up</h4>
+                            <ul>
+                                <li>Edit the Feature (or a Toggleable Modifier on an Item/Feature) and scroll to the <strong>Damage Reduction</strong> field, under Resistances/Immunities.</li>
+                                <li>Enter a flat value or a formula — the same <a href="#faq-character-bonuses">formula syntax</a> used elsewhere works here, including conditions like <code>wearing_heavy_armor=pb</code>.</li>
+                                <li>Optionally restrict it to specific <strong>Damage Types</strong>; leave the type list empty to apply it to every damage type.</li>
+                            </ul>
+
+                            <div class="example">
+                                <h4>Example: Heavy Armor Master</h4>
+                                <p>Damage Reduction: <code>wearing_heavy_armor=pb</code>, Damage Types: Bludgeoning, Piercing, Slashing.</p>
+                                <p>The character only reduces damage while wearing heavy armor, and only for those three physical damage types.</p>
+                            </div>
+
+                            <div class="note">
+                                <strong>Good to know:</strong>
+                                <ul>
+                                    <li>On a Feature it's always active; on a Toggleable Modifier it only applies while the modifier is switched on.</li>
+                                    <li>It's applied automatically when you use <strong>Apply Damage to Targets</strong> from the Combat Grid, Initiative Tracker, or a character's Profile — reduction is spent once per attack, then resistance/vulnerability is applied on what's left.</li>
+                                    <li>The manual HP adjustment box only shows a reminder that reduction is available — it doesn't know the damage type, so apply it by hand there.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="faq-item" id="faq-resource-effects">
                         <div class="faq-question">
                             <h3>Can spending a resource grant Temporary HP or other bonuses automatically?</h3>
@@ -663,6 +694,33 @@
                                 <li>If this information is already correct, check if the spell slots are filled in the
                                     <strong>Spellcasting Feature</strong> in your character's Features list.</li>
                             </ol>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-spell-filters">
+                        <div class="faq-question">
+                            <h3>How do I filter Spells by School, or find Invocations/Metamagic separately from Cantrips?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The Spells tab and spell search now include:</p>
+                            <ul>
+                                <li><strong>School filter chips</strong> — filter by one or more Schools of Magic (Abjuration, Evocation, etc.).</li>
+                                <li><strong>Class Abilities</strong> — a dedicated filter for Eldritch Invocations, Metamagic, and similar class features that aren't true spells. They no longer clutter the Cantrips list and now appear in their own group at the end.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-level-up-spell-wizard">
+                        <div class="faq-question">
+                            <h3>Does the app help me pick new Spells and Cantrips when I level up?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. When you level up a spellcasting class, the app detects how many new Cantrips and Spells you've gained and opens a guided picker filtered to what your class and level can actually take.</p>
+                            <ul>
+                                <li>Pick exactly the number of Cantrips/Spells allowed — the picker tracks how many are still needed.</li>
+                                <li>Not sure yet? Choose <strong>Decide later</strong> — a card stays on the level-up screen so you can come back to it, or add spells manually afterward from the Spells tab.</li>
+                                <li>The same guided picker also appears as a dedicated <strong>Spells</strong> step during <strong>Character Creation</strong>, right after Ability Scores.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -1169,6 +1227,47 @@
                                 <li>Set the value to <code>2 * level</code>.</li>
                             </ol>
                             <p>This will automatically calculate the correct bonus (2 HP per level) as you level up.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campaigns & DM Tools -->
+                <div class="doc-category" data-title="Campaigns & DM Tools">
+                    <div class="faq-item" id="faq-adventure-campaign-characters">
+                        <div class="faq-question">
+                            <h3>Can I add a character from my Campaign (like an NPC) to a specific Adventure?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. When you add a character inside an Adventure, the character search now also shows every character that already exists on the parent Campaign (and on its other Adventures) — not just your saved library.</p>
+                            <div class="example">
+                                <h4>Example</h4>
+                                <p>You create an NPC like <strong>Strahd</strong> directly on your Campaign. Later, when you open the Chapter 4 Adventure and add a character, Strahd shows up in the list — no need to recreate him.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-reorder-scenes-adventures">
+                        <div class="faq-question">
+                            <h3>Can I reorder my Scenes and Adventures?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. Both the <strong>Scenes</strong> tab and the <strong>Adventures</strong> tab of a Campaign support drag-and-drop reordering — use the drag handle on each card to move it up or down in the list.</p>
+                            <p>This is handy for published adventure books or organized-play seasons: create chapters or sessions in whatever order you actually run them, then drag them into the book's official order later instead of having to pre-create every chapter up front just to keep them in sequence.</p>
+                            <p class="note"><strong>Note:</strong> the drag handle is hidden while a search filter is active, since the filtered list doesn't match the underlying order — clear the search first.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" id="faq-combatant-management-sheet">
+                        <div class="faq-question">
+                            <h3>How do I quickly add or remove several characters from a Scene at once?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The Add/Manage Characters sheet (opened from the Combat Grid or the Initiative Tracker) now stays open after every action, so you can add or remove multiple combatants in a row without reopening it each time.</p>
+                            <ul>
+                                <li>Tap the red <strong>X</strong> on as many characters as you want to remove — the sheet refreshes in place instead of closing.</li>
+                                <li>The <strong>Player Characters</strong> quick-add list (your Campaign's PCs, one tap to add) is now available from the Initiative Tracker's Add Character sheet too, not just the Combat Grid.</li>
+                                <li>A <strong>Remove All Characters</strong> button is now available from the Initiative Tracker as well, so you can quickly clear a Scene's roster — handy if you run the same session for two different parties and want to reset the combatant list between them.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

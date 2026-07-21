@@ -1,39 +1,39 @@
 {
   "en": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Version 1.6.2 (222)",
-    "text": "- Toggleable Modifiers can now be linked to Custom Resources, automatically enabling their bonuses when that resource is spent and disabling them on short and long rests.\n\n- Fixed online campaign reconnection in some cases.\n\n- Minor visual bugs fixed."
+    "title": "🆕 Version 1.6.2 (224)",
+    "text": "- 🗺️ Campaigns & DM tools: Adventures can now add characters that already exist on the parent Campaign, Scenes and Adventures can be reordered by drag-and-drop, and a Scene's character sheet now stays open while you add/remove multiple combatants (with a new \"Remove All Characters\" button and the Player Characters quick-list also in the Initiative Tracker).\n\n- ✨ Guided Spell Wizard: leveling up (or creating a new character) now offers a guided picker for your new Cantrips and Spells.\n\n- 🔍 New spell filters: filter by School of Magic, and find Invocations/Metamagic in their own \"Class Abilities\" group instead of mixed in with Cantrips.\n\n- 🛡️ Damage Reduction: Features and Toggleable Modifiers can now grant flat damage reduction (e.g. Heavy Armor Master), applied automatically before resistances.\n\n- 🔗 Resource-linked attacks & formulas: weapons/items can consume a linked Custom Resource on attack, and formulas can reference another Feature's Dice Formula using [Name].\n\n- 🐛 Fixed character images vanishing on iOS after app updates."
   },
   "pt": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Versão 1.6.2 (222)",
-    "text": "- Modificadores Ativáveis agora podem ser conectados a Recursos Personalizados, ativando automaticamente seus bônus quando esse recurso é gasto e desativando-os em descansos curtos e longos.\n\n- Corrigida a reconexão de campanhas online em alguns casos.\n\n- Pequenos bugs visuais corrigidos."
+    "title": "🆕 Versão 1.6.2 (224)",
+    "text": "- 🗺️ Campanhas e ferramentas de mestre: Aventuras agora podem adicionar personagens que já existem na Campanha principal, Cenas e Aventuras podem ser reordenadas por arrastar-e-soltar, e a lista de personagens de uma Cena agora permanece aberta enquanto você adiciona/remove vários combatentes (com um novo botão \"Remover Todos os Personagens\" e a lista rápida de Personagens Jogadores também no Rastreador de Iniciativa).\n\n- ✨ Assistente de Magias ao subir de nível: ao subir de nível (ou criar um personagem novo) o app agora oferece um seletor guiado para suas novas Magias e Truques.\n\n- 🔍 Novos filtros de magias: filtre por Escola de Magia, e encontre Invocações/Metamagia em seu próprio grupo \"Habilidades de Classe\" em vez de misturadas com os Truques.\n\n- 🛡️ Redução de Dano: Características e Modificadores Ativáveis agora podem conceder redução de dano fixa (ex: Mestre da Armadura Pesada), aplicada automaticamente antes das resistências.\n\n- 🔗 Ataques e fórmulas vinculados a recursos: armas/itens podem consumir um Recurso Personalizado vinculado ao atacar, e fórmulas podem referenciar a Fórmula de Dados de outra Característica usando [Nome].\n\n- 🐛 Corrigido: imagens de personagens desaparecendo no iOS após atualizações do app."
   },
   "es": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Versión 1.6.2 (222)",
-    "text": "- Los Modificadores Activables ahora se pueden vincular a Recursos Personalizados, activando automáticamente sus bonificaciones cuando se gasta ese recurso y desactivándolas en los descansos cortos y largos.\n\n- Se corrigió la reconexión de campañas en línea en algunos casos.\n\n- Se corrigieron errores visuales menores."
+    "title": "🆕 Versión 1.6.2 (224)",
+    "text": "- 🗺️ Campañas y herramientas de DM: las Aventuras ahora pueden añadir personajes que ya existen en la Campaña principal, las Escenas y Aventuras se pueden reordenar arrastrándolas, y la hoja de personajes de una Escena ahora permanece abierta mientras añades/eliminas varios combatientes (con un nuevo botón \"Eliminar todos los personajes\" y la lista rápida de Personajes Jugadores también en el Rastreador de Iniciativa).\n\n- ✨ Asistente de hechizos al subir de nivel: al subir de nivel (o crear un personaje nuevo) la app ahora ofrece un selector guiado para tus nuevos Trucos y Hechizos.\n\n- 🔍 Nuevos filtros de hechizos: filtra por Escuela de Magia, y encuentra Invocaciones/Metamagia en su propio grupo \"Habilidades de Clase\" en lugar de mezcladas con los Trucos.\n\n- 🛡️ Reducción de Daño: las Características y Modificadores Activables ahora pueden otorgar reducción de daño fija (p. ej. Maestro de Armadura Pesada), aplicada automáticamente antes de las resistencias.\n\n- 🔗 Ataques y fórmulas vinculados a recursos: las armas/objetos pueden consumir un Recurso Personalizado vinculado al atacar, y las fórmulas pueden referenciar la Fórmula de Dados de otra Característica usando [Nombre].\n\n- 🐛 Corregido: las imágenes de los personajes desaparecían en iOS tras actualizar la app."
   },
   "pl": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Wersja 1.6.2 (222)",
-    "text": "- Przełączalne Modyfikatory można teraz połączyć z Zasobami Niestandardowymi, dzięki czemu ich premie włączają się automatycznie po wydaniu tego zasobu i wyłączają się po krótkim lub długim odpoczynku.\n\n- Naprawiono ponowne łączenie z kampaniami online w niektórych przypadkach.\n\n- Naprawiono drobne błędy wizualne."
+    "title": "🆕 Wersja 1.6.2 (224)",
+    "text": "- 🗺️ Kampanie i narzędzia MG: Przygody mogą teraz dodawać postacie, które już istnieją w głównej Kampanii, Sceny i Przygody można teraz zmieniać kolejnością metodą przeciągnij-i-upuść, a lista postaci w Scenie pozostaje teraz otwarta podczas dodawania/usuwania wielu uczestników walki (z nowym przyciskiem „Usuń wszystkie postacie” oraz szybką listą Postaci Graczy dostępną też w Śledzeniu Inicjatywy).\n\n- ✨ Kreator zaklęć przy awansie poziomu: podczas awansu na wyższy poziom (lub tworzenia nowej postaci) aplikacja oferuje teraz prowadzony wybór nowych Zaklęć i Sztuczek.\n\n- 🔍 Nowe filtry zaklęć: filtruj według Szkoły Magii oraz znajdź Wezwania/Metamagię we własnej grupie „Umiejętności Klasowe” zamiast wymieszanych ze Sztuczkami.\n\n- 🛡️ Redukcja Obrażeń: Cechy i Przełączalne Modyfikatory mogą teraz przyznawać stałą redukcję obrażeń (np. Mistrz Ciężkiej Zbroi), stosowaną automatycznie przed odpornościami.\n\n- 🔗 Ataki i formuły powiązane z zasobami: bronie/przedmioty mogą zużywać powiązany Zasób Niestandardowy przy ataku, a formuły mogą odwoływać się do Formuły Kostek innej Cechy za pomocą [Nazwa].\n\n- 🐛 Naprawiono znikanie zdjęć postaci na iOS po aktualizacjach aplikacji."
   },
   "it": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Versione 1.6.2 (222)",
-    "text": "- I Modificatori Attivabili ora possono essere collegati alle Risorse Personalizzate, attivando automaticamente i loro bonus quando quella risorsa viene spesa e disattivandoli durante i riposi brevi e lunghi.\n\n- Corretta la riconnessione alle campagne online in alcuni casi.\n\n- Corretti piccoli bug visivi."
+    "title": "🆕 Versione 1.6.2 (224)",
+    "text": "- 🗺️ Campagne e strumenti per il DM: le Avventure ora possono aggiungere personaggi già esistenti nella Campagna principale, Scene e Avventure possono essere riordinate trascinandole, e la scheda dei personaggi di una Scena ora resta aperta mentre aggiungi/rimuovi più combattenti (con un nuovo pulsante \"Rimuovi tutti i personaggi\" e l'elenco rapido dei Personaggi Giocanti disponibile anche nel Tracciatore di Iniziativa).\n\n- ✨ Procedura guidata per gli incantesimi al salire di livello: salendo di livello (o creando un nuovo personaggio) l'app ora offre una selezione guidata per i nuovi Trucchetti e Incantesimi.\n\n- 🔍 Nuovi filtri per gli incantesimi: filtra per Scuola di Magia e trova Invocazioni/Metamagia in un gruppo dedicato \"Abilità di Classe\" invece che mescolate ai Trucchetti.\n\n- 🛡️ Riduzione del Danno: Caratteristiche e Modificatori Attivabili ora possono concedere una riduzione del danno fissa (es. Maestro dell'Armatura Pesante), applicata automaticamente prima delle resistenze.\n\n- 🔗 Attacchi e formule collegati alle risorse: armi/oggetti possono consumare una Risorsa Personalizzata collegata quando attaccano, e le formule possono richiamare la Formula dei Dadi di un'altra Caratteristica usando [Nome].\n\n- 🐛 Corretto: le immagini dei personaggi scomparivano su iOS dopo gli aggiornamenti dell'app."
   },
   "fr": {
     "image": "https://i.ibb.co/gbXmwM82/Sem-T-tulo-2.jpg",
-    "title": "🆕 Version 1.6.2 (222)",
-    "text": "- Les Modificateurs Activables peuvent désormais être liés à des Ressources Personnalisées, ce qui active automatiquement leurs bonus lorsque cette ressource est dépensée et les désactive lors des repos courts et longs.\n\n- Correction de la reconnexion aux campagnes en ligne dans certains cas.\n\n- Correction de bugs visuels mineurs."
+    "title": "🆕 Version 1.6.2 (224)",
+    "text": "- 🗺️ Campagnes et outils MJ : les Aventures peuvent désormais ajouter des personnages déjà présents dans la Campagne principale, les Scènes et Aventures peuvent être réorganisées par glisser-déposer, et la fiche des personnages d'une Scène reste maintenant ouverte pendant l'ajout/la suppression de plusieurs combattants (avec un nouveau bouton « Retirer tous les personnages » et la liste rapide des Personnages Joueurs désormais aussi disponible dans le Suivi d'Initiative).\n\n- ✨ Assistant de sorts à la montée de niveau : lors d'une montée de niveau (ou de la création d'un personnage), l'application propose désormais une sélection guidée pour vos nouveaux Sorts Mineurs et Sorts.\n\n- 🔍 Nouveaux filtres de sorts : filtrez par École de Magie, et retrouvez les Invocations/Magie Supérieure dans leur propre groupe « Capacités de Classe » au lieu d'être mélangées aux Sorts Mineurs.\n\n- 🛡️ Réduction des Dégâts : les Aptitudes et Modificateurs Activables peuvent désormais accorder une réduction de dégâts fixe (ex. Maître de l'Armure Lourde), appliquée automatiquement avant les résistances.\n\n- 🔗 Attaques et formules liées aux ressources : les armes/objets peuvent consommer une Ressource Personnalisée liée lors d'une attaque, et les formules peuvent référencer la Formule de Dés d'une autre Aptitude avec [Nom].\n\n- 🐛 Correction : les images des personnages disparaissaient sur iOS après les mises à jour de l'application."
   },
-  "Android": "Version 1.6.2 (223)",
-  "Ios": "Version 1.6.2 (223)",
-  "MacOS": "Version 1.6.2 (223)",
-  "Windows": "Version 1.6.2 (223)",
-  "Web": "Version 1.6.2 (223)",
+  "Android": "Version 1.6.2 (224)",
+  "Ios": "Version 1.6.2 (224)",
+  "MacOS": "Version 1.6.2 (224)",
+  "Windows": "Version 1.6.2 (224)",
+  "Web": "Version 1.6.2 (224)",
   "Linux": "Version 1.6.2 (222)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
@@ -43,5 +43,5 @@
     "it": "È disponibile una nuova versione ufficiale! Aggiorna ora per la migliore esperienza.",
     "fr": "Une nouvelle version officielle est disponible ! Mettez à jour maintenant pour la meilleure expérience."
   },
-  "date": "2026-06-30T12:00:00Z"
+  "date": "2026-07-21T12:00:00Z"
 }
