@@ -30,8 +30,8 @@
     "text": "- 🗺️ Campagnes et outils MJ : les Aventures peuvent désormais ajouter des personnages déjà présents dans la Campagne principale, les Scènes et Aventures peuvent être réorganisées par glisser-déposer, et la fiche des personnages d'une Scène reste maintenant ouverte pendant l'ajout/la suppression de plusieurs combattants (avec un nouveau bouton « Retirer tous les personnages » et la liste rapide des Personnages Joueurs désormais aussi disponible dans le Suivi d'Initiative).\n\n- ✨ Assistant de sorts à la montée de niveau : lors d'une montée de niveau (ou de la création d'un personnage), l'application propose désormais une sélection guidée pour vos nouveaux Sorts Mineurs et Sorts.\n\n- 🔍 Nouveaux filtres de sorts : filtrez par École de Magie, et retrouvez les Invocations/Magie Supérieure dans leur propre groupe « Capacités de Classe » au lieu d'être mélangées aux Sorts Mineurs.\n\n- 🛡️ Réduction des Dégâts : les Aptitudes et Modificateurs Activables peuvent désormais accorder une réduction de dégâts fixe (ex. Maître de l'Armure Lourde), appliquée automatiquement avant les résistances.\n\n- 🔗 Attaques et formules liées aux ressources : les armes/objets peuvent consommer une Ressource Personnalisée liée lors d'une attaque, et les formules peuvent référencer la Formule de Dés d'une autre Aptitude avec [Nom].\n\n- 🐛 Correction : les images des personnages disparaissaient sur iOS après les mises à jour de l'application."
   },
   "Android": "Version 1.6.2 (225)",
-  "Ios": "Version 1.6.2 (224)",
-  "MacOS": "Version 1.6.2 (224)",
+  "Ios": "Version 1.6.2 (225)",
+  "MacOS": "Version 1.6.2 (225)",
   "Windows": "Version 1.6.2 (225)",
   "Web": "Version 1.6.2 (225)",
   "Linux": "Version 1.6.2 (222)",
