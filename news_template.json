@@ -29,11 +29,11 @@
     "title": "Version 1.6.2 (227)",
     "text": "- Bouton Utiliser sur les Aptitudes : une Aptitude peut désormais faire des choses quand vous appuyez sur Utiliser — dépenser ou restaurer une ressource (la sienne, celle d'une autre Aptitude ou celle d'un objet), activer ou désactiver un Effet Activable, dépenser ou restaurer un emplacement de sort, accorder des PV Temporaires, soigner, ou appliquer/retirer/effacer des états. Une fenêtre de confirmation détaille exactement ce qui va se passer, et tout ce que vous ne pouvez pas payer est signalé et ignoré. Si l'Aptitude a aussi une Formule de Dés, elle est toujours lancée juste après.\n\n- Onglet Combat : les Aptitudes avec compteurs sont maintenant regroupées selon ce qu'elles coûtent (Action, Action Bonus, Réaction), et tout le groupe se grisé une fois cette ressource dépensée dans le tour. Vous pouvez aussi supprimer une Aptitude directement depuis l'onglet Combat.\n\n- Inventaire : la quantité peut désormais être ajustée depuis le menu d'actions de l'objet, si bien que les objets en quantité 1 n'obligent plus à ouvrir l'écran de détails.\n\n- Correctif de montée de niveau : relancer les PV pour le même niveau remplace maintenant le jet précédent au lieu de s'y ajouter, et ne rouvre plus le sélecteur de sorts, la sous-classe ni la fenêtre d'ASI.\n\n- Fermer un personnage sans rien à sauvegarder ne demande plus de confirmation.\n\n- Profils de PNJ : modifier les PV Max remet désormais les PV actuels au maximum — une entrée de bestiaire est une source d'apparition, donc une ancienne valeur plus basse ne se transmet plus à chaque pion créé à partir d'elle.\n\n- La recherche d'historiques affiche maintenant les valeurs de caractéristique et les maîtrises dans la liste."
   },
-  "Android": "Version 1.6.2 (227)",
-  "Ios": "Version 1.6.2 (227)",
-  "MacOS": "Version 1.6.2 (227)",
-  "Windows": "Version 1.6.2 (227)",
-  "Web": "Version 1.6.2 (227)",
+  "Android": "Version 1.6.2 (228)",
+  "Ios": "Version 1.6.2 (228)",
+  "MacOS": "Version 1.6.2 (228)",
+  "Windows": "Version 1.6.2 (228)",
+  "Web": "Version 1.6.2 (228)",
   "Linux": "Version 1.6.2 (227)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
