@@ -29,11 +29,11 @@
     "title": "Version 1.6.2 (231)",
     "text": "- Les écrans larges accueillent désormais trois panneaux : sur ordinateur et sur tablette en paysage, la feuille affiche trois onglets côte à côte au lieu de deux. Les tablettes en portrait en gardent deux, les téléphones un seul, et la barre du bas marque maintenant tous les onglets présents à l'écran.\n\n- iPad : correction de la mise en page quand l'app tourne en fenêtre ou en Split View.\n\n- Monnaies personnalisées : vous pouvez maintenant créer vos propres monnaies à côté de l'or, l'argent et le cuivre.\n\n- PV à la montée de niveau : les points de vie gagnés par niveau acceptent désormais une formule personnalisée, pour les classes maison et les règles maison.\n\n- Emplacements de sorts : les remplir et les dépenser est plus fluide, et ceux de l'Occultiste reviennent maintenant après un repos court.\n\n- Les tags de sorts se complètent désormais pendant la saisie, pour éviter d'écrire le même tag de trois façons différentes.\n\n- Les listes de sorts ne masquent plus les sorts au-delà du niveau 9 — les sorts de niveau épique ont désormais leur propre groupe.\n\n- Nouveau conditionnel \"spellclass\" dans les formules : spellclass:Warlock=1 n'applique le bonus qu'aux sorts de cette classe, c'est ainsi que fonctionnent des objets comme la Verge du Gardien du Pacte.\n\n- Aptitudes, Objets et Bonus Activables : les « Bonus de Compétences/Caractéristiques » s'ajoutent maintenant au test, tandis que l'« Augmentation de Caractéristique » modifie la valeur elle-même.\n\n- Correction de la progression du bonus de maîtrise.\n\n- Correction du décompte des sorts en multiclassage dans certains cas.\n\n- Correction des scènes qui ne se désactivaient pas en ligne."
   },
-  "Android": "Version 1.6.2 (231)",
-  "Ios": "Version 1.6.2 (231)",
-  "MacOS": "Version 1.6.2 (231)",
-  "Windows": "Version 1.6.2 (231)",
-  "Web": "Version 1.6.2 (231)",
+  "Android": "Version 1.6.2 (233)",
+  "Ios": "Version 1.6.2 (233)",
+  "MacOS": "Version 1.6.2 (233)",
+  "Windows": "Version 1.6.2 (233)",
+  "Web": "Version 1.6.2 (233)",
   "Linux": "Version 1.6.2 (227)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
