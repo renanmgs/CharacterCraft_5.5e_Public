@@ -29,12 +29,12 @@
     "title": "Version 1.6.2 (233)",
     "text": "- Nouveau conditionnel \"bloodied\" dans les formules : bloodied=level*4 ne compte que tant que le personnage a la moitié de ses PV ou moins. Avec le bouton Utiliser, une Aptitude peut désormais accorder des PV temporaires uniquement quand vous êtes Ensanglanté. Fonctionne avec les règles 2014 et 2024, et la nouvelle option « Suivre l'état Ensanglanté » dans les Paramètres du personnage la désactive.\n\n- Bouton Utiliser : la confirmation affiche maintenant les PV temporaires ou les soins exacts que vous allez recevoir (20 au lieu de 5*4).\n\n- Nouveau « Fixer la valeur de caractéristique » pour les Aptitudes, Objets et Bonus Activables : la valeur devient celle-ci sauf si elle est déjà plus élevée, comme avec le Ceinturon de force de géant. Les objets importés sont remplis automatiquement.\n\n- Sorts : les personnages avec des Aptitudes de Classe (Manifestations, Métamagie) ont maintenant un sélecteur Sorts | Aptitudes de Classe dans l'onglet Sorts et dans la fenêtre de la feuille de personnage.\n\n- Campagnes : en enregistrant un personnage de campagne issu de votre liste de personnages, vous pouvez maintenant choisir « Campagne uniquement » ou « Campagne et mon personnage » pour mettre aussi à jour votre personnage sur l'écran d'accueil. Le dossier, le favori et le partage sont conservés.\n\n- La recherche d'objets est plus rapide.\n\n- Correction de la date de fin de l'essai du Tracker en ligne dans certains fuseaux horaires.\n\n- L'app nécessite désormais iOS 16 ou ultérieur et macOS 13 ou ultérieur."
   },
-  "Android": "Version 1.6.2 (234)",
-  "Ios": "Version 1.6.2 (234)",
-  "MacOS": "Version 1.6.2 (234)",
-  "Windows": "Version 1.6.2 (2334)",
-  "Web": "Version 1.6.2 (234)",
-  "Linux": "Version 1.6.2 (227)",
+  "Android": "Version 1.6.2 (235)",
+  "Ios": "Version 1.6.2 (235)",
+  "MacOS": "Version 1.6.2 (235)",
+  "Windows": "Version 1.6.2 (235)",
+  "Web": "Version 1.6.2 (235)",
+  "Linux": "Version 1.6.2 (235)",
   "message": {
     "en": "A new official release is available! Update now for the best experience.",
     "pt": "Uma nova versão oficial está disponível! Atualize agora para a melhor experiência.",
